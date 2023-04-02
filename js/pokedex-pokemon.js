@@ -268,18 +268,25 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
     switch (evo.evoType) {
       case "levelExtra":
         evoType = "level-up" + condition;
+				break;
       case "levelFriendship":
         evoType = "level-up with high Friendship" + condition;
+				break;
       case "levelHold":
         evoType = "level-up holding " + evo.evoItem + condition;
+				break;
       case "useItem":
         evoType = evo.evoItem;
+				break;
       case "levelMove":
         evoType = "level-up with " + evo.evoMove + condition;
+				break;
       case "trade":
         evoType = "trade";
+				break;
       case "other":
         evoType = evo.evoCondition;
+				break;
     }
 		if (evo.evoLevel) {
 			evoType += " level " + evo.evoLevel;
