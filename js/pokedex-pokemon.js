@@ -263,26 +263,28 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
 		}
 	},
 	getEvoMethod: function(evo) {
-		let condition = evo.evoCondition ? ` ${evo.evoCondition}` : ``;
-		switch (evo.evoType) {
-		case 'levelExtra':
-			return 'level-up' + condition;
-		case 'levelFriendship':
-			return 'level-up with high Friendship' + condition;
-		case 'levelHold':
-			return 'level-up holding ' + evo.evoItem + condition;
-		case 'useItem':
-			return evo.evoItem;
-		case 'levelMove':
-			return 'level-up with ' + evo.evoMove + condition;
-		case 'trade':
-			return 'trade';
-		case 'other':
-			return evo.evoCondition;
-		default:
-			return 'level ' + evo.evoLevel;
-		}
-	},
+    let condition = evo.evoCondition ? ` ${evo.evoCondition}` : ``;
+    let evoType = "";
+    switch (evo.evoType) {
+      case "levelExtra":
+        evoType = "level-up" + condition;
+      case "levelFriendship":
+        evoType = "level-up with high Friendship" + condition;
+      case "levelHold":
+        evoType = "level-up holding " + evo.evoItem + condition;
+      case "useItem":
+        evoType = evo.evoItem;
+      case "levelMove":
+        evoType = "level-up with " + evo.evoMove + condition;
+      case "trade":
+        evoType = "trade";
+      case "other":
+        evoType = evo.evoCondition;
+    }
+		if (evo.evoLevel) {
+			evoType += " level " + evo.evoLevel;
+    }
+  },
 	selectTab: function(e) {
 		this.$('.tabbar button').removeClass('cur');
 		$(e.currentTarget).addClass('cur');

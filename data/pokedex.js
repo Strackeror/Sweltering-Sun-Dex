@@ -26532,9 +26532,9 @@ exports.BattlePokedex = {
     "baseSpecies": "Meloetta",
     "forme": "Pirouette"
   },
-  "kyuremblack": {
+  "kyuremwhite": {
     "num": 646,
-    "name": "Kyurem-Black",
+    "name": "Kyurem-White",
     "types": [
       "Ice",
       "Fire"
@@ -26558,11 +26558,11 @@ exports.BattlePokedex = {
       "Undiscovered"
     ],
     "baseSpecies": "Kyurem",
-    "forme": "Black"
+    "forme": "White"
   },
-  "kyuremwhite": {
+  "kyuremblack": {
     "num": 646,
-    "name": "Kyurem-White",
+    "name": "Kyurem-Black",
     "types": [
       "Ice",
       "Electric"
@@ -26586,7 +26586,7 @@ exports.BattlePokedex = {
       "Undiscovered"
     ],
     "baseSpecies": "Kyurem",
-    "forme": "White"
+    "forme": "Black"
   },
   "keldeoresolute": {
     "num": 647,
