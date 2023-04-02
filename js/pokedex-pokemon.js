@@ -284,6 +284,7 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
 		if (evo.evoLevel) {
 			evoType += " level " + evo.evoLevel;
     }
+		return evoType;
   },
 	selectTab: function(e) {
 		this.$('.tabbar button').removeClass('cur');
