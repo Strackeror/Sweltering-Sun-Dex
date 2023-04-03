@@ -9,11 +9,12 @@ exports.BattleMovedex = {
     "priority": 0,
     "flags": {
       "contact": 1,
-      "protect": 1,
-      "mirror": 1
+      "heal": 1,
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Fighting",
-    "target": "allAdjacentFoes",
+    "target": "normal",
     "desc": "The user pummels the foe repeatedly.\nThis hits 2-5 times in a row. Contact.",
     "shortDesc": "The user pummels the foe repeatedly.\nThis hits 2-5 times in a row. Contact."
   },
@@ -26,9 +27,9 @@ exports.BattleMovedex = {
     "pp": 20,
     "priority": 0,
     "flags": {
-      "protect": 1,
       "contact": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Fighting",
     "target": "normal",
@@ -44,8 +45,8 @@ exports.BattleMovedex = {
     "pp": 15,
     "priority": 0,
     "flags": {
-      "mirror": 1,
       "contact": 1,
+      "mirror": 1,
       "protect": 1
     },
     "type": "Normal",
@@ -62,11 +63,11 @@ exports.BattleMovedex = {
     "pp": 15,
     "priority": 0,
     "flags": {
+      "contact": 1,
       "heal": 1,
       "mirror": 1,
-      "sound": 1,
       "protect": 1,
-      "contact": 1
+      "sound": 1
     },
     "type": "Fairy",
     "target": "normal",
@@ -82,9 +83,9 @@ exports.BattleMovedex = {
     "pp": 10,
     "priority": 0,
     "flags": {
-      "protect": 1,
       "contact": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Ground",
     "target": "normal",
@@ -100,8 +101,8 @@ exports.BattleMovedex = {
     "pp": 5,
     "priority": 0,
     "flags": {
-      "protect": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Normal",
     "target": "normal",
@@ -117,10 +118,10 @@ exports.BattleMovedex = {
     "pp": 15,
     "priority": 0,
     "flags": {
-      "protect": 1,
       "contact": 1,
       "defrost": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Fire",
     "target": "normal",
@@ -136,9 +137,9 @@ exports.BattleMovedex = {
     "pp": 15,
     "priority": 0,
     "flags": {
-      "protect": 1,
+      "contact": 1,
       "mirror": 1,
-      "contact": 1
+      "protect": 1
     },
     "type": "Ice",
     "target": "normal",
@@ -154,9 +155,9 @@ exports.BattleMovedex = {
     "pp": 15,
     "priority": 0,
     "flags": {
-      "protect": 1,
       "contact": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Electric",
     "target": "normal",
@@ -172,9 +173,9 @@ exports.BattleMovedex = {
     "pp": 20,
     "priority": 0,
     "flags": {
+      "contact": 1,
       "mirror": 1,
-      "protect": 1,
-      "contact": 1
+      "protect": 1
     },
     "type": "Steel",
     "target": "normal",
@@ -190,9 +191,9 @@ exports.BattleMovedex = {
     "pp": 20,
     "priority": 0,
     "flags": {
+      "contact": 1,
       "mirror": 1,
-      "protect": 1,
-      "contact": 1
+      "protect": 1
     },
     "type": "Steel",
     "target": "normal",
@@ -208,9 +209,9 @@ exports.BattleMovedex = {
     "pp": 1,
     "priority": 0,
     "flags": {
-      "protect": 1,
+      "contact": 1,
       "mirror": 1,
-      "contact": 1
+      "protect": 1
     },
     "type": "Normal",
     "target": "normal",
@@ -226,8 +227,8 @@ exports.BattleMovedex = {
     "pp": 5,
     "priority": 0,
     "flags": {
-      "mirror": 1,
       "charge": 1,
+      "mirror": 1,
       "protect": 1
     },
     "type": "Flying",
@@ -260,9 +261,9 @@ exports.BattleMovedex = {
     "pp": 15,
     "priority": 1,
     "flags": {
+      "contact": 1,
       "mirror": 1,
-      "protect": 1,
-      "contact": 1
+      "protect": 1
     },
     "type": "Bug",
     "target": "normal",
@@ -278,8 +279,8 @@ exports.BattleMovedex = {
     "pp": 20,
     "priority": 1,
     "flags": {
-      "protect": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Flying",
     "target": "normal",
@@ -314,8 +315,8 @@ exports.BattleMovedex = {
     "priority": 4,
     "flags": {
       "bypasssub": 1,
-      "reflectable": 1,
-      "mirror": 1
+      "mirror": 1,
+      "reflectable": 1
     },
     "type": "Flying",
     "target": "normal",
@@ -331,10 +332,10 @@ exports.BattleMovedex = {
     "pp": 15,
     "priority": 0,
     "flags": {
-      "contact": 1,
-      "mirror": 1,
       "charge": 1,
-      "gravity": 1
+      "contact": 1,
+      "gravity": 1,
+      "mirror": 1
     },
     "type": "Flying",
     "target": "normal",
@@ -351,8 +352,8 @@ exports.BattleMovedex = {
     "priority": 0,
     "flags": {
       "contact": 1,
-      "protect": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Normal",
     "target": "normal",
@@ -369,8 +370,8 @@ exports.BattleMovedex = {
     "priority": 0,
     "flags": {
       "contact": 1,
-      "protect": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Normal",
     "target": "normal",
@@ -405,8 +406,8 @@ exports.BattleMovedex = {
     "priority": 0,
     "flags": {
       "contact": 1,
-      "protect": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Normal",
     "target": "normal",
@@ -422,9 +423,9 @@ exports.BattleMovedex = {
     "pp": 15,
     "priority": 0,
     "flags": {
+      "contact": 1,
       "mirror": 1,
-      "protect": 1,
-      "contact": 1
+      "protect": 1
     },
     "type": "Fighting",
     "target": "normal",
@@ -440,8 +441,8 @@ exports.BattleMovedex = {
     "pp": 5,
     "priority": 0,
     "flags": {
-      "mirror": 1,
       "contact": 1,
+      "mirror": 1,
       "protect": 1
     },
     "type": "Ground",
@@ -458,10 +459,10 @@ exports.BattleMovedex = {
     "pp": 10,
     "priority": 0,
     "flags": {
-      "gravity": 1,
       "contact": 1,
-      "protect": 1,
-      "mirror": 1
+      "gravity": 1,
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Fighting",
     "target": "normal",
@@ -477,8 +478,8 @@ exports.BattleMovedex = {
     "pp": 15,
     "priority": 0,
     "flags": {
-      "mirror": 1,
       "contact": 1,
+      "mirror": 1,
       "protect": 1
     },
     "type": "Fighting",
@@ -495,9 +496,9 @@ exports.BattleMovedex = {
     "pp": 15,
     "priority": 4,
     "flags": {
-      "reflectable": 1,
+      "mirror": 1,
       "protect": 1,
-      "mirror": 1
+      "reflectable": 1
     },
     "type": "Ground",
     "target": "normal",
@@ -513,8 +514,8 @@ exports.BattleMovedex = {
     "pp": 15,
     "priority": 0,
     "flags": {
-      "mirror": 1,
       "contact": 1,
+      "mirror": 1,
       "protect": 1
     },
     "type": "Normal",
@@ -531,8 +532,8 @@ exports.BattleMovedex = {
     "pp": 25,
     "priority": 0,
     "flags": {
-      "mirror": 1,
       "contact": 1,
+      "mirror": 1,
       "protect": 1
     },
     "type": "Flying",
@@ -550,8 +551,8 @@ exports.BattleMovedex = {
     "priority": 0,
     "flags": {
       "heal": 1,
-      "protect": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Steel",
     "target": "normal",
@@ -568,8 +569,8 @@ exports.BattleMovedex = {
     "priority": 0,
     "flags": {
       "contact": 1,
-      "protect": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Normal",
     "target": "normal",
@@ -586,8 +587,8 @@ exports.BattleMovedex = {
     "priority": 0,
     "flags": {
       "contact": 1,
-      "protect": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Normal",
     "target": "normal",
@@ -603,9 +604,9 @@ exports.BattleMovedex = {
     "pp": 15,
     "priority": 0,
     "flags": {
-      "protect": 1,
       "contact": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Normal",
     "target": "normal",
@@ -621,8 +622,8 @@ exports.BattleMovedex = {
     "pp": 20,
     "priority": 0,
     "flags": {
-      "mirror": 1,
       "contact": 1,
+      "mirror": 1,
       "protect": 1
     },
     "type": "Poison",
@@ -640,8 +641,8 @@ exports.BattleMovedex = {
     "priority": 0,
     "flags": {
       "contact": 1,
-      "protect": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Fighting",
     "target": "normal",
@@ -675,9 +676,9 @@ exports.BattleMovedex = {
     "pp": 10,
     "priority": 0,
     "flags": {
+      "contact": 1,
       "mirror": 1,
-      "protect": 1,
-      "contact": 1
+      "protect": 1
     },
     "type": "Normal",
     "target": "normal",
@@ -693,9 +694,9 @@ exports.BattleMovedex = {
     "pp": 30,
     "priority": 4,
     "flags": {
-      "reflectable": 1,
       "mirror": 1,
-      "protect": 1
+      "protect": 1,
+      "reflectable": 1
     },
     "type": "Normal",
     "target": "allAdjacentFoes",
@@ -711,8 +712,8 @@ exports.BattleMovedex = {
     "pp": 10,
     "priority": 0,
     "flags": {
-      "mirror": 1,
       "heal": 1,
+      "mirror": 1,
       "protect": 1
     },
     "type": "Poison",
@@ -746,9 +747,9 @@ exports.BattleMovedex = {
     "pp": 15,
     "priority": 0,
     "flags": {
-      "protect": 1,
+      "heal": 1,
       "mirror": 1,
-      "heal": 1
+      "protect": 1
     },
     "type": "Bug",
     "target": "normal",
@@ -764,9 +765,9 @@ exports.BattleMovedex = {
     "pp": 10,
     "priority": 0,
     "flags": {
-      "reflectable": 1,
       "mirror": 1,
-      "protect": 1
+      "protect": 1,
+      "reflectable": 1
     },
     "type": "Dark",
     "target": "allAdjacentFoes",
@@ -801,8 +802,8 @@ exports.BattleMovedex = {
     "priority": 0,
     "flags": {
       "bypasssub": 1,
-      "protect": 1,
       "mirror": 1,
+      "protect": 1,
       "reflectable": 1
     },
     "type": "Normal",
@@ -819,9 +820,9 @@ exports.BattleMovedex = {
     "pp": 3,
     "priority": 4,
     "flags": {
+      "bypasssub": 1,
       "mirror": 1,
-      "reflectable": 1,
-      "bypasssub": 1
+      "reflectable": 1
     },
     "type": "Dark",
     "target": "normal",
@@ -838,9 +839,9 @@ exports.BattleMovedex = {
     "priority": 0,
     "flags": {
       "bypasssub": 1,
-      "reflectable": 1,
+      "mirror": 1,
       "protect": 1,
-      "mirror": 1
+      "reflectable": 1
     },
     "type": "Normal",
     "target": "normal",
@@ -856,10 +857,10 @@ exports.BattleMovedex = {
     "pp": 20,
     "priority": 0,
     "flags": {
+      "bypasssub": 1,
       "mirror": 1,
       "protect": 1,
-      "reflectable": 1,
-      "bypasssub": 1
+      "reflectable": 1
     },
     "type": "Normal",
     "target": "normal",
@@ -875,8 +876,8 @@ exports.BattleMovedex = {
     "pp": 20,
     "priority": 0,
     "flags": {
-      "protect": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Normal",
     "target": "normal",
@@ -892,10 +893,10 @@ exports.BattleMovedex = {
     "pp": 5,
     "priority": 0,
     "flags": {
+      "bypasssub": 1,
       "mirror": 1,
-      "reflectable": 1,
       "protect": 1,
-      "bypasssub": 1
+      "reflectable": 1
     },
     "type": "Psychic",
     "target": "normal",
@@ -911,8 +912,8 @@ exports.BattleMovedex = {
     "pp": 10,
     "priority": 0,
     "flags": {
-      "protect": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Poison",
     "target": "allAdjacentFoes",
@@ -928,9 +929,9 @@ exports.BattleMovedex = {
     "pp": 25,
     "priority": 1,
     "flags": {
-      "mirror": 1,
       "defrost": 1,
       "heal": 1,
+      "mirror": 1,
       "protect": 1
     },
     "type": "Fire",
@@ -947,9 +948,9 @@ exports.BattleMovedex = {
     "pp": 15,
     "priority": 0,
     "flags": {
-      "protect": 1,
+      "defrost": 1,
       "mirror": 1,
-      "defrost": 1
+      "protect": 1
     },
     "type": "Fire",
     "target": "normal",
@@ -981,8 +982,8 @@ exports.BattleMovedex = {
     "pp": 5,
     "priority": 3,
     "flags": {
-      "protect": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Water",
     "target": "normal",
@@ -998,8 +999,8 @@ exports.BattleMovedex = {
     "pp": 5,
     "priority": 0,
     "flags": {
-      "protect": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Water",
     "target": "normal",
@@ -1032,8 +1033,8 @@ exports.BattleMovedex = {
     "pp": 10,
     "priority": 0,
     "flags": {
-      "protect": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Ice",
     "target": "normal",
@@ -1066,8 +1067,8 @@ exports.BattleMovedex = {
     "pp": 20,
     "priority": 1,
     "flags": {
-      "protect": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Psychic",
     "target": "normal",
@@ -1083,8 +1084,8 @@ exports.BattleMovedex = {
     "pp": 20,
     "priority": 1,
     "flags": {
-      "protect": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Water",
     "target": "normal",
@@ -1134,10 +1135,10 @@ exports.BattleMovedex = {
     "pp": 15,
     "priority": 0,
     "flags": {
+      "contact": 1,
       "heal": 1,
-      "protect": 1,
       "mirror": 1,
-      "contact": 1
+      "protect": 1
     },
     "type": "Flying",
     "target": "normal",
@@ -1153,9 +1154,9 @@ exports.BattleMovedex = {
     "pp": 10,
     "priority": 0,
     "flags": {
-      "protect": 1,
       "contact": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Flying",
     "target": "normal",
@@ -1171,9 +1172,9 @@ exports.BattleMovedex = {
     "pp": 5,
     "priority": 0,
     "flags": {
-      "protect": 1,
       "contact": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Fighting",
     "target": "normal",
@@ -1190,8 +1191,8 @@ exports.BattleMovedex = {
     "priority": 0,
     "flags": {
       "contact": 1,
-      "protect": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Fighting",
     "target": "normal",
@@ -1207,8 +1208,8 @@ exports.BattleMovedex = {
     "pp": 20,
     "priority": -6,
     "flags": {
-      "protect": 1,
-      "contact": 1
+      "contact": 1,
+      "protect": 1
     },
     "type": "Fighting",
     "target": "normal",
@@ -1243,8 +1244,8 @@ exports.BattleMovedex = {
     "priority": 0,
     "flags": {
       "contact": 1,
-      "protect": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Normal",
     "target": "normal",
@@ -1260,8 +1261,8 @@ exports.BattleMovedex = {
     "pp": 10,
     "priority": 0,
     "flags": {
-      "protect": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Bug",
     "target": "normal",
@@ -1294,8 +1295,8 @@ exports.BattleMovedex = {
     "pp": 10,
     "priority": 0,
     "flags": {
-      "protect": 1,
       "mirror": 1,
+      "protect": 1,
       "reflectable": 1
     },
     "type": "Grass",
@@ -1346,8 +1347,8 @@ exports.BattleMovedex = {
     "priority": 0,
     "flags": {
       "charge": 1,
-      "protect": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Grass",
     "target": "normal",
@@ -1363,9 +1364,9 @@ exports.BattleMovedex = {
     "pp": 35,
     "priority": 0,
     "flags": {
-      "reflectable": 1,
       "mirror": 1,
-      "protect": 1
+      "protect": 1,
+      "reflectable": 1
     },
     "type": "Poison",
     "target": "normal",
@@ -1381,8 +1382,8 @@ exports.BattleMovedex = {
     "pp": 30,
     "priority": 0,
     "flags": {
-      "protect": 1,
       "mirror": 1,
+      "protect": 1,
       "reflectable": 1
     },
     "type": "Grass",
@@ -1399,9 +1400,9 @@ exports.BattleMovedex = {
     "pp": 2,
     "priority": 0,
     "flags": {
+      "mirror": 1,
       "protect": 1,
-      "reflectable": 1,
-      "mirror": 1
+      "reflectable": 1
     },
     "type": "Grass",
     "target": "normal",
@@ -1417,8 +1418,8 @@ exports.BattleMovedex = {
     "pp": 5,
     "priority": 0,
     "flags": {
-      "protect": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Grass",
     "target": "randomNormal",
@@ -1434,9 +1435,9 @@ exports.BattleMovedex = {
     "pp": 20,
     "priority": 0,
     "flags": {
+      "mirror": 1,
       "protect": 1,
-      "reflectable": 1,
-      "mirror": 1
+      "reflectable": 1
     },
     "type": "Bug",
     "target": "allAdjacentFoes",
@@ -1452,8 +1453,8 @@ exports.BattleMovedex = {
     "pp": 5,
     "priority": 0,
     "flags": {
-      "protect": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Dragon",
     "target": "normal",
@@ -1469,9 +1470,9 @@ exports.BattleMovedex = {
     "pp": 15,
     "priority": 0,
     "flags": {
-      "protect": 1,
+      "defrost": 1,
       "mirror": 1,
-      "defrost": 1
+      "protect": 1
     },
     "type": "Fire",
     "target": "normal",
@@ -1521,8 +1522,8 @@ exports.BattleMovedex = {
     "pp": 20,
     "priority": 0,
     "flags": {
-      "protect": 1,
       "mirror": 1,
+      "protect": 1,
       "reflectable": 1
     },
     "type": "Electric",
@@ -1539,8 +1540,8 @@ exports.BattleMovedex = {
     "pp": 5,
     "priority": 0,
     "flags": {
-      "protect": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Electric",
     "target": "normal",
@@ -1556,10 +1557,10 @@ exports.BattleMovedex = {
     "pp": 15,
     "priority": 1,
     "flags": {
-      "protect": 1,
-      "sound": 1,
       "contact": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1,
+      "sound": 1
     },
     "type": "Fairy",
     "target": "normal",
@@ -1592,8 +1593,8 @@ exports.BattleMovedex = {
     "pp": 1,
     "priority": 0,
     "flags": {
-      "protect": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Ground",
     "target": "normal",
@@ -1609,8 +1610,8 @@ exports.BattleMovedex = {
     "pp": 15,
     "priority": 0,
     "flags": {
-      "contact": 1,
       "charge": 1,
+      "contact": 1,
       "mirror": 1
     },
     "type": "Ground",
@@ -1627,8 +1628,8 @@ exports.BattleMovedex = {
     "pp": 10,
     "priority": 0,
     "flags": {
-      "protect": 1,
       "mirror": 1,
+      "protect": 1,
       "reflectable": 1
     },
     "type": "Poison",
@@ -1662,8 +1663,8 @@ exports.BattleMovedex = {
     "pp": 10,
     "priority": 0,
     "flags": {
-      "protect": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Psychic",
     "target": "normal",
@@ -1730,8 +1731,8 @@ exports.BattleMovedex = {
     "priority": 1,
     "flags": {
       "contact": 1,
-      "protect": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Normal",
     "target": "normal",
@@ -1748,8 +1749,8 @@ exports.BattleMovedex = {
     "priority": 0,
     "flags": {
       "contact": 1,
-      "protect": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Normal",
     "target": "normal",
@@ -1779,8 +1780,8 @@ exports.BattleMovedex = {
     "pp": 15,
     "priority": 0,
     "flags": {
-      "protect": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Ghost",
     "target": "normal",
@@ -1813,10 +1814,10 @@ exports.BattleMovedex = {
     "pp": 15,
     "priority": 0,
     "flags": {
-      "reflectable": 1,
       "bypasssub": 1,
       "mirror": 1,
-      "protect": 1
+      "protect": 1,
+      "reflectable": 1
     },
     "type": "Normal",
     "target": "allAdjacentFoes",
@@ -1896,9 +1897,9 @@ exports.BattleMovedex = {
     "pp": 5,
     "priority": 0,
     "flags": {
-      "reflectable": 1,
       "mirror": 1,
-      "protect": 1
+      "protect": 1,
+      "reflectable": 1
     },
     "type": "Poison",
     "target": "allAdjacentFoes",
@@ -1914,10 +1915,10 @@ exports.BattleMovedex = {
     "pp": 10,
     "priority": 0,
     "flags": {
-      "protect": 1,
+      "bypasssub": 1,
       "mirror": 1,
-      "reflectable": 1,
-      "bypasssub": 1
+      "protect": 1,
+      "reflectable": 1
     },
     "type": "Ghost",
     "target": "normal",
@@ -2090,9 +2091,9 @@ exports.BattleMovedex = {
     "pp": 5,
     "priority": 0,
     "flags": {
-      "mirror": 1,
       "defrost": 1,
-      "heal": 1
+      "heal": 1,
+      "mirror": 1
     },
     "type": "Fire",
     "target": "allAdjacent",
@@ -2108,8 +2109,8 @@ exports.BattleMovedex = {
     "pp": 5,
     "priority": 0,
     "flags": {
-      "protect": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Normal",
     "target": "normal",
@@ -2125,10 +2126,10 @@ exports.BattleMovedex = {
     "pp": 5,
     "priority": 0,
     "flags": {
-      "protect": 1,
       "bypasssub": 1,
       "contact": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Poison",
     "target": "normal",
@@ -2144,8 +2145,8 @@ exports.BattleMovedex = {
     "pp": 15,
     "priority": 0,
     "flags": {
-      "protect": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Poison",
     "target": "allAdjacentFoes",
@@ -2232,8 +2233,8 @@ exports.BattleMovedex = {
     "priority": 0,
     "flags": {
       "contact": 1,
-      "protect": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Water",
     "target": "normal",
@@ -2266,9 +2267,9 @@ exports.BattleMovedex = {
     "pp": 5,
     "priority": 0,
     "flags": {
-      "mirror": 1,
-      "contact": 1,
       "charge": 1,
+      "contact": 1,
+      "mirror": 1,
       "protect": 1
     },
     "type": "Normal",
@@ -2285,9 +2286,9 @@ exports.BattleMovedex = {
     "pp": 10,
     "priority": 0,
     "flags": {
+      "heal": 1,
       "mirror": 1,
-      "protect": 1,
-      "heal": 1
+      "protect": 1
     },
     "type": "Fire",
     "target": "normal",
@@ -2304,8 +2305,8 @@ exports.BattleMovedex = {
     "priority": 0,
     "flags": {
       "contact": 1,
-      "protect": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Grass",
     "target": "normal",
@@ -2337,9 +2338,9 @@ exports.BattleMovedex = {
     "pp": 15,
     "priority": 0,
     "flags": {
-      "reflectable": 1,
+      "mirror": 1,
       "protect": 1,
-      "mirror": 1
+      "reflectable": 1
     },
     "type": "Psychic",
     "target": "normal",
@@ -2371,10 +2372,10 @@ exports.BattleMovedex = {
     "pp": 5,
     "priority": 0,
     "flags": {
-      "gravity": 1,
       "contact": 1,
-      "protect": 1,
-      "mirror": 1
+      "gravity": 1,
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Flying",
     "target": "normal",
@@ -2390,9 +2391,9 @@ exports.BattleMovedex = {
     "pp": 10,
     "priority": 0,
     "flags": {
-      "reflectable": 1,
+      "mirror": 1,
       "protect": 1,
-      "mirror": 1
+      "reflectable": 1
     },
     "type": "Dark",
     "target": "normal",
@@ -2408,8 +2409,8 @@ exports.BattleMovedex = {
     "pp": 15,
     "priority": 0,
     "flags": {
-      "protect": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Psychic",
     "target": "normal",
@@ -2425,9 +2426,9 @@ exports.BattleMovedex = {
     "pp": 40,
     "priority": 0,
     "flags": {
+      "mirror": 1,
       "protect": 1,
-      "reflectable": 1,
-      "mirror": 1
+      "reflectable": 1
     },
     "type": "Poison",
     "target": "allAdjacentFoes",
@@ -2443,8 +2444,8 @@ exports.BattleMovedex = {
     "pp": 5,
     "priority": 0,
     "flags": {
-      "mirror": 1,
-      "heal": 1
+      "heal": 1,
+      "mirror": 1
     },
     "type": "Steel",
     "target": "normal",
@@ -2478,10 +2479,10 @@ exports.BattleMovedex = {
     "pp": 2,
     "priority": 0,
     "flags": {
-      "reflectable": 1,
-      "sound": 1,
+      "mirror": 1,
       "protect": 1,
-      "mirror": 1
+      "reflectable": 1,
+      "sound": 1
     },
     "type": "Fairy",
     "target": "normal",
@@ -2497,9 +2498,9 @@ exports.BattleMovedex = {
     "pp": 5,
     "priority": 0,
     "flags": {
+      "charge": 1,
       "mirror": 1,
-      "protect": 1,
-      "charge": 1
+      "protect": 1
     },
     "type": "Flying",
     "target": "normal",
@@ -2529,9 +2530,9 @@ exports.BattleMovedex = {
     "pp": 10,
     "priority": 0,
     "flags": {
+      "heal": 1,
       "mirror": 1,
-      "protect": 1,
-      "heal": 1
+      "protect": 1
     },
     "type": "Water",
     "target": "allAdjacentFoes",
@@ -2547,9 +2548,9 @@ exports.BattleMovedex = {
     "pp": 10,
     "priority": 0,
     "flags": {
-      "mirror": 1,
-      "heal": 1,
       "contact": 1,
+      "heal": 1,
+      "mirror": 1,
       "protect": 1
     },
     "type": "Psychic",
@@ -2566,9 +2567,9 @@ exports.BattleMovedex = {
     "pp": 2,
     "priority": 0,
     "flags": {
+      "mirror": 1,
       "protect": 1,
-      "reflectable": 1,
-      "mirror": 1
+      "reflectable": 1
     },
     "type": "Grass",
     "target": "normal",
@@ -2652,8 +2653,8 @@ exports.BattleMovedex = {
     "pp": 5,
     "priority": 0,
     "flags": {
-      "mirror": 1,
       "contact": 1,
+      "mirror": 1,
       "protect": 1
     },
     "type": "Water",
@@ -2687,10 +2688,10 @@ exports.BattleMovedex = {
     "pp": 15,
     "priority": 0,
     "flags": {
-      "protect": 1,
-      "mirror": 1,
       "contact": 1,
-      "heal": 1
+      "heal": 1,
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Dark",
     "target": "normal",
@@ -2739,8 +2740,8 @@ exports.BattleMovedex = {
     "pp": 10,
     "priority": 0,
     "flags": {
-      "protect": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Rock",
     "target": "allAdjacentFoes",
@@ -2806,10 +2807,10 @@ exports.BattleMovedex = {
     "pp": 5,
     "priority": 0,
     "flags": {
-      "protect": 1,
       "defrost": 1,
+      "heal": 1,
       "mirror": 1,
-      "heal": 1
+      "protect": 1
     },
     "type": "Normal",
     "target": "normal",
@@ -2843,8 +2844,8 @@ exports.BattleMovedex = {
     "pp": 10,
     "priority": 0,
     "flags": {
-      "mirror": 1,
       "contact": 1,
+      "mirror": 1,
       "protect": 1
     },
     "type": "Normal",
@@ -2910,10 +2911,10 @@ exports.BattleMovedex = {
     "pp": 10,
     "priority": 0,
     "flags": {
-      "protect": 1,
-      "mirror": 1,
       "contact": 1,
-      "heal": 1
+      "heal": 1,
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Fighting",
     "target": "normal",
@@ -2930,8 +2931,8 @@ exports.BattleMovedex = {
     "priority": 0,
     "flags": {
       "contact": 1,
-      "protect": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Dark",
     "target": "normal",
@@ -2965,8 +2966,8 @@ exports.BattleMovedex = {
     "pp": 5,
     "priority": 0,
     "flags": {
-      "protect": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Psychic",
     "target": "normal",
@@ -2999,9 +3000,9 @@ exports.BattleMovedex = {
     "pp": 15,
     "priority": 0,
     "flags": {
+      "contact": 1,
       "defrost": 1,
       "mirror": 1,
-      "contact": 1,
       "protect": 1
     },
     "type": "Fire",
@@ -3019,8 +3020,8 @@ exports.BattleMovedex = {
     "priority": 0,
     "flags": {
       "bypasssub": 1,
-      "protect": 1,
       "mirror": 1,
+      "protect": 1,
       "punch": 1
     },
     "type": "Normal",
@@ -3037,8 +3038,8 @@ exports.BattleMovedex = {
     "pp": 2,
     "priority": 0,
     "flags": {
-      "reflectable": 1,
       "mirror": 1,
+      "reflectable": 1,
       "snatch": 1
     },
     "type": "Ghost",
@@ -3055,8 +3056,8 @@ exports.BattleMovedex = {
     "pp": 15,
     "priority": 0,
     "flags": {
-      "mirror": 1,
       "contact": 1,
+      "mirror": 1,
       "protect": 1
     },
     "type": "Normal",
@@ -3089,10 +3090,10 @@ exports.BattleMovedex = {
     "pp": 10,
     "priority": 0,
     "flags": {
-      "mirror": 1,
       "bypasssub": 1,
-      "punch": 1,
-      "protect": 1
+      "mirror": 1,
+      "protect": 1,
+      "punch": 1
     },
     "type": "Flying",
     "target": "normal",
@@ -3108,9 +3109,9 @@ exports.BattleMovedex = {
     "pp": 10,
     "priority": 0,
     "flags": {
-      "reflectable": 1,
+      "mirror": 1,
       "protect": 1,
-      "mirror": 1
+      "reflectable": 1
     },
     "type": "Grass",
     "target": "allAdjacentFoes",
@@ -3127,8 +3128,8 @@ exports.BattleMovedex = {
     "priority": 0,
     "flags": {
       "contact": 1,
-      "protect": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Fighting",
     "target": "normal",
@@ -3144,10 +3145,10 @@ exports.BattleMovedex = {
     "pp": 10,
     "priority": 0,
     "flags": {
-      "protect": 1,
       "bypasssub": 1,
-      "reflectable": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1,
+      "reflectable": 1
     },
     "type": "Ghost",
     "target": "normal",
@@ -3163,8 +3164,8 @@ exports.BattleMovedex = {
     "pp": 20,
     "priority": 1,
     "flags": {
-      "protect": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Ice",
     "target": "allAdjacentFoes",
@@ -3194,8 +3195,8 @@ exports.BattleMovedex = {
     "pp": 20,
     "priority": 1,
     "flags": {
-      "mirror": 1,
       "contact": 1,
+      "mirror": 1,
       "protect": 1
     },
     "type": "Fighting",
@@ -3212,9 +3213,9 @@ exports.BattleMovedex = {
     "pp": 10,
     "priority": 0,
     "flags": {
+      "mirror": 1,
       "protect": 1,
-      "reflectable": 1,
-      "mirror": 1
+      "reflectable": 1
     },
     "type": "Dark",
     "target": "normal",
@@ -3248,9 +3249,9 @@ exports.BattleMovedex = {
     "priority": 0,
     "flags": {
       "mirror": 1,
+      "protect": 1,
       "reflectable": 1,
-      "sound": 1,
-      "protect": 1
+      "sound": 1
     },
     "type": "Fairy",
     "target": "normal",
@@ -3299,8 +3300,8 @@ exports.BattleMovedex = {
     "pp": 20,
     "priority": 0,
     "flags": {
-      "protect": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Ground",
     "target": "normal",
@@ -3316,8 +3317,8 @@ exports.BattleMovedex = {
     "pp": 1,
     "priority": 4,
     "flags": {
-      "protect": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Poison",
     "target": "normal",
@@ -3349,8 +3350,8 @@ exports.BattleMovedex = {
     "pp": 5,
     "priority": 0,
     "flags": {
-      "protect": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Electric",
     "target": "normal",
@@ -3366,10 +3367,10 @@ exports.BattleMovedex = {
     "pp": 40,
     "priority": 0,
     "flags": {
-      "mirror": 1,
       "bypasssub": 1,
-      "reflectable": 1,
-      "protect": 1
+      "mirror": 1,
+      "protect": 1,
+      "reflectable": 1
     },
     "type": "Normal",
     "target": "normal",
@@ -3467,8 +3468,8 @@ exports.BattleMovedex = {
     "pp": 5,
     "priority": 0,
     "flags": {
-      "protect": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Steel",
     "target": "normal",
@@ -3484,9 +3485,9 @@ exports.BattleMovedex = {
     "pp": 5,
     "priority": 0,
     "flags": {
+      "contact": 1,
       "mirror": 1,
-      "protect": 1,
-      "contact": 1
+      "protect": 1
     },
     "type": "Dragon",
     "target": "randomNormal",
@@ -3516,8 +3517,8 @@ exports.BattleMovedex = {
     "pp": 10,
     "priority": 0,
     "flags": {
-      "protect": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Grass",
     "target": "normal",
@@ -3547,10 +3548,10 @@ exports.BattleMovedex = {
     "pp": 5,
     "priority": 0,
     "flags": {
-      "sound": 1,
-      "reflectable": 1,
       "mirror": 1,
-      "protect": 1
+      "protect": 1,
+      "reflectable": 1,
+      "sound": 1
     },
     "type": "Fairy",
     "target": "normal",
@@ -3566,9 +3567,9 @@ exports.BattleMovedex = {
     "pp": 5,
     "priority": 0,
     "flags": {
-      "protect": 1,
       "contact": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Rock",
     "target": "normal",
@@ -3584,8 +3585,8 @@ exports.BattleMovedex = {
     "pp": 5,
     "priority": 0,
     "flags": {
-      "mirror": 1,
       "contact": 1,
+      "mirror": 1,
       "protect": 1
     },
     "type": "Dragon",
@@ -3602,9 +3603,9 @@ exports.BattleMovedex = {
     "pp": 15,
     "priority": 0,
     "flags": {
+      "mirror": 1,
       "protect": 1,
-      "reflectable": 1,
-      "mirror": 1
+      "reflectable": 1
     },
     "type": "Dark",
     "target": "normal",
@@ -3637,9 +3638,9 @@ exports.BattleMovedex = {
     "pp": 10,
     "priority": 2,
     "flags": {
-      "protect": 1,
+      "contact": 1,
       "mirror": 1,
-      "contact": 1
+      "protect": 1
     },
     "type": "Electric",
     "target": "normal",
@@ -3655,9 +3656,9 @@ exports.BattleMovedex = {
     "pp": 20,
     "priority": 0,
     "flags": {
-      "protect": 1,
+      "contact": 1,
       "mirror": 1,
-      "contact": 1
+      "protect": 1
     },
     "type": "Bug",
     "target": "normal",
@@ -3673,9 +3674,9 @@ exports.BattleMovedex = {
     "pp": 10,
     "priority": 0,
     "flags": {
-      "protect": 1,
       "contact": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Steel",
     "target": "normal",
@@ -3691,8 +3692,8 @@ exports.BattleMovedex = {
     "pp": 2,
     "priority": 0,
     "flags": {
-      "protect": 1,
       "mirror": 1,
+      "protect": 1,
       "reflectable": 1
     },
     "type": "Psychic",
@@ -3777,8 +3778,8 @@ exports.BattleMovedex = {
     "pp": 15,
     "priority": 0,
     "flags": {
-      "protect": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Fairy",
     "target": "normal",
@@ -3794,8 +3795,8 @@ exports.BattleMovedex = {
     "pp": 10,
     "priority": 0,
     "flags": {
-      "mirror": 1,
       "contact": 1,
+      "mirror": 1,
       "protect": 1
     },
     "type": "Dark",
@@ -3828,8 +3829,8 @@ exports.BattleMovedex = {
     "pp": 5,
     "priority": 0,
     "flags": {
-      "protect": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Ghost",
     "target": "normal",
@@ -3846,9 +3847,9 @@ exports.BattleMovedex = {
     "priority": 0,
     "flags": {
       "bypasssub": 1,
-      "protect": 1,
       "defrost": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Ghost",
     "target": "normal",
@@ -3881,10 +3882,10 @@ exports.BattleMovedex = {
     "pp": 5,
     "priority": 0,
     "flags": {
-      "protect": 1,
-      "mirror": 1,
       "contact": 1,
-      "heal": 1
+      "heal": 1,
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Fighting",
     "target": "normal",
@@ -3901,8 +3902,8 @@ exports.BattleMovedex = {
     "priority": 0,
     "flags": {
       "contact": 1,
-      "protect": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Bug",
     "target": "normal",
@@ -3918,9 +3919,9 @@ exports.BattleMovedex = {
     "pp": 15,
     "priority": 0,
     "flags": {
+      "defrost": 1,
       "mirror": 1,
-      "protect": 1,
-      "defrost": 1
+      "protect": 1
     },
     "type": "Dragon",
     "target": "normal",
@@ -3950,9 +3951,9 @@ exports.BattleMovedex = {
     "pp": 5,
     "priority": 0,
     "flags": {
-      "protect": 1,
-      "mirror": 1,
       "bypasssub": 1,
+      "mirror": 1,
+      "protect": 1,
       "reflectable": 1
     },
     "type": "Normal",
@@ -3969,8 +3970,8 @@ exports.BattleMovedex = {
     "pp": 15,
     "priority": 0,
     "flags": {
-      "mirror": 1,
       "contact": 1,
+      "mirror": 1,
       "protect": 1
     },
     "type": "Dark",
@@ -3987,8 +3988,8 @@ exports.BattleMovedex = {
     "pp": 10,
     "priority": 0,
     "flags": {
-      "mirror": 1,
       "contact": 1,
+      "mirror": 1,
       "protect": 1
     },
     "type": "Normal",
@@ -4041,9 +4042,9 @@ exports.BattleMovedex = {
     "pp": 10,
     "priority": 0,
     "flags": {
-      "protect": 1,
+      "contact": 1,
       "mirror": 1,
-      "contact": 1
+      "protect": 1
     },
     "type": "Steel",
     "target": "normal",
@@ -4060,8 +4061,8 @@ exports.BattleMovedex = {
     "priority": 0,
     "flags": {
       "contact": 1,
-      "protect": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Fighting",
     "target": "normal",
@@ -4110,8 +4111,8 @@ exports.BattleMovedex = {
     "pp": 5,
     "priority": 0,
     "flags": {
-      "sound": 1,
-      "snatch": 1
+      "snatch": 1,
+      "sound": 1
     },
     "type": "Fairy",
     "target": "self",
@@ -4209,8 +4210,8 @@ exports.BattleMovedex = {
     "pp": 15,
     "priority": 0,
     "flags": {
-      "mirror": 1,
       "contact": 1,
+      "mirror": 1,
       "protect": 1
     },
     "type": "Dark",
@@ -4260,8 +4261,8 @@ exports.BattleMovedex = {
     "priority": 3,
     "flags": {
       "contact": 1,
-      "protect": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Normal",
     "target": "normal",
@@ -4327,9 +4328,9 @@ exports.BattleMovedex = {
     "pp": 15,
     "priority": 0,
     "flags": {
-      "protect": 1,
+      "contact": 1,
       "mirror": 1,
-      "contact": 1
+      "protect": 1
     },
     "type": "Rock",
     "target": "normal",
@@ -4345,8 +4346,8 @@ exports.BattleMovedex = {
     "pp": 5,
     "priority": 0,
     "flags": {
-      "protect": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Water",
     "target": "normal",
@@ -4362,9 +4363,9 @@ exports.BattleMovedex = {
     "pp": 10,
     "priority": 0,
     "flags": {
-      "protect": 1,
+      "contact": 1,
       "mirror": 1,
-      "contact": 1
+      "protect": 1
     },
     "type": "Dark",
     "target": "normal",
@@ -4397,12 +4398,12 @@ exports.BattleMovedex = {
     "pp": 5,
     "priority": 0,
     "flags": {
-      "punch": 1,
-      "mirror": 1,
       "bypasssub": 1,
-      "protect": 1
+      "mirror": 1,
+      "protect": 1,
+      "punch": 1
     },
-    "type": "Normal",
+    "type": "Fighting",
     "target": "allAdjacentFoes",
     "desc": "The user attacks in an uproar for three turns.\nDuring that time, no Pokemon can fall asleep.",
     "shortDesc": "The user attacks in an uproar for three turns.\nDuring that time, no Pokemon can fall asleep."
@@ -4432,8 +4433,8 @@ exports.BattleMovedex = {
     "pp": 15,
     "priority": 0,
     "flags": {
-      "punch": 1,
-      "protect": 1
+      "protect": 1,
+      "punch": 1
     },
     "type": "Poison",
     "target": "normal",
@@ -4465,8 +4466,8 @@ exports.BattleMovedex = {
     "pp": 10,
     "priority": 0,
     "flags": {
-      "mirror": 1,
       "defrost": 1,
+      "mirror": 1,
       "protect": 1
     },
     "type": "Fire",
@@ -4497,10 +4498,10 @@ exports.BattleMovedex = {
     "pp": 15,
     "priority": 0,
     "flags": {
-      "reflectable": 1,
       "bypasssub": 1,
       "mirror": 1,
-      "protect": 1
+      "protect": 1,
+      "reflectable": 1
     },
     "type": "Dark",
     "target": "normal",
@@ -4516,9 +4517,9 @@ exports.BattleMovedex = {
     "pp": 15,
     "priority": 0,
     "flags": {
-      "reflectable": 1,
       "mirror": 1,
-      "protect": 1
+      "protect": 1,
+      "reflectable": 1
     },
     "type": "Dark",
     "target": "normal",
@@ -4534,9 +4535,9 @@ exports.BattleMovedex = {
     "pp": 10,
     "priority": 0,
     "flags": {
-      "protect": 1,
-      "mirror": 1,
       "defrost": 1,
+      "mirror": 1,
+      "protect": 1,
       "reflectable": 1
     },
     "type": "Fire",
@@ -4571,8 +4572,8 @@ exports.BattleMovedex = {
     "priority": 0,
     "flags": {
       "contact": 1,
-      "protect": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Normal",
     "target": "normal",
@@ -4606,8 +4607,8 @@ exports.BattleMovedex = {
     "priority": 4,
     "flags": {
       "contact": 1,
-      "protect": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Fighting",
     "target": "normal",
@@ -4667,10 +4668,10 @@ exports.BattleMovedex = {
     "pp": 20,
     "priority": 0,
     "flags": {
+      "bypasssub": 1,
       "mirror": 1,
-      "reflectable": 1,
       "protect": 1,
-      "bypasssub": 1
+      "reflectable": 1
     },
     "type": "Dark",
     "target": "normal",
@@ -4735,8 +4736,8 @@ exports.BattleMovedex = {
     "pp": 10,
     "priority": 0,
     "flags": {
-      "sound": 1,
-      "snatch": 1
+      "snatch": 1,
+      "sound": 1
     },
     "type": "Fairy",
     "target": "self",
@@ -4782,9 +4783,9 @@ exports.BattleMovedex = {
     "pp": 5,
     "priority": 0,
     "flags": {
-      "protect": 1,
       "contact": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Fighting",
     "target": "normal",
@@ -4830,10 +4831,10 @@ exports.BattleMovedex = {
     "pp": 5,
     "priority": 0,
     "flags": {
-      "protect": 1,
-      "mirror": 1,
       "contact": 1,
-      "defrost": 1
+      "defrost": 1,
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Fire",
     "target": "normal",
@@ -4849,9 +4850,9 @@ exports.BattleMovedex = {
     "pp": 15,
     "priority": 0,
     "flags": {
-      "protect": 1,
       "contact": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Fighting",
     "target": "normal",
@@ -4868,8 +4869,8 @@ exports.BattleMovedex = {
     "priority": 0,
     "flags": {
       "mirror": 1,
-      "reflectable": 1,
       "protect": 1,
+      "reflectable": 1,
       "sound": 1
     },
     "type": "Normal",
@@ -4886,9 +4887,9 @@ exports.BattleMovedex = {
     "pp": 10,
     "priority": 0,
     "flags": {
-      "protect": 1,
       "contact": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Dark",
     "target": "normal",
@@ -4905,8 +4906,8 @@ exports.BattleMovedex = {
     "priority": 0,
     "flags": {
       "contact": 1,
-      "protect": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Normal",
     "target": "normal",
@@ -4922,9 +4923,9 @@ exports.BattleMovedex = {
     "pp": 5,
     "priority": 0,
     "flags": {
-      "protect": 1,
+      "defrost": 1,
       "mirror": 1,
-      "defrost": 1
+      "protect": 1
     },
     "type": "Fire",
     "target": "allAdjacentFoes",
@@ -4941,8 +4942,8 @@ exports.BattleMovedex = {
     "priority": 0,
     "flags": {
       "bypasssub": 1,
-      "protect": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Psychic",
     "target": "normal",
@@ -5023,8 +5024,8 @@ exports.BattleMovedex = {
     "pp": 20,
     "priority": 0,
     "flags": {
-      "protect": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Normal",
     "target": "normal",
@@ -5041,8 +5042,8 @@ exports.BattleMovedex = {
     "priority": 0,
     "flags": {
       "charge": 1,
-      "mirror": 1,
-      "contact": 1
+      "contact": 1,
+      "mirror": 1
     },
     "type": "Water",
     "target": "normal",
@@ -5058,8 +5059,8 @@ exports.BattleMovedex = {
     "pp": 10,
     "priority": 0,
     "flags": {
-      "mirror": 1,
       "contact": 1,
+      "mirror": 1,
       "protect": 1
     },
     "type": "Fighting",
@@ -5125,8 +5126,8 @@ exports.BattleMovedex = {
     "pp": 10,
     "priority": 0,
     "flags": {
-      "protect": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Flying",
     "target": "normal",
@@ -5142,8 +5143,8 @@ exports.BattleMovedex = {
     "pp": 5,
     "priority": 0,
     "flags": {
-      "protect": 1,
       "mirror": 1,
+      "protect": 1,
       "reflectable": 1
     },
     "type": "Flying",
@@ -5177,9 +5178,9 @@ exports.BattleMovedex = {
     "pp": 10,
     "priority": 0,
     "flags": {
+      "contact": 1,
       "defrost": 1,
       "mirror": 1,
-      "contact": 1,
       "protect": 1
     },
     "type": "Fire",
@@ -5210,8 +5211,8 @@ exports.BattleMovedex = {
     "pp": 5,
     "priority": 0,
     "flags": {
-      "mirror": 1,
       "contact": 1,
+      "mirror": 1,
       "protect": 1
     },
     "type": "Ice",
@@ -5228,9 +5229,9 @@ exports.BattleMovedex = {
     "pp": 10,
     "priority": 0,
     "flags": {
+      "contact": 1,
       "mirror": 1,
-      "protect": 1,
-      "contact": 1
+      "protect": 1
     },
     "type": "Grass",
     "target": "normal",
@@ -5262,10 +5263,10 @@ exports.BattleMovedex = {
     "pp": 10,
     "priority": 0,
     "flags": {
-      "protect": 1,
-      "punch": 1,
       "bypasssub": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1,
+      "punch": 1
     },
     "type": "Normal",
     "target": "allAdjacentFoes",
@@ -5299,9 +5300,9 @@ exports.BattleMovedex = {
     "pp": 10,
     "priority": 0,
     "flags": {
-      "protect": 1,
+      "contact": 1,
       "mirror": 1,
-      "contact": 1
+      "protect": 1
     },
     "type": "Rock",
     "target": "normal",
@@ -5317,9 +5318,9 @@ exports.BattleMovedex = {
     "pp": 5,
     "priority": 0,
     "flags": {
+      "defrost": 1,
       "mirror": 1,
-      "protect": 1,
-      "defrost": 1
+      "protect": 1
     },
     "type": "Fire",
     "target": "normal",
@@ -5352,10 +5353,10 @@ exports.BattleMovedex = {
     "pp": 10,
     "priority": 0,
     "flags": {
-      "mirror": 1,
-      "sound": 1,
       "contact": 1,
-      "protect": 1
+      "mirror": 1,
+      "protect": 1,
+      "sound": 1
     },
     "type": "Fairy",
     "target": "normal",
@@ -5371,9 +5372,9 @@ exports.BattleMovedex = {
     "pp": 20,
     "priority": 1,
     "flags": {
-      "protect": 1,
       "bypasssub": 1,
       "mirror": 1,
+      "protect": 1,
       "punch": 1
     },
     "type": "Ghost",
@@ -5390,8 +5391,8 @@ exports.BattleMovedex = {
     "pp": 10,
     "priority": 0,
     "flags": {
-      "protect": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Normal",
     "target": "normal",
@@ -5423,9 +5424,9 @@ exports.BattleMovedex = {
     "pp": 20,
     "priority": 0,
     "flags": {
-      "reflectable": 1,
+      "mirror": 1,
       "protect": 1,
-      "mirror": 1
+      "reflectable": 1
     },
     "type": "Dark",
     "target": "normal",
@@ -5441,8 +5442,8 @@ exports.BattleMovedex = {
     "pp": 20,
     "priority": 0,
     "flags": {
-      "protect": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Flying",
     "target": "allAdjacentFoes",
@@ -5458,8 +5459,8 @@ exports.BattleMovedex = {
     "pp": 10,
     "priority": 0,
     "flags": {
-      "mirror": 1,
       "defrost": 1,
+      "mirror": 1,
       "protect": 1
     },
     "type": "Fire",
@@ -5476,10 +5477,10 @@ exports.BattleMovedex = {
     "pp": 40,
     "priority": 0,
     "flags": {
-      "protect": 1,
-      "reflectable": 1,
       "bypasssub": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1,
+      "reflectable": 1
     },
     "type": "Normal",
     "target": "normal",
@@ -5529,10 +5530,10 @@ exports.BattleMovedex = {
     "pp": 10,
     "priority": 0,
     "flags": {
-      "mirror": 1,
       "bypasssub": 1,
-      "reflectable": 1,
-      "protect": 1
+      "mirror": 1,
+      "protect": 1,
+      "reflectable": 1
     },
     "type": "Steel",
     "target": "normal",
@@ -5548,9 +5549,9 @@ exports.BattleMovedex = {
     "pp": 2,
     "priority": 0,
     "flags": {
-      "protect": 1,
       "bypasssub": 1,
       "mirror": 1,
+      "protect": 1,
       "reflectable": 1
     },
     "type": "Grass",
@@ -5567,9 +5568,9 @@ exports.BattleMovedex = {
     "pp": 10,
     "priority": 0,
     "flags": {
+      "mirror": 1,
       "protect": 1,
-      "reflectable": 1,
-      "mirror": 1
+      "reflectable": 1
     },
     "type": "Normal",
     "target": "normal",
@@ -5601,8 +5602,8 @@ exports.BattleMovedex = {
     "pp": 5,
     "priority": 0,
     "flags": {
-      "protect": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Water",
     "target": "allAdjacentFoes",
@@ -5635,10 +5636,10 @@ exports.BattleMovedex = {
     "pp": 15,
     "priority": 0,
     "flags": {
+      "bypasssub": 1,
       "contact": 1,
-      "protect": 1,
       "mirror": 1,
-      "bypasssub": 1
+      "protect": 1
     },
     "type": "Ghost",
     "target": "normal",
@@ -5654,8 +5655,8 @@ exports.BattleMovedex = {
     "pp": 20,
     "priority": 0,
     "flags": {
-      "protect": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Psychic",
     "target": "normal",
@@ -5671,9 +5672,9 @@ exports.BattleMovedex = {
     "pp": 10,
     "priority": 0,
     "flags": {
+      "contact": 1,
       "heal": 1,
       "mirror": 1,
-      "contact": 1,
       "protect": 1
     },
     "type": "Fighting",
@@ -5690,9 +5691,9 @@ exports.BattleMovedex = {
     "pp": 15,
     "priority": 0,
     "flags": {
-      "protect": 1,
       "defrost": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Ground",
     "target": "normal",
@@ -5725,8 +5726,8 @@ exports.BattleMovedex = {
     "pp": 5,
     "priority": 0,
     "flags": {
-      "protect": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Water",
     "target": "allAdjacentFoes",
@@ -5742,8 +5743,8 @@ exports.BattleMovedex = {
     "pp": 15,
     "priority": 0,
     "flags": {
-      "mirror": 1,
       "heal": 1,
+      "mirror": 1,
       "protect": 1
     },
     "type": "Grass",
@@ -5761,8 +5762,8 @@ exports.BattleMovedex = {
     "priority": 2,
     "flags": {
       "contact": 1,
-      "protect": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Flying",
     "target": "normal",
@@ -5778,9 +5779,9 @@ exports.BattleMovedex = {
     "pp": 15,
     "priority": 0,
     "flags": {
-      "protect": 1,
+      "heal": 1,
       "mirror": 1,
-      "heal": 1
+      "protect": 1
     },
     "type": "Ice",
     "target": "normal",
@@ -5846,8 +5847,8 @@ exports.BattleMovedex = {
     "priority": 0,
     "flags": {
       "contact": 1,
-      "protect": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Dragon",
     "target": "normal",
@@ -5863,8 +5864,8 @@ exports.BattleMovedex = {
     "pp": 5,
     "priority": 0,
     "flags": {
-      "protect": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Grass",
     "target": "normal",
@@ -5896,10 +5897,10 @@ exports.BattleMovedex = {
     "pp": 10,
     "priority": 0,
     "flags": {
-      "gravity": 1,
       "charge": 1,
-      "mirror": 1,
-      "contact": 1
+      "contact": 1,
+      "gravity": 1,
+      "mirror": 1
     },
     "type": "Flying",
     "target": "normal",
@@ -5915,8 +5916,8 @@ exports.BattleMovedex = {
     "pp": 20,
     "priority": 1,
     "flags": {
-      "protect": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Ground",
     "target": "normal",
@@ -5932,9 +5933,9 @@ exports.BattleMovedex = {
     "pp": 10,
     "priority": 0,
     "flags": {
-      "protect": 1,
+      "contact": 1,
       "mirror": 1,
-      "contact": 1
+      "protect": 1
     },
     "type": "Poison",
     "target": "normal",
@@ -5950,9 +5951,9 @@ exports.BattleMovedex = {
     "pp": 25,
     "priority": 0,
     "flags": {
-      "protect": 1,
-      "mirror": 1,
       "contact": 1,
+      "mirror": 1,
+      "protect": 1,
       "sound": 1
     },
     "type": "Fairy",
@@ -5970,8 +5971,8 @@ exports.BattleMovedex = {
     "priority": 0,
     "flags": {
       "contact": 1,
-      "protect": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Electric",
     "target": "normal",
@@ -5987,8 +5988,8 @@ exports.BattleMovedex = {
     "pp": 15,
     "priority": 0,
     "flags": {
-      "protect": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Grass",
     "target": "normal",
@@ -6034,9 +6035,9 @@ exports.BattleMovedex = {
     "pp": 10,
     "priority": 0,
     "flags": {
-      "protect": 1,
       "contact": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Grass",
     "target": "normal",
@@ -6068,9 +6069,9 @@ exports.BattleMovedex = {
     "pp": 15,
     "priority": 0,
     "flags": {
+      "heal": 1,
       "mirror": 1,
-      "protect": 1,
-      "heal": 1
+      "protect": 1
     },
     "type": "Rock",
     "target": "normal",
@@ -6086,8 +6087,8 @@ exports.BattleMovedex = {
     "pp": 10,
     "priority": 1,
     "flags": {
-      "protect": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Electric",
     "target": "normal",
@@ -6136,8 +6137,8 @@ exports.BattleMovedex = {
     "pp": 5,
     "priority": 0,
     "flags": {
-      "protect": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Psychic",
     "target": "normal",
@@ -6183,10 +6184,10 @@ exports.BattleMovedex = {
     "pp": 10,
     "priority": 0,
     "flags": {
-      "mirror": 1,
-      "reflectable": 1,
       "bypasssub": 1,
-      "protect": 1
+      "mirror": 1,
+      "protect": 1,
+      "reflectable": 1
     },
     "type": "Psychic",
     "target": "normal",
@@ -6203,8 +6204,8 @@ exports.BattleMovedex = {
     "priority": 4,
     "flags": {
       "contact": 1,
-      "protect": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Fighting",
     "target": "normal",
@@ -6221,8 +6222,8 @@ exports.BattleMovedex = {
     "priority": 0,
     "flags": {
       "contact": 1,
-      "protect": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Fighting",
     "target": "normal",
@@ -6238,9 +6239,9 @@ exports.BattleMovedex = {
     "pp": 5,
     "priority": 0,
     "flags": {
-      "protect": 1,
+      "contact": 1,
       "mirror": 1,
-      "contact": 1
+      "protect": 1
     },
     "type": "Steel",
     "target": "normal",
@@ -6256,8 +6257,8 @@ exports.BattleMovedex = {
     "pp": 5,
     "priority": 6,
     "flags": {
-      "sound": 1,
-      "snatch": 1
+      "snatch": 1,
+      "sound": 1
     },
     "type": "Fairy",
     "target": "self",
@@ -6308,8 +6309,8 @@ exports.BattleMovedex = {
     "priority": 2,
     "flags": {
       "contact": 1,
-      "protect": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Psychic",
     "target": "normal",
@@ -6373,8 +6374,8 @@ exports.BattleMovedex = {
     "pp": 10,
     "priority": -6,
     "flags": {
-      "protect": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Steel",
     "target": "normal",
@@ -6409,8 +6410,8 @@ exports.BattleMovedex = {
     "priority": 0,
     "flags": {
       "contact": 1,
-      "protect": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Fighting",
     "target": "normal",
@@ -6445,8 +6446,8 @@ exports.BattleMovedex = {
     "priority": 0,
     "flags": {
       "contact": 1,
-      "protect": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Dark",
     "target": "normal",
@@ -6462,9 +6463,9 @@ exports.BattleMovedex = {
     "pp": 15,
     "priority": 4,
     "flags": {
-      "reflectable": 1,
       "mirror": 1,
-      "protect": 1
+      "protect": 1,
+      "reflectable": 1
     },
     "type": "Dark",
     "target": "normal",
@@ -6480,8 +6481,8 @@ exports.BattleMovedex = {
     "pp": 3,
     "priority": 4,
     "flags": {
-      "protect": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Normal",
     "target": "normal",
@@ -6514,8 +6515,8 @@ exports.BattleMovedex = {
     "pp": 1,
     "priority": 2,
     "flags": {
-      "mirror": 1,
       "contact": 1,
+      "mirror": 1,
       "protect": 1
     },
     "type": "Psychic",
@@ -6532,9 +6533,9 @@ exports.BattleMovedex = {
     "pp": 15,
     "priority": 4,
     "flags": {
+      "mirror": 1,
       "protect": 1,
-      "reflectable": 1,
-      "mirror": 1
+      "reflectable": 1
     },
     "type": "Psychic",
     "target": "allAdjacentFoes",
@@ -6551,8 +6552,8 @@ exports.BattleMovedex = {
     "priority": 0,
     "flags": {
       "contact": 1,
-      "protect": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Psychic",
     "target": "normal",
@@ -6584,8 +6585,8 @@ exports.BattleMovedex = {
     "pp": 5,
     "priority": 0,
     "flags": {
-      "protect": 1,
       "mirror": 1,
+      "protect": 1,
       "reflectable": 1
     },
     "type": "Poison",
@@ -6649,8 +6650,8 @@ exports.BattleMovedex = {
     "pp": 10,
     "priority": 4,
     "flags": {
-      "mirror": 1,
       "bypasssub": 1,
+      "mirror": 1,
       "protect": 1
     },
     "type": "Psychic",
@@ -6668,8 +6669,8 @@ exports.BattleMovedex = {
     "priority": 4,
     "flags": {
       "bypasssub": 1,
-      "protect": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Psychic",
     "target": "normal",
@@ -6686,8 +6687,8 @@ exports.BattleMovedex = {
     "priority": 0,
     "flags": {
       "contact": 1,
-      "protect": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Dark",
     "target": "normal",
@@ -6703,9 +6704,9 @@ exports.BattleMovedex = {
     "pp": 5,
     "priority": 0,
     "flags": {
+      "contact": 1,
       "mirror": 1,
-      "protect": 1,
-      "contact": 1
+      "protect": 1
     },
     "type": "Normal",
     "target": "normal",
@@ -6722,8 +6723,8 @@ exports.BattleMovedex = {
     "priority": 0,
     "flags": {
       "mirror": 1,
-      "reflectable": 1,
-      "protect": 1
+      "protect": 1,
+      "reflectable": 1
     },
     "type": "Grass",
     "target": "normal",
@@ -6739,9 +6740,9 @@ exports.BattleMovedex = {
     "pp": 5,
     "priority": 2,
     "flags": {
+      "contact": 1,
       "mirror": 1,
-      "protect": 1,
-      "contact": 1
+      "protect": 1
     },
     "type": "Dark",
     "target": "normal",
@@ -6773,9 +6774,9 @@ exports.BattleMovedex = {
     "pp": 10,
     "priority": 4,
     "flags": {
+      "bypasssub": 1,
       "mirror": 1,
-      "protect": 1,
-      "bypasssub": 1
+      "protect": 1
     },
     "type": "Fairy",
     "target": "normal",
@@ -6824,10 +6825,10 @@ exports.BattleMovedex = {
     "pp": 10,
     "priority": 0,
     "flags": {
-      "defrost": 1,
       "contact": 1,
-      "protect": 1,
-      "mirror": 1
+      "defrost": 1,
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Fire",
     "target": "normal",
@@ -6843,8 +6844,8 @@ exports.BattleMovedex = {
     "pp": 15,
     "priority": 0,
     "flags": {
-      "protect": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Fighting",
     "target": "normal",
@@ -6860,8 +6861,8 @@ exports.BattleMovedex = {
     "pp": 10,
     "priority": 0,
     "flags": {
-      "protect": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Fighting",
     "target": "normal",
@@ -6894,8 +6895,8 @@ exports.BattleMovedex = {
     "priority": 0,
     "flags": {
       "contact": 1,
-      "protect": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Poison",
     "target": "normal",
@@ -6911,8 +6912,8 @@ exports.BattleMovedex = {
     "pp": 15,
     "priority": 0,
     "flags": {
-      "protect": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Dark",
     "target": "normal",
@@ -6929,8 +6930,8 @@ exports.BattleMovedex = {
     "priority": 0,
     "flags": {
       "contact": 1,
-      "protect": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Dark",
     "target": "normal",
@@ -6947,8 +6948,8 @@ exports.BattleMovedex = {
     "priority": 0,
     "flags": {
       "contact": 1,
-      "protect": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Water",
     "target": "normal",
@@ -6964,8 +6965,8 @@ exports.BattleMovedex = {
     "pp": 15,
     "priority": 0,
     "flags": {
-      "protect": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Grass",
     "target": "normal",
@@ -6998,9 +6999,9 @@ exports.BattleMovedex = {
     "pp": 10,
     "priority": 0,
     "flags": {
+      "contact": 1,
       "mirror": 1,
-      "protect": 1,
-      "contact": 1
+      "protect": 1
     },
     "type": "Bug",
     "target": "normal",
@@ -7016,10 +7017,10 @@ exports.BattleMovedex = {
     "pp": 10,
     "priority": 0,
     "flags": {
-      "punch": 1,
       "bypasssub": 1,
       "mirror": 1,
-      "protect": 1
+      "protect": 1,
+      "punch": 1
     },
     "type": "Bug",
     "target": "allAdjacentFoes",
@@ -7035,8 +7036,8 @@ exports.BattleMovedex = {
     "pp": 10,
     "priority": 0,
     "flags": {
-      "protect": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Dragon",
     "target": "normal",
@@ -7052,9 +7053,9 @@ exports.BattleMovedex = {
     "pp": 5,
     "priority": 0,
     "flags": {
-      "protect": 1,
       "contact": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Dragon",
     "target": "normal",
@@ -7087,9 +7088,9 @@ exports.BattleMovedex = {
     "pp": 10,
     "priority": 0,
     "flags": {
+      "contact": 1,
       "mirror": 1,
-      "protect": 1,
-      "contact": 1
+      "protect": 1
     },
     "type": "Fighting",
     "target": "normal",
@@ -7105,8 +7106,8 @@ exports.BattleMovedex = {
     "pp": 15,
     "priority": 2,
     "flags": {
-      "protect": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Fighting",
     "target": "normal",
@@ -7139,8 +7140,8 @@ exports.BattleMovedex = {
     "pp": 10,
     "priority": 0,
     "flags": {
-      "protect": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Grass",
     "target": "normal",
@@ -7157,8 +7158,8 @@ exports.BattleMovedex = {
     "priority": 0,
     "flags": {
       "contact": 1,
-      "protect": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Flying",
     "target": "normal",
@@ -7174,8 +7175,8 @@ exports.BattleMovedex = {
     "pp": 10,
     "priority": 0,
     "flags": {
-      "protect": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Ground",
     "target": "normal",
@@ -7208,8 +7209,8 @@ exports.BattleMovedex = {
     "pp": 5,
     "priority": 0,
     "flags": {
-      "mirror": 1,
       "contact": 1,
+      "mirror": 1,
       "protect": 1
     },
     "type": "Normal",
@@ -7242,9 +7243,9 @@ exports.BattleMovedex = {
     "pp": 15,
     "priority": 1,
     "flags": {
-      "protect": 1,
+      "contact": 1,
       "mirror": 1,
-      "contact": 1
+      "protect": 1
     },
     "type": "Steel",
     "target": "normal",
@@ -7260,8 +7261,8 @@ exports.BattleMovedex = {
     "pp": 5,
     "priority": -4,
     "flags": {
-      "protect": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Ice",
     "target": "normal",
@@ -7277,8 +7278,8 @@ exports.BattleMovedex = {
     "pp": 20,
     "priority": 1,
     "flags": {
-      "protect": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Ice",
     "target": "normal",
@@ -7294,9 +7295,9 @@ exports.BattleMovedex = {
     "pp": 10,
     "priority": 0,
     "flags": {
-      "protect": 1,
       "contact": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Ghost",
     "target": "normal",
@@ -7312,9 +7313,9 @@ exports.BattleMovedex = {
     "pp": 15,
     "priority": 0,
     "flags": {
-      "protect": 1,
+      "contact": 1,
       "mirror": 1,
-      "contact": 1
+      "protect": 1
     },
     "type": "Electric",
     "target": "normal",
@@ -7330,8 +7331,8 @@ exports.BattleMovedex = {
     "pp": 15,
     "priority": 0,
     "flags": {
-      "mirror": 1,
       "contact": 1,
+      "mirror": 1,
       "protect": 1
     },
     "type": "Ice",
@@ -7348,10 +7349,10 @@ exports.BattleMovedex = {
     "pp": 15,
     "priority": 0,
     "flags": {
-      "protect": 1,
-      "mirror": 1,
+      "contact": 1,
       "defrost": 1,
-      "contact": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Fire",
     "target": "normal",
@@ -7367,10 +7368,10 @@ exports.BattleMovedex = {
     "pp": 15,
     "priority": 1,
     "flags": {
+      "bypasssub": 1,
       "contact": 1,
-      "protect": 1,
       "mirror": 1,
-      "bypasssub": 1
+      "protect": 1
     },
     "type": "Ghost",
     "target": "normal",
@@ -7386,8 +7387,8 @@ exports.BattleMovedex = {
     "pp": 5,
     "priority": 0,
     "flags": {
-      "protect": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Ground",
     "target": "normal",
@@ -7403,8 +7404,8 @@ exports.BattleMovedex = {
     "pp": 10,
     "priority": 0,
     "flags": {
-      "protect": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Psychic",
     "target": "normal",
@@ -7421,8 +7422,8 @@ exports.BattleMovedex = {
     "priority": 0,
     "flags": {
       "contact": 1,
-      "protect": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Psychic",
     "target": "normal",
@@ -7438,8 +7439,8 @@ exports.BattleMovedex = {
     "pp": 15,
     "priority": 0,
     "flags": {
-      "protect": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Steel",
     "target": "normal",
@@ -7455,8 +7456,8 @@ exports.BattleMovedex = {
     "pp": 5,
     "priority": 0,
     "flags": {
-      "protect": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Steel",
     "target": "normal",
@@ -7472,8 +7473,8 @@ exports.BattleMovedex = {
     "pp": 10,
     "priority": 0,
     "flags": {
-      "mirror": 1,
       "contact": 1,
+      "mirror": 1,
       "protect": 1
     },
     "type": "Rock",
@@ -7490,10 +7491,10 @@ exports.BattleMovedex = {
     "pp": 15,
     "priority": 0,
     "flags": {
+      "bypasssub": 1,
       "mirror": 1,
-      "reflectable": 1,
       "protect": 1,
-      "bypasssub": 1
+      "reflectable": 1
     },
     "type": "Flying",
     "target": "normal",
@@ -7525,8 +7526,8 @@ exports.BattleMovedex = {
     "pp": 5,
     "priority": 0,
     "flags": {
-      "protect": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Dragon",
     "target": "normal",
@@ -7542,8 +7543,8 @@ exports.BattleMovedex = {
     "pp": 15,
     "priority": 0,
     "flags": {
-      "protect": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Electric",
     "target": "allAdjacent",
@@ -7560,8 +7561,8 @@ exports.BattleMovedex = {
     "priority": 0,
     "flags": {
       "defrost": 1,
-      "protect": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Fire",
     "target": "allAdjacent",
@@ -7577,8 +7578,8 @@ exports.BattleMovedex = {
     "pp": 5,
     "priority": 0,
     "flags": {
-      "protect": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Grass",
     "target": "normal",
@@ -7594,9 +7595,9 @@ exports.BattleMovedex = {
     "pp": 5,
     "priority": 0,
     "flags": {
-      "protect": 1,
       "contact": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Grass",
     "target": "normal",
@@ -7630,8 +7631,8 @@ exports.BattleMovedex = {
     "priority": 0,
     "flags": {
       "contact": 1,
-      "protect": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Poison",
     "target": "normal",
@@ -7647,8 +7648,8 @@ exports.BattleMovedex = {
     "pp": 5,
     "priority": 0,
     "flags": {
-      "protect": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Poison",
     "target": "normal",
@@ -7716,9 +7717,9 @@ exports.BattleMovedex = {
     "pp": 20,
     "priority": 0,
     "flags": {
-      "reflectable": 1,
       "mirror": 1,
       "protect": 1,
+      "reflectable": 1,
       "sound": 1
     },
     "type": "Fairy",
@@ -7751,8 +7752,8 @@ exports.BattleMovedex = {
     "pp": 20,
     "priority": 0,
     "flags": {
-      "mirror": 1,
       "contact": 1,
+      "mirror": 1,
       "protect": 1
     },
     "type": "Grass",
@@ -7769,9 +7770,9 @@ exports.BattleMovedex = {
     "pp": 15,
     "priority": 0,
     "flags": {
+      "bypasssub": 1,
       "mirror": 1,
       "protect": 1,
-      "bypasssub": 1,
       "punch": 1
     },
     "type": "Normal",
@@ -7788,8 +7789,8 @@ exports.BattleMovedex = {
     "pp": 5,
     "priority": 0,
     "flags": {
-      "protect": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Normal",
     "target": "normal",
@@ -7805,9 +7806,9 @@ exports.BattleMovedex = {
     "pp": 20,
     "priority": 0,
     "flags": {
-      "protect": 1,
+      "contact": 1,
       "mirror": 1,
-      "contact": 1
+      "protect": 1
     },
     "type": "Bug",
     "target": "normal",
@@ -7840,9 +7841,9 @@ exports.BattleMovedex = {
     "pp": 10,
     "priority": 0,
     "flags": {
-      "protect": 1,
       "contact": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Grass",
     "target": "normal",
@@ -7859,8 +7860,8 @@ exports.BattleMovedex = {
     "priority": 1,
     "flags": {
       "contact": 1,
-      "protect": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Water",
     "target": "normal",
@@ -7927,8 +7928,8 @@ exports.BattleMovedex = {
     "priority": 0,
     "flags": {
       "contact": 1,
-      "protect": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Rock",
     "target": "normal",
@@ -7944,8 +7945,8 @@ exports.BattleMovedex = {
     "pp": 15,
     "priority": 0,
     "flags": {
-      "mirror": 1,
       "contact": 1,
+      "mirror": 1,
       "protect": 1
     },
     "type": "Dragon",
@@ -7962,8 +7963,8 @@ exports.BattleMovedex = {
     "pp": 3,
     "priority": 0,
     "flags": {
-      "protect": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Dragon",
     "target": "normal",
@@ -7979,8 +7980,8 @@ exports.BattleMovedex = {
     "pp": 5,
     "priority": 0,
     "flags": {
-      "protect": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Psychic",
     "target": "normal",
@@ -8012,9 +8013,9 @@ exports.BattleMovedex = {
     "pp": 5,
     "priority": 0,
     "flags": {
-      "protect": 1,
       "contact": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Normal",
     "target": "normal",
@@ -8030,9 +8031,9 @@ exports.BattleMovedex = {
     "pp": 5,
     "priority": 0,
     "flags": {
+      "defrost": 1,
       "mirror": 1,
-      "protect": 1,
-      "defrost": 1
+      "protect": 1
     },
     "type": "Fire",
     "target": "normal",
@@ -8083,8 +8084,8 @@ exports.BattleMovedex = {
     "pp": 15,
     "priority": 0,
     "flags": {
-      "protect": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Ghost",
     "target": "allAdjacentFoes",
@@ -8100,9 +8101,9 @@ exports.BattleMovedex = {
     "pp": 5,
     "priority": 0,
     "flags": {
-      "mirror": 1,
       "bypasssub": 1,
-      "charge": 1
+      "charge": 1,
+      "mirror": 1
     },
     "type": "Ghost",
     "target": "normal",
@@ -8198,8 +8199,8 @@ exports.BattleMovedex = {
     "pp": 10,
     "priority": 0,
     "flags": {
-      "protect": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Psychic",
     "target": "normal",
@@ -8215,9 +8216,9 @@ exports.BattleMovedex = {
     "pp": 10,
     "priority": 0,
     "flags": {
-      "punch": 1,
+      "mirror": 1,
       "protect": 1,
-      "mirror": 1
+      "punch": 1
     },
     "type": "Poison",
     "target": "normal",
@@ -8263,9 +8264,9 @@ exports.BattleMovedex = {
     "pp": 15,
     "priority": 4,
     "flags": {
-      "protect": 1,
       "gravity": 1,
       "mirror": 1,
+      "protect": 1,
       "reflectable": 1
     },
     "type": "Psychic",
@@ -8298,8 +8299,8 @@ exports.BattleMovedex = {
     "pp": 15,
     "priority": 0,
     "flags": {
-      "protect": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Rock",
     "target": "normal",
@@ -8316,8 +8317,8 @@ exports.BattleMovedex = {
     "priority": 0,
     "flags": {
       "contact": 1,
-      "protect": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Fighting",
     "target": "normal",
@@ -8333,10 +8334,10 @@ exports.BattleMovedex = {
     "pp": 15,
     "priority": 0,
     "flags": {
-      "heal": 1,
       "defrost": 1,
-      "protect": 1,
-      "mirror": 1
+      "heal": 1,
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Fire",
     "target": "normal",
@@ -8385,10 +8386,10 @@ exports.BattleMovedex = {
     "pp": 10,
     "priority": 0,
     "flags": {
-      "protect": 1,
       "contact": 1,
-      "punch": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1,
+      "punch": 1
     },
     "type": "Steel",
     "target": "normal",
@@ -8405,9 +8406,9 @@ exports.BattleMovedex = {
     "priority": 0,
     "flags": {
       "bypasssub": 1,
+      "mirror": 1,
       "protect": 1,
-      "punch": 1,
-      "mirror": 1
+      "punch": 1
     },
     "type": "Normal",
     "target": "allAdjacent",
@@ -8423,8 +8424,8 @@ exports.BattleMovedex = {
     "pp": 5,
     "priority": 0,
     "flags": {
-      "protect": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Electric",
     "target": "normal",
@@ -8440,9 +8441,9 @@ exports.BattleMovedex = {
     "pp": 20,
     "priority": 0,
     "flags": {
-      "reflectable": 1,
       "mirror": 1,
-      "protect": 1
+      "protect": 1,
+      "reflectable": 1
     },
     "type": "Water",
     "target": "normal",
@@ -8458,10 +8459,10 @@ exports.BattleMovedex = {
     "pp": 15,
     "priority": 1,
     "flags": {
-      "defrost": 1,
       "contact": 1,
-      "protect": 1,
-      "mirror": 1
+      "defrost": 1,
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Fire",
     "target": "normal",
@@ -8494,8 +8495,8 @@ exports.BattleMovedex = {
     "priority": 0,
     "flags": {
       "contact": 1,
-      "protect": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Fighting",
     "target": "normal",
@@ -8511,8 +8512,8 @@ exports.BattleMovedex = {
     "pp": 20,
     "priority": 1,
     "flags": {
-      "protect": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Poison",
     "target": "normal",
@@ -8529,8 +8530,8 @@ exports.BattleMovedex = {
     "priority": 0,
     "flags": {
       "contact": 1,
-      "protect": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Dark",
     "target": "normal",
@@ -8546,9 +8547,9 @@ exports.BattleMovedex = {
     "pp": 15,
     "priority": 0,
     "flags": {
-      "reflectable": 1,
       "mirror": 1,
-      "protect": 1
+      "protect": 1,
+      "reflectable": 1
     },
     "type": "Psychic",
     "target": "normal",
@@ -8564,9 +8565,9 @@ exports.BattleMovedex = {
     "pp": 15,
     "priority": 0,
     "flags": {
-      "reflectable": 1,
       "mirror": 1,
-      "protect": 1
+      "protect": 1,
+      "reflectable": 1
     },
     "type": "Normal",
     "target": "normal",
@@ -8598,10 +8599,10 @@ exports.BattleMovedex = {
     "pp": 15,
     "priority": 0,
     "flags": {
-      "punch": 1,
+      "bypasssub": 1,
       "mirror": 1,
       "protect": 1,
-      "bypasssub": 1
+      "punch": 1
     },
     "type": "Normal",
     "target": "allAdjacentFoes",
@@ -8617,10 +8618,10 @@ exports.BattleMovedex = {
     "pp": 15,
     "priority": 0,
     "flags": {
-      "mirror": 1,
-      "punch": 1,
       "bypasssub": 1,
-      "protect": 1
+      "mirror": 1,
+      "protect": 1,
+      "punch": 1
     },
     "type": "Normal",
     "target": "allAdjacentFoes",
@@ -8637,8 +8638,8 @@ exports.BattleMovedex = {
     "priority": 0,
     "flags": {
       "contact": 1,
-      "protect": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Bug",
     "target": "normal",
@@ -8654,8 +8655,8 @@ exports.BattleMovedex = {
     "pp": 15,
     "priority": 0,
     "flags": {
-      "protect": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Poison",
     "target": "allAdjacentFoes",
@@ -8671,8 +8672,8 @@ exports.BattleMovedex = {
     "pp": 3,
     "priority": 0,
     "flags": {
-      "protect": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Psychic",
     "target": "normal",
@@ -8718,9 +8719,9 @@ exports.BattleMovedex = {
     "pp": 15,
     "priority": 0,
     "flags": {
-      "protect": 1,
+      "defrost": 1,
       "mirror": 1,
-      "defrost": 1
+      "protect": 1
     },
     "type": "Water",
     "target": "normal",
@@ -8769,8 +8770,8 @@ exports.BattleMovedex = {
     "pp": 10,
     "priority": 0,
     "flags": {
-      "protect": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Ghost",
     "target": "normal",
@@ -8786,11 +8787,11 @@ exports.BattleMovedex = {
     "pp": 10,
     "priority": 0,
     "flags": {
-      "mirror": 1,
-      "gravity": 1,
-      "protect": 1,
+      "charge": 1,
       "contact": 1,
-      "charge": 1
+      "gravity": 1,
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Flying",
     "target": "normal",
@@ -8822,8 +8823,8 @@ exports.BattleMovedex = {
     "pp": 15,
     "priority": -4,
     "flags": {
-      "mirror": 1,
       "contact": 1,
+      "mirror": 1,
       "protect": 1
     },
     "type": "Fighting",
@@ -8840,8 +8841,8 @@ exports.BattleMovedex = {
     "pp": 15,
     "priority": 0,
     "flags": {
-      "mirror": 1,
       "defrost": 1,
+      "mirror": 1,
       "protect": 1
     },
     "type": "Fire",
@@ -8875,9 +8876,9 @@ exports.BattleMovedex = {
     "pp": 10,
     "priority": 0,
     "flags": {
-      "protect": 1,
+      "contact": 1,
       "mirror": 1,
-      "contact": 1
+      "protect": 1
     },
     "type": "Flying",
     "target": "normal",
@@ -8893,8 +8894,8 @@ exports.BattleMovedex = {
     "pp": 15,
     "priority": 4,
     "flags": {
-      "protect": 1,
-      "bypasssub": 1
+      "bypasssub": 1,
+      "protect": 1
     },
     "type": "Normal",
     "target": "normal",
@@ -8911,8 +8912,8 @@ exports.BattleMovedex = {
     "priority": 0,
     "flags": {
       "contact": 1,
-      "protect": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Normal",
     "target": "normal",
@@ -8959,8 +8960,8 @@ exports.BattleMovedex = {
     "pp": 5,
     "priority": 0,
     "flags": {
-      "mirror": 1,
       "defrost": 1,
+      "mirror": 1,
       "protect": 1
     },
     "type": "Fire",
@@ -8977,8 +8978,8 @@ exports.BattleMovedex = {
     "pp": 10,
     "priority": 0,
     "flags": {
-      "protect": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Water",
     "target": "normal",
@@ -8994,9 +8995,9 @@ exports.BattleMovedex = {
     "pp": 10,
     "priority": 0,
     "flags": {
-      "protect": 1,
+      "defrost": 1,
       "mirror": 1,
-      "defrost": 1
+      "protect": 1
     },
     "type": "Fire",
     "target": "normal",
@@ -9012,8 +9013,8 @@ exports.BattleMovedex = {
     "pp": 10,
     "priority": 0,
     "flags": {
-      "protect": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Grass",
     "target": "normal",
@@ -9046,8 +9047,8 @@ exports.BattleMovedex = {
     "pp": 15,
     "priority": 0,
     "flags": {
-      "protect": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Bug",
     "target": "allAdjacentFoes",
@@ -9063,8 +9064,8 @@ exports.BattleMovedex = {
     "pp": 20,
     "priority": 0,
     "flags": {
-      "protect": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Ground",
     "target": "allAdjacent",
@@ -9080,8 +9081,8 @@ exports.BattleMovedex = {
     "pp": 10,
     "priority": 0,
     "flags": {
-      "protect": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Ice",
     "target": "normal",
@@ -9097,9 +9098,9 @@ exports.BattleMovedex = {
     "pp": 15,
     "priority": -4,
     "flags": {
-      "protect": 1,
+      "contact": 1,
       "mirror": 1,
-      "contact": 1
+      "protect": 1
     },
     "type": "Dragon",
     "target": "normal",
@@ -9148,8 +9149,8 @@ exports.BattleMovedex = {
     "pp": 10,
     "priority": 0,
     "flags": {
-      "mirror": 1,
       "contact": 1,
+      "mirror": 1,
       "protect": 1
     },
     "type": "Electric",
@@ -9166,9 +9167,9 @@ exports.BattleMovedex = {
     "pp": 10,
     "priority": 0,
     "flags": {
+      "contact": 1,
       "mirror": 1,
-      "protect": 1,
-      "contact": 1
+      "protect": 1
     },
     "type": "Ground",
     "target": "normal",
@@ -9185,8 +9186,8 @@ exports.BattleMovedex = {
     "priority": 1,
     "flags": {
       "contact": 1,
-      "protect": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Dragon",
     "target": "normal",
@@ -9202,9 +9203,9 @@ exports.BattleMovedex = {
     "pp": 15,
     "priority": 0,
     "flags": {
+      "contact": 1,
       "mirror": 1,
       "protect": 1,
-      "contact": 1,
       "sound": 1
     },
     "type": "Fairy",
@@ -9258,8 +9259,8 @@ exports.BattleMovedex = {
     "priority": 0,
     "flags": {
       "contact": 1,
-      "protect": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Water",
     "target": "normal",
@@ -9277,8 +9278,8 @@ exports.BattleMovedex = {
     "flags": {
       "contact": 1,
       "defrost": 1,
-      "protect": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Fire",
     "target": "normal",
@@ -9294,8 +9295,8 @@ exports.BattleMovedex = {
     "pp": 20,
     "priority": 1,
     "flags": {
-      "protect": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Grass",
     "target": "normal",
@@ -9312,8 +9313,8 @@ exports.BattleMovedex = {
     "priority": 0,
     "flags": {
       "contact": 1,
-      "protect": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Bug",
     "target": "normal",
@@ -9345,8 +9346,8 @@ exports.BattleMovedex = {
     "pp": 10,
     "priority": 0,
     "flags": {
-      "protect": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Dark",
     "target": "allAdjacentFoes",
@@ -9362,8 +9363,8 @@ exports.BattleMovedex = {
     "pp": 5,
     "priority": 0,
     "flags": {
-      "protect": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Psychic",
     "target": "normal",
@@ -9379,9 +9380,9 @@ exports.BattleMovedex = {
     "pp": 15,
     "priority": 0,
     "flags": {
-      "mirror": 1,
-      "heal": 1,
       "contact": 1,
+      "heal": 1,
+      "mirror": 1,
       "protect": 1
     },
     "type": "Normal",
@@ -9398,8 +9399,8 @@ exports.BattleMovedex = {
     "pp": 5,
     "priority": 0,
     "flags": {
-      "protect": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Flying",
     "target": "normal",
@@ -9451,9 +9452,9 @@ exports.BattleMovedex = {
     "pp": 5,
     "priority": 0,
     "flags": {
-      "protect": 1,
+      "defrost": 1,
       "mirror": 1,
-      "defrost": 1
+      "protect": 1
     },
     "type": "Fire",
     "target": "allAdjacent",
@@ -9469,8 +9470,8 @@ exports.BattleMovedex = {
     "pp": 5,
     "priority": 0,
     "flags": {
-      "protect": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Normal",
     "target": "normal",
@@ -9486,10 +9487,10 @@ exports.BattleMovedex = {
     "pp": 10,
     "priority": 0,
     "flags": {
-      "punch": 1,
       "bypasssub": 1,
       "mirror": 1,
-      "protect": 1
+      "protect": 1,
+      "punch": 1
     },
     "type": "Normal",
     "target": "allAdjacentFoes",
@@ -9505,9 +9506,9 @@ exports.BattleMovedex = {
     "pp": 10,
     "priority": 0,
     "flags": {
-      "sound": 1,
+      "mirror": 1,
       "protect": 1,
-      "mirror": 1
+      "sound": 1
     },
     "type": "Fairy",
     "target": "normal",
@@ -9541,8 +9542,8 @@ exports.BattleMovedex = {
     "priority": 0,
     "flags": {
       "contact": 1,
-      "protect": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Electric",
     "target": "normal",
@@ -9558,9 +9559,9 @@ exports.BattleMovedex = {
     "pp": 5,
     "priority": 0,
     "flags": {
-      "protect": 1,
+      "defrost": 1,
       "mirror": 1,
-      "defrost": 1
+      "protect": 1
     },
     "type": "Dragon",
     "target": "normal",
@@ -9594,9 +9595,9 @@ exports.BattleMovedex = {
     "pp": 1,
     "priority": 0,
     "flags": {
-      "protect": 1,
+      "charge": 1,
       "mirror": 1,
-      "charge": 1
+      "protect": 1
     },
     "type": "Ice",
     "target": "normal",
@@ -9612,8 +9613,8 @@ exports.BattleMovedex = {
     "pp": 1,
     "priority": 0,
     "flags": {
-      "defrost": 1,
       "charge": 1,
+      "defrost": 1,
       "mirror": 1,
       "protect": 1
     },
@@ -9631,10 +9632,10 @@ exports.BattleMovedex = {
     "pp": 15,
     "priority": 0,
     "flags": {
+      "bypasssub": 1,
       "mirror": 1,
       "protect": 1,
-      "punch": 1,
-      "bypasssub": 1
+      "punch": 1
     },
     "type": "Dark",
     "target": "allAdjacentFoes",
@@ -9667,10 +9668,10 @@ exports.BattleMovedex = {
     "pp": 5,
     "priority": 0,
     "flags": {
-      "defrost": 1,
-      "protect": 1,
       "contact": 1,
-      "mirror": 1
+      "defrost": 1,
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Fire",
     "target": "normal",
@@ -9686,8 +9687,8 @@ exports.BattleMovedex = {
     "pp": 3,
     "priority": 0,
     "flags": {
-      "mirror": 1,
       "defrost": 1,
+      "mirror": 1,
       "protect": 1
     },
     "type": "Fire",
@@ -9704,8 +9705,8 @@ exports.BattleMovedex = {
     "pp": 3,
     "priority": 0,
     "flags": {
-      "protect": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Electric",
     "target": "normal",
@@ -9721,10 +9722,10 @@ exports.BattleMovedex = {
     "pp": 5,
     "priority": 0,
     "flags": {
-      "protect": 1,
       "contact": 1,
+      "gravity": 1,
       "mirror": 1,
-      "gravity": 1
+      "protect": 1
     },
     "type": "Fighting",
     "target": "normal",
@@ -9756,9 +9757,9 @@ exports.BattleMovedex = {
     "pp": 10,
     "priority": 0,
     "flags": {
-      "punch": 1,
       "bypasssub": 1,
-      "protect": 1
+      "protect": 1,
+      "punch": 1
     },
     "type": "Poison",
     "target": "normal",
@@ -9806,9 +9807,9 @@ exports.BattleMovedex = {
     "pp": 10,
     "priority": 0,
     "flags": {
+      "contact": 1,
       "mirror": 1,
-      "protect": 1,
-      "contact": 1
+      "protect": 1
     },
     "type": "Bug",
     "target": "normal",
@@ -9824,10 +9825,10 @@ exports.BattleMovedex = {
     "pp": 10,
     "priority": 0,
     "flags": {
-      "mirror": 1,
-      "contact": 1,
+      "bypasssub": 1,
       "charge": 1,
-      "bypasssub": 1
+      "contact": 1,
+      "mirror": 1
     },
     "type": "Ghost",
     "target": "normal",
@@ -9843,10 +9844,10 @@ exports.BattleMovedex = {
     "pp": 20,
     "priority": 0,
     "flags": {
+      "bypasssub": 1,
       "mirror": 1,
-      "reflectable": 1,
       "protect": 1,
-      "bypasssub": 1
+      "reflectable": 1
     },
     "type": "Ghost",
     "target": "normal",
@@ -9862,9 +9863,9 @@ exports.BattleMovedex = {
     "pp": 5,
     "priority": 0,
     "flags": {
-      "protect": 1,
       "bypasssub": 1,
       "mirror": 1,
+      "protect": 1,
       "reflectable": 1
     },
     "type": "Fighting",
@@ -9895,8 +9896,8 @@ exports.BattleMovedex = {
     "pp": 10,
     "priority": 0,
     "flags": {
-      "protect": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Electric",
     "target": "allAdjacent",
@@ -9912,9 +9913,9 @@ exports.BattleMovedex = {
     "pp": 3,
     "priority": 0,
     "flags": {
-      "reflectable": 1,
+      "mirror": 1,
       "protect": 1,
-      "mirror": 1
+      "reflectable": 1
     },
     "type": "Grass",
     "target": "normal",
@@ -9947,8 +9948,8 @@ exports.BattleMovedex = {
     "pp": 15,
     "priority": 0,
     "flags": {
-      "protect": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Ice",
     "target": "normal",
@@ -9964,10 +9965,10 @@ exports.BattleMovedex = {
     "pp": 15,
     "priority": 0,
     "flags": {
-      "punch": 1,
+      "bypasssub": 1,
       "mirror": 1,
       "protect": 1,
-      "bypasssub": 1,
+      "punch": 1,
       "sound": 1
     },
     "type": "Fairy",
@@ -9984,9 +9985,9 @@ exports.BattleMovedex = {
     "pp": 20,
     "priority": 0,
     "flags": {
+      "bypasssub": 1,
       "mirror": 1,
       "protect": 1,
-      "bypasssub": 1,
       "reflectable": 1
     },
     "type": "Dark",
@@ -10003,9 +10004,9 @@ exports.BattleMovedex = {
     "pp": 20,
     "priority": 4,
     "flags": {
+      "mirror": 1,
       "protect": 1,
-      "reflectable": 1,
-      "mirror": 1
+      "reflectable": 1
     },
     "type": "Dark",
     "target": "normal",
@@ -10021,10 +10022,10 @@ exports.BattleMovedex = {
     "pp": 10,
     "priority": 0,
     "flags": {
-      "sound": 1,
-      "protect": 1,
       "contact": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1,
+      "sound": 1
     },
     "type": "Fairy",
     "target": "normal",
@@ -10119,10 +10120,10 @@ exports.BattleMovedex = {
     "pp": 5,
     "priority": 0,
     "flags": {
-      "sound": 1,
-      "protect": 1,
+      "contact": 1,
       "mirror": 1,
-      "contact": 1
+      "protect": 1,
+      "sound": 1
     },
     "type": "Fairy",
     "target": "normal",
@@ -10156,9 +10157,9 @@ exports.BattleMovedex = {
     "pp": 10,
     "priority": 0,
     "flags": {
-      "sound": 1,
       "mirror": 1,
-      "protect": 1
+      "protect": 1,
+      "sound": 1
     },
     "type": "Fairy",
     "target": "normal",
@@ -10174,10 +10175,10 @@ exports.BattleMovedex = {
     "pp": 5,
     "priority": 0,
     "flags": {
-      "mirror": 1,
-      "punch": 1,
       "bypasssub": 1,
-      "protect": 1
+      "mirror": 1,
+      "protect": 1,
+      "punch": 1
     },
     "type": "Normal",
     "target": "allAdjacentFoes",
@@ -10193,8 +10194,8 @@ exports.BattleMovedex = {
     "pp": 10,
     "priority": 0,
     "flags": {
-      "mirror": 1,
       "bypasssub": 1,
+      "mirror": 1,
       "sound": 1
     },
     "type": "Fairy",
@@ -10225,9 +10226,9 @@ exports.BattleMovedex = {
     "pp": 20,
     "priority": 4,
     "flags": {
+      "mirror": 1,
       "reflectable": 1,
-      "sound": 1,
-      "mirror": 1
+      "sound": 1
     },
     "type": "Fairy",
     "target": "normal",
@@ -10243,8 +10244,8 @@ exports.BattleMovedex = {
     "pp": 10,
     "priority": 0,
     "flags": {
-      "mirror": 1,
       "bypasssub": 1,
+      "mirror": 1,
       "reflectable": 1
     },
     "type": "Dark",
@@ -10261,8 +10262,8 @@ exports.BattleMovedex = {
     "pp": 5,
     "priority": 0,
     "flags": {
-      "protect": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Rock",
     "target": "allAdjacentFoes",
@@ -10278,9 +10279,9 @@ exports.BattleMovedex = {
     "pp": 5,
     "priority": 0,
     "flags": {
+      "defrost": 1,
       "mirror": 1,
-      "protect": 1,
-      "defrost": 1
+      "protect": 1
     },
     "type": "Water",
     "target": "normal",
@@ -10297,8 +10298,8 @@ exports.BattleMovedex = {
     "priority": 0,
     "flags": {
       "bypasssub": 1,
-      "mirror": 1,
-      "contact": 1
+      "contact": 1,
+      "mirror": 1
     },
     "type": "Psychic",
     "target": "normal",
@@ -10314,9 +10315,9 @@ exports.BattleMovedex = {
     "pp": 5,
     "priority": 0,
     "flags": {
-      "mirror": 1,
+      "contact": 1,
       "heal": 1,
-      "contact": 1
+      "mirror": 1
     },
     "type": "Water",
     "target": "normal",
@@ -10399,9 +10400,9 @@ exports.BattleMovedex = {
     "pp": 5,
     "priority": 0,
     "flags": {
-      "reflectable": 1,
       "mirror": 1,
-      "protect": 1
+      "protect": 1,
+      "reflectable": 1
     },
     "type": "Poison",
     "target": "allAdjacentFoes",
@@ -10417,10 +10418,10 @@ exports.BattleMovedex = {
     "pp": 5,
     "priority": 4,
     "flags": {
-      "protect": 1,
-      "reflectable": 1,
       "bypasssub": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1,
+      "reflectable": 1
     },
     "type": "Bug",
     "target": "normal",
@@ -10436,9 +10437,9 @@ exports.BattleMovedex = {
     "pp": 1,
     "priority": 0,
     "flags": {
+      "charge": 1,
       "snatch": 1,
-      "sound": 1,
-      "charge": 1
+      "sound": 1
     },
     "type": "Fairy",
     "target": "self",
@@ -10499,9 +10500,9 @@ exports.BattleMovedex = {
     "pp": 15,
     "priority": 0,
     "flags": {
-      "sound": 1,
+      "mirror": 1,
       "protect": 1,
-      "mirror": 1
+      "sound": 1
     },
     "type": "Fairy",
     "target": "allAdjacentFoes",
@@ -10532,8 +10533,8 @@ exports.BattleMovedex = {
     "priority": 0,
     "flags": {
       "mirror": 1,
-      "reflectable": 1,
       "protect": 1,
+      "reflectable": 1,
       "sound": 1
     },
     "type": "Fairy",
@@ -10550,10 +10551,10 @@ exports.BattleMovedex = {
     "pp": 20,
     "priority": 4,
     "flags": {
-      "sound": 1,
       "mirror": 1,
       "protect": 1,
-      "reflectable": 1
+      "reflectable": 1,
+      "sound": 1
     },
     "type": "Fairy",
     "target": "normal",
@@ -10569,8 +10570,8 @@ exports.BattleMovedex = {
     "pp": 10,
     "priority": 0,
     "flags": {
-      "mirror": 1,
       "contact": 1,
+      "mirror": 1,
       "protect": 1
     },
     "type": "Electric",
@@ -10605,8 +10606,8 @@ exports.BattleMovedex = {
     "pp": 20,
     "priority": 0,
     "flags": {
-      "protect": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Bug",
     "target": "normal",
@@ -10622,8 +10623,8 @@ exports.BattleMovedex = {
     "pp": 5,
     "priority": 0,
     "flags": {
-      "mirror": 1,
       "contact": 1,
+      "mirror": 1,
       "protect": 1
     },
     "type": "Fighting",
@@ -10657,8 +10658,8 @@ exports.BattleMovedex = {
     "pp": 5,
     "priority": 0,
     "flags": {
-      "protect": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Ground",
     "target": "allAdjacentFoes",
@@ -10674,8 +10675,8 @@ exports.BattleMovedex = {
     "pp": 5,
     "priority": 0,
     "flags": {
-      "protect": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Ground",
     "target": "allAdjacentFoes",
@@ -10708,9 +10709,9 @@ exports.BattleMovedex = {
     "pp": 10,
     "priority": 0,
     "flags": {
-      "sound": 1,
+      "mirror": 1,
       "protect": 1,
-      "mirror": 1
+      "sound": 1
     },
     "type": "Fairy",
     "target": "normal",
@@ -10726,8 +10727,8 @@ exports.BattleMovedex = {
     "pp": 10,
     "priority": 0,
     "flags": {
-      "protect": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Water",
     "target": "allAdjacentFoes",
@@ -10744,8 +10745,8 @@ exports.BattleMovedex = {
     "priority": 0,
     "flags": {
       "defrost": 1,
-      "protect": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Ground",
     "target": "allAdjacentFoes",
@@ -10761,9 +10762,9 @@ exports.BattleMovedex = {
     "pp": 5,
     "priority": 0,
     "flags": {
-      "protect": 1,
       "contact": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Dragon",
     "target": "normal",
@@ -10779,9 +10780,9 @@ exports.BattleMovedex = {
     "pp": 5,
     "priority": 0,
     "flags": {
+      "bypasssub": 1,
       "contact": 1,
-      "mirror": 1,
-      "bypasssub": 1
+      "mirror": 1
     },
     "type": "Dark",
     "target": "normal",
@@ -11050,8 +11051,8 @@ exports.BattleMovedex = {
     "pp": 1,
     "priority": 0,
     "flags": {
-      "sound": 1,
-      "contact": 1
+      "contact": 1,
+      "sound": 1
     },
     "type": "Fairy",
     "target": "normal",
@@ -11099,8 +11100,8 @@ exports.BattleMovedex = {
     "pp": 10,
     "priority": 4,
     "flags": {
-      "mirror": 1,
-      "contact": 1
+      "contact": 1,
+      "mirror": 1
     },
     "type": "Bug",
     "target": "normal",
@@ -11130,8 +11131,8 @@ exports.BattleMovedex = {
     "pp": 5,
     "priority": 0,
     "flags": {
-      "protect": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Ghost",
     "target": "normal",
@@ -11147,8 +11148,8 @@ exports.BattleMovedex = {
     "pp": 10,
     "priority": 0,
     "flags": {
-      "mirror": 1,
       "contact": 1,
+      "mirror": 1,
       "protect": 1
     },
     "type": "Dark",
@@ -11165,9 +11166,9 @@ exports.BattleMovedex = {
     "pp": 10,
     "priority": 0,
     "flags": {
+      "bypasssub": 1,
       "mirror": 1,
-      "protect": 1,
-      "bypasssub": 1
+      "protect": 1
     },
     "type": "Water",
     "target": "allAdjacentFoes",
@@ -11183,9 +11184,9 @@ exports.BattleMovedex = {
     "pp": 10,
     "priority": 0,
     "flags": {
+      "contact": 1,
       "mirror": 1,
-      "protect": 1,
-      "contact": 1
+      "protect": 1
     },
     "type": "Ice",
     "target": "normal",
@@ -11201,8 +11202,8 @@ exports.BattleMovedex = {
     "pp": 5,
     "priority": 0,
     "flags": {
-      "reflectable": 1,
-      "protect": 1
+      "protect": 1,
+      "reflectable": 1
     },
     "type": "Grass",
     "target": "self",
@@ -11218,9 +11219,9 @@ exports.BattleMovedex = {
     "pp": 10,
     "priority": 0,
     "flags": {
-      "protect": 1,
+      "contact": 1,
       "mirror": 1,
-      "contact": 1
+      "protect": 1
     },
     "type": "Ground",
     "target": "normal",
@@ -11237,8 +11238,8 @@ exports.BattleMovedex = {
     "priority": 0,
     "flags": {
       "mirror": 1,
-      "reflectable": 1,
-      "protect": 1
+      "protect": 1,
+      "reflectable": 1
     },
     "type": "Grass",
     "target": "normal",
@@ -11254,10 +11255,10 @@ exports.BattleMovedex = {
     "pp": 10,
     "priority": 0,
     "flags": {
-      "protect": 1,
+      "charge": 1,
       "contact": 1,
       "mirror": 1,
-      "charge": 1
+      "protect": 1
     },
     "type": "Grass",
     "target": "normal",
@@ -11273,8 +11274,8 @@ exports.BattleMovedex = {
     "pp": 25,
     "priority": 1,
     "flags": {
-      "mirror": 1,
       "contact": 1,
+      "mirror": 1,
       "protect": 1
     },
     "type": "Grass",
@@ -11308,9 +11309,9 @@ exports.BattleMovedex = {
     "pp": 20,
     "priority": 0,
     "flags": {
-      "reflectable": 1,
+      "mirror": 1,
       "protect": 1,
-      "mirror": 1
+      "reflectable": 1
     },
     "type": "Poison",
     "target": "normal",
@@ -11359,9 +11360,9 @@ exports.BattleMovedex = {
     "pp": 10,
     "priority": 0,
     "flags": {
-      "protect": 1,
       "contact": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Dark",
     "target": "normal",
@@ -11378,8 +11379,8 @@ exports.BattleMovedex = {
     "priority": 0,
     "flags": {
       "heal": 1,
-      "protect": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Bug",
     "target": "normal",
@@ -11395,9 +11396,9 @@ exports.BattleMovedex = {
     "pp": 5,
     "priority": 0,
     "flags": {
-      "protect": 1,
       "contact": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Steel",
     "target": "normal",
@@ -11427,9 +11428,9 @@ exports.BattleMovedex = {
     "pp": 10,
     "priority": 0,
     "flags": {
-      "protect": 1,
+      "contact": 1,
       "mirror": 1,
-      "contact": 1
+      "protect": 1
     },
     "type": "Bug",
     "target": "normal",
@@ -11445,10 +11446,10 @@ exports.BattleMovedex = {
     "pp": 10,
     "priority": 0,
     "flags": {
-      "protect": 1,
-      "defrost": 1,
       "contact": 1,
-      "mirror": 1
+      "defrost": 1,
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Fire",
     "target": "normal",
@@ -11482,10 +11483,10 @@ exports.BattleMovedex = {
     "pp": 5,
     "priority": 0,
     "flags": {
-      "mirror": 1,
-      "protect": 1,
       "defrost": 1,
-      "heal": 1
+      "heal": 1,
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Fire",
     "target": "normal",
@@ -11501,9 +11502,9 @@ exports.BattleMovedex = {
     "pp": 10,
     "priority": 4,
     "flags": {
-      "protect": 1,
       "bypasssub": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Psychic",
     "target": "normal",
@@ -11519,9 +11520,9 @@ exports.BattleMovedex = {
     "pp": 15,
     "priority": 0,
     "flags": {
-      "protect": 1,
+      "contact": 1,
       "mirror": 1,
-      "contact": 1
+      "protect": 1
     },
     "type": "Steel",
     "target": "normal",
@@ -11537,8 +11538,8 @@ exports.BattleMovedex = {
     "pp": 20,
     "priority": 4,
     "flags": {
-      "reflectable": 1,
-      "protect": 1
+      "protect": 1,
+      "reflectable": 1
     },
     "type": "Grass",
     "target": "normal",
@@ -11554,8 +11555,8 @@ exports.BattleMovedex = {
     "pp": 10,
     "priority": 0,
     "flags": {
-      "protect": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Normal",
     "target": "normal",
@@ -11571,8 +11572,8 @@ exports.BattleMovedex = {
     "pp": 5,
     "priority": 0,
     "flags": {
-      "protect": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Dragon",
     "target": "allAdjacentFoes",
@@ -11623,8 +11624,8 @@ exports.BattleMovedex = {
     "pp": 10,
     "priority": -4,
     "flags": {
-      "protect": 1,
-      "defrost": 1
+      "defrost": 1,
+      "protect": 1
     },
     "type": "Flying",
     "target": "normal",
@@ -11640,10 +11641,10 @@ exports.BattleMovedex = {
     "pp": 5,
     "priority": 0,
     "flags": {
-      "punch": 1,
+      "bypasssub": 1,
       "mirror": 1,
       "protect": 1,
-      "bypasssub": 1
+      "punch": 1
     },
     "type": "Dragon",
     "target": "allAdjacentFoes",
@@ -11677,8 +11678,8 @@ exports.BattleMovedex = {
     "pp": 15,
     "priority": 1,
     "flags": {
-      "protect": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Dark",
     "target": "normal",
@@ -11710,8 +11711,8 @@ exports.BattleMovedex = {
     "pp": 1,
     "priority": 0,
     "flags": {
-      "contact": 1,
-      "bypasssub": 1
+      "bypasssub": 1,
+      "contact": 1
     },
     "type": "Ghost",
     "target": "normal",
@@ -11867,9 +11868,9 @@ exports.BattleMovedex = {
     "pp": 5,
     "priority": 0,
     "flags": {
-      "sound": 1,
+      "mirror": 1,
       "protect": 1,
-      "mirror": 1
+      "sound": 1
     },
     "type": "Fairy",
     "target": "normal",
@@ -11885,9 +11886,9 @@ exports.BattleMovedex = {
     "pp": 15,
     "priority": 0,
     "flags": {
-      "protect": 1,
       "contact": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Psychic",
     "target": "normal",
@@ -11937,9 +11938,9 @@ exports.BattleMovedex = {
     "pp": 20,
     "priority": 1,
     "flags": {
-      "protect": 1,
       "contact": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Rock",
     "target": "normal",
@@ -11956,8 +11957,8 @@ exports.BattleMovedex = {
     "priority": 0,
     "flags": {
       "contact": 1,
-      "protect": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Water",
     "target": "normal",
@@ -11973,9 +11974,9 @@ exports.BattleMovedex = {
     "pp": 3,
     "priority": 0,
     "flags": {
+      "mirror": 1,
       "protect": 1,
-      "sound": 1,
-      "mirror": 1
+      "sound": 1
     },
     "type": "Fairy",
     "target": "normal",
@@ -11991,10 +11992,10 @@ exports.BattleMovedex = {
     "pp": 5,
     "priority": 0,
     "flags": {
-      "mirror": 1,
-      "protect": 1,
+      "bypasssub": 1,
       "contact": 1,
-      "bypasssub": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Ghost",
     "target": "normal",
@@ -12010,10 +12011,10 @@ exports.BattleMovedex = {
     "pp": 5,
     "priority": 0,
     "flags": {
+      "contact": 1,
       "defrost": 1,
       "mirror": 1,
-      "protect": 1,
-      "contact": 1
+      "protect": 1
     },
     "type": "Fire",
     "target": "normal",
@@ -12029,8 +12030,8 @@ exports.BattleMovedex = {
     "pp": 5,
     "priority": 0,
     "flags": {
-      "protect": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Ghost",
     "target": "normal",
@@ -12046,8 +12047,8 @@ exports.BattleMovedex = {
     "pp": 10,
     "priority": 0,
     "flags": {
-      "reflectable": 1,
-      "mirror": 1
+      "mirror": 1,
+      "reflectable": 1
     },
     "type": "Normal",
     "target": "normal",
@@ -12081,8 +12082,8 @@ exports.BattleMovedex = {
     "pp": 1,
     "priority": 4,
     "flags": {
-      "protect": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Psychic",
     "target": "normal",
@@ -12099,8 +12100,8 @@ exports.BattleMovedex = {
     "priority": 0,
     "flags": {
       "contact": 1,
-      "protect": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Normal",
     "target": "normal",
@@ -12130,9 +12131,9 @@ exports.BattleMovedex = {
     "pp": 2,
     "priority": 0,
     "flags": {
-      "protect": 1,
+      "defrost": 1,
       "mirror": 1,
-      "defrost": 1
+      "protect": 1
     },
     "type": "Fire",
     "target": "allAdjacent",
@@ -12148,8 +12149,8 @@ exports.BattleMovedex = {
     "pp": 5,
     "priority": 0,
     "flags": {
-      "mirror": 1,
       "defrost": 1,
+      "mirror": 1,
       "protect": 1
     },
     "type": "Electric",
@@ -12166,8 +12167,8 @@ exports.BattleMovedex = {
     "pp": 5,
     "priority": 0,
     "flags": {
-      "protect": 1,
-      "mirror": 1
+      "mirror": 1,
+      "protect": 1
     },
     "type": "Dark",
     "target": "normal",

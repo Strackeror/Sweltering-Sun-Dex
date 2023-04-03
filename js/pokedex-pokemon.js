@@ -133,6 +133,7 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
 						buf += '<div><a href="/pokemon/'+template.id+'" data-target="replace">'+name+'</a></div>';
 					}
 				}
+				if (template.name == 'Porygon-Z') break; // Porygon has an infinite evo loop in sweltering sun
 				evos = template.evos;
 			}
 			buf += '</td></tr></table>';
