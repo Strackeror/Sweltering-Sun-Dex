@@ -804,7 +804,8 @@ exports.BattleMovedex = {
       "bypasssub": 1,
       "mirror": 1,
       "protect": 1,
-      "reflectable": 1
+      "reflectable": 1,
+      "sound": 1
     },
     "type": "Normal",
     "target": "allAdjacentFoes",
@@ -822,7 +823,8 @@ exports.BattleMovedex = {
     "flags": {
       "bypasssub": 1,
       "mirror": 1,
-      "reflectable": 1
+      "reflectable": 1,
+      "sound": 1
     },
     "type": "Dark",
     "target": "normal",
@@ -841,7 +843,8 @@ exports.BattleMovedex = {
       "bypasssub": 1,
       "mirror": 1,
       "protect": 1,
-      "reflectable": 1
+      "reflectable": 1,
+      "sound": 1
     },
     "type": "Normal",
     "target": "normal",
@@ -860,7 +863,8 @@ exports.BattleMovedex = {
       "bypasssub": 1,
       "mirror": 1,
       "protect": 1,
-      "reflectable": 1
+      "reflectable": 1,
+      "sound": 1
     },
     "type": "Normal",
     "target": "normal",
@@ -1817,7 +1821,8 @@ exports.BattleMovedex = {
       "bypasssub": 1,
       "mirror": 1,
       "protect": 1,
-      "reflectable": 1
+      "reflectable": 1,
+      "sound": 1
     },
     "type": "Normal",
     "target": "allAdjacentFoes",
@@ -3022,7 +3027,7 @@ exports.BattleMovedex = {
       "bypasssub": 1,
       "mirror": 1,
       "protect": 1,
-      "punch": 1
+      "sound": 1
     },
     "type": "Normal",
     "target": "normal",
@@ -3093,7 +3098,7 @@ exports.BattleMovedex = {
       "bypasssub": 1,
       "mirror": 1,
       "protect": 1,
-      "punch": 1
+      "sound": 1
     },
     "type": "Flying",
     "target": "normal",
@@ -3402,7 +3407,8 @@ exports.BattleMovedex = {
     "pp": 5,
     "priority": 0,
     "flags": {
-      "bypasssub": 1
+      "bypasssub": 1,
+      "sound": 1
     },
     "type": "Dark",
     "target": "normal",
@@ -3744,7 +3750,8 @@ exports.BattleMovedex = {
     "priority": 0,
     "flags": {
       "bypasssub": 1,
-      "snatch": 1
+      "snatch": 1,
+      "sound": 1
     },
     "type": "Fighting",
     "target": "normal",
@@ -4401,7 +4408,7 @@ exports.BattleMovedex = {
       "bypasssub": 1,
       "mirror": 1,
       "protect": 1,
-      "punch": 1
+      "sound": 1
     },
     "type": "Fighting",
     "target": "allAdjacentFoes",
@@ -5266,7 +5273,7 @@ exports.BattleMovedex = {
       "bypasssub": 1,
       "mirror": 1,
       "protect": 1,
-      "punch": 1
+      "sound": 1
     },
     "type": "Normal",
     "target": "allAdjacentFoes",
@@ -5533,7 +5540,8 @@ exports.BattleMovedex = {
       "bypasssub": 1,
       "mirror": 1,
       "protect": 1,
-      "reflectable": 1
+      "reflectable": 1,
+      "sound": 1
     },
     "type": "Steel",
     "target": "normal",
@@ -5552,7 +5560,8 @@ exports.BattleMovedex = {
       "bypasssub": 1,
       "mirror": 1,
       "protect": 1,
-      "reflectable": 1
+      "reflectable": 1,
+      "sound": 1
     },
     "type": "Grass",
     "target": "normal",
@@ -7020,7 +7029,7 @@ exports.BattleMovedex = {
       "bypasssub": 1,
       "mirror": 1,
       "protect": 1,
-      "punch": 1
+      "sound": 1
     },
     "type": "Bug",
     "target": "allAdjacentFoes",
@@ -7773,7 +7782,7 @@ exports.BattleMovedex = {
       "bypasssub": 1,
       "mirror": 1,
       "protect": 1,
-      "punch": 1
+      "sound": 1
     },
     "type": "Normal",
     "target": "allAdjacentFoes",
@@ -8408,7 +8417,7 @@ exports.BattleMovedex = {
       "bypasssub": 1,
       "mirror": 1,
       "protect": 1,
-      "punch": 1
+      "sound": 1
     },
     "type": "Normal",
     "target": "allAdjacent",
@@ -8602,7 +8611,7 @@ exports.BattleMovedex = {
       "bypasssub": 1,
       "mirror": 1,
       "protect": 1,
-      "punch": 1
+      "sound": 1
     },
     "type": "Normal",
     "target": "allAdjacentFoes",
@@ -8621,7 +8630,7 @@ exports.BattleMovedex = {
       "bypasssub": 1,
       "mirror": 1,
       "protect": 1,
-      "punch": 1
+      "sound": 1
     },
     "type": "Normal",
     "target": "allAdjacentFoes",
@@ -9490,7 +9499,7 @@ exports.BattleMovedex = {
       "bypasssub": 1,
       "mirror": 1,
       "protect": 1,
-      "punch": 1
+      "sound": 1
     },
     "type": "Normal",
     "target": "allAdjacentFoes",
@@ -9635,7 +9644,7 @@ exports.BattleMovedex = {
       "bypasssub": 1,
       "mirror": 1,
       "protect": 1,
-      "punch": 1
+      "sound": 1
     },
     "type": "Dark",
     "target": "allAdjacentFoes",
@@ -9759,7 +9768,7 @@ exports.BattleMovedex = {
     "flags": {
       "bypasssub": 1,
       "protect": 1,
-      "punch": 1
+      "sound": 1
     },
     "type": "Poison",
     "target": "normal",
@@ -9866,7 +9875,8 @@ exports.BattleMovedex = {
       "bypasssub": 1,
       "mirror": 1,
       "protect": 1,
-      "reflectable": 1
+      "reflectable": 1,
+      "sound": 1
     },
     "type": "Fighting",
     "target": "allAdjacentFoes",
@@ -9968,7 +9978,6 @@ exports.BattleMovedex = {
       "bypasssub": 1,
       "mirror": 1,
       "protect": 1,
-      "punch": 1,
       "sound": 1
     },
     "type": "Fairy",
@@ -9988,7 +9997,8 @@ exports.BattleMovedex = {
       "bypasssub": 1,
       "mirror": 1,
       "protect": 1,
-      "reflectable": 1
+      "reflectable": 1,
+      "sound": 1
     },
     "type": "Dark",
     "target": "normal",
@@ -10178,7 +10188,7 @@ exports.BattleMovedex = {
       "bypasssub": 1,
       "mirror": 1,
       "protect": 1,
-      "punch": 1
+      "sound": 1
     },
     "type": "Normal",
     "target": "allAdjacentFoes",
@@ -10246,7 +10256,8 @@ exports.BattleMovedex = {
     "flags": {
       "bypasssub": 1,
       "mirror": 1,
-      "reflectable": 1
+      "reflectable": 1,
+      "sound": 1
     },
     "type": "Dark",
     "target": "normal",
@@ -11644,7 +11655,7 @@ exports.BattleMovedex = {
       "bypasssub": 1,
       "mirror": 1,
       "protect": 1,
-      "punch": 1
+      "sound": 1
     },
     "type": "Dragon",
     "target": "allAdjacentFoes",
@@ -12261,7 +12272,7 @@ exports.BattleMovedex = {
     "priority": 0,
     "flags": {
       "bypasssub": 1,
-      "punch": 1
+      "sound": 1
     },
     "type": "Dragon",
     "target": "allAdjacentFoes",
