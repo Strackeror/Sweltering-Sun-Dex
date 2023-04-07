@@ -250,18 +250,13 @@ var PokedexTagPanel = PokedexResultPanel.extend({
 		},
 		sound: {
 			name: 'Sound',
-			tag: 'sound',
-			desc: 'Bypasses <a href="/moves/substitute" data-target="push">Substitute</a>. Doesn\'t affect <a href="/abilities/soundproof" data-target="push">Soundproof</a> Pok&eacute;mon.'
+			tag: 'punch',
+			desc: 'Boosted by <a href="/abilities/amplifier" data-target="push">Amplifier</a> Pok&eacute;mon.'
 		},
 		powder: {
 			name: 'Powder',
 			tag: 'powder',
 			desc: 'Doesn\'t affect <a href="/types/grass" data-target="push">Grass-type</a> Pok&eacute;mon, <a href="/abilities/overcoat" data-target="push">Overcoat</a> Pok&eacute;mon, or <a href="/items/safetygoggles" data-target="push">Safety Goggles</a> holders.'
-		},
-		fist: {
-			name: 'Fist',
-			tag: 'punch',
-			desc: 'Boosted 1.2x by <a href="/abilities/ironfist" data-target="push">Iron Fist</a>.'
 		},
 		pulse: {
 			name: 'Pulse',
@@ -837,3 +832,5 @@ var PokedexArticlePanel = PokedexResultPanel.extend({
 		});
 	}
 });
+
+patch(BattleAbilities, BattleLearnsets, BattleMovedex, BattlePokedex)

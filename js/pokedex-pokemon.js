@@ -2,6 +2,9 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
 	initialize: function(id) {
 		id = toID(id);
 		var pokemon = Dex.species.get(id);
+		if (BattlePokedex[id].spriteId) {
+			pokemon.spriteid = BattlePokedex[id].spriteId
+		}
 		this.id = id;
 		this.shortTitle = pokemon.baseSpecies;
 

@@ -96756,6 +96756,9 @@ exports.BattleLearnsets = {
       "weatherball": [
         "9M"
       ],
+      "earthquake": [
+        "9M"
+      ],
       "hiddenpower": [
         "9M"
       ],
@@ -96813,6 +96816,9 @@ exports.BattleLearnsets = {
       "bulkup": [
         "9M"
       ],
+      "gigaimpact": [
+        "9M"
+      ],
       "sandstorm": [
         "9M"
       ],
@@ -96843,6 +96849,9 @@ exports.BattleLearnsets = {
       "rage": [
         "9M"
       ],
+      "strength": [
+        "9M"
+      ],
       "stoneedge": [
         "9M"
       ],
@@ -96867,7 +96876,7 @@ exports.BattleLearnsets = {
       "zenheadbutt": [
         "9T"
       ],
-      "snore": [
+      "irontail": [
         "9T"
       ],
       "synthesis": [
@@ -96889,6 +96898,9 @@ exports.BattleLearnsets = {
         "9T"
       ],
       "stompingtantrum": [
+        "9T"
+      ],
+      "hellthrust": [
         "9T"
       ]
     }
@@ -179610,67 +179622,94 @@ exports.BattleLearnsets = {
       "jaggedfangs": [
         "9L25"
       ],
-      "weatherball": [
+      "workup": [
+        "9M"
+      ],
+      "takedown": [
+        "9M"
+      ],
+      "psychicfangs": [
+        "9M"
+      ],
+      "icefang": [
         "9M"
       ],
       "hiddenpower": [
         "9M"
       ],
-      "nastyplot": [
+      "firefang": [
         "9M"
       ],
       "rest": [
         "9M"
       ],
-      "lightscreen": [
-        "9M"
-      ],
       "sleeptalk": [
         "9M"
       ],
-      "sunnyday": [
+      "rocktomb": [
         "9M"
       ],
-      "solarbeam": [
+      "rockslide": [
         "9M"
       ],
-      "energyball": [
+      "retaliate": [
         "9M"
       ],
-      "grassyterrain": [
-        "9M"
-      ],
-      "reflect": [
+      "swordsdance": [
         "9M"
       ],
       "substitute": [
         "9M"
       ],
+      "taunt": [
+        "9M"
+      ],
       "agility": [
+        "9M"
+      ],
+      "suckerpunch": [
         "9M"
       ],
       "endure": [
         "9M"
       ],
-      "aurasphere": [
+      "smartstrike": [
+        "9M"
+      ],
+      "honeclaws": [
+        "9M"
+      ],
+      "partingshot": [
         "9M"
       ],
       "playrough": [
         "9M"
       ],
-      "gigaimpact": [
-        "9M"
-      ],
-      "acrobatics": [
+      "sandstorm": [
         "9M"
       ],
       "naturalgift": [
         "9M"
       ],
-      "calmmind": [
+      "rockpolish": [
         "9M"
       ],
-      "naturepower": [
+      "poisonfang": [
+        "9M"
+      ],
+      "thunderfang": [
+        "9M"
+      ],
+      "rockclimb": [
+        "9M"
+      ],
+      "wildcharge": [
+        "9M"
+      ],
+      "lunge": [
+        "9M"
+      ],
+      "rage": [
         "9M"
       ],
       "uturn": [
@@ -179679,67 +179718,58 @@ exports.BattleLearnsets = {
       "hyperbeam": [
         "9M"
       ],
-      "psychic": [
+      "strength": [
         "9M"
       ],
-      "roost": [
+      "stoneedge": [
         "9M"
       ],
-      "dazzlinggleam": [
-        "9M"
-      ],
-      "hurricane": [
-        "9M"
-      ],
-      "focusblast": [
+      "firstimpression": [
         "9M"
       ],
       "protect": [
         "9M"
       ],
-      "bugbiting": [
-        "9T"
-      ],
       "covet": [
         "9T"
       ],
-      "signalbeam": [
+      "ironhead": [
+        "9T"
+      ],
+      "earthpower": [
+        "9T"
+      ],
+      "irondefense": [
         "9T"
       ],
       "lastresort": [
         "9T"
       ],
-      "tailwind": [
+      "zenheadbutt": [
         "9T"
       ],
-      "gigadrain": [
+      "hypervoice": [
         "9T"
       ],
-      "afteryou": [
+      "irontail": [
         "9T"
       ],
-      "helpinghand": [
+      "snore": [
         "9T"
       ],
-      "trick": [
+      "knockoff": [
         "9T"
       ],
-      "magicroom": [
+      "endeavor": [
         "9T"
       ],
-      "wonderroom": [
+      "stealthrock": [
         "9T"
       ],
-      "skillswap": [
+      "stompingtantrum": [
         "9T"
       ],
-      "telekinesis": [
-        "9T"
-      ],
-      "allyswitch": [
-        "9T"
-      ],
-      "defog": [
+      "laserfocus": [
         "9T"
       ]
     }
@@ -220688,57 +220718,95 @@ exports.BattleLearnsets = {
   },
   "zygarde10": {
     "learnset": {
+      "recover": [
+        "9L1"
+      ],
+      "haze": [
+        "9L1"
+      ],
       "glare": [
         "9L1"
       ],
-      "bulldoze": [
-        "9L1"
-      ],
-      "dragonbreath": [
-        "9L1"
-      ],
-      "jaggedfangs": [
-        "9L1"
-      ],
-      "safeguard": [
+      "twister": [
         "9L5"
       ],
-      "dig": [
+      "breakingswipe": [
         "9L10"
       ],
-      "bind": [
-        "9L18",
-        "9T"
+      "dragonbreath": [
+        "9L15"
       ],
-      "landswrath": [
-        "9L26"
+      "finishingblow": [
+        "9L20"
       ],
-      "sandstorm": [
-        "9L35"
+      "hyperspeed": [
+        "9L25"
       ],
-      "haze": [
-        "9L44"
+      "jaggedfangs": [
+        "9L30"
       ],
       "crunch": [
-        "9L51"
+        "9L30"
       ],
-      "earthquake": [
-        "9L55",
-        "9M"
+      "extremespeed": [
+        "9L35"
       ],
       "camouflage": [
-        "9L59"
+        "9L40"
       ],
-      "dragonpulse": [
-        "9L63",
-        "9T"
+      "landswrath": [
+        "9L45"
       ],
-      "coil": [
-        "9L72"
+      "powerglow": [
+        "9L50"
       ],
-      "outrage": [
-        "9L80",
-        "9T"
+      "doubleedge": [
+        "9L52"
+      ],
+      "acclimate": [
+        "9L54"
+      ],
+      "dragonrush": [
+        "9L56"
+      ],
+      "headlongrush": [
+        "9L56"
+      ],
+      "drakonicbeam": [
+        "9L58"
+      ],
+      "boomburst": [
+        "9L60"
+      ],
+      "drakonicwave": [
+        "9L60"
+      ],
+      "thousandwaves": [
+        "9L60"
+      ],
+      "thousandarrows": [
+        "9L65"
+      ],
+      "coreenforcer": [
+        "9L70"
+      ],
+      "workup": [
+        "9M"
+      ],
+      "dragondance": [
+        "9M"
+      ],
+      "takedown": [
+        "9M"
+      ],
+      "psychicfangs": [
+        "9M"
+      ],
+      "weatherball": [
+        "9M"
+      ],
+      "earthquake": [
+        "9M"
       ],
       "hiddenpower": [
         "9M"
@@ -220746,7 +220814,13 @@ exports.BattleLearnsets = {
       "firefang": [
         "9M"
       ],
+      "nastyplot": [
+        "9M"
+      ],
       "rest": [
+        "9M"
+      ],
+      "lightscreen": [
         "9M"
       ],
       "sleeptalk": [
@@ -220758,40 +220832,73 @@ exports.BattleLearnsets = {
       "solarbeam": [
         "9M"
       ],
-      "thunderbolt": [
+      "energyball": [
         "9M"
       ],
-      "solarblade": [
+      "rocktomb": [
+        "9M"
+      ],
+      "rockslide": [
+        "9M"
+      ],
+      "retaliate": [
+        "9M"
+      ],
+      "swordsdance": [
         "9M"
       ],
       "grassyterrain": [
         "9M"
       ],
-      "scorchingsands": [
+      "reflect": [
         "9M"
       ],
       "sludgebomb": [
         "9M"
       ],
-      "chargebeam": [
+      "closecombat": [
         "9M"
       ],
-      "willowisp": [
+      "sludgewave": [
+        "9M"
+      ],
+      "substitute": [
+        "9M"
+      ],
+      "taunt": [
         "9M"
       ],
       "agility": [
         "9M"
       ],
-      "ominouswind": [
+      "grassknot": [
+        "9M"
+      ],
+      "endure": [
         "9M"
       ],
       "aurasphere": [
         "9M"
       ],
+      "darkpulse": [
+        "9M"
+      ],
+      "partingshot": [
+        "9M"
+      ],
+      "playrough": [
+        "9M"
+      ],
       "gigaimpact": [
         "9M"
       ],
-      "voltswitch": [
+      "sandstorm": [
+        "9M"
+      ],
+      "naturalgift": [
+        "9M"
+      ],
+      "poisonfang": [
         "9M"
       ],
       "thunderfang": [
@@ -220803,20 +220910,50 @@ exports.BattleLearnsets = {
       "lunge": [
         "9M"
       ],
-      "naturepower": [
+      "bulldoze": [
         "9M"
       ],
-      "hex": [
+      "calmmind": [
+        "9M"
+      ],
+      "naturepower": [
         "9M"
       ],
       "rage": [
         "9M"
       ],
+      "uturn": [
+        "9M"
+      ],
       "hyperbeam": [
+        "9M"
+      ],
+      "strength": [
+        "9M"
+      ],
+      "stoneedge": [
+        "9M"
+      ],
+      "firstimpression": [
+        "9M"
+      ],
+      "shadowball": [
+        "9M"
+      ],
+      "focusblast": [
         "9M"
       ],
       "protect": [
         "9M"
+      ],
+      "dracojet": [
+        "9T"
+      ],
+      "signalbeam": [
+        "9T"
+      ],
+      "gunkshot": [
+        "9T"
       ],
       "block": [
         "9T"
@@ -220830,10 +220967,16 @@ exports.BattleLearnsets = {
       "zenheadbutt": [
         "9T"
       ],
+      "dragonpulse": [
+        "9T"
+      ],
       "hypervoice": [
         "9T"
       ],
       "irontail": [
+        "9T"
+      ],
+      "bind": [
         "9T"
       ],
       "snore": [
@@ -220842,13 +220985,308 @@ exports.BattleLearnsets = {
       "painsplit": [
         "9T"
       ],
+      "gigadrain": [
+        "9T"
+      ],
       "shockwave": [
         "9T"
       ],
       "spitefulspell": [
         "9T"
       ],
+      "outrage": [
+        "9T"
+      ],
+      "stealthrock": [
+        "9T"
+      ],
       "stompingtantrum": [
+        "9T"
+      ],
+      "hellthrust": [
+        "9T"
+      ]
+    }
+  },
+  "zygarde50": {
+    "learnset": {
+      "recover": [
+        "9L1"
+      ],
+      "haze": [
+        "9L1"
+      ],
+      "glare": [
+        "9L1"
+      ],
+      "twister": [
+        "9L5"
+      ],
+      "breakingswipe": [
+        "9L10"
+      ],
+      "dragonbreath": [
+        "9L15"
+      ],
+      "finishingblow": [
+        "9L20"
+      ],
+      "hyperspeed": [
+        "9L25"
+      ],
+      "dragontail": [
+        "9L30"
+      ],
+      "extremespeed": [
+        "9L35"
+      ],
+      "camouflage": [
+        "9L40"
+      ],
+      "coil": [
+        "9L45"
+      ],
+      "landswrath": [
+        "9L45"
+      ],
+      "powerglow": [
+        "9L50"
+      ],
+      "doubleedge": [
+        "9L52"
+      ],
+      "acclimate": [
+        "9L54"
+      ],
+      "dragonrush": [
+        "9L56"
+      ],
+      "headlongrush": [
+        "9L56"
+      ],
+      "drakonicbeam": [
+        "9L58"
+      ],
+      "boomburst": [
+        "9L60"
+      ],
+      "drakonicwave": [
+        "9L60"
+      ],
+      "thousandwaves": [
+        "9L60"
+      ],
+      "thousandarrows": [
+        "9L65"
+      ],
+      "coreenforcer": [
+        "9L70"
+      ],
+      "workup": [
+        "9M"
+      ],
+      "dragondance": [
+        "9M"
+      ],
+      "takedown": [
+        "9M"
+      ],
+      "weatherball": [
+        "9M"
+      ],
+      "earthquake": [
+        "9M"
+      ],
+      "hiddenpower": [
+        "9M"
+      ],
+      "nastyplot": [
+        "9M"
+      ],
+      "rest": [
+        "9M"
+      ],
+      "lightscreen": [
+        "9M"
+      ],
+      "sleeptalk": [
+        "9M"
+      ],
+      "sunnyday": [
+        "9M"
+      ],
+      "solarbeam": [
+        "9M"
+      ],
+      "energyball": [
+        "9M"
+      ],
+      "rocktomb": [
+        "9M"
+      ],
+      "rockslide": [
+        "9M"
+      ],
+      "retaliate": [
+        "9M"
+      ],
+      "swordsdance": [
+        "9M"
+      ],
+      "grassyterrain": [
+        "9M"
+      ],
+      "reflect": [
+        "9M"
+      ],
+      "sludgebomb": [
+        "9M"
+      ],
+      "closecombat": [
+        "9M"
+      ],
+      "sludgewave": [
+        "9M"
+      ],
+      "substitute": [
+        "9M"
+      ],
+      "taunt": [
+        "9M"
+      ],
+      "grassknot": [
+        "9M"
+      ],
+      "endure": [
+        "9M"
+      ],
+      "aurasphere": [
+        "9M"
+      ],
+      "brickbreak": [
+        "9M"
+      ],
+      "darkpulse": [
+        "9M"
+      ],
+      "partingshot": [
+        "9M"
+      ],
+      "gigaimpact": [
+        "9M"
+      ],
+      "sandstorm": [
+        "9M"
+      ],
+      "naturalgift": [
+        "9M"
+      ],
+      "rockclimb": [
+        "9M"
+      ],
+      "lunge": [
+        "9M"
+      ],
+      "bulldoze": [
+        "9M"
+      ],
+      "calmmind": [
+        "9M"
+      ],
+      "naturepower": [
+        "9M"
+      ],
+      "rage": [
+        "9M"
+      ],
+      "uturn": [
+        "9M"
+      ],
+      "hyperbeam": [
+        "9M"
+      ],
+      "strength": [
+        "9M"
+      ],
+      "psychic": [
+        "9M"
+      ],
+      "stoneedge": [
+        "9M"
+      ],
+      "firstimpression": [
+        "9M"
+      ],
+      "shadowball": [
+        "9M"
+      ],
+      "focusblast": [
+        "9M"
+      ],
+      "protect": [
+        "9M"
+      ],
+      "dracojet": [
+        "9T"
+      ],
+      "signalbeam": [
+        "9T"
+      ],
+      "gunkshot": [
+        "9T"
+      ],
+      "block": [
+        "9T"
+      ],
+      "earthpower": [
+        "9T"
+      ],
+      "superpower": [
+        "9T"
+      ],
+      "zenheadbutt": [
+        "9T"
+      ],
+      "dragonpulse": [
+        "9T"
+      ],
+      "hypervoice": [
+        "9T"
+      ],
+      "irontail": [
+        "9T"
+      ],
+      "bind": [
+        "9T"
+      ],
+      "snore": [
+        "9T"
+      ],
+      "painsplit": [
+        "9T"
+      ],
+      "gigadrain": [
+        "9T"
+      ],
+      "shockwave": [
+        "9T"
+      ],
+      "endeavor": [
+        "9T"
+      ],
+      "outrage": [
+        "9T"
+      ],
+      "stealthrock": [
+        "9T"
+      ],
+      "stompingtantrum": [
+        "9T"
+      ],
+      "hellthrust": [
+        "9T"
+      ],
+      "laserfocus": [
         "9T"
       ]
     }
@@ -221020,7 +221458,7 @@ exports.BattleLearnsets = {
       ]
     }
   },
-  "miniormeteor": {
+  "miniorred": {
     "learnset": {
       "cosmicchaos": [
         "9L1"
@@ -221062,6 +221500,1110 @@ exports.BattleLearnsets = {
         "9L55"
       ],
       "subspacetear": [
+        "9L60"
+      ],
+      "shellsmash": [
+        "9L65"
+      ],
+      "psychicfangs": [
+        "9M"
+      ],
+      "earthquake": [
+        "9M"
+      ],
+      "hiddenpower": [
+        "9M"
+      ],
+      "rest": [
+        "9M"
+      ],
+      "lightscreen": [
+        "9M"
+      ],
+      "sleeptalk": [
+        "9M"
+      ],
+      "sunnyday": [
+        "9M"
+      ],
+      "solarbeam": [
+        "9M"
+      ],
+      "energyball": [
+        "9M"
+      ],
+      "thunderbolt": [
+        "9M"
+      ],
+      "solarblade": [
+        "9M"
+      ],
+      "retaliate": [
+        "9M"
+      ],
+      "scorchingsands": [
+        "9M"
+      ],
+      "reflect": [
+        "9M"
+      ],
+      "chargebeam": [
+        "9M"
+      ],
+      "burningmalice": [
+        "9M"
+      ],
+      "willowisp": [
+        "9M"
+      ],
+      "agility": [
+        "9M"
+      ],
+      "suckerpunch": [
+        "9M"
+      ],
+      "ominouswind": [
+        "9M"
+      ],
+      "scald": [
+        "9M"
+      ],
+      "playrough": [
+        "9M"
+      ],
+      "bulkup": [
+        "9M"
+      ],
+      "gigaimpact": [
+        "9M"
+      ],
+      "sandstorm": [
+        "9M"
+      ],
+      "voltswitch": [
+        "9M"
+      ],
+      "rockpolish": [
+        "9M"
+      ],
+      "poisonfang": [
+        "9M"
+      ],
+      "thunderfang": [
+        "9M"
+      ],
+      "rockclimb": [
+        "9M"
+      ],
+      "hex": [
+        "9M"
+      ],
+      "rage": [
+        "9M"
+      ],
+      "uturn": [
+        "9M"
+      ],
+      "hyperbeam": [
+        "9M"
+      ],
+      "focusblast": [
+        "9M"
+      ],
+      "protect": [
+        "9M"
+      ],
+      "ironhead": [
+        "9T"
+      ],
+      "gravity": [
+        "9T"
+      ],
+      "magnetrise": [
+        "9T"
+      ],
+      "lastresort": [
+        "9T"
+      ],
+      "zenheadbutt": [
+        "9T"
+      ],
+      "snore": [
+        "9T"
+      ],
+      "endeavor": [
+        "9T"
+      ],
+      "stealthrock": [
+        "9T"
+      ],
+      "telekinesis": [
+        "9T"
+      ]
+    }
+  },
+  "miniororange": {
+    "learnset": {
+      "cosmicchaos": [
+        "9L1"
+      ],
+      "moonlight": [
+        "9L1"
+      ],
+      "rapidspin": [
+        "9L1"
+      ],
+      "ancientpower": [
+        "9L5"
+      ],
+      "strangeimpulse": [
+        "9L10"
+      ],
+      "cosmicpower": [
+        "9L15"
+      ],
+      "powergem": [
+        "9L20"
+      ],
+      "explosion": [
+        "9L25"
+      ],
+      "detonate": [
+        "9L25"
+      ],
+      "pyroplume": [
+        "9L30"
+      ],
+      "moonblast": [
+        "9L35"
+      ],
+      "mirrorcoat": [
+        "9L40"
+      ],
+      "searingshot": [
+        "9L45"
+      ],
+      "mineralshower": [
+        "9L50"
+      ],
+      "blastburn": [
+        "9L55"
+      ],
+      "overheat": [
+        "9L60"
+      ],
+      "shellsmash": [
+        "9L65"
+      ],
+      "psychicfangs": [
+        "9M"
+      ],
+      "earthquake": [
+        "9M"
+      ],
+      "hiddenpower": [
+        "9M"
+      ],
+      "rest": [
+        "9M"
+      ],
+      "lightscreen": [
+        "9M"
+      ],
+      "sleeptalk": [
+        "9M"
+      ],
+      "sunnyday": [
+        "9M"
+      ],
+      "solarbeam": [
+        "9M"
+      ],
+      "energyball": [
+        "9M"
+      ],
+      "thunderbolt": [
+        "9M"
+      ],
+      "solarblade": [
+        "9M"
+      ],
+      "retaliate": [
+        "9M"
+      ],
+      "scorchingsands": [
+        "9M"
+      ],
+      "reflect": [
+        "9M"
+      ],
+      "chargebeam": [
+        "9M"
+      ],
+      "burningmalice": [
+        "9M"
+      ],
+      "willowisp": [
+        "9M"
+      ],
+      "agility": [
+        "9M"
+      ],
+      "suckerpunch": [
+        "9M"
+      ],
+      "ominouswind": [
+        "9M"
+      ],
+      "scald": [
+        "9M"
+      ],
+      "playrough": [
+        "9M"
+      ],
+      "bulkup": [
+        "9M"
+      ],
+      "gigaimpact": [
+        "9M"
+      ],
+      "sandstorm": [
+        "9M"
+      ],
+      "voltswitch": [
+        "9M"
+      ],
+      "rockpolish": [
+        "9M"
+      ],
+      "poisonfang": [
+        "9M"
+      ],
+      "thunderfang": [
+        "9M"
+      ],
+      "rockclimb": [
+        "9M"
+      ],
+      "hex": [
+        "9M"
+      ],
+      "rage": [
+        "9M"
+      ],
+      "uturn": [
+        "9M"
+      ],
+      "hyperbeam": [
+        "9M"
+      ],
+      "focusblast": [
+        "9M"
+      ],
+      "protect": [
+        "9M"
+      ],
+      "ironhead": [
+        "9T"
+      ],
+      "gravity": [
+        "9T"
+      ],
+      "magnetrise": [
+        "9T"
+      ],
+      "lastresort": [
+        "9T"
+      ],
+      "zenheadbutt": [
+        "9T"
+      ],
+      "snore": [
+        "9T"
+      ],
+      "endeavor": [
+        "9T"
+      ],
+      "stealthrock": [
+        "9T"
+      ],
+      "telekinesis": [
+        "9T"
+      ]
+    }
+  },
+  "minioryellow": {
+    "learnset": {
+      "cosmicchaos": [
+        "9L1"
+      ],
+      "moonlight": [
+        "9L1"
+      ],
+      "rapidspin": [
+        "9L1"
+      ],
+      "ancientpower": [
+        "9L5"
+      ],
+      "strangeimpulse": [
+        "9L10"
+      ],
+      "cosmicpower": [
+        "9L15"
+      ],
+      "powergem": [
+        "9L20"
+      ],
+      "explosion": [
+        "9L25"
+      ],
+      "paraboliccharge": [
+        "9L30"
+      ],
+      "moonblast": [
+        "9L35"
+      ],
+      "mirrorcoat": [
+        "9L40"
+      ],
+      "mineralshower": [
+        "9L50"
+      ],
+      "zapcannon": [
+        "9L55"
+      ],
+      "shellsmash": [
+        "9L65"
+      ],
+      "psychicfangs": [
+        "9M"
+      ],
+      "earthquake": [
+        "9M"
+      ],
+      "hiddenpower": [
+        "9M"
+      ],
+      "rest": [
+        "9M"
+      ],
+      "lightscreen": [
+        "9M"
+      ],
+      "sleeptalk": [
+        "9M"
+      ],
+      "sunnyday": [
+        "9M"
+      ],
+      "solarbeam": [
+        "9M"
+      ],
+      "energyball": [
+        "9M"
+      ],
+      "thunderbolt": [
+        "9M"
+      ],
+      "solarblade": [
+        "9M"
+      ],
+      "retaliate": [
+        "9M"
+      ],
+      "scorchingsands": [
+        "9M"
+      ],
+      "reflect": [
+        "9M"
+      ],
+      "chargebeam": [
+        "9M"
+      ],
+      "burningmalice": [
+        "9M"
+      ],
+      "willowisp": [
+        "9M"
+      ],
+      "agility": [
+        "9M"
+      ],
+      "suckerpunch": [
+        "9M"
+      ],
+      "ominouswind": [
+        "9M"
+      ],
+      "scald": [
+        "9M"
+      ],
+      "playrough": [
+        "9M"
+      ],
+      "bulkup": [
+        "9M"
+      ],
+      "gigaimpact": [
+        "9M"
+      ],
+      "sandstorm": [
+        "9M"
+      ],
+      "voltswitch": [
+        "9M"
+      ],
+      "rockpolish": [
+        "9M"
+      ],
+      "poisonfang": [
+        "9M"
+      ],
+      "thunderfang": [
+        "9M"
+      ],
+      "rockclimb": [
+        "9M"
+      ],
+      "hex": [
+        "9M"
+      ],
+      "rage": [
+        "9M"
+      ],
+      "uturn": [
+        "9M"
+      ],
+      "hyperbeam": [
+        "9M"
+      ],
+      "focusblast": [
+        "9M"
+      ],
+      "protect": [
+        "9M"
+      ],
+      "ironhead": [
+        "9T"
+      ],
+      "gravity": [
+        "9T"
+      ],
+      "magnetrise": [
+        "9T"
+      ],
+      "lastresort": [
+        "9T"
+      ],
+      "zenheadbutt": [
+        "9T"
+      ],
+      "snore": [
+        "9T"
+      ],
+      "endeavor": [
+        "9T"
+      ],
+      "stealthrock": [
+        "9T"
+      ],
+      "telekinesis": [
+        "9T"
+      ]
+    }
+  },
+  "miniorgreen": {
+    "learnset": {
+      "cosmicchaos": [
+        "9L1"
+      ],
+      "moonlight": [
+        "9L1"
+      ],
+      "rapidspin": [
+        "9L1"
+      ],
+      "ancientpower": [
+        "9L5"
+      ],
+      "strangeimpulse": [
+        "9L10"
+      ],
+      "cosmicpower": [
+        "9L15"
+      ],
+      "powergem": [
+        "9L20"
+      ],
+      "explosion": [
+        "9L25"
+      ],
+      "moonblast": [
+        "9L35"
+      ],
+      "mirrorcoat": [
+        "9L40"
+      ],
+      "seedflare": [
+        "9L45"
+      ],
+      "mineralshower": [
+        "9L50"
+      ],
+      "leafstorm": [
+        "9L55"
+      ],
+      "chloroblast": [
+        "9L60"
+      ],
+      "shellsmash": [
+        "9L65"
+      ],
+      "psychicfangs": [
+        "9M"
+      ],
+      "earthquake": [
+        "9M"
+      ],
+      "hiddenpower": [
+        "9M"
+      ],
+      "rest": [
+        "9M"
+      ],
+      "lightscreen": [
+        "9M"
+      ],
+      "sleeptalk": [
+        "9M"
+      ],
+      "sunnyday": [
+        "9M"
+      ],
+      "solarbeam": [
+        "9M"
+      ],
+      "energyball": [
+        "9M"
+      ],
+      "thunderbolt": [
+        "9M"
+      ],
+      "solarblade": [
+        "9M"
+      ],
+      "retaliate": [
+        "9M"
+      ],
+      "scorchingsands": [
+        "9M"
+      ],
+      "reflect": [
+        "9M"
+      ],
+      "chargebeam": [
+        "9M"
+      ],
+      "burningmalice": [
+        "9M"
+      ],
+      "willowisp": [
+        "9M"
+      ],
+      "agility": [
+        "9M"
+      ],
+      "suckerpunch": [
+        "9M"
+      ],
+      "ominouswind": [
+        "9M"
+      ],
+      "scald": [
+        "9M"
+      ],
+      "playrough": [
+        "9M"
+      ],
+      "bulkup": [
+        "9M"
+      ],
+      "gigaimpact": [
+        "9M"
+      ],
+      "sandstorm": [
+        "9M"
+      ],
+      "voltswitch": [
+        "9M"
+      ],
+      "rockpolish": [
+        "9M"
+      ],
+      "poisonfang": [
+        "9M"
+      ],
+      "thunderfang": [
+        "9M"
+      ],
+      "rockclimb": [
+        "9M"
+      ],
+      "hex": [
+        "9M"
+      ],
+      "rage": [
+        "9M"
+      ],
+      "uturn": [
+        "9M"
+      ],
+      "hyperbeam": [
+        "9M"
+      ],
+      "focusblast": [
+        "9M"
+      ],
+      "protect": [
+        "9M"
+      ],
+      "ironhead": [
+        "9T"
+      ],
+      "gravity": [
+        "9T"
+      ],
+      "magnetrise": [
+        "9T"
+      ],
+      "lastresort": [
+        "9T"
+      ],
+      "zenheadbutt": [
+        "9T"
+      ],
+      "snore": [
+        "9T"
+      ],
+      "endeavor": [
+        "9T"
+      ],
+      "stealthrock": [
+        "9T"
+      ],
+      "telekinesis": [
+        "9T"
+      ]
+    }
+  },
+  "miniorblue": {
+    "learnset": {
+      "cosmicchaos": [
+        "9L1"
+      ],
+      "moonlight": [
+        "9L1"
+      ],
+      "rapidspin": [
+        "9L1"
+      ],
+      "ancientpower": [
+        "9L5"
+      ],
+      "strangeimpulse": [
+        "9L10"
+      ],
+      "cosmicpower": [
+        "9L15"
+      ],
+      "powergem": [
+        "9L20"
+      ],
+      "explosion": [
+        "9L25"
+      ],
+      "freezerburn": [
+        "9L25"
+      ],
+      "freezedry": [
+        "9L30"
+      ],
+      "moonblast": [
+        "9L35"
+      ],
+      "mirrorcoat": [
+        "9L40"
+      ],
+      "glaciate": [
+        "9L45"
+      ],
+      "mineralshower": [
+        "9L50"
+      ],
+      "shellsmash": [
+        "9L65"
+      ],
+      "psychicfangs": [
+        "9M"
+      ],
+      "earthquake": [
+        "9M"
+      ],
+      "hiddenpower": [
+        "9M"
+      ],
+      "rest": [
+        "9M"
+      ],
+      "lightscreen": [
+        "9M"
+      ],
+      "sleeptalk": [
+        "9M"
+      ],
+      "sunnyday": [
+        "9M"
+      ],
+      "solarbeam": [
+        "9M"
+      ],
+      "energyball": [
+        "9M"
+      ],
+      "thunderbolt": [
+        "9M"
+      ],
+      "solarblade": [
+        "9M"
+      ],
+      "retaliate": [
+        "9M"
+      ],
+      "scorchingsands": [
+        "9M"
+      ],
+      "reflect": [
+        "9M"
+      ],
+      "chargebeam": [
+        "9M"
+      ],
+      "burningmalice": [
+        "9M"
+      ],
+      "willowisp": [
+        "9M"
+      ],
+      "agility": [
+        "9M"
+      ],
+      "suckerpunch": [
+        "9M"
+      ],
+      "ominouswind": [
+        "9M"
+      ],
+      "scald": [
+        "9M"
+      ],
+      "playrough": [
+        "9M"
+      ],
+      "bulkup": [
+        "9M"
+      ],
+      "gigaimpact": [
+        "9M"
+      ],
+      "sandstorm": [
+        "9M"
+      ],
+      "voltswitch": [
+        "9M"
+      ],
+      "rockpolish": [
+        "9M"
+      ],
+      "poisonfang": [
+        "9M"
+      ],
+      "thunderfang": [
+        "9M"
+      ],
+      "rockclimb": [
+        "9M"
+      ],
+      "hex": [
+        "9M"
+      ],
+      "rage": [
+        "9M"
+      ],
+      "uturn": [
+        "9M"
+      ],
+      "hyperbeam": [
+        "9M"
+      ],
+      "focusblast": [
+        "9M"
+      ],
+      "protect": [
+        "9M"
+      ],
+      "ironhead": [
+        "9T"
+      ],
+      "gravity": [
+        "9T"
+      ],
+      "magnetrise": [
+        "9T"
+      ],
+      "lastresort": [
+        "9T"
+      ],
+      "zenheadbutt": [
+        "9T"
+      ],
+      "snore": [
+        "9T"
+      ],
+      "endeavor": [
+        "9T"
+      ],
+      "stealthrock": [
+        "9T"
+      ],
+      "telekinesis": [
+        "9T"
+      ]
+    }
+  },
+  "miniorindigo": {
+    "learnset": {
+      "cosmicchaos": [
+        "9L1"
+      ],
+      "moonlight": [
+        "9L1"
+      ],
+      "rapidspin": [
+        "9L1"
+      ],
+      "ancientpower": [
+        "9L5"
+      ],
+      "cosmicpower": [
+        "9L15"
+      ],
+      "powergem": [
+        "9L20"
+      ],
+      "explosion": [
+        "9L25"
+      ],
+      "moonblast": [
+        "9L35"
+      ],
+      "mirrorcoat": [
+        "9L40"
+      ],
+      "torrentialpulse": [
+        "9L45"
+      ],
+      "mineralshower": [
+        "9L50"
+      ],
+      "hydrocannon": [
+        "9L55"
+      ],
+      "shellsmash": [
+        "9L65"
+      ],
+      "strangeimpulse": [
+        "9L10"
+      ],
+      "psychicfangs": [
+        "9M"
+      ],
+      "earthquake": [
+        "9M"
+      ],
+      "hiddenpower": [
+        "9M"
+      ],
+      "rest": [
+        "9M"
+      ],
+      "lightscreen": [
+        "9M"
+      ],
+      "sleeptalk": [
+        "9M"
+      ],
+      "sunnyday": [
+        "9M"
+      ],
+      "solarbeam": [
+        "9M"
+      ],
+      "energyball": [
+        "9M"
+      ],
+      "thunderbolt": [
+        "9M"
+      ],
+      "solarblade": [
+        "9M"
+      ],
+      "retaliate": [
+        "9M"
+      ],
+      "scorchingsands": [
+        "9M"
+      ],
+      "reflect": [
+        "9M"
+      ],
+      "chargebeam": [
+        "9M"
+      ],
+      "burningmalice": [
+        "9M"
+      ],
+      "willowisp": [
+        "9M"
+      ],
+      "agility": [
+        "9M"
+      ],
+      "suckerpunch": [
+        "9M"
+      ],
+      "ominouswind": [
+        "9M"
+      ],
+      "scald": [
+        "9M"
+      ],
+      "playrough": [
+        "9M"
+      ],
+      "bulkup": [
+        "9M"
+      ],
+      "gigaimpact": [
+        "9M"
+      ],
+      "sandstorm": [
+        "9M"
+      ],
+      "voltswitch": [
+        "9M"
+      ],
+      "rockpolish": [
+        "9M"
+      ],
+      "poisonfang": [
+        "9M"
+      ],
+      "thunderfang": [
+        "9M"
+      ],
+      "rockclimb": [
+        "9M"
+      ],
+      "hex": [
+        "9M"
+      ],
+      "rage": [
+        "9M"
+      ],
+      "uturn": [
+        "9M"
+      ],
+      "hyperbeam": [
+        "9M"
+      ],
+      "focusblast": [
+        "9M"
+      ],
+      "protect": [
+        "9M"
+      ],
+      "ironhead": [
+        "9T"
+      ],
+      "gravity": [
+        "9T"
+      ],
+      "magnetrise": [
+        "9T"
+      ],
+      "lastresort": [
+        "9T"
+      ],
+      "zenheadbutt": [
+        "9T"
+      ],
+      "snore": [
+        "9T"
+      ],
+      "endeavor": [
+        "9T"
+      ],
+      "stealthrock": [
+        "9T"
+      ],
+      "telekinesis": [
+        "9T"
+      ]
+    }
+  },
+  "miniorviolet": {
+    "learnset": {
+      "cosmicchaos": [
+        "9L1"
+      ],
+      "moonlight": [
+        "9L1"
+      ],
+      "rapidspin": [
+        "9L1"
+      ],
+      "ancientpower": [
+        "9L5"
+      ],
+      "strangeimpulse": [
+        "9L10"
+      ],
+      "cosmicpower": [
+        "9L15"
+      ],
+      "powergem": [
+        "9L20"
+      ],
+      "explosion": [
+        "9L25"
+      ],
+      "dragonbreath": [
+        "9L30"
+      ],
+      "moonblast": [
+        "9L35"
+      ],
+      "mirrorcoat": [
+        "9L40"
+      ],
+      "mineralshower": [
+        "9L50"
+      ],
+      "dracometeor": [
+        "9L55"
+      ],
+      "dragonfury": [
         "9L60"
       ],
       "shellsmash": [

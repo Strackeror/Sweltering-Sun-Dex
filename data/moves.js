@@ -4403,7 +4403,7 @@ exports.BattleMovedex = {
       "protect": 1,
       "punch": 1
     },
-    "type": "Fighting",
+    "type": "Normal",
     "target": "allAdjacentFoes",
     "desc": "The user attacks in an uproar for three turns.\nDuring that time, no Pokemon can fall asleep.",
     "shortDesc": "The user attacks in an uproar for three turns.\nDuring that time, no Pokemon can fall asleep."
