@@ -85,7 +85,12 @@ exports.patch = function (
     "zygardecomplete",
     "mimikyubusted",
     "mimikyubustedtotem",
-    "wishiwashischool"
+    "wishiwashischool",
+    "shayminsky",
+    "darmanitanzen",
+    "greninjaash",
+    "kyuremwhite",
+    "kyuremblack"
   ];
 
   for (let forme of formes) {

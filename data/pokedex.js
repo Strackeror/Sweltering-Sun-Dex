@@ -19,8 +19,8 @@ exports.BattlePokedex = {
       "spd": 65
     },
     "abilities": {
-      "1": "Solar Rush",
-      "0": "Overgrow"
+      "0": "Overgrow",
+      "1": "Solar Rush"
     },
     "heightm": 0.7,
     "weightkg": 6.9,
@@ -87,8 +87,8 @@ exports.BattlePokedex = {
       "spd": 100
     },
     "abilities": {
-      "1": "Solar Rush",
-      "0": "Flower Veil"
+      "0": "Flower Veil",
+      "1": "Solar Rush"
     },
     "heightm": 2.0,
     "weightkg": 100.0,
@@ -157,8 +157,8 @@ exports.BattlePokedex = {
       "spd": 45
     },
     "abilities": {
-      "1": "Moxie",
-      "0": "Blaze"
+      "0": "Blaze",
+      "1": "Moxie"
     },
     "heightm": 0.6,
     "weightkg": 8.5,
@@ -297,8 +297,8 @@ exports.BattlePokedex = {
       "spd": 100
     },
     "abilities": {
-      "1": "Aerilate",
-      "0": "Drought"
+      "0": "Drought",
+      "1": "Aerilate"
     },
     "heightm": 1.7,
     "weightkg": 100.5,
@@ -394,8 +394,8 @@ exports.BattlePokedex = {
       "spd": 105
     },
     "abilities": {
-      "1": "Bulletproof",
-      "0": "Shell Armor"
+      "0": "Shell Armor",
+      "1": "Bulletproof"
     },
     "heightm": 1.6,
     "weightkg": 85.5,
@@ -464,8 +464,8 @@ exports.BattlePokedex = {
       "spd": 50
     },
     "abilities": {
-      "1": "Shield Dust",
-      "0": "Sap Sipper"
+      "0": "Sap Sipper",
+      "1": "Shield Dust"
     },
     "heightm": 0.3,
     "weightkg": 2.9,
@@ -529,8 +529,8 @@ exports.BattlePokedex = {
       "spd": 100
     },
     "abilities": {
-      "1": "Prankster",
-      "0": "Tinted Lens"
+      "0": "Tinted Lens",
+      "1": "Prankster"
     },
     "heightm": 1.1,
     "weightkg": 32.0,
@@ -560,8 +560,8 @@ exports.BattlePokedex = {
       "spd": 35
     },
     "abilities": {
-      "1": "Sap Sipper",
-      "0": "Poison Touch"
+      "0": "Poison Touch",
+      "1": "Sap Sipper"
     },
     "heightm": 0.3,
     "weightkg": 3.2,
@@ -727,8 +727,8 @@ exports.BattlePokedex = {
       "spd": 60
     },
     "abilities": {
-      "1": "Speed Boost",
-      "0": "Defiant"
+      "0": "Defiant",
+      "1": "Speed Boost"
     },
     "heightm": 1.1,
     "weightkg": 30.0,
@@ -761,8 +761,8 @@ exports.BattlePokedex = {
       "spd": 85
     },
     "abilities": {
-      "1": "Speed Boost",
-      "0": "Defiant"
+      "0": "Defiant",
+      "1": "Speed Boost"
     },
     "heightm": 1.5,
     "weightkg": 39.5,
@@ -799,8 +799,8 @@ exports.BattlePokedex = {
       "spd": 90
     },
     "abilities": {
-      "1": "Guarding Gale",
-      "0": "No Guard"
+      "0": "No Guard",
+      "1": "Guarding Gale"
     },
     "heightm": 2.2,
     "weightkg": 50.5,
@@ -829,8 +829,8 @@ exports.BattlePokedex = {
       "spd": 42
     },
     "abilities": {
-      "1": "Defiant",
       "0": "Hustle",
+      "1": "Defiant",
       "H": "Guts"
     },
     "heightm": 0.3,
@@ -869,14 +869,15 @@ exports.BattlePokedex = {
       "spd": 42
     },
     "abilities": {
-      "H": "Guts",
+      "0": "Hustle",
       "1": "Pickpocket",
-      "0": "Hustle"
+      "H": "Guts"
     },
     "heightm": 0.3,
     "weightkg": 3.8,
     "evos": [
-      "Raticate"
+      "Raticate-Alola-Totem",
+      "Raticate-Alola"
     ],
     "eggGroups": [
       "Field"
@@ -904,8 +905,8 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Hustle",
-      "H": "Guts",
-      "1": "Strong Jaw"
+      "1": "Strong Jaw",
+      "H": "Guts"
     },
     "heightm": 0.7,
     "weightkg": 18.5,
@@ -944,12 +945,14 @@ exports.BattlePokedex = {
       "spd": 80
     },
     "abilities": {
+      "0": "Hustle",
       "1": "Strong Jaw",
-      "H": "Guts",
-      "0": "Hustle"
+      "H": "Guts"
     },
     "heightm": 0.7,
     "weightkg": 25.5,
+    "prevo": "Rattata-Alola",
+    "evoLevel": 20,
     "eggGroups": [
       "Field"
     ],
@@ -976,12 +979,16 @@ exports.BattlePokedex = {
       "spd": 90
     },
     "abilities": {
-      "1": "Metabolism",
       "0": "Hustle",
+      "1": "Metabolism",
       "H": "Guts"
     },
     "heightm": 1.4,
     "weightkg": 105.0,
+    "prevo": "Rattata-Alola",
+    "evoLevel": 20,
+    "evoType": "useItem",
+    "evoItem": "Strange Souvenir",
     "eggGroups": [
       "Field"
     ],
@@ -1070,8 +1077,8 @@ exports.BattlePokedex = {
       "spd": 55
     },
     "abilities": {
-      "1": "Intimidate",
-      "0": "Unnerve"
+      "0": "Unnerve",
+      "1": "Intimidate"
     },
     "heightm": 2.0,
     "weightkg": 6.9,
@@ -1142,7 +1149,8 @@ exports.BattlePokedex = {
     "prevo": "Pichu",
     "evoLevel": 15,
     "evos": [
-      "Raichu"
+      "Raichu",
+      "Raichu-Alola"
     ],
     "eggGroups": [
       "Field",
@@ -1172,8 +1180,8 @@ exports.BattlePokedex = {
       "spd": 85
     },
     "abilities": {
-      "1": "Electric Surge",
-      "0": "Instinct"
+      "0": "Instinct",
+      "1": "Electric Surge"
     },
     "heightm": 0.8,
     "weightkg": 30.0,
@@ -1218,6 +1226,10 @@ exports.BattlePokedex = {
     },
     "heightm": 0.7,
     "weightkg": 21.0,
+    "prevo": "Pikachu",
+    "evoLevel": 33,
+    "evoType": "useItem",
+    "evoItem": "Psychic Gem",
     "eggGroups": [
       "Field",
       "Fairy"
@@ -1244,8 +1256,8 @@ exports.BattlePokedex = {
       "spd": 60
     },
     "abilities": {
-      "1": "Sturdy",
-      "0": "Sand Force"
+      "0": "Sand Force",
+      "1": "Sturdy"
     },
     "heightm": 0.6,
     "weightkg": 12.0,
@@ -1289,7 +1301,7 @@ exports.BattlePokedex = {
     "heightm": 0.7,
     "weightkg": 40.0,
     "evos": [
-      "Sandslash"
+      "Sandslash-Alola"
     ],
     "eggGroups": [
       "Field"
@@ -1316,8 +1328,8 @@ exports.BattlePokedex = {
       "spd": 70
     },
     "abilities": {
-      "1": "Tough Claws",
-      "0": "Sand Rush"
+      "0": "Sand Rush",
+      "1": "Tough Claws"
     },
     "heightm": 1.0,
     "weightkg": 29.5,
@@ -1359,6 +1371,9 @@ exports.BattlePokedex = {
     },
     "heightm": 1.2,
     "weightkg": 55.0,
+    "prevo": "Sandshrew-Alola",
+    "evoType": "useItem",
+    "evoItem": "Ice Stone",
     "eggGroups": [
       "Field"
     ],
@@ -1382,8 +1397,8 @@ exports.BattlePokedex = {
       "spd": 55
     },
     "abilities": {
-      "1": "Poison Touch",
-      "0": "Rough Skin"
+      "0": "Rough Skin",
+      "1": "Poison Touch"
     },
     "heightm": 1.3,
     "weightkg": 60.0,
@@ -1412,8 +1427,8 @@ exports.BattlePokedex = {
       "spd": 75
     },
     "abilities": {
-      "1": "Poison Touch",
-      "0": "Rough Skin"
+      "0": "Rough Skin",
+      "1": "Poison Touch"
     },
     "heightm": 0.8,
     "weightkg": 20.0,
@@ -1473,8 +1488,8 @@ exports.BattlePokedex = {
       "spd": 50
     },
     "abilities": {
-      "1": "Hustle",
-      "0": "Merciless"
+      "0": "Merciless",
+      "1": "Hustle"
     },
     "heightm": 0.5,
     "weightkg": 9.0,
@@ -1535,8 +1550,8 @@ exports.BattlePokedex = {
       "spd": 80
     },
     "abilities": {
-      "1": "Hustle",
-      "0": "Ruthless"
+      "0": "Ruthless",
+      "1": "Hustle"
     },
     "heightm": 1.4,
     "weightkg": 62.0,
@@ -1569,8 +1584,8 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Unaware",
-      "H": "Friend Guard",
-      "1": "Magic Guard"
+      "1": "Magic Guard",
+      "H": "Friend Guard"
     },
     "heightm": 0.6,
     "weightkg": 7.5,
@@ -1677,7 +1692,7 @@ exports.BattlePokedex = {
     "heightm": 0.6,
     "weightkg": 9.9,
     "evos": [
-      "Ninetales"
+      "Ninetales-Alola"
     ],
     "eggGroups": [
       "Field"
@@ -1743,11 +1758,13 @@ exports.BattlePokedex = {
       "spd": 112
     },
     "abilities": {
-      "1": "Serene Grace",
-      "0": "Snow Warning"
+      "0": "Snow Warning",
+      "1": "Serene Grace"
     },
     "heightm": 1.1,
     "weightkg": 19.9,
+    "prevo": "Vulpix-Alola",
+    "evoLevel": 30,
     "eggGroups": [
       "Field"
     ],
@@ -1774,8 +1791,8 @@ exports.BattlePokedex = {
       "spd": 85
     },
     "abilities": {
-      "1": "Fluffy",
-      "0": "Huge Power"
+      "0": "Huge Power",
+      "1": "Fluffy"
     },
     "heightm": 0.5,
     "weightkg": 5.5,
@@ -1840,8 +1857,8 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Merciless",
-      "H": "Stakeout",
-      "1": "Unnerve"
+      "1": "Unnerve",
+      "H": "Stakeout"
     },
     "heightm": 0.8,
     "weightkg": 7.5,
@@ -1872,9 +1889,9 @@ exports.BattlePokedex = {
       "spd": 70
     },
     "abilities": {
-      "H": "Stakeout",
       "0": "Merciless",
-      "1": "Intimidate"
+      "1": "Intimidate",
+      "H": "Stakeout"
     },
     "heightm": 1.6,
     "weightkg": 55.0,
@@ -1907,8 +1924,8 @@ exports.BattlePokedex = {
       "spd": 70
     },
     "abilities": {
-      "1": "Prankster",
-      "0": "Merciless"
+      "0": "Merciless",
+      "1": "Prankster"
     },
     "heightm": 0.5,
     "weightkg": 5.4,
@@ -1939,8 +1956,8 @@ exports.BattlePokedex = {
       "spd": 85
     },
     "abilities": {
-      "1": "Prankster",
-      "0": "Merciless"
+      "0": "Merciless",
+      "1": "Prankster"
     },
     "heightm": 0.8,
     "weightkg": 8.6,
@@ -1974,8 +1991,8 @@ exports.BattlePokedex = {
       "spd": 110
     },
     "abilities": {
-      "1": "Prankster",
-      "0": "Merciless"
+      "0": "Merciless",
+      "1": "Prankster"
     },
     "heightm": 1.2,
     "weightkg": 18.6,
@@ -2007,8 +2024,8 @@ exports.BattlePokedex = {
       "spd": 80
     },
     "abilities": {
-      "1": "Regenerator",
-      "0": "Tough Claws"
+      "0": "Tough Claws",
+      "1": "Regenerator"
     },
     "heightm": 0.3,
     "weightkg": 5.4,
@@ -2040,8 +2057,8 @@ exports.BattlePokedex = {
       "spd": 110
     },
     "abilities": {
-      "1": "Regenerator",
-      "0": "Tough Claws"
+      "0": "Tough Claws",
+      "1": "Regenerator"
     },
     "heightm": 1.0,
     "weightkg": 29.5,
@@ -2104,8 +2121,8 @@ exports.BattlePokedex = {
       "spd": 87
     },
     "abilities": {
-      "1": "Tinted Lens",
-      "0": "Levitate"
+      "0": "Levitate",
+      "1": "Tinted Lens"
     },
     "heightm": 1.5,
     "weightkg": 12.5,
@@ -2134,8 +2151,8 @@ exports.BattlePokedex = {
       "spd": 55
     },
     "abilities": {
-      "1": "Mold Breaker",
       "0": "Hustle",
+      "1": "Mold Breaker",
       "H": "Arena Trap"
     },
     "heightm": 0.2,
@@ -2181,7 +2198,7 @@ exports.BattlePokedex = {
     "heightm": 0.2,
     "weightkg": 1.0,
     "evos": [
-      "Dugtrio"
+      "Dugtrio-Alola"
     ],
     "eggGroups": [
       "Field"
@@ -2247,12 +2264,14 @@ exports.BattlePokedex = {
       "spd": 70
     },
     "abilities": {
+      "0": "Hustle",
       "1": "Serene Grace",
-      "H": "Arena Trap",
-      "0": "Hustle"
+      "H": "Arena Trap"
     },
     "heightm": 0.7,
     "weightkg": 66.6,
+    "prevo": "Diglett-Alola",
+    "evoLevel": 26,
     "eggGroups": [
       "Field"
     ],
@@ -2316,13 +2335,13 @@ exports.BattlePokedex = {
       "spd": 40
     },
     "abilities": {
-      "1": "Hubris",
-      "0": "Prankster"
+      "0": "Prankster",
+      "1": "Hubris"
     },
     "heightm": 0.4,
     "weightkg": 4.2,
     "evos": [
-      "Persian"
+      "Persian-Alola"
     ],
     "eggGroups": [
       "Field"
@@ -2386,11 +2405,13 @@ exports.BattlePokedex = {
       "spd": 70
     },
     "abilities": {
-      "1": "Hubris",
-      "0": "Fur Coat"
+      "0": "Fur Coat",
+      "1": "Hubris"
     },
     "heightm": 1.1,
     "weightkg": 33.0,
+    "prevo": "Meowth-Alola",
+    "evoLevel": 22,
     "eggGroups": [
       "Field"
     ],
@@ -2417,8 +2438,8 @@ exports.BattlePokedex = {
       "spd": 60
     },
     "abilities": {
-      "1": "Unaware",
-      "0": "Swift Swim"
+      "0": "Swift Swim",
+      "1": "Unaware"
     },
     "heightm": 0.8,
     "weightkg": 19.6,
@@ -2542,8 +2563,8 @@ exports.BattlePokedex = {
       "spd": 50
     },
     "abilities": {
-      "1": "Defiant",
-      "0": "Intimidate"
+      "0": "Intimidate",
+      "1": "Defiant"
     },
     "heightm": 0.7,
     "weightkg": 19.0,
@@ -2573,8 +2594,8 @@ exports.BattlePokedex = {
       "spd": 80
     },
     "abilities": {
-      "1": "Stamina",
-      "0": "Intimidate"
+      "0": "Intimidate",
+      "1": "Stamina"
     },
     "heightm": 1.9,
     "weightkg": 155.0,
@@ -2603,8 +2624,8 @@ exports.BattlePokedex = {
       "spd": 55
     },
     "abilities": {
-      "1": "Gooey",
-      "0": "Swift Swim"
+      "0": "Swift Swim",
+      "1": "Gooey"
     },
     "heightm": 0.6,
     "weightkg": 12.4,
@@ -2732,8 +2753,8 @@ exports.BattlePokedex = {
       "spd": 75
     },
     "abilities": {
-      "1": "Trace",
-      "0": "Magic Guard"
+      "0": "Magic Guard",
+      "1": "Trace"
     },
     "heightm": 1.3,
     "weightkg": 56.5,
@@ -2832,8 +2853,8 @@ exports.BattlePokedex = {
       "spd": 50
     },
     "abilities": {
-      "1": "Scrappy",
-      "0": "Defiant"
+      "0": "Defiant",
+      "1": "Scrappy"
     },
     "heightm": 0.8,
     "weightkg": 19.5,
@@ -2863,8 +2884,8 @@ exports.BattlePokedex = {
       "spd": 60
     },
     "abilities": {
-      "1": "Scrappy",
-      "0": "Defiant"
+      "0": "Defiant",
+      "1": "Scrappy"
     },
     "heightm": 1.5,
     "weightkg": 70.5,
@@ -2896,8 +2917,8 @@ exports.BattlePokedex = {
       "spd": 85
     },
     "abilities": {
-      "1": "No Guard",
-      "0": "Defiant"
+      "0": "Defiant",
+      "1": "No Guard"
     },
     "heightm": 1.6,
     "weightkg": 130.0,
@@ -2995,8 +3016,8 @@ exports.BattlePokedex = {
       "spd": 80
     },
     "abilities": {
-      "1": "Intimidate",
-      "0": "Adaptability"
+      "0": "Adaptability",
+      "1": "Intimidate"
     },
     "heightm": 1.7,
     "weightkg": 15.5,
@@ -3088,8 +3109,8 @@ exports.BattlePokedex = {
       "spd": 50
     },
     "abilities": {
-      "1": "Sturdy",
-      "0": "Rough Skin"
+      "0": "Rough Skin",
+      "1": "Sturdy"
     },
     "heightm": 0.4,
     "weightkg": 20.0,
@@ -3134,7 +3155,7 @@ exports.BattlePokedex = {
     "heightm": 0.4,
     "weightkg": 20.3,
     "evos": [
-      "Graveler"
+      "Graveler-Alola"
     ],
     "eggGroups": [
       "Mineral"
@@ -3202,14 +3223,16 @@ exports.BattlePokedex = {
       "spd": 60
     },
     "abilities": {
-      "H": "Magnet Pull",
+      "0": "Galvanize",
       "1": "Sturdy",
-      "0": "Galvanize"
+      "H": "Magnet Pull"
     },
     "heightm": 1.0,
     "weightkg": 110.0,
+    "prevo": "Geodude-Alola",
+    "evoLevel": 20,
     "evos": [
-      "Golem"
+      "Golem-Alola"
     ],
     "eggGroups": [
       "Mineral"
@@ -3278,11 +3301,15 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Galvanize",
-      "H": "Magnet Pull",
-      "1": "Sturdy"
+      "1": "Sturdy",
+      "H": "Magnet Pull"
     },
     "heightm": 1.7,
     "weightkg": 316.0,
+    "prevo": "Graveler-Alola",
+    "evoLevel": 36,
+    "evoType": "useItem",
+    "evoItem": "Rock Gem",
     "eggGroups": [
       "Mineral"
     ],
@@ -3447,8 +3474,8 @@ exports.BattlePokedex = {
       "spd": 120
     },
     "abilities": {
-      "1": "Shell Armor",
-      "0": "Bulletproof"
+      "0": "Bulletproof",
+      "1": "Shell Armor"
     },
     "heightm": 2.0,
     "weightkg": 120.0,
@@ -3737,13 +3764,13 @@ exports.BattlePokedex = {
       "spd": 80
     },
     "abilities": {
-      "1": "Gluttony",
-      "0": "Merciless"
+      "0": "Merciless",
+      "1": "Gluttony"
     },
     "heightm": 0.7,
     "weightkg": 42.0,
     "evos": [
-      "Muk"
+      "Muk-Alola"
     ],
     "eggGroups": [
       "Amorphous"
@@ -3770,8 +3797,8 @@ exports.BattlePokedex = {
       "spd": 115
     },
     "abilities": {
-      "1": "Gooey",
-      "0": "Water Absorb"
+      "0": "Water Absorb",
+      "1": "Gooey"
     },
     "heightm": 1.2,
     "weightkg": 30.0,
@@ -3808,11 +3835,13 @@ exports.BattlePokedex = {
       "spd": 110
     },
     "abilities": {
-      "1": "Gluttony",
-      "0": "Merciless"
+      "0": "Merciless",
+      "1": "Gluttony"
     },
     "heightm": 1.0,
     "weightkg": 52.0,
+    "prevo": "Grimer-Alola",
+    "evoLevel": 31,
     "eggGroups": [
       "Amorphous"
     ],
@@ -4218,8 +4247,8 @@ exports.BattlePokedex = {
       "spd": 80
     },
     "abilities": {
-      "1": "Berserk",
-      "0": "Galvanize"
+      "0": "Galvanize",
+      "1": "Berserk"
     },
     "heightm": 1.2,
     "weightkg": 66.6,
@@ -4255,7 +4284,8 @@ exports.BattlePokedex = {
     "heightm": 0.4,
     "weightkg": 2.5,
     "evos": [
-      "Exeggutor"
+      "Exeggutor",
+      "Exeggutor-Alola"
     ],
     "eggGroups": [
       "Grass"
@@ -4281,8 +4311,8 @@ exports.BattlePokedex = {
       "spd": 115
     },
     "abilities": {
-      "1": "Solar Rush",
-      "0": "Grassy Guard"
+      "0": "Grassy Guard",
+      "1": "Solar Rush"
     },
     "heightm": 2.0,
     "weightkg": 120.0,
@@ -4321,11 +4351,15 @@ exports.BattlePokedex = {
       "spd": 90
     },
     "abilities": {
-      "1": "Headstrong",
-      "0": "Solar Rush"
+      "0": "Solar Rush",
+      "1": "Headstrong"
     },
     "heightm": 10.9,
     "weightkg": 415.6,
+    "prevo": "Exeggcute",
+    "evoLevel": 35,
+    "evoType": "useItem",
+    "evoItem": "Dragon Gem",
     "eggGroups": [
       "Grass"
     ],
@@ -4357,7 +4391,9 @@ exports.BattlePokedex = {
     "heightm": 0.4,
     "weightkg": 6.5,
     "evos": [
-      "Marowak"
+      "Marowak",
+      "Marowak-Alola",
+      "Marowak-Alola-Totem"
     ],
     "eggGroups": [
       "Monster"
@@ -4430,6 +4466,10 @@ exports.BattlePokedex = {
     },
     "heightm": 1.0,
     "weightkg": 34.0,
+    "prevo": "Cubone",
+    "evoLevel": 28,
+    "evoType": "useItem",
+    "evoItem": "Ghost Gem",
     "eggGroups": [
       "Monster"
     ],
@@ -4461,6 +4501,10 @@ exports.BattlePokedex = {
     },
     "heightm": 1.7,
     "weightkg": 98.0,
+    "prevo": "Cubone",
+    "evoLevel": 28,
+    "evoType": "useItem",
+    "evoItem": "Strange Souvenir",
     "eggGroups": [
       "Monster"
     ],
@@ -4573,8 +4617,8 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Levitate",
-      "H": "Flare Boost",
-      "1": "Flash Fire"
+      "1": "Flash Fire",
+      "H": "Flare Boost"
     },
     "heightm": 0.6,
     "weightkg": 1.0,
@@ -4604,9 +4648,9 @@ exports.BattlePokedex = {
       "spd": 95
     },
     "abilities": {
-      "H": "Flare Boost",
       "0": "Levitate",
-      "1": "Flash Fire"
+      "1": "Flash Fire",
+      "H": "Flare Boost"
     },
     "heightm": 1.2,
     "weightkg": 9.5,
@@ -4636,8 +4680,8 @@ exports.BattlePokedex = {
       "spd": 45
     },
     "abilities": {
-      "1": "Reckless",
-      "0": "Hustle"
+      "0": "Hustle",
+      "1": "Reckless"
     },
     "heightm": 1.0,
     "weightkg": 115.0,
@@ -4669,8 +4713,8 @@ exports.BattlePokedex = {
       "spd": 70
     },
     "abilities": {
-      "1": "Battle Armor",
-      "0": "Hustle"
+      "0": "Hustle",
+      "1": "Battle Armor"
     },
     "heightm": 1.9,
     "weightkg": 120.0,
@@ -4797,8 +4841,8 @@ exports.BattlePokedex = {
       "spd": 90
     },
     "abilities": {
-      "1": "Intimidate",
-      "0": "Expertise"
+      "0": "Expertise",
+      "1": "Intimidate"
     },
     "heightm": 2.2,
     "weightkg": 100.0,
@@ -4860,8 +4904,8 @@ exports.BattlePokedex = {
       "spd": 65
     },
     "abilities": {
-      "1": "Rapid Fire",
-      "0": "Swift Swim"
+      "0": "Swift Swim",
+      "1": "Rapid Fire"
     },
     "heightm": 1.2,
     "weightkg": 25.0,
@@ -4953,8 +4997,8 @@ exports.BattlePokedex = {
       "spd": 80
     },
     "abilities": {
-      "1": "Neuroforce",
-      "0": "Energy Shield"
+      "0": "Energy Shield",
+      "1": "Neuroforce"
     },
     "heightm": 0.8,
     "weightkg": 34.5,
@@ -5074,8 +5118,8 @@ exports.BattlePokedex = {
       "spd": 125
     },
     "abilities": {
-      "1": "Dry Skin",
-      "0": "Serene Grace"
+      "0": "Serene Grace",
+      "1": "Dry Skin"
     },
     "heightm": 1.4,
     "weightkg": 40.6,
@@ -5104,8 +5148,8 @@ exports.BattlePokedex = {
       "spd": 75
     },
     "abilities": {
-      "1": "Teravolt",
-      "0": "Volt Rush"
+      "0": "Volt Rush",
+      "1": "Teravolt"
     },
     "heightm": 1.1,
     "weightkg": 30.0,
@@ -5234,8 +5278,8 @@ exports.BattlePokedex = {
       "spd": 70
     },
     "abilities": {
-      "1": "Reckless",
-      "0": "Stamina"
+      "0": "Stamina",
+      "1": "Reckless"
     },
     "heightm": 1.4,
     "weightkg": 88.4,
@@ -5366,8 +5410,8 @@ exports.BattlePokedex = {
       "spd": 115
     },
     "abilities": {
-      "1": "Stamina",
-      "0": "Shell Armor"
+      "0": "Shell Armor",
+      "1": "Stamina"
     },
     "heightm": 2.5,
     "weightkg": 220.0,
@@ -5420,8 +5464,8 @@ exports.BattlePokedex = {
       "spd": 65
     },
     "abilities": {
-      "1": "Versatility",
-      "0": "Adaptability"
+      "0": "Adaptability",
+      "1": "Versatility"
     },
     "heightm": 0.3,
     "weightkg": 6.5,
@@ -5491,8 +5535,8 @@ exports.BattlePokedex = {
       "spd": 95
     },
     "abilities": {
-      "1": "Galvanize",
       "0": "Electric Surge",
+      "1": "Galvanize",
       "H": "Evoboost"
     },
     "heightm": 0.8,
@@ -5524,8 +5568,8 @@ exports.BattlePokedex = {
       "spd": 110
     },
     "abilities": {
-      "1": "Fluffy",
       "0": "Drought",
+      "1": "Fluffy",
       "H": "Evoboost"
     },
     "heightm": 0.9,
@@ -5555,8 +5599,8 @@ exports.BattlePokedex = {
       "spd": 100
     },
     "abilities": {
-      "1": "Levitate",
-      "0": "Database"
+      "0": "Database",
+      "1": "Levitate"
     },
     "heightm": 0.8,
     "weightkg": 36.5,
@@ -5620,8 +5664,8 @@ exports.BattlePokedex = {
       "spd": 95
     },
     "abilities": {
-      "1": "Shell Armor",
-      "0": "Sturdy"
+      "0": "Sturdy",
+      "1": "Shell Armor"
     },
     "heightm": 1.0,
     "weightkg": 35.0,
@@ -5652,8 +5696,8 @@ exports.BattlePokedex = {
       "spd": 75
     },
     "abilities": {
-      "1": "Battle Armor",
-      "0": "Swift Swim"
+      "0": "Swift Swim",
+      "1": "Battle Armor"
     },
     "heightm": 0.5,
     "weightkg": 11.5,
@@ -5685,8 +5729,8 @@ exports.BattlePokedex = {
       "spd": 70
     },
     "abilities": {
-      "1": "Ruthless",
-      "0": "Swift Swim"
+      "0": "Swift Swim",
+      "1": "Ruthless"
     },
     "heightm": 1.3,
     "weightkg": 40.5,
@@ -5717,8 +5761,8 @@ exports.BattlePokedex = {
       "spd": 75
     },
     "abilities": {
-      "1": "Intimidate",
-      "0": "Strong Jaw"
+      "0": "Strong Jaw",
+      "1": "Intimidate"
     },
     "heightm": 1.8,
     "weightkg": 59.0,
@@ -5783,9 +5827,9 @@ exports.BattlePokedex = {
       "spd": 110
     },
     "abilities": {
-      "H": "Poison Heal",
       "0": "Metabolism",
-      "1": "Comatose"
+      "1": "Comatose",
+      "H": "Poison Heal"
     },
     "heightm": 2.1,
     "weightkg": 460.0,
@@ -5812,8 +5856,8 @@ exports.BattlePokedex = {
       "spd": 125
     },
     "abilities": {
-      "1": "Snow Warning",
-      "0": "Guarding Gale"
+      "0": "Guarding Gale",
+      "1": "Snow Warning"
     },
     "heightm": 1.7,
     "weightkg": 55.4,
@@ -5864,8 +5908,8 @@ exports.BattlePokedex = {
       "spd": 100
     },
     "abilities": {
-      "1": "Solar Power",
-      "0": "Guarding Gale"
+      "0": "Guarding Gale",
+      "1": "Solar Power"
     },
     "heightm": 2.0,
     "weightkg": 60.0,
@@ -5959,8 +6003,8 @@ exports.BattlePokedex = {
       "spd": 90
     },
     "abilities": {
-      "1": "Drizzle",
-      "0": "Aerilate"
+      "0": "Aerilate",
+      "1": "Drizzle"
     },
     "heightm": 2.2,
     "weightkg": 210.0,
@@ -6103,8 +6147,8 @@ exports.BattlePokedex = {
       "spd": 65
     },
     "abilities": {
-      "1": "Grassy Guard",
-      "0": "Overgrow"
+      "0": "Overgrow",
+      "1": "Grassy Guard"
     },
     "heightm": 0.9,
     "weightkg": 6.4,
@@ -6135,8 +6179,8 @@ exports.BattlePokedex = {
       "spd": 90
     },
     "abilities": {
-      "1": "Grassy Guard",
-      "0": "Overgrow"
+      "0": "Overgrow",
+      "1": "Grassy Guard"
     },
     "heightm": 1.2,
     "weightkg": 15.8,
@@ -6201,8 +6245,8 @@ exports.BattlePokedex = {
       "spd": 43
     },
     "abilities": {
-      "1": "Flash Fire",
-      "0": "Blaze"
+      "0": "Blaze",
+      "1": "Flash Fire"
     },
     "heightm": 0.5,
     "weightkg": 7.9,
@@ -6232,8 +6276,8 @@ exports.BattlePokedex = {
       "spd": 58
     },
     "abilities": {
-      "1": "Flash Fire",
-      "0": "Blaze"
+      "0": "Blaze",
+      "1": "Flash Fire"
     },
     "heightm": 0.9,
     "weightkg": 19.0,
@@ -6295,8 +6339,8 @@ exports.BattlePokedex = {
       "spd": 48
     },
     "abilities": {
-      "1": "Strong Jaw",
-      "0": "Torrent"
+      "0": "Torrent",
+      "1": "Strong Jaw"
     },
     "heightm": 0.6,
     "weightkg": 9.5,
@@ -6487,8 +6531,8 @@ exports.BattlePokedex = {
       "spd": 111
     },
     "abilities": {
-      "1": "Hubris",
-      "0": "Tinted Lens"
+      "0": "Tinted Lens",
+      "1": "Hubris"
     },
     "heightm": 1.6,
     "weightkg": 40.8,
@@ -6518,8 +6562,8 @@ exports.BattlePokedex = {
       "spd": 95
     },
     "abilities": {
-      "1": "Technician",
-      "0": "Tinted Lens"
+      "0": "Tinted Lens",
+      "1": "Technician"
     },
     "heightm": 1.0,
     "weightkg": 10.8,
@@ -6550,8 +6594,8 @@ exports.BattlePokedex = {
       "spd": 120
     },
     "abilities": {
-      "1": "Technician",
-      "0": "Tinted Lens"
+      "0": "Tinted Lens",
+      "1": "Technician"
     },
     "heightm": 1.4,
     "weightkg": 35.6,
@@ -6613,8 +6657,8 @@ exports.BattlePokedex = {
       "spd": 80
     },
     "abilities": {
-      "1": "Ruthless",
-      "0": "Intimidate"
+      "0": "Intimidate",
+      "1": "Ruthless"
     },
     "heightm": 1.1,
     "weightkg": 33.5,
@@ -6644,8 +6688,8 @@ exports.BattlePokedex = {
       "spd": 70
     },
     "abilities": {
-      "1": "Intimidate",
       "0": "Ruthless",
+      "1": "Intimidate",
       "H": "Stakeout"
     },
     "heightm": 1.8,
@@ -6678,8 +6722,8 @@ exports.BattlePokedex = {
       "spd": 95
     },
     "abilities": {
-      "1": "Lightning Rod",
-      "0": "Swift Swim"
+      "0": "Swift Swim",
+      "1": "Lightning Rod"
     },
     "heightm": 0.5,
     "weightkg": 12.0,
@@ -6710,8 +6754,8 @@ exports.BattlePokedex = {
       "spd": 125
     },
     "abilities": {
-      "1": "Lightning Rod",
-      "0": "Swift Swim"
+      "0": "Swift Swim",
+      "1": "Lightning Rod"
     },
     "heightm": 1.2,
     "weightkg": 22.5,
@@ -6771,9 +6815,9 @@ exports.BattlePokedex = {
       "spd": 80
     },
     "abilities": {
+      "0": "Unaware",
       "1": "Magic Guard",
-      "H": "Friend Guard",
-      "0": "Unaware"
+      "H": "Friend Guard"
     },
     "heightm": 0.3,
     "weightkg": 3.0,
@@ -6804,8 +6848,8 @@ exports.BattlePokedex = {
       "spd": 65
     },
     "abilities": {
-      "1": "Fluffy",
-      "0": "Huge Power"
+      "0": "Huge Power",
+      "1": "Fluffy"
     },
     "heightm": 0.3,
     "weightkg": 1.0,
@@ -6835,8 +6879,8 @@ exports.BattlePokedex = {
       "spd": 90
     },
     "abilities": {
-      "1": "Serene Grace",
-      "0": "Trace"
+      "0": "Trace",
+      "1": "Serene Grace"
     },
     "heightm": 0.3,
     "weightkg": 1.5,
@@ -6867,8 +6911,8 @@ exports.BattlePokedex = {
       "spd": 110
     },
     "abilities": {
-      "1": "Serene Grace",
-      "0": "Trace"
+      "0": "Trace",
+      "1": "Serene Grace"
     },
     "heightm": 0.6,
     "weightkg": 3.2,
@@ -6964,8 +7008,8 @@ exports.BattlePokedex = {
       "spd": 65
     },
     "abilities": {
-      "1": "Lightning Rod",
-      "0": "Unaware"
+      "0": "Unaware",
+      "1": "Lightning Rod"
     },
     "heightm": 0.6,
     "weightkg": 7.8,
@@ -6996,8 +7040,8 @@ exports.BattlePokedex = {
       "spd": 85
     },
     "abilities": {
-      "1": "Lightning Rod",
-      "0": "Unaware"
+      "0": "Unaware",
+      "1": "Lightning Rod"
     },
     "heightm": 0.8,
     "weightkg": 13.3,
@@ -7134,8 +7178,8 @@ exports.BattlePokedex = {
       "spd": 80
     },
     "abilities": {
-      "1": "Huge Power",
-      "0": "Liquid Veil"
+      "0": "Liquid Veil",
+      "1": "Huge Power"
     },
     "heightm": 0.4,
     "weightkg": 8.5,
@@ -7200,8 +7244,8 @@ exports.BattlePokedex = {
       "spd": 85
     },
     "abilities": {
-      "1": "Sap Sipper",
-      "0": "Contrary"
+      "0": "Contrary",
+      "1": "Sap Sipper"
     },
     "heightm": 1.2,
     "weightkg": 38.0,
@@ -7263,8 +7307,8 @@ exports.BattlePokedex = {
       "spd": 55
     },
     "abilities": {
-      "1": "Guarding Gale",
-      "0": "Regenerator"
+      "0": "Regenerator",
+      "1": "Guarding Gale"
     },
     "heightm": 0.8,
     "weightkg": 3.0,
@@ -7296,8 +7340,8 @@ exports.BattlePokedex = {
       "spd": 75
     },
     "abilities": {
-      "1": "Guarding Gale",
-      "0": "Regenerator"
+      "0": "Regenerator",
+      "1": "Guarding Gale"
     },
     "heightm": 0.8,
     "weightkg": 3.0,
@@ -7362,8 +7406,8 @@ exports.BattlePokedex = {
       "spd": 50
     },
     "abilities": {
-      "1": "Technician",
-      "0": "Prankster"
+      "0": "Prankster",
+      "1": "Technician"
     },
     "heightm": 0.8,
     "weightkg": 11.5,
@@ -7455,8 +7499,8 @@ exports.BattlePokedex = {
       "spd": 41
     },
     "abilities": {
-      "1": "Tinted Lens",
-      "0": "Aerilate"
+      "0": "Aerilate",
+      "1": "Tinted Lens"
     },
     "heightm": 1.2,
     "weightkg": 38.0,
@@ -7520,8 +7564,8 @@ exports.BattlePokedex = {
       "spd": 95
     },
     "abilities": {
-      "1": "Unaware",
-      "0": "Simple"
+      "0": "Simple",
+      "1": "Unaware"
     },
     "heightm": 1.4,
     "weightkg": 75.0,
@@ -7551,8 +7595,8 @@ exports.BattlePokedex = {
       "spd": 110
     },
     "abilities": {
-      "1": "Solar Power",
       "0": "Psychic Surge",
+      "1": "Solar Power",
       "H": "Evoboost"
     },
     "heightm": 0.9,
@@ -7584,8 +7628,8 @@ exports.BattlePokedex = {
       "spd": 130
     },
     "abilities": {
-      "1": "Dark Aura",
       "0": "Intimidate",
+      "1": "Dark Aura",
       "H": "Poison Heal"
     },
     "heightm": 1.0,
@@ -7650,8 +7694,8 @@ exports.BattlePokedex = {
       "spd": 115
     },
     "abilities": {
-      "1": "Regenerator",
-      "0": "Hubris"
+      "0": "Hubris",
+      "1": "Regenerator"
     },
     "heightm": 2.0,
     "weightkg": 79.5,
@@ -7804,8 +7848,8 @@ exports.BattlePokedex = {
       "spd": 70
     },
     "abilities": {
-      "1": "Battle Armor",
-      "0": "Sturdy"
+      "0": "Sturdy",
+      "1": "Battle Armor"
     },
     "heightm": 0.6,
     "weightkg": 7.2,
@@ -7968,8 +8012,8 @@ exports.BattlePokedex = {
       "spd": 150
     },
     "abilities": {
-      "1": "Energy Shield",
-      "0": "Sand Force"
+      "0": "Sand Force",
+      "1": "Energy Shield"
     },
     "heightm": 10.5,
     "weightkg": 740.0,
@@ -7999,8 +8043,8 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Strong Jaw",
-      "H": "Quick Feet",
-      "1": "Intimidate"
+      "1": "Intimidate",
+      "H": "Quick Feet"
     },
     "heightm": 0.6,
     "weightkg": 7.8,
@@ -8032,9 +8076,9 @@ exports.BattlePokedex = {
       "spd": 80
     },
     "abilities": {
+      "0": "Strong Jaw",
       "1": "Intimidate",
-      "H": "Quick Feet",
-      "0": "Strong Jaw"
+      "H": "Quick Feet"
     },
     "heightm": 1.4,
     "weightkg": 48.7,
@@ -8065,8 +8109,8 @@ exports.BattlePokedex = {
       "spd": 80
     },
     "abilities": {
-      "1": "Instinct",
-      "0": "Intimidate"
+      "0": "Intimidate",
+      "1": "Instinct"
     },
     "heightm": 0.5,
     "weightkg": 3.9,
@@ -8134,8 +8178,8 @@ exports.BattlePokedex = {
       "spd": 100
     },
     "abilities": {
-      "1": "Intimidate",
-      "0": "Tough Claws"
+      "0": "Tough Claws",
+      "1": "Intimidate"
     },
     "heightm": 2.0,
     "weightkg": 125.0,
@@ -8165,8 +8209,8 @@ exports.BattlePokedex = {
       "spd": 230
     },
     "abilities": {
-      "1": "Shell Armor",
-      "0": "Simple"
+      "0": "Simple",
+      "1": "Shell Armor"
     },
     "heightm": 0.6,
     "weightkg": 20.5,
@@ -8195,8 +8239,8 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Sap Sipper",
-      "H": "Guts",
-      "1": "Ruthless"
+      "1": "Ruthless",
+      "H": "Guts"
     },
     "heightm": 1.5,
     "weightkg": 54.0,
@@ -8231,8 +8275,8 @@ exports.BattlePokedex = {
       "spd": 110
     },
     "abilities": {
-      "1": "Technician",
-      "0": "Hustle"
+      "0": "Hustle",
+      "1": "Technician"
     },
     "heightm": 1.7,
     "weightkg": 62.5,
@@ -8262,8 +8306,8 @@ exports.BattlePokedex = {
       "spd": 55
     },
     "abilities": {
-      "1": "Technician",
-      "0": "Refrigerate"
+      "0": "Refrigerate",
+      "1": "Technician"
     },
     "heightm": 0.9,
     "weightkg": 28.0,
@@ -8355,8 +8399,8 @@ exports.BattlePokedex = {
       "spd": 95
     },
     "abilities": {
-      "1": "Drought",
-      "0": "Sweltering Sun"
+      "0": "Sweltering Sun",
+      "1": "Drought"
     },
     "heightm": 0.7,
     "weightkg": 35.0,
@@ -8387,8 +8431,8 @@ exports.BattlePokedex = {
       "spd": 115
     },
     "abilities": {
-      "1": "Drought",
-      "0": "Sweltering Sun"
+      "0": "Sweltering Sun",
+      "1": "Drought"
     },
     "heightm": 0.8,
     "weightkg": 55.0,
@@ -8418,8 +8462,8 @@ exports.BattlePokedex = {
       "spd": 50
     },
     "abilities": {
-      "1": "Unaware",
-      "0": "Thick Fat"
+      "0": "Thick Fat",
+      "1": "Unaware"
     },
     "heightm": 0.4,
     "weightkg": 6.5,
@@ -8484,8 +8528,8 @@ exports.BattlePokedex = {
       "spd": 125
     },
     "abilities": {
-      "1": "Regenerator",
-      "0": "Rough Skin"
+      "0": "Rough Skin",
+      "1": "Regenerator"
     },
     "heightm": 0.6,
     "weightkg": 5.0,
@@ -8577,8 +8621,8 @@ exports.BattlePokedex = {
       "spd": 85
     },
     "abilities": {
-      "1": "Technician",
-      "0": "Hustle"
+      "0": "Hustle",
+      "1": "Technician"
     },
     "heightm": 0.9,
     "weightkg": 16.0,
@@ -8607,8 +8651,8 @@ exports.BattlePokedex = {
       "spd": 140
     },
     "abilities": {
-      "1": "Guarding Gale",
-      "0": "Swift Swim"
+      "0": "Swift Swim",
+      "1": "Guarding Gale"
     },
     "heightm": 2.1,
     "weightkg": 220.0,
@@ -8638,8 +8682,8 @@ exports.BattlePokedex = {
       "spd": 70
     },
     "abilities": {
-      "1": "Intimidate",
-      "0": "Ruthless"
+      "0": "Ruthless",
+      "1": "Intimidate"
     },
     "heightm": 1.7,
     "weightkg": 50.5,
@@ -8667,8 +8711,8 @@ exports.BattlePokedex = {
       "spd": 50
     },
     "abilities": {
-      "1": "Sinister",
-      "0": "Unnerve"
+      "0": "Unnerve",
+      "1": "Sinister"
     },
     "heightm": 0.6,
     "weightkg": 10.8,
@@ -8699,8 +8743,8 @@ exports.BattlePokedex = {
       "spd": 80
     },
     "abilities": {
-      "1": "Sinister",
-      "0": "Ruthless"
+      "0": "Ruthless",
+      "1": "Sinister"
     },
     "heightm": 1.4,
     "weightkg": 35.0,
@@ -8737,8 +8781,8 @@ exports.BattlePokedex = {
       "spd": 90
     },
     "abilities": {
-      "1": "Dark Aura",
-      "0": "Hubris"
+      "0": "Hubris",
+      "1": "Dark Aura"
     },
     "heightm": 1.9,
     "weightkg": 49.5,
@@ -8977,8 +9021,8 @@ exports.BattlePokedex = {
       "spd": 110
     },
     "abilities": {
-      "1": "Technician",
-      "0": "Intimidate"
+      "0": "Intimidate",
+      "1": "Technician"
     },
     "heightm": 1.4,
     "weightkg": 48.0,
@@ -9005,8 +9049,8 @@ exports.BattlePokedex = {
       "spd": 85
     },
     "abilities": {
-      "1": "Dry Skin",
-      "0": "Serene Grace"
+      "0": "Serene Grace",
+      "1": "Dry Skin"
     },
     "heightm": 0.4,
     "weightkg": 6.0,
@@ -9036,8 +9080,8 @@ exports.BattlePokedex = {
       "spd": 45
     },
     "abilities": {
-      "1": "Lightning Rod",
-      "0": "Volt Rush"
+      "0": "Volt Rush",
+      "1": "Lightning Rod"
     },
     "heightm": 0.6,
     "weightkg": 23.5,
@@ -9095,8 +9139,8 @@ exports.BattlePokedex = {
       "spd": 105
     },
     "abilities": {
-      "1": "Sap Sipper",
-      "0": "Thick Fat"
+      "0": "Thick Fat",
+      "1": "Sap Sipper"
     },
     "heightm": 1.2,
     "weightkg": 75.5,
@@ -9121,9 +9165,9 @@ exports.BattlePokedex = {
       "spd": 150
     },
     "abilities": {
+      "0": "Serene Grace",
       "1": "Misty Surge",
-      "H": "Friend Guard",
-      "0": "Serene Grace"
+      "H": "Friend Guard"
     },
     "heightm": 1.5,
     "weightkg": 46.8,
@@ -9178,8 +9222,8 @@ exports.BattlePokedex = {
       "spd": 85
     },
     "abilities": {
-      "1": "Intimidate",
-      "0": "Drought"
+      "0": "Drought",
+      "1": "Intimidate"
     },
     "heightm": 2.1,
     "weightkg": 198.0,
@@ -9265,9 +9309,9 @@ exports.BattlePokedex = {
       "spd": 85
     },
     "abilities": {
-      "H": "Sand Stream",
       "0": "Hustle",
-      "1": "Shell Armor"
+      "1": "Shell Armor",
+      "H": "Sand Stream"
     },
     "heightm": 2.0,
     "weightkg": 202.0,
@@ -9300,8 +9344,8 @@ exports.BattlePokedex = {
       "spd": 85
     },
     "abilities": {
-      "1": "Sand Stream",
-      "0": "Bulletproof"
+      "0": "Bulletproof",
+      "1": "Sand Stream"
     },
     "heightm": 2.0,
     "weightkg": 202.0,
@@ -9368,8 +9412,8 @@ exports.BattlePokedex = {
       "spd": 154
     },
     "abilities": {
-      "1": "Multiscale",
-      "0": "Stormy Seas"
+      "0": "Stormy Seas",
+      "1": "Multiscale"
     },
     "heightm": 5.2,
     "weightkg": 216.0,
@@ -9689,8 +9733,8 @@ exports.BattlePokedex = {
       "spd": 75
     },
     "abilities": {
-      "1": "Speed Boost",
-      "0": "No Guard"
+      "0": "No Guard",
+      "1": "Speed Boost"
     },
     "heightm": 1.9,
     "weightkg": 52.0,
@@ -9752,8 +9796,8 @@ exports.BattlePokedex = {
       "spd": 70
     },
     "abilities": {
-      "1": "Torrent",
-      "0": "Water Absorb"
+      "0": "Water Absorb",
+      "1": "Torrent"
     },
     "heightm": 0.7,
     "weightkg": 28.0,
@@ -9826,8 +9870,8 @@ exports.BattlePokedex = {
       "spd": 100
     },
     "abilities": {
-      "1": "Swift Swim",
-      "0": "Headstrong"
+      "0": "Headstrong",
+      "1": "Swift Swim"
     },
     "heightm": 1.9,
     "weightkg": 102.0,
@@ -9857,9 +9901,9 @@ exports.BattlePokedex = {
       "spd": 45
     },
     "abilities": {
-      "H": "Stakeout",
+      "0": "Intimidate",
       "1": "Moxie",
-      "0": "Intimidate"
+      "H": "Stakeout"
     },
     "heightm": 0.5,
     "weightkg": 13.6,
@@ -9889,9 +9933,9 @@ exports.BattlePokedex = {
       "spd": 60
     },
     "abilities": {
+      "0": "Intimidate",
       "1": "Strong Jaw",
-      "H": "Stakeout",
-      "0": "Intimidate"
+      "H": "Stakeout"
     },
     "heightm": 1.0,
     "weightkg": 37.0,
@@ -10047,8 +10091,8 @@ exports.BattlePokedex = {
       "spd": 95
     },
     "abilities": {
-      "1": "Ruthless",
-      "0": "Serene Grace"
+      "0": "Serene Grace",
+      "1": "Ruthless"
     },
     "heightm": 1.0,
     "weightkg": 28.4,
@@ -10243,8 +10287,8 @@ exports.BattlePokedex = {
       "spd": 60
     },
     "abilities": {
-      "1": "Grassy Guard",
-      "0": "Solar Rush"
+      "0": "Solar Rush",
+      "1": "Grassy Guard"
     },
     "heightm": 0.5,
     "weightkg": 4.0,
@@ -10377,8 +10421,8 @@ exports.BattlePokedex = {
       "spd": 60
     },
     "abilities": {
-      "1": "Instinct",
       "0": "Hustle",
+      "1": "Instinct",
       "H": "Guts"
     },
     "heightm": 0.7,
@@ -10506,8 +10550,8 @@ exports.BattlePokedex = {
       "spd": 90
     },
     "abilities": {
-      "1": "Magic Guard",
-      "0": "Trace"
+      "0": "Trace",
+      "1": "Magic Guard"
     },
     "heightm": 0.8,
     "weightkg": 20.2,
@@ -10581,8 +10625,8 @@ exports.BattlePokedex = {
       "spd": 160
     },
     "abilities": {
-      "1": "Magic Bounce",
-      "0": "Fairy Aura"
+      "0": "Fairy Aura",
+      "1": "Magic Bounce"
     },
     "heightm": 1.6,
     "weightkg": 48.4,
@@ -10742,8 +10786,8 @@ exports.BattlePokedex = {
       "spd": 60
     },
     "abilities": {
-      "1": "Truant",
-      "0": "Unaware"
+      "0": "Unaware",
+      "1": "Truant"
     },
     "heightm": 0.8,
     "weightkg": 24.0,
@@ -10871,8 +10915,8 @@ exports.BattlePokedex = {
       "spd": 51
     },
     "abilities": {
-      "1": "Tinted Lens",
-      "0": "Versatility"
+      "0": "Versatility",
+      "1": "Tinted Lens"
     },
     "heightm": 0.8,
     "weightkg": 12.0,
@@ -10958,8 +11002,8 @@ exports.BattlePokedex = {
       "spd": 73
     },
     "abilities": {
-      "1": "Amplifier",
-      "0": "Intimidate"
+      "0": "Intimidate",
+      "1": "Amplifier"
     },
     "heightm": 1.0,
     "weightkg": 40.5,
@@ -10993,8 +11037,8 @@ exports.BattlePokedex = {
       "spd": 78
     },
     "abilities": {
-      "1": "Amplifier",
-      "0": "Intimidate"
+      "0": "Intimidate",
+      "1": "Amplifier"
     },
     "heightm": 1.5,
     "weightkg": 84.0,
@@ -11057,8 +11101,8 @@ exports.BattlePokedex = {
       "spd": 86
     },
     "abilities": {
-      "1": "Thick Fat",
-      "0": "Resilient"
+      "0": "Resilient",
+      "1": "Thick Fat"
     },
     "heightm": 2.3,
     "weightkg": 253.8,
@@ -11151,8 +11195,8 @@ exports.BattlePokedex = {
       "spd": 65
     },
     "abilities": {
-      "1": "Simple",
-      "0": "Fur Coat"
+      "0": "Fur Coat",
+      "1": "Simple"
     },
     "heightm": 0.6,
     "weightkg": 11.0,
@@ -11184,8 +11228,8 @@ exports.BattlePokedex = {
       "spd": 95
     },
     "abilities": {
-      "1": "Simple",
-      "0": "Fur Coat"
+      "0": "Fur Coat",
+      "1": "Simple"
     },
     "heightm": 1.1,
     "weightkg": 32.6,
@@ -11252,8 +11296,8 @@ exports.BattlePokedex = {
       "spd": 170
     },
     "abilities": {
-      "1": "Energy Shield",
-      "0": "Magic Bounce"
+      "0": "Magic Bounce",
+      "1": "Energy Shield"
     },
     "heightm": 0.5,
     "weightkg": 161.0,
@@ -11283,8 +11327,8 @@ exports.BattlePokedex = {
       "spd": 100
     },
     "abilities": {
-      "1": "Intimidate",
-      "0": "Strong Jaw"
+      "0": "Strong Jaw",
+      "1": "Intimidate"
     },
     "heightm": 0.6,
     "weightkg": 11.5,
@@ -11320,8 +11364,8 @@ exports.BattlePokedex = {
       "spd": 110
     },
     "abilities": {
-      "1": "Hustle",
-      "0": "Sheer Force"
+      "0": "Sheer Force",
+      "1": "Hustle"
     },
     "heightm": 1.0,
     "weightkg": 23.5,
@@ -11458,8 +11502,8 @@ exports.BattlePokedex = {
       "spd": 115
     },
     "abilities": {
-      "1": "Bulletproof",
-      "0": "Iron Barbs"
+      "0": "Iron Barbs",
+      "1": "Bulletproof"
     },
     "heightm": 2.2,
     "weightkg": 395.0,
@@ -11559,8 +11603,8 @@ exports.BattlePokedex = {
       "spd": 110
     },
     "abilities": {
-      "1": "Sixth Sense",
-      "0": "Pure Power"
+      "0": "Pure Power",
+      "1": "Sixth Sense"
     },
     "heightm": 1.3,
     "weightkg": 31.5,
@@ -11620,8 +11664,8 @@ exports.BattlePokedex = {
       "spd": 65
     },
     "abilities": {
-      "1": "Speed Boost",
-      "0": "Intimidate"
+      "0": "Intimidate",
+      "1": "Speed Boost"
     },
     "heightm": 1.5,
     "weightkg": 40.2,
@@ -11657,8 +11701,8 @@ exports.BattlePokedex = {
       "spd": 80
     },
     "abilities": {
-      "1": "No Guard",
-      "0": "Stamina"
+      "0": "Stamina",
+      "1": "No Guard"
     },
     "heightm": 1.8,
     "weightkg": 44.0,
@@ -11688,9 +11732,9 @@ exports.BattlePokedex = {
       "spd": 100
     },
     "abilities": {
-      "H": "Battery",
+      "0": "Competitive",
       "1": "Speed Boost",
-      "0": "Competitive"
+      "H": "Battery"
     },
     "heightm": 0.4,
     "weightkg": 4.2,
@@ -11718,9 +11762,9 @@ exports.BattlePokedex = {
       "spd": 115
     },
     "abilities": {
-      "H": "Friend Guard",
+      "0": "Competitive",
       "1": "Stamina",
-      "0": "Competitive"
+      "H": "Friend Guard"
     },
     "heightm": 0.4,
     "weightkg": 4.2,
@@ -11772,8 +11816,8 @@ exports.BattlePokedex = {
       "spd": 118
     },
     "abilities": {
-      "1": "Tinted Lens",
-      "0": "Prankster"
+      "0": "Prankster",
+      "1": "Tinted Lens"
     },
     "heightm": 0.6,
     "weightkg": 17.7,
@@ -11802,8 +11846,8 @@ exports.BattlePokedex = {
       "spd": 95
     },
     "abilities": {
-      "1": "Serene Grace",
-      "0": "Solar Power"
+      "0": "Solar Power",
+      "1": "Serene Grace"
     },
     "heightm": 0.3,
     "weightkg": 2.0,
@@ -11898,8 +11942,8 @@ exports.BattlePokedex = {
       "spd": 35
     },
     "abilities": {
-      "1": "Speed Boost",
-      "0": "Strong Jaw"
+      "0": "Strong Jaw",
+      "1": "Speed Boost"
     },
     "heightm": 0.8,
     "weightkg": 20.8,
@@ -11930,8 +11974,8 @@ exports.BattlePokedex = {
       "spd": 50
     },
     "abilities": {
-      "1": "Speed Boost",
-      "0": "Strong Jaw"
+      "0": "Strong Jaw",
+      "1": "Speed Boost"
     },
     "heightm": 1.8,
     "weightkg": 88.8,
@@ -11998,8 +12042,8 @@ exports.BattlePokedex = {
       "spd": 75
     },
     "abilities": {
-      "1": "Drizzle",
-      "0": "Unaware"
+      "0": "Unaware",
+      "1": "Drizzle"
     },
     "heightm": 2.0,
     "weightkg": 130.0,
@@ -12064,8 +12108,8 @@ exports.BattlePokedex = {
       "spd": 65
     },
     "abilities": {
-      "1": "Unaware",
-      "0": "Simple"
+      "0": "Simple",
+      "1": "Unaware"
     },
     "heightm": 0.7,
     "weightkg": 24.0,
@@ -12164,8 +12208,8 @@ exports.BattlePokedex = {
       "spd": 125
     },
     "abilities": {
-      "1": "Shell Armor",
-      "0": "Drought"
+      "0": "Drought",
+      "1": "Shell Armor"
     },
     "heightm": 0.5,
     "weightkg": 80.4,
@@ -12224,8 +12268,8 @@ exports.BattlePokedex = {
       "spd": 120
     },
     "abilities": {
-      "1": "Dark Aura",
-      "0": "Psychic Surge"
+      "0": "Psychic Surge",
+      "1": "Dark Aura"
     },
     "heightm": 0.9,
     "weightkg": 71.5,
@@ -12255,8 +12299,8 @@ exports.BattlePokedex = {
       "spd": 95
     },
     "abilities": {
-      "1": "Psychic Surge",
-      "0": "Contrary"
+      "0": "Contrary",
+      "1": "Psychic Surge"
     },
     "heightm": 1.1,
     "weightkg": 5.0,
@@ -12286,8 +12330,8 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Strong Jaw",
-      "H": "Arena Trap",
-      "1": "Sand Force"
+      "1": "Sand Force",
+      "H": "Arena Trap"
     },
     "heightm": 0.7,
     "weightkg": 15.0,
@@ -12352,8 +12396,8 @@ exports.BattlePokedex = {
       "spd": 80
     },
     "abilities": {
-      "1": "Levitate",
-      "0": "Amplifier"
+      "0": "Amplifier",
+      "1": "Levitate"
     },
     "heightm": 1.1,
     "weightkg": 15.3,
@@ -12385,8 +12429,8 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Sand Rush",
-      "H": "Stakeout",
-      "1": "Moxie"
+      "1": "Moxie",
+      "H": "Stakeout"
     },
     "heightm": 0.4,
     "weightkg": 51.3,
@@ -12418,8 +12462,8 @@ exports.BattlePokedex = {
       "spd": 77
     },
     "abilities": {
-      "1": "Moxie",
       "0": "Sand Rush",
+      "1": "Moxie",
       "H": "Stakeout"
     },
     "heightm": 1.3,
@@ -12555,9 +12599,9 @@ exports.BattlePokedex = {
       "spd": 68
     },
     "abilities": {
+      "0": "Ruthless",
       "1": "Tough Claws",
-      "H": "Toxic Boost",
-      "0": "Ruthless"
+      "H": "Toxic Boost"
     },
     "heightm": 1.3,
     "weightkg": 40.3,
@@ -12585,8 +12629,8 @@ exports.BattlePokedex = {
       "spd": 73
     },
     "abilities": {
-      "1": "Strong Jaw",
-      "0": "Ruthless"
+      "0": "Ruthless",
+      "1": "Strong Jaw"
     },
     "heightm": 2.7,
     "weightkg": 52.5,
@@ -12764,8 +12808,8 @@ exports.BattlePokedex = {
       "spd": 95
     },
     "abilities": {
-      "1": "Ruthless",
-      "0": "Tough Claws"
+      "0": "Tough Claws",
+      "1": "Ruthless"
     },
     "heightm": 1.1,
     "weightkg": 32.8,
@@ -12793,8 +12837,8 @@ exports.BattlePokedex = {
       "spd": 90
     },
     "abilities": {
-      "1": "Energy Shield",
-      "0": "Levitate"
+      "0": "Levitate",
+      "1": "Energy Shield"
     },
     "heightm": 0.5,
     "weightkg": 21.5,
@@ -12822,8 +12866,8 @@ exports.BattlePokedex = {
       "spd": 120
     },
     "abilities": {
-      "1": "Energy Shield",
-      "0": "Levitate"
+      "0": "Levitate",
+      "1": "Energy Shield"
     },
     "heightm": 1.5,
     "weightkg": 108.0,
@@ -12853,8 +12897,8 @@ exports.BattlePokedex = {
       "spd": 92
     },
     "abilities": {
-      "1": "Storm Drain",
-      "0": "Regenerator"
+      "0": "Regenerator",
+      "1": "Storm Drain"
     },
     "heightm": 1.0,
     "weightkg": 23.8,
@@ -12885,8 +12929,8 @@ exports.BattlePokedex = {
       "spd": 117
     },
     "abilities": {
-      "1": "Storm Drain",
-      "0": "Sand Stream"
+      "0": "Sand Stream",
+      "1": "Storm Drain"
     },
     "heightm": 1.5,
     "weightkg": 60.4,
@@ -12948,8 +12992,8 @@ exports.BattlePokedex = {
       "spd": 85
     },
     "abilities": {
-      "1": "Swift Swim",
-      "0": "Ruthless"
+      "0": "Ruthless",
+      "1": "Swift Swim"
     },
     "heightm": 1.5,
     "weightkg": 68.2,
@@ -13043,8 +13087,8 @@ exports.BattlePokedex = {
       "spd": 110
     },
     "abilities": {
-      "1": "Forecast",
-      "0": "Guarding Gale"
+      "0": "Guarding Gale",
+      "1": "Forecast"
     },
     "heightm": 0.3,
     "weightkg": 0.8,
@@ -13238,9 +13282,9 @@ exports.BattlePokedex = {
       "spd": 65
     },
     "abilities": {
-      "H": "Envy",
+      "0": "Prankster",
       "1": "Ruthless",
-      "0": "Prankster"
+      "H": "Envy"
     },
     "heightm": 1.1,
     "weightkg": 12.5,
@@ -13278,8 +13322,8 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Tough Claws",
-      "H": "Shadow Tag",
-      "1": "Hubris"
+      "1": "Hubris",
+      "H": "Shadow Tag"
     },
     "heightm": 1.2,
     "weightkg": 13.0,
@@ -13308,8 +13352,8 @@ exports.BattlePokedex = {
       "spd": 100
     },
     "abilities": {
-      "1": "Flash Fire",
-      "0": "Levitate"
+      "0": "Levitate",
+      "1": "Flash Fire"
     },
     "heightm": 0.8,
     "weightkg": 15.0,
@@ -13403,8 +13447,8 @@ exports.BattlePokedex = {
       "spd": 110
     },
     "abilities": {
-      "1": "Amplifier",
-      "0": "Levitate"
+      "0": "Levitate",
+      "1": "Amplifier"
     },
     "heightm": 0.6,
     "weightkg": 1.0,
@@ -13499,8 +13543,8 @@ exports.BattlePokedex = {
       "spd": 93
     },
     "abilities": {
-      "1": "Unaware",
       "0": "Emergency Exit",
+      "1": "Unaware",
       "H": "Shadow Tag"
     },
     "heightm": 0.6,
@@ -13670,8 +13714,8 @@ exports.BattlePokedex = {
       "spd": 85
     },
     "abilities": {
-      "1": "Resilient",
-      "0": "Unaware"
+      "0": "Unaware",
+      "1": "Resilient"
     },
     "heightm": 1.1,
     "weightkg": 87.6,
@@ -13771,8 +13815,8 @@ exports.BattlePokedex = {
       "spd": 107
     },
     "abilities": {
-      "1": "Sinister",
-      "0": "Multiscale"
+      "0": "Multiscale",
+      "1": "Sinister"
     },
     "heightm": 1.7,
     "weightkg": 27.0,
@@ -13802,8 +13846,8 @@ exports.BattlePokedex = {
       "spd": 107
     },
     "abilities": {
-      "1": "Sap Sipper",
-      "0": "Multiscale"
+      "0": "Multiscale",
+      "1": "Sap Sipper"
     },
     "heightm": 1.8,
     "weightkg": 22.6,
@@ -13895,8 +13939,8 @@ exports.BattlePokedex = {
       "spd": 60
     },
     "abilities": {
-      "1": "Rough Skin",
-      "0": "Hustle"
+      "0": "Hustle",
+      "1": "Rough Skin"
     },
     "heightm": 0.6,
     "weightkg": 42.1,
@@ -13926,8 +13970,8 @@ exports.BattlePokedex = {
       "spd": 110
     },
     "abilities": {
-      "1": "Rough Skin",
-      "0": "Shell Armor"
+      "0": "Shell Armor",
+      "1": "Rough Skin"
     },
     "heightm": 1.1,
     "weightkg": 110.5,
@@ -13960,8 +14004,8 @@ exports.BattlePokedex = {
       "spd": 80
     },
     "abilities": {
-      "1": "Intimidate",
-      "0": "Berserk"
+      "0": "Berserk",
+      "1": "Intimidate"
     },
     "heightm": 1.5,
     "weightkg": 102.6,
@@ -14088,8 +14132,8 @@ exports.BattlePokedex = {
       "spd": 90
     },
     "abilities": {
-      "1": "Hubris",
-      "0": "Analytic"
+      "0": "Analytic",
+      "1": "Hubris"
     },
     "heightm": 1.6,
     "weightkg": 550.0,
@@ -14125,8 +14169,8 @@ exports.BattlePokedex = {
       "spd": 90
     },
     "abilities": {
-      "1": "Levitate",
-      "0": "Tough Claws"
+      "0": "Tough Claws",
+      "1": "Levitate"
     },
     "heightm": 2.5,
     "weightkg": 942.9,
@@ -14177,8 +14221,8 @@ exports.BattlePokedex = {
       "spd": 200
     },
     "abilities": {
-      "1": "Resilient",
-      "0": "Refrigerate"
+      "0": "Refrigerate",
+      "1": "Resilient"
     },
     "heightm": 1.8,
     "weightkg": 175.0,
@@ -14202,8 +14246,8 @@ exports.BattlePokedex = {
       "spd": 150
     },
     "abilities": {
-      "1": "Filter",
-      "0": "Steelworker"
+      "0": "Steelworker",
+      "1": "Filter"
     },
     "heightm": 1.9,
     "weightkg": 205.0,
@@ -14228,8 +14272,8 @@ exports.BattlePokedex = {
       "spd": 130
     },
     "abilities": {
-      "1": "Levitate",
-      "0": "Magic Bounce"
+      "0": "Magic Bounce",
+      "1": "Levitate"
     },
     "heightm": 1.4,
     "weightkg": 40.0,
@@ -14322,8 +14366,8 @@ exports.BattlePokedex = {
       "spd": 110
     },
     "abilities": {
-      "1": "Levitate",
-      "0": "Speed Boost"
+      "0": "Speed Boost",
+      "1": "Levitate"
     },
     "heightm": 2.3,
     "weightkg": 70.0,
@@ -14524,8 +14568,8 @@ exports.BattlePokedex = {
       "spd": 140
     },
     "abilities": {
-      "1": "Serene Grace",
-      "0": "Levitate"
+      "0": "Levitate",
+      "1": "Serene Grace"
     },
     "heightm": 0.3,
     "weightkg": 1.1,
@@ -14587,8 +14631,8 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Proficiency",
-      "H": "Interstellar",
-      "1": "Neuroforce"
+      "1": "Neuroforce",
+      "H": "Interstellar"
     },
     "heightm": 1.7,
     "weightkg": 60.8,
@@ -14614,9 +14658,9 @@ exports.BattlePokedex = {
       "spd": 180
     },
     "abilities": {
-      "H": "Interstellar",
       "0": "Resilient",
-      "1": "Regenerator"
+      "1": "Regenerator",
+      "H": "Interstellar"
     },
     "heightm": 1.7,
     "weightkg": 60.8,
@@ -14740,8 +14784,8 @@ exports.BattlePokedex = {
       "spd": 90
     },
     "abilities": {
-      "1": "Grassy Guard",
-      "0": "Headstrong"
+      "0": "Headstrong",
+      "1": "Grassy Guard"
     },
     "heightm": 2.2,
     "weightkg": 310.0,
@@ -14771,8 +14815,8 @@ exports.BattlePokedex = {
       "spd": 44
     },
     "abilities": {
-      "1": "Blaze",
-      "0": "Unburden"
+      "0": "Unburden",
+      "1": "Blaze"
     },
     "heightm": 0.5,
     "weightkg": 6.2,
@@ -14804,8 +14848,8 @@ exports.BattlePokedex = {
       "spd": 52
     },
     "abilities": {
-      "1": "Blaze",
-      "0": "Unburden"
+      "0": "Unburden",
+      "1": "Blaze"
     },
     "heightm": 0.9,
     "weightkg": 22.0,
@@ -14839,8 +14883,8 @@ exports.BattlePokedex = {
       "spd": 66
     },
     "abilities": {
-      "1": "Proficiency",
-      "0": "Technician"
+      "0": "Technician",
+      "1": "Proficiency"
     },
     "heightm": 1.2,
     "weightkg": 55.0,
@@ -14902,8 +14946,8 @@ exports.BattlePokedex = {
       "spd": 81
     },
     "abilities": {
-      "1": "Defiant",
-      "0": "Torrent"
+      "0": "Torrent",
+      "1": "Defiant"
     },
     "heightm": 0.8,
     "weightkg": 23.0,
@@ -14969,8 +15013,8 @@ exports.BattlePokedex = {
       "spd": 40
     },
     "abilities": {
-      "1": "Scrappy",
-      "0": "Bird's Eye View"
+      "0": "Bird's Eye View",
+      "1": "Scrappy"
     },
     "heightm": 0.3,
     "weightkg": 2.0,
@@ -15289,8 +15333,8 @@ exports.BattlePokedex = {
       "spd": 85
     },
     "abilities": {
-      "1": "Grassy Guard",
-      "0": "Solar Power"
+      "0": "Solar Power",
+      "1": "Grassy Guard"
     },
     "heightm": 0.2,
     "weightkg": 1.2,
@@ -15355,8 +15399,8 @@ exports.BattlePokedex = {
       "spd": 30
     },
     "abilities": {
-      "1": "Hustle",
-      "0": "Mold Breaker"
+      "0": "Mold Breaker",
+      "1": "Hustle"
     },
     "heightm": 0.9,
     "weightkg": 31.5,
@@ -15450,8 +15494,8 @@ exports.BattlePokedex = {
       "spd": 138
     },
     "abilities": {
-      "1": "Rough Skin",
-      "0": "Filter"
+      "0": "Filter",
+      "1": "Rough Skin"
     },
     "heightm": 1.3,
     "weightkg": 149.5,
@@ -15510,8 +15554,8 @@ exports.BattlePokedex = {
       "spd": 128
     },
     "abilities": {
-      "1": "Regenerator",
-      "0": "Adaptability"
+      "0": "Adaptability",
+      "1": "Regenerator"
     },
     "heightm": 0.5,
     "weightkg": 6.5,
@@ -15603,8 +15647,8 @@ exports.BattlePokedex = {
       "spd": 63
     },
     "abilities": {
-      "1": "Hubris",
-      "0": "Adaptability"
+      "0": "Adaptability",
+      "1": "Hubris"
     },
     "heightm": 0.9,
     "weightkg": 23.3,
@@ -15691,8 +15735,8 @@ exports.BattlePokedex = {
       "spd": 110
     },
     "abilities": {
-      "1": "Prankster",
-      "0": "Electric Surge"
+      "0": "Electric Surge",
+      "1": "Prankster"
     },
     "heightm": 0.4,
     "weightkg": 3.9,
@@ -15721,9 +15765,9 @@ exports.BattlePokedex = {
       "spd": 40
     },
     "abilities": {
-      "H": "Guts",
+      "0": "Technician",
       "1": "Swift Swim",
-      "0": "Technician"
+      "H": "Guts"
     },
     "heightm": 0.7,
     "weightkg": 29.5,
@@ -15756,8 +15800,8 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Technician",
-      "H": "Guts",
-      "1": "Swift Swim"
+      "1": "Swift Swim",
+      "H": "Guts"
     },
     "heightm": 1.1,
     "weightkg": 33.5,
@@ -15819,8 +15863,8 @@ exports.BattlePokedex = {
       "spd": 98
     },
     "abilities": {
-      "1": "Flower Gift",
-      "0": "Grassy Guard"
+      "0": "Grassy Guard",
+      "1": "Flower Gift"
     },
     "heightm": 0.5,
     "weightkg": 9.3,
@@ -15889,8 +15933,8 @@ exports.BattlePokedex = {
       "spd": 93
     },
     "abilities": {
-      "1": "Storm Drain",
-      "0": "Regenerator"
+      "0": "Regenerator",
+      "1": "Storm Drain"
     },
     "heightm": 0.3,
     "weightkg": 6.3,
@@ -15926,8 +15970,8 @@ exports.BattlePokedex = {
       "spd": 123
     },
     "abilities": {
-      "1": "Storm Drain",
-      "0": "Regenerator"
+      "0": "Regenerator",
+      "1": "Storm Drain"
     },
     "heightm": 0.9,
     "weightkg": 29.9,
@@ -15961,8 +16005,8 @@ exports.BattlePokedex = {
       "spd": 70
     },
     "abilities": {
-      "1": "Expertise",
-      "0": "Technician"
+      "0": "Technician",
+      "1": "Expertise"
     },
     "heightm": 1.2,
     "weightkg": 20.3,
@@ -16025,9 +16069,9 @@ exports.BattlePokedex = {
       "spd": 110
     },
     "abilities": {
-      "H": "Flare Boost",
       "0": "Guarding Gale",
-      "1": "Unburden"
+      "1": "Unburden",
+      "H": "Flare Boost"
     },
     "heightm": 1.2,
     "weightkg": 15.0,
@@ -16088,8 +16132,8 @@ exports.BattlePokedex = {
       "spd": 70
     },
     "abilities": {
-      "1": "Unburden",
-      "0": "Serene Grace"
+      "0": "Serene Grace",
+      "1": "Unburden"
     },
     "heightm": 1.2,
     "weightkg": 33.3,
@@ -16127,8 +16171,8 @@ exports.BattlePokedex = {
       "spd": 82
     },
     "abilities": {
-      "1": "Reckless",
-      "0": "Scrappy"
+      "0": "Scrappy",
+      "1": "Reckless"
     },
     "heightm": 1.3,
     "weightkg": 28.3,
@@ -16288,8 +16332,8 @@ exports.BattlePokedex = {
       "spd": 80
     },
     "abilities": {
-      "1": "Amplifier",
-      "0": "Levitate"
+      "0": "Levitate",
+      "1": "Amplifier"
     },
     "heightm": 0.2,
     "weightkg": 0.6,
@@ -16320,8 +16364,8 @@ exports.BattlePokedex = {
       "spd": 50
     },
     "abilities": {
-      "1": "Prankster",
-      "0": "Instinct"
+      "0": "Instinct",
+      "1": "Prankster"
     },
     "heightm": 0.4,
     "weightkg": 19.2,
@@ -16409,8 +16453,8 @@ exports.BattlePokedex = {
       "spd": 141
     },
     "abilities": {
-      "1": "Drizzle",
-      "0": "Levitate"
+      "0": "Levitate",
+      "1": "Drizzle"
     },
     "heightm": 1.3,
     "weightkg": 187.0,
@@ -16439,8 +16483,8 @@ exports.BattlePokedex = {
       "spd": 65
     },
     "abilities": {
-      "1": "Sap Sipper",
-      "0": "Contrary"
+      "0": "Contrary",
+      "1": "Sap Sipper"
     },
     "heightm": 0.5,
     "weightkg": 15.0,
@@ -16500,9 +16544,9 @@ exports.BattlePokedex = {
       "spd": 100
     },
     "abilities": {
-      "H": "Friend Guard",
       "0": "Serene Grace",
-      "1": "Natural Cure"
+      "1": "Natural Cure",
+      "H": "Friend Guard"
     },
     "heightm": 0.6,
     "weightkg": 24.4,
@@ -16533,8 +16577,8 @@ exports.BattlePokedex = {
       "spd": 65
     },
     "abilities": {
-      "1": "Amplifier",
-      "0": "Prankster"
+      "0": "Prankster",
+      "1": "Amplifier"
     },
     "heightm": 0.5,
     "weightkg": 1.9,
@@ -16562,8 +16606,8 @@ exports.BattlePokedex = {
       "spd": 108
     },
     "abilities": {
-      "1": "Sinister",
-      "0": "Dark Aura"
+      "0": "Dark Aura",
+      "1": "Sinister"
     },
     "heightm": 1.0,
     "weightkg": 108.0,
@@ -16624,8 +16668,8 @@ exports.BattlePokedex = {
       "spd": 65
     },
     "abilities": {
-      "1": "Strong Jaw",
-      "0": "Rough Skin"
+      "0": "Rough Skin",
+      "1": "Strong Jaw"
     },
     "heightm": 1.4,
     "weightkg": 56.0,
@@ -16659,8 +16703,8 @@ exports.BattlePokedex = {
       "spd": 85
     },
     "abilities": {
-      "1": "Reckless",
-      "0": "Rough Skin"
+      "0": "Rough Skin",
+      "1": "Reckless"
     },
     "heightm": 1.9,
     "weightkg": 95.0,
@@ -16833,8 +16877,8 @@ exports.BattlePokedex = {
       "spd": 80
     },
     "abilities": {
-      "1": "Versatility",
-      "0": "Adaptability"
+      "0": "Adaptability",
+      "1": "Versatility"
     },
     "heightm": 1.3,
     "weightkg": 57.5,
@@ -16864,8 +16908,8 @@ exports.BattlePokedex = {
       "spd": 62
     },
     "abilities": {
-      "1": "Strong Jaw",
-      "0": "Sand Stream"
+      "0": "Sand Stream",
+      "1": "Strong Jaw"
     },
     "heightm": 0.8,
     "weightkg": 49.5,
@@ -16926,8 +16970,8 @@ exports.BattlePokedex = {
       "spd": 55
     },
     "abilities": {
-      "1": "Sand Rush",
-      "0": "Poison Touch"
+      "0": "Poison Touch",
+      "1": "Sand Rush"
     },
     "heightm": 0.8,
     "weightkg": 12.0,
@@ -16959,8 +17003,8 @@ exports.BattlePokedex = {
       "spd": 85
     },
     "abilities": {
-      "1": "Sand Rush",
-      "0": "Sheer Force"
+      "0": "Sheer Force",
+      "1": "Sand Rush"
     },
     "heightm": 1.3,
     "weightkg": 61.5,
@@ -17054,8 +17098,8 @@ exports.BattlePokedex = {
       "spd": 92
     },
     "abilities": {
-      "1": "Regenerator",
-      "0": "Adaptability"
+      "0": "Adaptability",
+      "1": "Regenerator"
     },
     "heightm": 1.4,
     "weightkg": 27.0,
@@ -17083,8 +17127,8 @@ exports.BattlePokedex = {
       "spd": 81
     },
     "abilities": {
-      "1": "Storm Drain",
-      "0": "Swift Swim"
+      "0": "Swift Swim",
+      "1": "Storm Drain"
     },
     "heightm": 0.4,
     "weightkg": 7.0,
@@ -17115,8 +17159,8 @@ exports.BattlePokedex = {
       "spd": 116
     },
     "abilities": {
-      "1": "Drizzle",
-      "0": "Swift Swim"
+      "0": "Swift Swim",
+      "1": "Drizzle"
     },
     "heightm": 1.2,
     "weightkg": 24.0,
@@ -17211,8 +17255,8 @@ exports.BattlePokedex = {
       "spd": 97
     },
     "abilities": {
-      "1": "Grassy Surge",
-      "0": "Snow Warning"
+      "0": "Snow Warning",
+      "1": "Grassy Surge"
     },
     "heightm": 2.2,
     "weightkg": 135.5,
@@ -17250,8 +17294,8 @@ exports.BattlePokedex = {
       "spd": 107
     },
     "abilities": {
-      "1": "Grassy Guard",
-      "0": "Slush Rush"
+      "0": "Slush Rush",
+      "1": "Grassy Guard"
     },
     "heightm": 2.7,
     "weightkg": 185.0,
@@ -17312,9 +17356,9 @@ exports.BattlePokedex = {
       "spd": 100
     },
     "abilities": {
+      "0": "Levitate",
       "1": "Galvanize",
-      "H": "Magnet Pull",
-      "0": "Levitate"
+      "H": "Magnet Pull"
     },
     "heightm": 1.2,
     "weightkg": 180.0,
@@ -17379,8 +17423,8 @@ exports.BattlePokedex = {
       "spd": 95
     },
     "abilities": {
-      "1": "Bulletproof",
-      "0": "Sand Stream"
+      "0": "Sand Stream",
+      "1": "Bulletproof"
     },
     "heightm": 2.4,
     "weightkg": 282.8,
@@ -17445,8 +17489,8 @@ exports.BattlePokedex = {
       "spd": 75
     },
     "abilities": {
-      "1": "Proficiency",
-      "0": "Volt Rush"
+      "0": "Volt Rush",
+      "1": "Proficiency"
     },
     "heightm": 1.8,
     "weightkg": 138.6,
@@ -17545,8 +17589,8 @@ exports.BattlePokedex = {
       "spd": 56
     },
     "abilities": {
-      "1": "Tinted Lens",
-      "0": "Levitate"
+      "0": "Levitate",
+      "1": "Tinted Lens"
     },
     "heightm": 1.9,
     "weightkg": 51.5,
@@ -17577,9 +17621,9 @@ exports.BattlePokedex = {
       "spd": 70
     },
     "abilities": {
-      "H": "Evoboost",
       "0": "Grassy Surge",
-      "1": "Solar Rush"
+      "1": "Solar Rush",
+      "H": "Evoboost"
     },
     "heightm": 1.0,
     "weightkg": 25.5,
@@ -17611,8 +17655,8 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Snow Warning",
-      "H": "Evoboost",
-      "1": "Refrigerate"
+      "1": "Refrigerate",
+      "H": "Evoboost"
     },
     "heightm": 0.8,
     "weightkg": 25.9,
@@ -17783,8 +17827,8 @@ exports.BattlePokedex = {
       "spd": 115
     },
     "abilities": {
-      "1": "Trace",
-      "0": "Defiant"
+      "0": "Defiant",
+      "1": "Trace"
     },
     "heightm": 1.6,
     "weightkg": 56.4,
@@ -17845,8 +17889,8 @@ exports.BattlePokedex = {
       "spd": 120
     },
     "abilities": {
-      "1": "Levitate",
-      "0": "Sinister"
+      "0": "Sinister",
+      "1": "Levitate"
     },
     "heightm": 2.2,
     "weightkg": 106.6,
@@ -18031,8 +18075,8 @@ exports.BattlePokedex = {
       "spd": 97
     },
     "abilities": {
-      "1": "Aerilate",
-      "0": "Motor Drive"
+      "0": "Motor Drive",
+      "1": "Aerilate"
     },
     "heightm": 0.3,
     "weightkg": 0.3,
@@ -18113,8 +18157,8 @@ exports.BattlePokedex = {
       "spd": 130
     },
     "abilities": {
-      "1": "Levitate",
-      "0": "Sixth Sense"
+      "0": "Sixth Sense",
+      "1": "Levitate"
     },
     "heightm": 0.3,
     "weightkg": 0.3,
@@ -18269,8 +18313,8 @@ exports.BattlePokedex = {
       "spd": 120
     },
     "abilities": {
-      "1": "Pressure",
-      "0": "Distortion"
+      "0": "Distortion",
+      "1": "Pressure"
     },
     "heightm": 4.5,
     "weightkg": 750.0,
@@ -18415,8 +18459,8 @@ exports.BattlePokedex = {
       "spd": 110
     },
     "abilities": {
-      "1": "Bad Dreams",
-      "0": "Levitate"
+      "0": "Levitate",
+      "1": "Bad Dreams"
     },
     "heightm": 1.5,
     "weightkg": 50.5,
@@ -18441,8 +18485,8 @@ exports.BattlePokedex = {
       "spd": 125
     },
     "abilities": {
-      "1": "Pixilate",
-      "0": "Grassy Surge"
+      "0": "Grassy Surge",
+      "1": "Pixilate"
     },
     "heightm": 0.2,
     "weightkg": 2.1,
@@ -18474,8 +18518,8 @@ exports.BattlePokedex = {
       "spd": 115
     },
     "abilities": {
-      "1": "Aerilate",
-      "0": "Serene Grace"
+      "0": "Serene Grace",
+      "1": "Aerilate"
     },
     "heightm": 0.4,
     "weightkg": 5.2,
@@ -18554,8 +18598,8 @@ exports.BattlePokedex = {
       "spd": 55
     },
     "abilities": {
-      "1": "Hubris",
-      "0": "Overgrow"
+      "0": "Overgrow",
+      "1": "Hubris"
     },
     "heightm": 0.6,
     "weightkg": 8.1,
@@ -18621,8 +18665,8 @@ exports.BattlePokedex = {
       "spd": 95
     },
     "abilities": {
-      "1": "Hubris",
-      "0": "Intimidate"
+      "0": "Intimidate",
+      "1": "Hubris"
     },
     "heightm": 3.3,
     "weightkg": 63.0,
@@ -18718,8 +18762,8 @@ exports.BattlePokedex = {
       "spd": 85
     },
     "abilities": {
-      "1": "Solar Rush",
-      "0": "Intimidate"
+      "0": "Intimidate",
+      "1": "Solar Rush"
     },
     "heightm": 1.6,
     "weightkg": 180.0,
@@ -18876,8 +18920,8 @@ exports.BattlePokedex = {
       "spd": 85
     },
     "abilities": {
-      "1": "Tinted Lens",
-      "0": "Instinct"
+      "0": "Instinct",
+      "1": "Tinted Lens"
     },
     "heightm": 1.1,
     "weightkg": 27.0,
@@ -19123,8 +19167,8 @@ exports.BattlePokedex = {
       "spd": 53
     },
     "abilities": {
-      "1": "Blaze",
-      "0": "Unburden"
+      "0": "Unburden",
+      "1": "Blaze"
     },
     "heightm": 0.6,
     "weightkg": 11.0,
@@ -19154,8 +19198,8 @@ exports.BattlePokedex = {
       "spd": 70
     },
     "abilities": {
-      "1": "Drought",
-      "0": "Instinct"
+      "0": "Instinct",
+      "1": "Drought"
     },
     "heightm": 1.0,
     "weightkg": 28.0,
@@ -19341,8 +19385,8 @@ exports.BattlePokedex = {
       "spd": 50
     },
     "abilities": {
-      "1": "Competitive",
-      "0": "Super Luck"
+      "0": "Super Luck",
+      "1": "Competitive"
     },
     "heightm": 0.6,
     "weightkg": 15.0,
@@ -19375,8 +19419,8 @@ exports.BattlePokedex = {
       "spd": 60
     },
     "abilities": {
-      "1": "Proficiency",
-      "0": "Super Luck"
+      "0": "Super Luck",
+      "1": "Proficiency"
     },
     "heightm": 1.2,
     "weightkg": 29.0,
@@ -19406,9 +19450,9 @@ exports.BattlePokedex = {
       "spd": 55
     },
     "abilities": {
-      "H": "Headstrong",
       "0": "Sap Sipper",
-      "1": "Speed Boost"
+      "1": "Speed Boost",
+      "H": "Headstrong"
     },
     "heightm": 0.8,
     "weightkg": 29.8,
@@ -19469,8 +19513,8 @@ exports.BattlePokedex = {
       "spd": 55
     },
     "abilities": {
-      "1": "Sturdy",
-      "0": "Solid Rock"
+      "0": "Solid Rock",
+      "1": "Sturdy"
     },
     "heightm": 0.4,
     "weightkg": 18.0,
@@ -19500,8 +19544,8 @@ exports.BattlePokedex = {
       "spd": 70
     },
     "abilities": {
-      "1": "Solar Power",
-      "0": "Energy Shield"
+      "0": "Energy Shield",
+      "1": "Solar Power"
     },
     "heightm": 0.9,
     "weightkg": 102.0,
@@ -19662,8 +19706,8 @@ exports.BattlePokedex = {
       "spd": 65
     },
     "abilities": {
-      "1": "Ruthless",
-      "0": "Sand Rush"
+      "0": "Sand Rush",
+      "1": "Ruthless"
     },
     "heightm": 0.7,
     "weightkg": 40.4,
@@ -19693,8 +19737,8 @@ exports.BattlePokedex = {
       "spd": 116
     },
     "abilities": {
-      "1": "Trace",
-      "0": "Regenerator"
+      "0": "Regenerator",
+      "1": "Trace"
     },
     "heightm": 1.1,
     "weightkg": 31.0,
@@ -19729,8 +19773,8 @@ exports.BattlePokedex = {
       "spd": 156
     },
     "abilities": {
-      "1": "Magic Bounce",
-      "0": "Regenerator"
+      "0": "Regenerator",
+      "1": "Magic Bounce"
     },
     "heightm": 1.5,
     "weightkg": 32.0,
@@ -19825,8 +19869,8 @@ exports.BattlePokedex = {
       "spd": 80
     },
     "abilities": {
-      "1": "Solid Rock",
-      "0": "Technician"
+      "0": "Technician",
+      "1": "Solid Rock"
     },
     "heightm": 1.4,
     "weightkg": 87.0,
@@ -19889,8 +19933,8 @@ exports.BattlePokedex = {
       "spd": 75
     },
     "abilities": {
-      "1": "Amplifier",
-      "0": "Dry Skin"
+      "0": "Dry Skin",
+      "1": "Amplifier"
     },
     "heightm": 0.8,
     "weightkg": 17.0,
@@ -20071,8 +20115,8 @@ exports.BattlePokedex = {
       "spd": 80
     },
     "abilities": {
-      "1": "Tinted Lens",
-      "0": "Technician"
+      "0": "Technician",
+      "1": "Tinted Lens"
     },
     "heightm": 1.2,
     "weightkg": 20.5,
@@ -20134,8 +20178,8 @@ exports.BattlePokedex = {
       "spd": 81
     },
     "abilities": {
-      "1": "Merciless",
-      "0": "Speed Boost"
+      "0": "Speed Boost",
+      "1": "Merciless"
     },
     "heightm": 1.2,
     "weightkg": 58.5,
@@ -20168,8 +20212,8 @@ exports.BattlePokedex = {
       "spd": 71
     },
     "abilities": {
-      "1": "Intimidate",
-      "0": "Speed Boost"
+      "0": "Speed Boost",
+      "1": "Intimidate"
     },
     "heightm": 2.5,
     "weightkg": 200.5,
@@ -20199,8 +20243,8 @@ exports.BattlePokedex = {
       "spd": 75
     },
     "abilities": {
-      "1": "Fluffy",
-      "0": "Prankster"
+      "0": "Prankster",
+      "1": "Fluffy"
     },
     "heightm": 0.3,
     "weightkg": 0.6,
@@ -20261,8 +20305,8 @@ exports.BattlePokedex = {
       "spd": 70
     },
     "abilities": {
-      "1": "Solar Rush",
-      "0": "Serene Grace"
+      "0": "Serene Grace",
+      "1": "Solar Rush"
     },
     "heightm": 0.5,
     "weightkg": 6.6,
@@ -20290,8 +20334,8 @@ exports.BattlePokedex = {
       "spd": 105
     },
     "abilities": {
-      "1": "Solar Rush",
-      "0": "Serene Grace"
+      "0": "Serene Grace",
+      "1": "Solar Rush"
     },
     "heightm": 1.1,
     "weightkg": 16.3,
@@ -20487,8 +20531,8 @@ exports.BattlePokedex = {
       "spd": 45
     },
     "abilities": {
-      "1": "Flash Fire",
-      "0": "Hustle"
+      "0": "Hustle",
+      "1": "Flash Fire"
     },
     "heightm": 0.6,
     "weightkg": 37.5,
@@ -20557,8 +20601,8 @@ exports.BattlePokedex = {
       "spd": 165
     },
     "abilities": {
-      "1": "Drought",
-      "0": "Psychic Surge"
+      "0": "Psychic Surge",
+      "1": "Drought"
     },
     "heightm": 1.3,
     "weightkg": 92.9,
@@ -20588,8 +20632,8 @@ exports.BattlePokedex = {
       "spd": 92
     },
     "abilities": {
-      "1": "Storm Drain",
-      "0": "Solar Rush"
+      "0": "Solar Rush",
+      "1": "Storm Drain"
     },
     "heightm": 1.0,
     "weightkg": 28.0,
@@ -20617,8 +20661,8 @@ exports.BattlePokedex = {
       "spd": 70
     },
     "abilities": {
-      "1": "Solid Rock",
-      "0": "Tough Claws"
+      "0": "Tough Claws",
+      "1": "Solid Rock"
     },
     "heightm": 0.3,
     "weightkg": 14.5,
@@ -20650,8 +20694,8 @@ exports.BattlePokedex = {
       "spd": 80
     },
     "abilities": {
-      "1": "Sand Stream",
-      "0": "Tough Claws"
+      "0": "Tough Claws",
+      "1": "Sand Stream"
     },
     "heightm": 1.4,
     "weightkg": 200.0,
@@ -20747,8 +20791,8 @@ exports.BattlePokedex = {
       "spd": 95
     },
     "abilities": {
-      "1": "Neuroforce",
-      "0": "Magic Guard"
+      "0": "Magic Guard",
+      "1": "Neuroforce"
     },
     "heightm": 1.4,
     "weightkg": 14.0,
@@ -20812,8 +20856,8 @@ exports.BattlePokedex = {
       "spd": 105
     },
     "abilities": {
-      "1": "Sinister",
-      "0": "Sand Stream"
+      "0": "Sand Stream",
+      "1": "Sinister"
     },
     "heightm": 1.7,
     "weightkg": 76.5,
@@ -20877,8 +20921,8 @@ exports.BattlePokedex = {
       "spd": 100
     },
     "abilities": {
-      "1": "Bulletproof",
-      "0": "Strong Jaw"
+      "0": "Strong Jaw",
+      "1": "Bulletproof"
     },
     "heightm": 1.2,
     "weightkg": 81.0,
@@ -20909,8 +20953,8 @@ exports.BattlePokedex = {
       "spd": 45
     },
     "abilities": {
-      "1": "Unburden",
-      "0": "Hustle"
+      "0": "Hustle",
+      "1": "Unburden"
     },
     "heightm": 0.5,
     "weightkg": 9.5,
@@ -20973,8 +21017,8 @@ exports.BattlePokedex = {
       "spd": 72
     },
     "abilities": {
-      "1": "Heatproof",
-      "0": "Weak Armor"
+      "0": "Weak Armor",
+      "1": "Heatproof"
     },
     "heightm": 0.6,
     "weightkg": 31.0,
@@ -21005,8 +21049,8 @@ exports.BattlePokedex = {
       "spd": 102
     },
     "abilities": {
-      "1": "Weak Armor",
-      "0": "Heatproof"
+      "0": "Heatproof",
+      "1": "Weak Armor"
     },
     "heightm": 1.9,
     "weightkg": 107.3,
@@ -21035,8 +21079,8 @@ exports.BattlePokedex = {
       "spd": 40
     },
     "abilities": {
-      "1": "Prankster",
-      "0": "Illusion"
+      "0": "Illusion",
+      "1": "Prankster"
     },
     "heightm": 0.7,
     "weightkg": 12.5,
@@ -21066,8 +21110,8 @@ exports.BattlePokedex = {
       "spd": 60
     },
     "abilities": {
-      "1": "Dark Aura",
-      "0": "Illusion"
+      "0": "Illusion",
+      "1": "Dark Aura"
     },
     "heightm": 1.6,
     "weightkg": 81.1,
@@ -21097,8 +21141,8 @@ exports.BattlePokedex = {
       "spd": 55
     },
     "abilities": {
-      "1": "Prankster",
-      "0": "Technician"
+      "0": "Technician",
+      "1": "Prankster"
     },
     "heightm": 0.4,
     "weightkg": 5.8,
@@ -21226,9 +21270,9 @@ exports.BattlePokedex = {
       "spd": 130
     },
     "abilities": {
-      "H": "Shadow Tag",
+      "0": "Psychic Surge",
       "1": "Magic Bounce",
-      "0": "Psychic Surge"
+      "H": "Shadow Tag"
     },
     "heightm": 1.5,
     "weightkg": 44.0,
@@ -21290,8 +21334,8 @@ exports.BattlePokedex = {
       "spd": 90
     },
     "abilities": {
-      "1": "Liquid Veil",
-      "0": "Regenerator"
+      "0": "Regenerator",
+      "1": "Liquid Veil"
     },
     "heightm": 0.6,
     "weightkg": 8.0,
@@ -21355,8 +21399,8 @@ exports.BattlePokedex = {
       "spd": 53
     },
     "abilities": {
-      "1": "Sap Sipper",
-      "0": "Unaware"
+      "0": "Unaware",
+      "1": "Sap Sipper"
     },
     "heightm": 0.5,
     "weightkg": 5.5,
@@ -21388,8 +21432,8 @@ exports.BattlePokedex = {
       "spd": 73
     },
     "abilities": {
-      "1": "Stamina",
-      "0": "Serene Grace"
+      "0": "Serene Grace",
+      "1": "Stamina"
     },
     "heightm": 1.3,
     "weightkg": 24.2,
@@ -21419,8 +21463,8 @@ exports.BattlePokedex = {
       "spd": 60
     },
     "abilities": {
-      "1": "Water Absorb",
-      "0": "Weak Armor"
+      "0": "Weak Armor",
+      "1": "Water Absorb"
     },
     "heightm": 0.4,
     "weightkg": 5.7,
@@ -21450,8 +21494,8 @@ exports.BattlePokedex = {
       "spd": 85
     },
     "abilities": {
-      "1": "Water Absorb",
-      "0": "Weak Armor"
+      "0": "Weak Armor",
+      "1": "Water Absorb"
     },
     "heightm": 1.1,
     "weightkg": 41.0,
@@ -21483,8 +21527,8 @@ exports.BattlePokedex = {
       "spd": 110
     },
     "abilities": {
-      "1": "Water Absorb",
-      "0": "Snow Warning"
+      "0": "Snow Warning",
+      "1": "Water Absorb"
     },
     "heightm": 1.3,
     "weightkg": 57.5,
@@ -21514,8 +21558,8 @@ exports.BattlePokedex = {
       "spd": 50
     },
     "abilities": {
-      "1": "Versatility",
-      "0": "Adaptability"
+      "0": "Adaptability",
+      "1": "Versatility"
     },
     "heightm": 0.6,
     "weightkg": 19.5,
@@ -21605,8 +21649,8 @@ exports.BattlePokedex = {
       "spd": 55
     },
     "abilities": {
-      "1": "Unburden",
-      "0": "Hustle"
+      "0": "Hustle",
+      "1": "Unburden"
     },
     "heightm": 0.5,
     "weightkg": 5.9,
@@ -21637,8 +21681,8 @@ exports.BattlePokedex = {
       "spd": 105
     },
     "abilities": {
-      "1": "Unburden",
-      "0": "Shell Armor"
+      "0": "Shell Armor",
+      "1": "Unburden"
     },
     "heightm": 1.0,
     "weightkg": 33.0,
@@ -21702,8 +21746,8 @@ exports.BattlePokedex = {
       "spd": 111
     },
     "abilities": {
-      "1": "Unaware",
-      "0": "Regenerator"
+      "0": "Regenerator",
+      "1": "Unaware"
     },
     "heightm": 0.6,
     "weightkg": 10.5,
@@ -21799,8 +21843,8 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Regenerator",
-      "H": "Friend Guard",
-      "1": "Magic Bounce"
+      "1": "Magic Bounce",
+      "H": "Friend Guard"
     },
     "heightm": 1.2,
     "weightkg": 31.6,
@@ -21865,8 +21909,8 @@ exports.BattlePokedex = {
       "spd": 60
     },
     "abilities": {
-      "1": "Electric Surge",
-      "0": "Tinted Lens"
+      "0": "Tinted Lens",
+      "1": "Electric Surge"
     },
     "heightm": 0.8,
     "weightkg": 14.3,
@@ -21896,8 +21940,8 @@ exports.BattlePokedex = {
       "spd": 94
     },
     "abilities": {
-      "1": "Sturdy",
-      "0": "Iron Barbs"
+      "0": "Iron Barbs",
+      "1": "Sturdy"
     },
     "heightm": 0.6,
     "weightkg": 18.8,
@@ -21929,8 +21973,8 @@ exports.BattlePokedex = {
       "spd": 124
     },
     "abilities": {
-      "1": "Skill Link",
-      "0": "Iron Barbs"
+      "0": "Iron Barbs",
+      "1": "Skill Link"
     },
     "heightm": 1.0,
     "weightkg": 110.0,
@@ -21957,8 +22001,8 @@ exports.BattlePokedex = {
       "spd": 60
     },
     "abilities": {
-      "1": "Technician",
-      "0": "Levitate"
+      "0": "Levitate",
+      "1": "Technician"
     },
     "heightm": 0.3,
     "weightkg": 21.0,
@@ -21985,8 +22029,8 @@ exports.BattlePokedex = {
       "spd": 85
     },
     "abilities": {
-      "1": "Technician",
-      "0": "Levitate"
+      "0": "Levitate",
+      "1": "Technician"
     },
     "heightm": 0.6,
     "weightkg": 51.0,
@@ -22015,8 +22059,8 @@ exports.BattlePokedex = {
       "spd": 100
     },
     "abilities": {
-      "1": "Technician",
-      "0": "Levitate"
+      "0": "Levitate",
+      "1": "Technician"
     },
     "heightm": 0.6,
     "weightkg": 81.0,
@@ -22047,8 +22091,8 @@ exports.BattlePokedex = {
       "spd": 79
     },
     "abilities": {
-      "1": "Liquid Veil",
-      "0": "Levitate"
+      "0": "Levitate",
+      "1": "Liquid Veil"
     },
     "heightm": 0.2,
     "weightkg": 0.3,
@@ -22176,8 +22220,8 @@ exports.BattlePokedex = {
       "spd": 140
     },
     "abilities": {
-      "1": "Tinted Lens",
       "0": "Analytic",
+      "1": "Tinted Lens",
       "H": "Interstellar"
     },
     "heightm": 1.0,
@@ -22208,8 +22252,8 @@ exports.BattlePokedex = {
       "spd": 90
     },
     "abilities": {
-      "1": "Flash Fire",
       "0": "Cursed Body",
+      "1": "Flash Fire",
       "H": "Shadow Tag"
     },
     "heightm": 0.3,
@@ -22242,8 +22286,8 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Levitate",
-      "H": "Shadow Tag",
-      "1": "Flash Fire"
+      "1": "Flash Fire",
+      "H": "Shadow Tag"
     },
     "heightm": 0.6,
     "weightkg": 13.0,
@@ -22276,9 +22320,9 @@ exports.BattlePokedex = {
       "spd": 125
     },
     "abilities": {
+      "0": "Levitate",
       "1": "Luminescent",
-      "H": "Shadow Tag",
-      "0": "Levitate"
+      "H": "Shadow Tag"
     },
     "heightm": 1.0,
     "weightkg": 34.3,
@@ -22310,8 +22354,8 @@ exports.BattlePokedex = {
       "spd": 47
     },
     "abilities": {
-      "1": "Defiant",
-      "0": "Hustle"
+      "0": "Hustle",
+      "1": "Defiant"
     },
     "heightm": 0.6,
     "weightkg": 18.0,
@@ -22343,8 +22387,8 @@ exports.BattlePokedex = {
       "spd": 67
     },
     "abilities": {
-      "1": "Intimidate",
-      "0": "Hustle"
+      "0": "Hustle",
+      "1": "Intimidate"
     },
     "heightm": 1.0,
     "weightkg": 36.0,
@@ -22378,8 +22422,8 @@ exports.BattlePokedex = {
       "spd": 77
     },
     "abilities": {
-      "1": "Intimidate",
-      "0": "Ruthless"
+      "0": "Ruthless",
+      "1": "Intimidate"
     },
     "heightm": 1.8,
     "weightkg": 105.5,
@@ -22412,8 +22456,8 @@ exports.BattlePokedex = {
       "spd": 60
     },
     "abilities": {
-      "1": "Hustle",
-      "0": "Slush Rush"
+      "0": "Slush Rush",
+      "1": "Hustle"
     },
     "heightm": 0.5,
     "weightkg": 8.5,
@@ -22444,8 +22488,8 @@ exports.BattlePokedex = {
       "spd": 80
     },
     "abilities": {
-      "1": "Intimidate",
-      "0": "Slush Rush"
+      "0": "Slush Rush",
+      "1": "Intimidate"
     },
     "heightm": 2.6,
     "weightkg": 260.0,
@@ -22472,8 +22516,8 @@ exports.BattlePokedex = {
       "spd": 135
     },
     "abilities": {
-      "1": "Regenerator",
-      "0": "Energy Shield"
+      "0": "Energy Shield",
+      "1": "Regenerator"
     },
     "heightm": 1.1,
     "weightkg": 148.0,
@@ -22566,8 +22610,8 @@ exports.BattlePokedex = {
       "spd": 119
     },
     "abilities": {
-      "1": "Water Absorb",
-      "0": "Electric Surge"
+      "0": "Electric Surge",
+      "1": "Water Absorb"
     },
     "heightm": 0.7,
     "weightkg": 11.0,
@@ -22596,8 +22640,8 @@ exports.BattlePokedex = {
       "spd": 45
     },
     "abilities": {
-      "1": "Technician",
-      "0": "Proficiency"
+      "0": "Proficiency",
+      "1": "Technician"
     },
     "heightm": 0.9,
     "weightkg": 20.0,
@@ -22629,8 +22673,8 @@ exports.BattlePokedex = {
       "spd": 60
     },
     "abilities": {
-      "1": "Technician",
-      "0": "Proficiency"
+      "0": "Proficiency",
+      "1": "Technician"
     },
     "heightm": 1.4,
     "weightkg": 35.5,
@@ -22660,8 +22704,8 @@ exports.BattlePokedex = {
       "spd": 90
     },
     "abilities": {
-      "1": "Tough Claws",
-      "0": "Multiscale"
+      "0": "Multiscale",
+      "1": "Tough Claws"
     },
     "heightm": 1.6,
     "weightkg": 139.0,
@@ -22747,8 +22791,8 @@ exports.BattlePokedex = {
       "spd": 40
     },
     "abilities": {
-      "1": "Defiant",
-      "0": "Moxie"
+      "0": "Moxie",
+      "1": "Defiant"
     },
     "heightm": 0.5,
     "weightkg": 10.2,
@@ -22779,8 +22823,8 @@ exports.BattlePokedex = {
       "spd": 70
     },
     "abilities": {
-      "1": "Ruthless",
-      "0": "Moxie"
+      "0": "Moxie",
+      "1": "Ruthless"
     },
     "heightm": 1.6,
     "weightkg": 70.0,
@@ -22809,9 +22853,9 @@ exports.BattlePokedex = {
       "spd": 95
     },
     "abilities": {
+      "0": "Headstrong",
       "1": "Stamina",
-      "H": "Fluffy",
-      "0": "Headstrong"
+      "H": "Fluffy"
     },
     "heightm": 1.6,
     "weightkg": 94.6,
@@ -22865,8 +22909,8 @@ exports.BattlePokedex = {
       "spd": 75
     },
     "abilities": {
-      "1": "Sheer Force",
-      "0": "Intimidate"
+      "0": "Intimidate",
+      "1": "Sheer Force"
     },
     "heightm": 1.5,
     "weightkg": 41.0,
@@ -22893,8 +22937,8 @@ exports.BattlePokedex = {
       "spd": 85
     },
     "abilities": {
-      "1": "Prankster",
-      "0": "Sinister"
+      "0": "Sinister",
+      "1": "Prankster"
     },
     "heightm": 0.5,
     "weightkg": 9.0,
@@ -22922,8 +22966,8 @@ exports.BattlePokedex = {
       "spd": 105
     },
     "abilities": {
-      "1": "Intimidate",
-      "0": "Sinister"
+      "0": "Sinister",
+      "1": "Intimidate"
     },
     "heightm": 1.2,
     "weightkg": 39.5,
@@ -22953,8 +22997,8 @@ exports.BattlePokedex = {
       "spd": 101
     },
     "abilities": {
-      "1": "Flash Fire",
-      "0": "Tough Claws"
+      "0": "Tough Claws",
+      "1": "Flash Fire"
     },
     "heightm": 1.4,
     "weightkg": 58.0,
@@ -23077,8 +23121,8 @@ exports.BattlePokedex = {
       "spd": 75
     },
     "abilities": {
-      "1": "Sheer Force",
-      "0": "Levitate"
+      "0": "Levitate",
+      "1": "Sheer Force"
     },
     "heightm": 1.8,
     "weightkg": 160.0,
@@ -23142,8 +23186,8 @@ exports.BattlePokedex = {
       "spd": 115
     },
     "abilities": {
-      "1": "Solar Rush",
-      "0": "Levitate"
+      "0": "Levitate",
+      "1": "Solar Rush"
     },
     "heightm": 1.6,
     "weightkg": 46.0,
@@ -23170,8 +23214,8 @@ exports.BattlePokedex = {
       "spd": 82
     },
     "abilities": {
-      "1": "Intimidate",
-      "0": "Proficiency"
+      "0": "Proficiency",
+      "1": "Intimidate"
     },
     "heightm": 2.1,
     "weightkg": 250.0,
@@ -23196,8 +23240,8 @@ exports.BattlePokedex = {
       "spd": 80
     },
     "abilities": {
-      "1": "Headstrong",
-      "0": "Proficiency"
+      "0": "Proficiency",
+      "1": "Headstrong"
     },
     "heightm": 1.9,
     "weightkg": 260.0,
@@ -23222,8 +23266,8 @@ exports.BattlePokedex = {
       "spd": 114
     },
     "abilities": {
-      "1": "Grassy Surge",
-      "0": "Proficiency"
+      "0": "Proficiency",
+      "1": "Grassy Surge"
     },
     "heightm": 2.0,
     "weightkg": 200.0,
@@ -23279,8 +23323,8 @@ exports.BattlePokedex = {
       "spd": 95
     },
     "abilities": {
-      "1": "Aerilate",
-      "0": "Regenerator"
+      "0": "Regenerator",
+      "1": "Aerilate"
     },
     "heightm": 1.4,
     "weightkg": 63.0,
@@ -23340,8 +23384,8 @@ exports.BattlePokedex = {
       "spd": 75
     },
     "abilities": {
-      "1": "Aerilate",
-      "0": "Volt Absorb"
+      "0": "Volt Absorb",
+      "1": "Aerilate"
     },
     "heightm": 3.0,
     "weightkg": 61.0,
@@ -23418,8 +23462,8 @@ exports.BattlePokedex = {
       "spd": 80
     },
     "abilities": {
-      "1": "Aerilate",
-      "0": "Sheer Force"
+      "0": "Sheer Force",
+      "1": "Aerilate"
     },
     "heightm": 1.5,
     "weightkg": 68.0,
@@ -23451,8 +23495,8 @@ exports.BattlePokedex = {
       "spd": 90
     },
     "abilities": {
-      "1": "Aerilate",
-      "0": "Intimidate"
+      "0": "Intimidate",
+      "1": "Aerilate"
     },
     "heightm": 1.3,
     "weightkg": 68.0,
@@ -23514,8 +23558,8 @@ exports.BattlePokedex = {
       "spd": 110
     },
     "abilities": {
-      "1": "Solar Rush",
-      "0": "Sweltering Sun"
+      "0": "Sweltering Sun",
+      "1": "Solar Rush"
     },
     "heightm": 3.6,
     "weightkg": 325.0,
@@ -23631,8 +23675,8 @@ exports.BattlePokedex = {
       "spd": 138
     },
     "abilities": {
-      "1": "Serene Grace",
-      "0": "Pixilate"
+      "0": "Pixilate",
+      "1": "Serene Grace"
     },
     "heightm": 0.6,
     "weightkg": 6.5,
@@ -23720,8 +23764,8 @@ exports.BattlePokedex = {
       "spd": 52
     },
     "abilities": {
-      "1": "Grassy Guard",
-      "0": "Overgrow"
+      "0": "Overgrow",
+      "1": "Grassy Guard"
     },
     "heightm": 0.4,
     "weightkg": 9.0,
@@ -23785,8 +23829,8 @@ exports.BattlePokedex = {
       "spd": 95
     },
     "abilities": {
-      "1": "Grassy Guard",
-      "0": "Bulletproof"
+      "0": "Bulletproof",
+      "1": "Grassy Guard"
     },
     "heightm": 2.2,
     "weightkg": 130.0,
@@ -23846,8 +23890,8 @@ exports.BattlePokedex = {
       "spd": 75
     },
     "abilities": {
-      "1": "Magician",
-      "0": "Blaze"
+      "0": "Blaze",
+      "1": "Magician"
     },
     "heightm": 1.0,
     "weightkg": 14.5,
@@ -23880,8 +23924,8 @@ exports.BattlePokedex = {
       "spd": 115
     },
     "abilities": {
-      "1": "Magic Guard",
-      "0": "Magic Bounce"
+      "0": "Magic Bounce",
+      "1": "Magic Guard"
     },
     "heightm": 1.5,
     "weightkg": 39.0,
@@ -23986,41 +24030,12 @@ exports.BattlePokedex = {
       "Water 1"
     ],
     "otherFormes": [
-      "Greninja-BattleBond",
       "Greninja-Ash"
     ],
     "formeOrder": [
       "Greninja",
-      "Greninja-BattleBond",
       "Greninja-Ash"
     ]
-  },
-  "greninjabattlebond": {
-    "num": 658,
-    "name": "Greninja-BattleBond",
-    "types": [
-      "Water",
-      "Dark"
-    ],
-    "genderRatio": "M",
-    "baseStats": {
-      "hp": 72,
-      "atk": 100,
-      "def": 67,
-      "spe": 132,
-      "spa": 108,
-      "spd": 71
-    },
-    "abilities": {
-      "0": "Battle Bond"
-    },
-    "heightm": 1.5,
-    "weightkg": 40.0,
-    "eggGroups": [
-      "Undiscovered"
-    ],
-    "baseSpecies": "Greninja",
-    "forme": "BattleBond"
   },
   "greninjaash": {
     "num": 658,
@@ -24039,8 +24054,8 @@ exports.BattlePokedex = {
       "spd": 67
     },
     "abilities": {
-      "1": "No Guard",
-      "0": "Proficiency"
+      "0": "Proficiency",
+      "1": "No Guard"
     },
     "heightm": 1.5,
     "weightkg": 40.0,
@@ -24132,8 +24147,8 @@ exports.BattlePokedex = {
       "spd": 39
     },
     "abilities": {
-      "1": "Gale Wings",
-      "0": "Bird's Eye View"
+      "0": "Bird's Eye View",
+      "1": "Gale Wings"
     },
     "heightm": 0.3,
     "weightkg": 1.7,
@@ -24228,8 +24243,8 @@ exports.BattlePokedex = {
       "spd": 49
     },
     "abilities": {
-      "1": "Sap Sipper",
-      "0": "Shield Dust"
+      "0": "Shield Dust",
+      "1": "Sap Sipper"
     },
     "heightm": 0.3,
     "weightkg": 2.5,
@@ -24356,8 +24371,8 @@ exports.BattlePokedex = {
       "spd": 66
     },
     "abilities": {
-      "1": "Instinct",
-      "0": "Intimidate"
+      "0": "Intimidate",
+      "1": "Instinct"
     },
     "heightm": 1.5,
     "weightkg": 81.5,
@@ -24383,8 +24398,8 @@ exports.BattlePokedex = {
       "spd": 94
     },
     "abilities": {
-      "1": "Grassy Guard",
-      "0": "Serene Grace"
+      "0": "Serene Grace",
+      "1": "Grassy Guard"
     },
     "heightm": 0.1,
     "weightkg": 0.1,
@@ -24411,8 +24426,8 @@ exports.BattlePokedex = {
       "spd": 113
     },
     "abilities": {
-      "1": "Grassy Guard",
-      "0": "Serene Grace"
+      "0": "Serene Grace",
+      "1": "Grassy Guard"
     },
     "heightm": 0.2,
     "weightkg": 0.9,
@@ -24603,8 +24618,8 @@ exports.BattlePokedex = {
       "spd": 86
     },
     "abilities": {
-      "1": "Headstrong",
-      "0": "Hustle"
+      "0": "Hustle",
+      "1": "Headstrong"
     },
     "heightm": 2.1,
     "weightkg": 136.0,
@@ -24634,8 +24649,8 @@ exports.BattlePokedex = {
       "spd": 95
     },
     "abilities": {
-      "1": "Adaptability",
-      "0": "Fur Coat"
+      "0": "Fur Coat",
+      "1": "Adaptability"
     },
     "heightm": 1.2,
     "weightkg": 28.0,
@@ -24697,8 +24712,8 @@ exports.BattlePokedex = {
       "spd": 119
     },
     "abilities": {
-      "1": "Prankster",
-      "0": "Energy Shield"
+      "0": "Energy Shield",
+      "1": "Prankster"
     },
     "heightm": 0.6,
     "weightkg": 8.5,
@@ -24797,8 +24812,8 @@ exports.BattlePokedex = {
       "spd": 65
     },
     "abilities": {
-      "1": "Expertise",
-      "0": "Levitate"
+      "0": "Levitate",
+      "1": "Expertise"
     },
     "heightm": 0.8,
     "weightkg": 4.5,
@@ -24871,8 +24886,8 @@ exports.BattlePokedex = {
       "spd": 50
     },
     "abilities": {
-      "1": "Stance Change",
-      "0": "Ruthless"
+      "0": "Ruthless",
+      "1": "Stance Change"
     },
     "heightm": 1.7,
     "weightkg": 53.0,
@@ -24901,8 +24916,8 @@ exports.BattlePokedex = {
       "spd": 99
     },
     "abilities": {
-      "1": "Prankster",
-      "0": "Levitate"
+      "0": "Levitate",
+      "1": "Prankster"
     },
     "heightm": 0.2,
     "weightkg": 0.5,
@@ -24933,8 +24948,8 @@ exports.BattlePokedex = {
       "spd": 129
     },
     "abilities": {
-      "1": "Prankster",
-      "0": "Fur Coat"
+      "0": "Fur Coat",
+      "1": "Prankster"
     },
     "heightm": 0.8,
     "weightkg": 15.5,
@@ -24963,8 +24978,8 @@ exports.BattlePokedex = {
       "spd": 91
     },
     "abilities": {
-      "1": "Fluffy",
-      "0": "Unburden"
+      "0": "Unburden",
+      "1": "Fluffy"
     },
     "heightm": 0.4,
     "weightkg": 3.5,
@@ -25025,8 +25040,8 @@ exports.BattlePokedex = {
       "spd": 98
     },
     "abilities": {
-      "1": "Liquid Veil",
-      "0": "Contrary"
+      "0": "Contrary",
+      "1": "Liquid Veil"
     },
     "heightm": 0.4,
     "weightkg": 3.5,
@@ -25090,8 +25105,8 @@ exports.BattlePokedex = {
       "spd": 65
     },
     "abilities": {
-      "1": "Tough Claws",
-      "0": "Sturdy"
+      "0": "Sturdy",
+      "1": "Tough Claws"
     },
     "heightm": 0.5,
     "weightkg": 31.0,
@@ -25217,8 +25232,8 @@ exports.BattlePokedex = {
       "spd": 73
     },
     "abilities": {
-      "1": "Technician",
-      "0": "Mega Launcher"
+      "0": "Mega Launcher",
+      "1": "Technician"
     },
     "heightm": 0.5,
     "weightkg": 8.3,
@@ -25249,8 +25264,8 @@ exports.BattlePokedex = {
       "spd": 94
     },
     "abilities": {
-      "1": "Technician",
-      "0": "Mega Launcher"
+      "0": "Mega Launcher",
+      "1": "Technician"
     },
     "heightm": 0.5,
     "weightkg": 8.3,
@@ -25281,8 +25296,8 @@ exports.BattlePokedex = {
       "spd": 63
     },
     "abilities": {
-      "1": "Solar Power",
-      "0": "Sand Force"
+      "0": "Sand Force",
+      "1": "Solar Power"
     },
     "heightm": 0.5,
     "weightkg": 6.0,
@@ -25346,8 +25361,8 @@ exports.BattlePokedex = {
       "spd": 54
     },
     "abilities": {
-      "1": "Intimidate",
-      "0": "Strong Jaw"
+      "0": "Strong Jaw",
+      "1": "Intimidate"
     },
     "heightm": 0.8,
     "weightkg": 26.0,
@@ -25411,8 +25426,8 @@ exports.BattlePokedex = {
       "spd": 88
     },
     "abilities": {
-      "1": "Energy Shield",
-      "0": "Snow Warning"
+      "0": "Snow Warning",
+      "1": "Energy Shield"
     },
     "heightm": 1.3,
     "weightkg": 25.2,
@@ -25443,8 +25458,8 @@ exports.BattlePokedex = {
       "spd": 112
     },
     "abilities": {
-      "1": "Energy Shield",
-      "0": "Snow Warning"
+      "0": "Snow Warning",
+      "1": "Energy Shield"
     },
     "heightm": 2.7,
     "weightkg": 225.0,
@@ -25507,8 +25522,8 @@ exports.BattlePokedex = {
       "spd": 75
     },
     "abilities": {
-      "1": "Moxie",
-      "0": "Reckless"
+      "0": "Reckless",
+      "1": "Moxie"
     },
     "heightm": 0.8,
     "weightkg": 21.5,
@@ -25536,8 +25551,8 @@ exports.BattlePokedex = {
       "spd": 106
     },
     "abilities": {
-      "1": "Volt Rush",
-      "0": "Prankster"
+      "0": "Prankster",
+      "1": "Volt Rush"
     },
     "heightm": 0.2,
     "weightkg": 2.2,
@@ -25596,8 +25611,8 @@ exports.BattlePokedex = {
       "spd": 110
     },
     "abilities": {
-      "1": "Regenerator",
-      "0": "Liquid Veil"
+      "0": "Liquid Veil",
+      "1": "Regenerator"
     },
     "heightm": 0.3,
     "weightkg": 2.8,
@@ -25662,8 +25677,8 @@ exports.BattlePokedex = {
       "spd": 150
     },
     "abilities": {
-      "1": "Regenerator",
-      "0": "Liquid Veil"
+      "0": "Liquid Veil",
+      "1": "Regenerator"
     },
     "heightm": 2.0,
     "weightkg": 150.5,
@@ -25695,8 +25710,8 @@ exports.BattlePokedex = {
       "spd": 119
     },
     "abilities": {
-      "1": "Prankster",
-      "0": "Levitate"
+      "0": "Levitate",
+      "1": "Prankster"
     },
     "heightm": 0.2,
     "weightkg": 3.0,
@@ -25724,8 +25739,8 @@ exports.BattlePokedex = {
       "spd": 87
     },
     "abilities": {
-      "1": "Grassy Guard",
-      "0": "Levitate"
+      "0": "Levitate",
+      "1": "Grassy Guard"
     },
     "heightm": 0.4,
     "weightkg": 7.0,
@@ -25757,8 +25772,8 @@ exports.BattlePokedex = {
       "spd": 97
     },
     "abilities": {
-      "1": "Grassy Surge",
-      "0": "Intimidate"
+      "0": "Intimidate",
+      "1": "Grassy Surge"
     },
     "heightm": 1.5,
     "weightkg": 71.0,
@@ -25795,7 +25810,8 @@ exports.BattlePokedex = {
     "heightm": 0.4,
     "weightkg": 5.0,
     "evos": [
-      "Gourgeist"
+      "Gourgeist-Super",
+      "Gourgeist-Small"
     ],
     "eggGroups": [
       "Amorphous"
@@ -25833,8 +25849,8 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Database",
-      "H": "Insomnia",
-      "1": "Frisk"
+      "1": "Frisk",
+      "H": "Insomnia"
     },
     "heightm": 0.3,
     "weightkg": 3.5,
@@ -25867,9 +25883,9 @@ exports.BattlePokedex = {
       "spd": 55
     },
     "abilities": {
-      "H": "Insomnia",
+      "0": "Database",
       "1": "Frisk",
-      "0": "Database"
+      "H": "Insomnia"
     },
     "heightm": 0.5,
     "weightkg": 7.5,
@@ -25902,9 +25918,9 @@ exports.BattlePokedex = {
       "spd": 55
     },
     "abilities": {
-      "H": "Insomnia",
       "0": "Database",
-      "1": "Frisk"
+      "1": "Frisk",
+      "H": "Insomnia"
     },
     "heightm": 0.8,
     "weightkg": 15.0,
@@ -25937,16 +25953,14 @@ exports.BattlePokedex = {
       "spd": 75
     },
     "abilities": {
-      "H": "Flare Boost",
+      "0": "Sinister",
       "1": "Flash Fire",
-      "0": "Sinister"
+      "H": "Flare Boost"
     },
     "heightm": 0.9,
     "weightkg": 12.5,
-    "prevo": "Pumpkaboo",
-    "evoLevel": 30,
-    "evoType": "useItem",
-    "evoItem": "Grass Gem",
+    "prevo": "Pumpkaboo-Small",
+    "evoType": "trade",
     "eggGroups": [
       "Amorphous"
     ],
@@ -25982,12 +25996,16 @@ exports.BattlePokedex = {
       "spd": 109
     },
     "abilities": {
-      "1": "Flash Fire",
       "0": "Unburden",
+      "1": "Flash Fire",
       "H": "Flare Boost"
     },
     "heightm": 0.7,
     "weightkg": 9.5,
+    "prevo": "Pumpkaboo",
+    "evoLevel": 30,
+    "evoType": "useItem",
+    "evoItem": "Ghost Gem",
     "eggGroups": [
       "Amorphous"
     ],
@@ -26046,12 +26064,16 @@ exports.BattlePokedex = {
       "spd": 109
     },
     "abilities": {
-      "H": "Flare Boost",
+      "0": "Grassy Guard",
       "1": "Flash Fire",
-      "0": "Grassy Guard"
+      "H": "Flare Boost"
     },
     "heightm": 1.7,
     "weightkg": 39.0,
+    "prevo": "Pumpkaboo",
+    "evoLevel": 30,
+    "evoType": "useItem",
+    "evoItem": "Grass Gem",
     "eggGroups": [
       "Amorphous"
     ],
@@ -26077,8 +26099,8 @@ exports.BattlePokedex = {
       "spd": 65
     },
     "abilities": {
-      "1": "Regenerator",
-      "0": "Resilient"
+      "0": "Resilient",
+      "1": "Regenerator"
     },
     "heightm": 1.0,
     "weightkg": 99.5,
@@ -26248,9 +26270,9 @@ exports.BattlePokedex = {
       "spd": 95
     },
     "abilities": {
+      "0": "Intimidate",
       "1": "Regenerator",
-      "H": "Power Construct",
-      "0": "Intimidate"
+      "H": "Power Construct"
     },
     "heightm": 5.0,
     "weightkg": 305.0,
@@ -26287,8 +26309,8 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Intimidate",
-      "H": "Power Construct",
-      "1": "Instinct"
+      "1": "Instinct",
+      "H": "Power Construct"
     },
     "heightm": 1.2,
     "weightkg": 33.5,
@@ -26315,9 +26337,9 @@ exports.BattlePokedex = {
       "spd": 95
     },
     "abilities": {
+      "0": "Tinted Lens",
       "1": "Regenerator",
-      "H": "Power Construct",
-      "0": "Tinted Lens"
+      "H": "Power Construct"
     },
     "heightm": 5.0,
     "weightkg": 305.0,
@@ -26371,8 +26393,8 @@ exports.BattlePokedex = {
       "spd": 150
     },
     "abilities": {
-      "1": "Magic Bounce",
-      "0": "Levitate"
+      "0": "Levitate",
+      "1": "Magic Bounce"
     },
     "heightm": 0.7,
     "weightkg": 8.8,
@@ -26408,8 +26430,8 @@ exports.BattlePokedex = {
       "spd": 125
     },
     "abilities": {
-      "1": "Serene Grace",
-      "0": "Levitate"
+      "0": "Levitate",
+      "1": "Serene Grace"
     },
     "heightm": 1.1,
     "weightkg": 27.8,
@@ -26558,8 +26580,8 @@ exports.BattlePokedex = {
       "spd": 70
     },
     "abilities": {
-      "1": "Technician",
-      "0": "Overgrow"
+      "0": "Overgrow",
+      "1": "Technician"
     },
     "heightm": 0.7,
     "weightkg": 16.0,
@@ -26592,8 +26614,8 @@ exports.BattlePokedex = {
       "spd": 70
     },
     "abilities": {
-      "1": "Technician",
-      "0": "Tinted Lens"
+      "0": "Tinted Lens",
+      "1": "Technician"
     },
     "heightm": 1.6,
     "weightkg": 36.6,
@@ -26749,8 +26771,8 @@ exports.BattlePokedex = {
       "spd": 91
     },
     "abilities": {
-      "1": "Competitive",
-      "0": "Torrent"
+      "0": "Torrent",
+      "1": "Competitive"
     },
     "heightm": 0.6,
     "weightkg": 17.5,
@@ -26784,8 +26806,8 @@ exports.BattlePokedex = {
       "spd": 121
     },
     "abilities": {
-      "1": "Competitive",
-      "0": "Pixilate"
+      "0": "Pixilate",
+      "1": "Competitive"
     },
     "heightm": 1.8,
     "weightkg": 44.0,
@@ -26816,8 +26838,8 @@ exports.BattlePokedex = {
       "spd": 40
     },
     "abilities": {
-      "1": "Rapid Fire",
-      "0": "Bird's Eye View"
+      "0": "Bird's Eye View",
+      "1": "Rapid Fire"
     },
     "heightm": 0.3,
     "weightkg": 1.2,
@@ -26882,8 +26904,8 @@ exports.BattlePokedex = {
       "spd": 85
     },
     "abilities": {
-      "1": "Rapid Fire",
-      "0": "Intimidate"
+      "0": "Intimidate",
+      "1": "Rapid Fire"
     },
     "heightm": 1.1,
     "weightkg": 26.0,
@@ -26913,13 +26935,14 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Adaptability",
-      "H": "Stakeout",
-      "1": "Strong Jaw"
+      "1": "Strong Jaw",
+      "H": "Stakeout"
     },
     "heightm": 0.4,
     "weightkg": 6.0,
     "evos": [
-      "Gumshoos"
+      "Gumshoos",
+      "Gumshoos-Totem"
     ],
     "eggGroups": [
       "Field"
@@ -26944,8 +26967,8 @@ exports.BattlePokedex = {
       "spd": 75
     },
     "abilities": {
-      "1": "Ruthless",
       "0": "Adaptability",
+      "1": "Ruthless",
       "H": "Stakeout"
     },
     "heightm": 0.7,
@@ -26988,6 +27011,10 @@ exports.BattlePokedex = {
     },
     "heightm": 1.4,
     "weightkg": 60.0,
+    "prevo": "Yungoos",
+    "evoLevel": 20,
+    "evoType": "useItem",
+    "evoItem": "Strange Souvenir",
     "eggGroups": [
       "Field"
     ],
@@ -27045,16 +27072,17 @@ exports.BattlePokedex = {
       "spd": 90
     },
     "abilities": {
-      "H": "Battery",
+      "0": "Battle Armor",
       "1": "Volt Absorb",
-      "0": "Battle Armor"
+      "H": "Battery"
     },
     "heightm": 0.5,
     "weightkg": 10.5,
     "prevo": "Grubbin",
     "evoLevel": 20,
     "evos": [
-      "Vikavolt"
+      "Vikavolt",
+      "Vikavolt-Totem"
     ],
     "eggGroups": [
       "Bug"
@@ -27080,8 +27108,8 @@ exports.BattlePokedex = {
       "spd": 75
     },
     "abilities": {
-      "1": "Levitate",
-      "0": "No Guard"
+      "0": "No Guard",
+      "1": "Levitate"
     },
     "heightm": 1.5,
     "weightkg": 45.0,
@@ -27125,6 +27153,10 @@ exports.BattlePokedex = {
     },
     "heightm": 2.6,
     "weightkg": 147.5,
+    "prevo": "Charjabug",
+    "evoLevel": 40,
+    "evoType": "useItem",
+    "evoItem": "Strange Souvenir",
     "eggGroups": [
       "Bug"
     ],
@@ -27151,8 +27183,8 @@ exports.BattlePokedex = {
       "spd": 87
     },
     "abilities": {
-      "1": "Regenerator",
-      "0": "Hustle"
+      "0": "Hustle",
+      "1": "Regenerator"
     },
     "heightm": 0.6,
     "weightkg": 7.0,
@@ -27183,8 +27215,8 @@ exports.BattlePokedex = {
       "spd": 97
     },
     "abilities": {
-      "1": "Slush Rush",
-      "0": "Hustle"
+      "0": "Hustle",
+      "1": "Slush Rush"
     },
     "heightm": 1.7,
     "weightkg": 180.0,
@@ -27216,8 +27248,8 @@ exports.BattlePokedex = {
       "spd": 86
     },
     "abilities": {
-      "1": "Unburden",
-      "0": "Serene Grace"
+      "0": "Serene Grace",
+      "1": "Unburden"
     },
     "heightm": 0.6,
     "weightkg": 3.4,
@@ -27256,8 +27288,8 @@ exports.BattlePokedex = {
       "spd": 86
     },
     "abilities": {
-      "1": "Unburden",
-      "0": "Serene Grace"
+      "0": "Serene Grace",
+      "1": "Unburden"
     },
     "heightm": 0.6,
     "weightkg": 3.4,
@@ -27287,8 +27319,8 @@ exports.BattlePokedex = {
       "spd": 86
     },
     "abilities": {
-      "1": "Unburden",
-      "0": "Serene Grace"
+      "0": "Serene Grace",
+      "1": "Unburden"
     },
     "heightm": 0.6,
     "weightkg": 3.4,
@@ -27318,8 +27350,8 @@ exports.BattlePokedex = {
       "spd": 86
     },
     "abilities": {
-      "1": "Unburden",
-      "0": "Serene Grace"
+      "0": "Serene Grace",
+      "1": "Unburden"
     },
     "heightm": 0.6,
     "weightkg": 3.4,
@@ -27382,8 +27414,8 @@ exports.BattlePokedex = {
       "spd": 95
     },
     "abilities": {
-      "1": "Fairy Aura",
-      "0": "Levitate"
+      "0": "Levitate",
+      "1": "Fairy Aura"
     },
     "heightm": 0.2,
     "weightkg": 0.5,
@@ -27459,7 +27491,9 @@ exports.BattlePokedex = {
     "heightm": 0.5,
     "weightkg": 9.2,
     "evos": [
-      "Lycanroc"
+      "Lycanroc",
+      "Lycanroc-Midnight",
+      "Lycanroc-Dusk"
     ],
     "eggGroups": [
       "Field"
@@ -27489,8 +27523,8 @@ exports.BattlePokedex = {
       "spd": 65
     },
     "abilities": {
-      "1": "Hustle",
-      "0": "Intimidate"
+      "0": "Intimidate",
+      "1": "Hustle"
     },
     "heightm": 0.8,
     "weightkg": 25.0,
@@ -27536,6 +27570,10 @@ exports.BattlePokedex = {
     },
     "heightm": 1.1,
     "weightkg": 25.0,
+    "prevo": "Rockruff",
+    "evoLevel": 28,
+    "evoType": "useItem",
+    "evoItem": "Dark Gem",
     "eggGroups": [
       "Field"
     ],
@@ -27567,6 +27605,10 @@ exports.BattlePokedex = {
     },
     "heightm": 0.8,
     "weightkg": 25.0,
+    "prevo": "Rockruff",
+    "evoLevel": 28,
+    "evoType": "useItem",
+    "evoItem": "Fighting Gem",
     "eggGroups": [
       "Field"
     ],
@@ -27786,7 +27828,8 @@ exports.BattlePokedex = {
     "heightm": 0.3,
     "weightkg": 4.0,
     "evos": [
-      "Araquanid"
+      "Araquanid",
+      "Araquanid-Totem"
     ],
     "eggGroups": [
       "Water 1",
@@ -27813,8 +27856,8 @@ exports.BattlePokedex = {
       "spd": 132
     },
     "abilities": {
-      "1": "Energy Shield",
-      "0": "Liquid Veil"
+      "0": "Liquid Veil",
+      "1": "Energy Shield"
     },
     "heightm": 1.8,
     "weightkg": 82.0,
@@ -27852,11 +27895,15 @@ exports.BattlePokedex = {
       "spd": 132
     },
     "abilities": {
-      "1": "Huge Power",
-      "0": "Liquid Veil"
+      "0": "Liquid Veil",
+      "1": "Huge Power"
     },
     "heightm": 3.1,
     "weightkg": 217.5,
+    "prevo": "Dewpider",
+    "evoLevel": 28,
+    "evoType": "useItem",
+    "evoItem": "Strange Souvenir",
     "eggGroups": [
       "Water 1",
       "Bug"
@@ -27883,13 +27930,14 @@ exports.BattlePokedex = {
       "spd": 55
     },
     "abilities": {
-      "1": "Solar Power",
-      "0": "Tinted Lens"
+      "0": "Tinted Lens",
+      "1": "Solar Power"
     },
     "heightm": 0.3,
     "weightkg": 1.5,
     "evos": [
-      "Lurantis"
+      "Lurantis",
+      "Lurantis-Totem"
     ],
     "eggGroups": [
       "Grass"
@@ -27951,11 +27999,15 @@ exports.BattlePokedex = {
       "spd": 75
     },
     "abilities": {
-      "1": "Contrary",
-      "0": "Tinted Lens"
+      "0": "Tinted Lens",
+      "1": "Contrary"
     },
     "heightm": 1.5,
     "weightkg": 58.0,
+    "prevo": "Fomantis",
+    "evoLevel": 23,
+    "evoType": "useItem",
+    "evoItem": "Strange Souvenir",
     "eggGroups": [
       "Grass"
     ],
@@ -27982,8 +28034,8 @@ exports.BattlePokedex = {
       "spd": 95
     },
     "abilities": {
-      "1": "Storm Drain",
-      "0": "Regenerator"
+      "0": "Regenerator",
+      "1": "Storm Drain"
     },
     "heightm": 0.2,
     "weightkg": 1.5,
@@ -28042,13 +28094,14 @@ exports.BattlePokedex = {
       "spd": 53
     },
     "abilities": {
-      "1": "Prankster",
-      "0": "Dry Skin"
+      "0": "Dry Skin",
+      "1": "Prankster"
     },
     "heightm": 0.6,
     "weightkg": 4.8,
     "evos": [
-      "Salazzle"
+      "Salazzle",
+      "Salazzle-Totem"
     ],
     "eggGroups": [
       "Monster",
@@ -28108,11 +28161,15 @@ exports.BattlePokedex = {
       "spd": 83
     },
     "abilities": {
-      "1": "Hubris",
-      "0": "Dry Skin"
+      "0": "Dry Skin",
+      "1": "Hubris"
     },
     "heightm": 2.1,
     "weightkg": 81.0,
+    "prevo": "Salandit",
+    "evoLevel": 31,
+    "evoType": "useItem",
+    "evoItem": "Strange Souvenir",
     "eggGroups": [
       "Monster",
       "Dragon"
@@ -28172,8 +28229,8 @@ exports.BattlePokedex = {
       "spd": 85
     },
     "abilities": {
-      "1": "Hustle",
-      "0": "Fluffy"
+      "0": "Fluffy",
+      "1": "Hustle"
     },
     "heightm": 2.1,
     "weightkg": 135.0,
@@ -28227,8 +28284,8 @@ exports.BattlePokedex = {
       "spd": 88
     },
     "abilities": {
-      "1": "Unburden",
-      "0": "Grassy Guard"
+      "0": "Grassy Guard",
+      "1": "Unburden"
     },
     "heightm": 0.7,
     "weightkg": 8.2,
@@ -28288,9 +28345,9 @@ exports.BattlePokedex = {
       "spd": 135
     },
     "abilities": {
-      "H": "Friend Guard",
       "0": "Regenerator",
-      "1": "Grassy Surge"
+      "1": "Grassy Surge",
+      "H": "Friend Guard"
     },
     "heightm": 0.1,
     "weightkg": 0.3,
@@ -28318,8 +28375,8 @@ exports.BattlePokedex = {
       "spd": 125
     },
     "abilities": {
-      "1": "Grassy Surge",
-      "0": "Pure Power"
+      "0": "Pure Power",
+      "1": "Grassy Surge"
     },
     "heightm": 0.7,
     "weightkg": 6.9,
@@ -28347,8 +28404,8 @@ exports.BattlePokedex = {
       "spd": 70
     },
     "abilities": {
-      "1": "Headstrong",
-      "0": "Unburden"
+      "0": "Unburden",
+      "1": "Headstrong"
     },
     "heightm": 2.0,
     "weightkg": 82.8,
@@ -28376,8 +28433,8 @@ exports.BattlePokedex = {
       "spd": 45
     },
     "abilities": {
-      "1": "Wimp Out",
-      "0": "Rattled"
+      "0": "Rattled",
+      "1": "Wimp Out"
     },
     "heightm": 0.5,
     "weightkg": 12.0,
@@ -28409,8 +28466,8 @@ exports.BattlePokedex = {
       "spd": 90
     },
     "abilities": {
-      "1": "Swift Swim",
-      "0": "Ruthless"
+      "0": "Ruthless",
+      "1": "Swift Swim"
     },
     "heightm": 2.0,
     "weightkg": 108.0,
@@ -28504,8 +28561,8 @@ exports.BattlePokedex = {
       "spd": 150
     },
     "abilities": {
-      "1": "Unaware",
-      "0": "Oblivious"
+      "0": "Oblivious",
+      "1": "Unaware"
     },
     "heightm": 0.3,
     "weightkg": 1.2,
@@ -28559,9 +28616,9 @@ exports.BattlePokedex = {
       "spd": 80
     },
     "abilities": {
+      "0": "Adaptability",
       "1": "RKS System",
-      "H": "Versatility",
-      "0": "Adaptability"
+      "H": "Versatility"
     },
     "heightm": 2.3,
     "weightkg": 100.5,
@@ -28635,8 +28692,8 @@ exports.BattlePokedex = {
       "spd": 60
     },
     "abilities": {
-      "H": "Interstellar",
-      "0": "Levitate"
+      "0": "Levitate",
+      "H": "Interstellar"
     },
     "heightm": 0.3,
     "weightkg": 0.3,
@@ -28747,8 +28804,8 @@ exports.BattlePokedex = {
       "spd": 60
     },
     "abilities": {
-      "H": "Interstellar",
-      "0": "Levitate"
+      "0": "Levitate",
+      "H": "Interstellar"
     },
     "heightm": 0.3,
     "weightkg": 0.3,
@@ -28775,8 +28832,8 @@ exports.BattlePokedex = {
       "spd": 60
     },
     "abilities": {
-      "H": "Interstellar",
-      "0": "Levitate"
+      "0": "Levitate",
+      "H": "Interstellar"
     },
     "heightm": 0.3,
     "weightkg": 0.3,
@@ -28803,8 +28860,8 @@ exports.BattlePokedex = {
       "spd": 60
     },
     "abilities": {
-      "H": "Interstellar",
-      "0": "Levitate"
+      "0": "Levitate",
+      "H": "Interstellar"
     },
     "heightm": 0.3,
     "weightkg": 0.3,
@@ -28834,8 +28891,8 @@ exports.BattlePokedex = {
       "spd": 95
     },
     "abilities": {
-      "1": "Comatose",
-      "0": "Unburden"
+      "0": "Unburden",
+      "1": "Comatose"
     },
     "heightm": 0.4,
     "weightkg": 19.9,
@@ -28893,8 +28950,8 @@ exports.BattlePokedex = {
       "spd": 93
     },
     "abilities": {
-      "1": "Volt Rush",
-      "0": "Hustle"
+      "0": "Hustle",
+      "1": "Volt Rush"
     },
     "heightm": 0.3,
     "weightkg": 3.3,
@@ -28930,8 +28987,8 @@ exports.BattlePokedex = {
       "spd": 93
     },
     "abilities": {
-      "1": "Iron Barbs",
-      "0": "Hustle"
+      "0": "Hustle",
+      "1": "Iron Barbs"
     },
     "heightm": 0.6,
     "weightkg": 13.0,
@@ -28962,8 +29019,8 @@ exports.BattlePokedex = {
       "spd": 119
     },
     "abilities": {
-      "1": "Prankster",
-      "0": "Disguise"
+      "0": "Disguise",
+      "1": "Prankster"
     },
     "heightm": 0.2,
     "weightkg": 0.7,
@@ -29064,8 +29121,8 @@ exports.BattlePokedex = {
       "spd": 119
     },
     "abilities": {
-      "1": "Unburden",
-      "0": "Disguise"
+      "0": "Disguise",
+      "1": "Unburden"
     },
     "heightm": 0.4,
     "weightkg": 2.8,
@@ -29124,8 +29181,8 @@ exports.BattlePokedex = {
       "spd": 111
     },
     "abilities": {
-      "1": "Berserk",
-      "0": "Simple"
+      "0": "Simple",
+      "1": "Berserk"
     },
     "heightm": 3.0,
     "weightkg": 185.0,
@@ -29211,15 +29268,16 @@ exports.BattlePokedex = {
       "spd": 70
     },
     "abilities": {
-      "1": "Multiscale",
-      "0": "Instinct"
+      "0": "Instinct",
+      "1": "Multiscale"
     },
     "heightm": 1.2,
     "weightkg": 47.0,
     "prevo": "Jangmo-o",
     "evoLevel": 25,
     "evos": [
-      "Kommo-o"
+      "Kommo-o",
+      "Kommo-o-Totem"
     ],
     "eggGroups": [
       "Dragon"
@@ -29290,6 +29348,10 @@ exports.BattlePokedex = {
     },
     "heightm": 2.4,
     "weightkg": 207.5,
+    "prevo": "Hakamo-o",
+    "evoLevel": 45,
+    "evoType": "useItem",
+    "evoItem": "Strange Souvenir",
     "eggGroups": [
       "Dragon"
     ],
@@ -29313,8 +29375,8 @@ exports.BattlePokedex = {
       "spd": 85
     },
     "abilities": {
-      "1": "Levitate",
-      "0": "Electric Surge"
+      "0": "Electric Surge",
+      "1": "Levitate"
     },
     "heightm": 1.8,
     "weightkg": 20.5,
@@ -29339,8 +29401,8 @@ exports.BattlePokedex = {
       "spd": 115
     },
     "abilities": {
-      "1": "Levitate",
-      "0": "Psychic Surge"
+      "0": "Psychic Surge",
+      "1": "Levitate"
     },
     "heightm": 1.2,
     "weightkg": 18.6,
@@ -29416,8 +29478,8 @@ exports.BattlePokedex = {
       "spd": 31
     },
     "abilities": {
-      "1": "Unaware",
-      "0": "Wimp Out"
+      "0": "Wimp Out",
+      "1": "Unaware"
     },
     "heightm": 0.2,
     "weightkg": 0.1,
@@ -29444,8 +29506,8 @@ exports.BattlePokedex = {
       "spd": 181
     },
     "abilities": {
-      "1": "Unaware",
-      "0": "Shell Armor"
+      "0": "Shell Armor",
+      "1": "Unaware"
     },
     "heightm": 0.1,
     "weightkg": 999.9,
@@ -29584,8 +29646,8 @@ exports.BattlePokedex = {
       "spd": 37
     },
     "abilities": {
-      "1": "Technician",
-      "0": "Tinted Lens"
+      "0": "Tinted Lens",
+      "1": "Technician"
     },
     "heightm": 1.8,
     "weightkg": 25.0,
@@ -29610,8 +29672,8 @@ exports.BattlePokedex = {
       "spd": 101
     },
     "abilities": {
-      "1": "Dazzling",
-      "0": "Volt Rush"
+      "0": "Volt Rush",
+      "1": "Dazzling"
     },
     "heightm": 3.8,
     "weightkg": 100.0,
@@ -29751,8 +29813,8 @@ exports.BattlePokedex = {
       "spd": 139
     },
     "abilities": {
-      "1": "Berserk",
-      "0": "Sweltering Sun"
+      "0": "Sweltering Sun",
+      "1": "Berserk"
     },
     "heightm": 3.8,
     "weightkg": 460.0,
@@ -29779,8 +29841,8 @@ exports.BattlePokedex = {
       "spd": 157
     },
     "abilities": {
-      "1": "Berserk",
-      "0": "Energy Shield"
+      "0": "Energy Shield",
+      "1": "Berserk"
     },
     "heightm": 4.2,
     "weightkg": 350.0,
@@ -29920,8 +29982,8 @@ exports.BattlePokedex = {
       "spd": 73
     },
     "abilities": {
-      "1": "Ruthless",
-      "0": "Levitate"
+      "0": "Levitate",
+      "1": "Ruthless"
     },
     "heightm": 3.6,
     "weightkg": 150.0,
@@ -29950,8 +30012,8 @@ exports.BattlePokedex = {
       "spd": 101
     },
     "abilities": {
-      "1": "Magic Bounce",
-      "0": "Filter"
+      "0": "Filter",
+      "1": "Magic Bounce"
     },
     "heightm": 5.5,
     "weightkg": 820.0,
