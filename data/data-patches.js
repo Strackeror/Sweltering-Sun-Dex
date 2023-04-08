@@ -1,3 +1,7 @@
+exports.BattleSpriteOverrides = {
+  minior: "minior-meteor",
+};
+
 exports.patch = function (
   BattleAbilities,
   BattleLearnsets,
@@ -18,7 +22,7 @@ exports.patch = function (
 
   // Minior manual patches
   BattlePokedex["minior"].baseForme = "Meteor";
-  BattlePokedex["minior"].spriteId = "minior-meteor";
+  BattleLearnsets["minior"].learnset = {}
 
   // Zygarde manual patches
   BattlePokedex["zygarde"].abilities = BattlePokedex["zygarde50"].abilities;
