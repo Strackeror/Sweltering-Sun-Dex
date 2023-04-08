@@ -17,16 +17,16 @@ var PokedexSearchPanel = Panels.Panel.extend({
 	},
 	activeLink: null,
 	initialize: function () {
-		var fragment = this.fragment;
+		var fragment = this.fragment.slice(Config.baseurl.length - 1);
 		var questionIndex = fragment.indexOf('?');
 		if (fragment === 'moves') fragment = 'moves/';
 		if (fragment === 'pokemon') fragment = 'pokemon/';
 		if (questionIndex >= 0) fragment = fragment.slice(0, questionIndex);
 		var buf = '<div class="pfx-body"><form class="pokedex">';
-		buf += '<h1><a href="/" data-target="replace">Pok&eacute;dex</a></h1>';
-		buf += '<ul class="tabbar centered" style="margin-bottom: 18px"><li><button class="button nav-first' + (fragment === '' ? ' cur' : '') + '" value="">Search</button></li>';
-		buf += '<li><button class="button' + (fragment === 'pokemon/' ? ' cur' : '') + '" value="pokemon/">Pok&eacute;mon</button></li>';
-		buf += '<li><button class="button nav-last' + (fragment === 'moves/' ? ' cur' : '') + '" value="moves/">Moves</button></li></ul>';
+		buf += '<h1><a href="'+Config.baseurl+'"" data-target="replace">Pok&eacute;dex</a></h1>';
+		buf += '<ul class="tabbar centered" style="margin-bottom: 18px"><li><button class="button nav-first' + (fragment === '' ? ' cur' : '') + '" value="'+Config.baseurl+'">Search</button></li>';
+		buf += '<li><button class="button' + (fragment === 'pokemon/' ? ' cur' : '') + '" value="'+Config.baseurl+'pokemon/">Pok&eacute;mon</button></li>';
+		buf += '<li><button class="button nav-last' + (fragment === 'moves/' ? ' cur' : '') + '" value="'+Config.baseurl+'moves/">Moves</button></li></ul>';
 		buf += '<div class="searchboxwrapper"><input class="textbox searchbox" type="search" name="q" value="' + Dex.escapeHTML(this.$('.searchbox').val() || '') + '" autocomplete="off" autofocus placeholder="Search Pok&eacute;mon, moves, abilities, items, types, or more" /></div>';
 		if (fragment === '') {
 			buf += '<p class="buttonbar"><button class="button"><strong>Pok&eacute;dex Search</strong></button> <button name="lucky" class="button">I\'m Feeling Lucky</button></p>';

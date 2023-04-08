@@ -10,13 +10,13 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
 
 		var buf = '<div class="pfx-body dexentry">';
 
-		buf += '<a href="/" class="pfx-backbutton" data-target="back"><i class="fa fa-chevron-left"></i> Pok&eacute;dex</a>';
-		buf += '<a href="/tiers/'+toID(pokemon.tier)+'" data-target="push" class="tier">'+pokemon.tier+'</a>';
+		buf += '<a href="'+Config.baseurl+'" class="pfx-backbutton" data-target="back"><i class="fa fa-chevron-left"></i> Pok&eacute;dex</a>';
+		buf += '<a href="'+Config.baseurl+'tiers/'+toID(pokemon.tier)+'" data-target="push" class="tier">'+pokemon.tier+'</a>';
 		buf += '<h1>';
 		if (pokemon.forme) {
-			buf += '<a href="/pokemon/'+id+'" data-target="push" class="subtle">'+pokemon.baseSpecies+'<small>-'+pokemon.forme+'</small></a>';
+			buf += '<a href="'+Config.baseurl+'pokemon/'+id+'" data-target="push" class="subtle">'+pokemon.baseSpecies+'<small>-'+pokemon.forme+'</small></a>';
 		} else {
-			buf += '<a href="/pokemon/'+id+'" data-target="push" class="subtle">'+pokemon.name+'</a>';
+			buf += '<a href="'+Config.baseurl+'pokemon/'+id+'" data-target="push" class="subtle">'+pokemon.name+'</a>';
 		}
 		if (pokemon.num > 0) buf += ' <code>#'+pokemon.num+'</code>';
 		buf += '</h1>';
@@ -44,7 +44,7 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
 		buf += '<dl class="typeentry">';
 		buf += '<dt>Types:</dt> <dd>';
 		for (var i=0; i<pokemon.types.length; i++) {
-			buf += '<a class="type '+toID(pokemon.types[i])+'" href="/types/'+toID(pokemon.types[i])+'" data-target="push">'+pokemon.types[i]+'</a> ';
+			buf += '<a class="type '+toID(pokemon.types[i])+'" href="'+Config.baseurl+'types/'+toID(pokemon.types[i])+'" data-target="push">'+pokemon.types[i]+'</a> ';
 		}
 		buf += '</dd>';
 		buf += '</dl>';
@@ -59,7 +59,7 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
 			if (weightkg >= 10) return 40;
 			return 20;
 		})(pokemon.weightkg);
-		buf += ''+pokemon.heightm+' m, '+pokemon.weightkg+' kg<br /><small><a class="subtle" href="/moves/grassknot" data-target="push">Grass Knot</a>: '+gkPower+'</small>';
+		buf += ''+pokemon.heightm+' m, '+pokemon.weightkg+' kg<br /><small><a class="subtle" href="'+Config.baseurl+'moves/grassknot" data-target="push">Grass Knot</a>: '+gkPower+'</small>';
 		buf += '</dd>';
 		buf += '</dl>';
 
@@ -71,7 +71,7 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
 
 			if (i !== '0') buf += ' | ';
 			if (i === 'H') ability = '<em>'+pokemon.abilities[i]+'</em>';
-			buf += '<a href="/abilities/'+toID(pokemon.abilities[i])+'" data-target="push">'+ability+'</a>';
+			buf += '<a href="'+Config.baseurl+'abilities/'+toID(pokemon.abilities[i])+'" data-target="push">'+ability+'</a>';
 			if (i === 'H') buf += '<small> (H)</small>';
 			if (i === 'S') buf += '<small> (special)</small>';
 		}
@@ -133,7 +133,7 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
 					if (template === pokemon) {
 						buf += '<div><strong>'+name+'</strong></div>';
 					} else {
-						buf += '<div><a href="/pokemon/'+template.id+'" data-target="replace">'+name+'</a></div>';
+						buf += '<div><a href="'+Config.baseurl+'pokemon/'+template.id+'" data-target="replace">'+name+'</a></div>';
 					}
 				}
 				if (template.name == 'Porygon-Z') break; // Porygon has an infinite evo loop in sweltering sun
@@ -155,7 +155,7 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
 			if (template === pokemon) {
 				buf += '<strong>'+name+'</strong>';
 			} else {
-				buf += '<a href="/pokemon/'+template.id+'" data-target="replace">'+name+'</a>';
+				buf += '<a href="'+Config.baseurl+'pokemon/'+template.id+'" data-target="replace">'+name+'</a>';
 			}
 			var otherFormes = template.otherFormes;
 			if (otherFormes) for (var i=0; i<otherFormes.length; i++) {
@@ -165,11 +165,11 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
 				if (template === pokemon) {
 					buf += ', <strong>'+name+'</strong>';
 				} else {
-					buf += ', <a href="/pokemon/'+template.id+'" data-target="replace">'+name+'</a>';
+					buf += ', <a href="'+Config.baseurl+'pokemon/'+template.id+'" data-target="replace">'+name+'</a>';
 				}
 			}
 			if (template.requiredItem) {
-				buf += '<div><small>Must hold <a href="/items/' + toID(template.requiredItem) + '" data-target="push">' + template.requiredItem + '</a></small></div>';
+				buf += '<div><small>Must hold <a href="'+Config.baseurl+'items/' + toID(template.requiredItem) + '" data-target="push">' + template.requiredItem + '</a></small></div>';
 			}
 		}
 		if (pokemon.cosmeticFormes) {
@@ -188,7 +188,7 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
 		buf += '</dd></dl>';
 
 		if (pokemon.eggGroups) {
-			buf += '<dl class="colentry"><dt>Egg groups:</dt><dd><span class="picon" style="margin-top:-12px;'+Dex.getPokemonIcon('egg')+'"></span><a href="/egggroups/'+pokemon.eggGroups.map(toID).join('+')+'" data-target="push">'+pokemon.eggGroups.join(', ')+'</a></dd></dl>';
+			buf += '<dl class="colentry"><dt>Egg groups:</dt><dd><span class="picon" style="margin-top:-12px;'+Dex.getPokemonIcon('egg')+'"></span><a href="'+Config.baseurl+'egggroups/'+pokemon.eggGroups.map(toID).join('+')+'" data-target="push">'+pokemon.eggGroups.join(', ')+'</a></dd></dl>';
       buf += '<dl class="colentry"><dt>Gender ratio:</dt><dd>';
       if (pokemon.genderRatio) {
         switch (pokemon.genderRatio) {
@@ -572,10 +572,10 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
 			buf += '<br />';
 			if (event.abilities) {
 				buf += 'Ability: ' + event.abilities.map(function (ability) {
-					return '<a href="/abilities/' + ability + '" class="subtle" data-target="push">' + Dex.abilities.get(ability).name + '</a>';
+					return '<a href="'+Config.baseurl+'abilities/' + ability + '" class="subtle" data-target="push">' + Dex.abilities.get(ability).name + '</a>';
 				}).join(' or ') + '<br />';
 			} else if (event.isHidden && pokemon.abilities['H']) {
-				buf += 'Ability: <a href="/abilities/' + toID(pokemon.abilities['H']) + '" class="subtle" data-target="push">' + pokemon.abilities['H'] + '</a><br />';
+				buf += 'Ability: <a href="'+Config.baseurl+'abilities/' + toID(pokemon.abilities['H']) + '" class="subtle" data-target="push">' + pokemon.abilities['H'] + '</a><br />';
 			}
 			if (event.level) buf += 'Level: ' + event.level + '<br />';
 			if (event.shiny === true) buf += 'Shiny: Yes<br />';
@@ -593,7 +593,7 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
 			if (event.moves) {
 				for (var j = 0; j < event.moves.length; j++) {
 					var move = Dex.moves.get(event.moves[j]);
-					buf += '- <a href="/moves/' + move.id + '" class="subtle" data-target="push">' + move.name + '</a><br />';
+					buf += '- <a href="'+Config.baseurl+'moves/' + move.id + '" class="subtle" data-target="push">' + move.name + '</a><br />';
 				}
 			}
 			if (event.perfectIVs) {

@@ -21,8 +21,9 @@ var Pokedex = Panels.App.extend({
 	initialize: function() {
 		this.routePanel('*path', PokedexSearchPanel); // catch-all default
 
+		let root = Config.baseurl.slice(1);
 		for (var i in this.states2) {
-			this.routePanel(i, this.states2[i]);
+			this.routePanel(root + i, this.states2[i]);
 		}
 	}
 });
