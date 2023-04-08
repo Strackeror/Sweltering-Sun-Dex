@@ -100,4 +100,33 @@ exports.patch = function (
   for (let forme of formes) {
     BattleLearnsets[forme] = BattleLearnsets[BattlePokedex[forme].baseSpecies.toLowerCase()]
   }
+
+
+  let unusables = [
+    "mewtwo",
+    "mewtwomegax",
+    "mewtwomegay",
+
+    "kyogre",
+    "kyogreprimal",
+    "groudon",
+    "groudonprimal",
+    "rayquaza",
+    "rayquazamega",
+    
+    "dialga",
+    "palkia",
+    "arceus",
+
+    "zekrom",
+    "reshiram",
+
+    "xerneas",
+    "yveltal",
+  ]
+  // Unusable pokes
+  for (let unusable of unusables) {
+    BattleLearnsets[unusable].learnset = {};
+    BattlePokedex[unusable].tier = "Unusable";
+  }
 };
