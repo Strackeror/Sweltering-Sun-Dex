@@ -2,6 +2,10 @@ exports.BattleSpriteOverrides = {
   minior: "minior-meteor",
 };
 
+function toId(str) {
+  return str.toLowerCase().replace(/[^a-z0-9]/g, "");
+}
+
 exports.patch = function (
   BattleAbilities,
   BattleLearnsets,
@@ -20,23 +24,29 @@ exports.patch = function (
     }
   }
 
-  // Minior manual patches
-  BattlePokedex["minior"].baseForme = "Meteor";
-  BattleLearnsets["minior"].learnset = {}
+  // Couple of cases where the base forme should instead show another forme
+  let replaceBaseFormes = ["zygarde50", "gourgeistsmall"];
+  for (let formeName of replaceBaseFormes) {
+    let baseFormeName = toId(BattlePokedex[formeName].baseSpecies);
+    let species = BattlePokedex[formeName];
+    let baseSpecies = BattlePokedex[baseFormeName];
+    baseSpecies.abilities = species.abilities;
+    baseSpecies.stats = species.stats;
+    baseSpecies.prevo = species.prevo;
+    baseSpecies.evoLevel = species.evoLevel;
+    baseSpecies.evoType = species.evoType;
+    baseSpecies.evoItem = species.evoItem;
+    baseSpecies.otherFormes = baseSpecies.otherFormes.filter(
+      (n) => toId(n) != formeName
+    );
+    baseSpecies.formeOrder = baseSpecies.formeOrder.filter(
+      (n) => toId(n) != formeName
+    );
+    BattleLearnsets[baseFormeName] = BattleLearnsets[formeName];
+    delete BattlePokedex[formeName];
+  }
 
-  // Zygarde manual patches
-  BattlePokedex["zygarde"].abilities = BattlePokedex["zygarde50"].abilities;
-  BattlePokedex["zygarde"].stats = BattlePokedex["zygarde50"].stats;
-  BattlePokedex["zygarde"].otherFormes = ["Zygarde-10%", "Zygarde-Complete"];
-  BattlePokedex["zygarde"].formeOrder = [
-    "Zygarde",
-    "Zygarde-10%",
-    "Zygarde-Complete",
-  ];
-  BattleLearnsets["zygarde"] = BattleLearnsets["zygarde50"];
-  delete BattlePokedex["zygarde50"];
-
-  // Non-Combat formes
+  // Combat-Only formes
   let formes = [
     "venusaurmega",
     "charizardmegax",
@@ -51,8 +61,6 @@ exports.patch = function (
     "pinsirmega",
     "gyaradosmega",
     "aerodactylmega",
-    "mewtwomegax",
-    "mewtwomegay",
     "ampharosmega",
     "steelixmega",
     "scizormega",
@@ -78,7 +86,6 @@ exports.patch = function (
     "metagrossmega",
     "latiasmega",
     "latiosmega",
-    "rayquazamega",
     "lopunnymega",
     "garchompmega",
     "lucariomega",
@@ -86,7 +93,6 @@ exports.patch = function (
     "gallademega",
     "audinomega",
     "dianciemega",
-    "zygardecomplete",
     "mimikyubusted",
     "mimikyubustedtotem",
     "wishiwashischool",
@@ -94,13 +100,15 @@ exports.patch = function (
     "darmanitanzen",
     "greninjaash",
     "kyuremwhite",
-    "kyuremblack"
+    "kyuremblack",
+    "aegislashblade",
+    "meloettapirouette",
+    "cherrimsunshine",
   ];
 
   for (let forme of formes) {
-    BattleLearnsets[forme] = BattleLearnsets[BattlePokedex[forme].baseSpecies.toLowerCase()]
+    delete BattleLearnsets[forme];
   }
-
 
   let unusables = [
     "mewtwo",
@@ -113,7 +121,7 @@ exports.patch = function (
     "groudonprimal",
     "rayquaza",
     "rayquazamega",
-    
+
     "dialga",
     "palkia",
     "arceus",
@@ -123,10 +131,42 @@ exports.patch = function (
 
     "xerneas",
     "yveltal",
-  ]
+    "zygardecomplete",
+  ];
   // Unusable pokes
   for (let unusable of unusables) {
     BattleLearnsets[unusable].learnset = {};
     BattlePokedex[unusable].tier = "Unusable";
   }
+
+  // Redundant formes to delete
+  let deleteFormes = [
+    "pumpkaboosmall",
+    "pumpkaboolarge",
+    "pumpkaboosuper",
+    "gourgeistlarge",
+  ];
+  for (let formeName of deleteFormes) {
+    let species = BattlePokedex[formeName];
+    delete BattlePokedex[formeName];
+    let baseSpecies = BattlePokedex[toId(species.baseSpecies)];
+    baseSpecies.otherFormes = baseSpecies.otherFormes.filter(
+      (f) => toId(f) != formeName
+    );
+    baseSpecies.formeOrder = baseSpecies.formeOrder.filter(
+      (f) => toId(f) != formeName
+    );
+  }
+
+  // Minior manual patches
+  BattlePokedex["minior"].baseForme = "Meteor";
+  BattleLearnsets["minior"].learnset = {};
+
+  // Pumpkaboo manual patch
+  delete BattlePokedex["pumpkaboo"].formeOrder;
+  delete BattlePokedex["pumpkaboo"].otherFormes;
+  BattlePokedex["pumpkaboo"].evos[1] = "Gourgeist";
+
+  // Aegislash-Blade manual patch
+  BattlePokedex["aegislashblade"].abilities = ["Stance Change"]
 };
