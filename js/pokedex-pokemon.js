@@ -2,9 +2,6 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
 	initialize: function(id) {
 		id = toID(id);
 		var pokemon = Dex.species.get(id);
-		if (BattleSpriteOverrides[id]) {
-			pokemon.spriteid = BattleSpriteOverrides[id]
-		}
 		this.id = id;
 		this.shortTitle = pokemon.baseSpecies;
 
@@ -136,7 +133,6 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
 						buf += '<div><a href="'+Config.baseurl+'pokemon/'+template.id+'" data-target="replace">'+name+'</a></div>';
 					}
 				}
-				if (template.name == 'Porygon-Z') break; // Porygon has an infinite evo loop in sweltering sun
 				evos = template.evos;
 			}
 			buf += '</td></tr></table>';
@@ -189,32 +185,25 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
 
 		if (pokemon.eggGroups) {
 			buf += '<dl class="colentry"><dt>Egg groups:</dt><dd><span class="picon" style="margin-top:-12px;'+Dex.getPokemonIcon('egg')+'"></span><a href="'+Config.baseurl+'egggroups/'+pokemon.eggGroups.map(toID).join('+')+'" data-target="push">'+pokemon.eggGroups.join(', ')+'</a></dd></dl>';
-      buf += '<dl class="colentry"><dt>Gender ratio:</dt><dd>';
-      if (pokemon.genderRatio) {
-        switch (pokemon.genderRatio) {
-          case "M":
-            buf += "100% male";
-            break;
-          case "F":
-            buf += "100% female";
-            break;
-          case "N":
-            buf += "100% genderless";
-            break;
-          default:
-            buf +=
-              "" +
-              pokemon.genderRatio.M * 100 +
-              "% male, " +
-              pokemon.genderRatio.F * 100 +
-              "% female";
-        }
-      } else {
-        buf += "50% male, 50% female";
-      }
-      buf += "</dd></dl>";
-      buf += '<div style="clear:left"></div>';
-    }
+			buf += '<dl class="colentry"><dt>Gender ratio:</dt><dd>';
+			if (pokemon.gender) switch (pokemon.gender) {
+			case 'M':
+				buf += '100% male';
+				break;
+			case 'F':
+				buf += '100% female';
+				break;
+			case 'N':
+				buf += '100% genderless';
+				break;
+			} else if (pokemon.genderRatio) {
+				buf += ''+(pokemon.genderRatio.M*100)+'% male, '+(pokemon.genderRatio.F*100)+'% female';
+			} else {
+				buf += '50% male, 50% female';
+			}
+			buf += '</dd></dl>';
+			buf += '<div style="clear:left"></div>';
+		}
 
 		// learnset
 		if (window.BattleLearnsets && BattleLearnsets[id] && BattleLearnsets[id].eventData) {
@@ -267,36 +256,26 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
 		}
 	},
 	getEvoMethod: function(evo) {
-    let condition = evo.evoCondition ? ` ${evo.evoCondition}` : ``;
-    let evoType = "";
-    switch (evo.evoType) {
-      case "levelExtra":
-        evoType = "level-up" + condition;
-				break;
-      case "levelFriendship":
-        evoType = "level-up with high Friendship" + condition;
-				break;
-      case "levelHold":
-        evoType = "level-up holding " + evo.evoItem + condition;
-				break;
-      case "useItem":
-        evoType = evo.evoItem;
-				break;
-      case "levelMove":
-        evoType = "level-up with " + evo.evoMove + condition;
-				break;
-      case "trade":
-        evoType = "trade";
-				break;
-      case "other":
-        evoType = evo.evoCondition;
-				break;
-    }
-		if (evo.evoLevel) {
-			evoType += " level " + evo.evoLevel;
-    }
-		return evoType;
-  },
+		let condition = evo.evoCondition ? ` ${evo.evoCondition}` : ``;
+		switch (evo.evoType) {
+		case 'levelExtra':
+			return 'level-up' + condition;
+		case 'levelFriendship':
+			return 'level-up with high Friendship' + condition;
+		case 'levelHold':
+			return 'level-up holding ' + evo.evoItem + condition;
+		case 'useItem':
+			return evo.evoItem;
+		case 'levelMove':
+			return 'level-up with ' + evo.evoMove + condition;
+		case 'trade':
+			return 'trade';
+		case 'other':
+			return evo.evoCondition;
+		default:
+			return 'level ' + evo.evoLevel;
+		}
+	},
 	selectTab: function(e) {
 		this.$('.tabbar button').removeClass('cur');
 		$(e.currentTarget).addClass('cur');

@@ -60,7 +60,7 @@ var PokedexMovePanel = PokedexResultPanel.extend({
 			buf += '<dl class="powerentry"><dt>Base power:</dt> <dd><strong>'+(move.basePower||'&mdash;')+'</strong></dd></dl>';
 		}
 		buf += '<dl class="accuracyentry"><dt>Accuracy:</dt> <dd>'+(move.accuracy && move.accuracy!==true?move.accuracy+'%':'&mdash;')+'</dd></dl>';
-		buf += '<dl class="ppentry"><dt>PP:</dt> <dd>'+(move.pp)+(move.pp>3 ? ' <small class="minor">(max: '+(8/5*move.pp)+')</small>' : '')+'</dd>';
+		buf += '<dl class="ppentry"><dt>PP:</dt> <dd>'+(move.pp)+(move.pp>1 ? ' <small class="minor">(max: '+(8/5*move.pp)+')</small>' : '')+'</dd>';
 		buf += '</dl><div style="clear:left;padding-top:1px"></div>';
 
 		if (move.isZ) {
@@ -111,14 +111,18 @@ var PokedexMovePanel = PokedexResultPanel.extend({
 		if (!('snatch' in move.flags) && (move.target === 'self' || move.target === 'allyTeam' || move.target === 'adjacentAllyOrSelf')) {
 			buf += '<p class="movetag"><a href="'+Config.baseurl+'tags/nonsnatchable" data-target="push">&#x2713; Nonsnatchable</a> <small>(can\'t be copied by <a class="subtle" href="'+Config.baseurl+'moves/snatch" data-target="push">Snatch</a>)</small></p>';
 		}
+
 		if ('contact' in move.flags) {
 			buf += '<p class="movetag"><a href="'+Config.baseurl+'tags/contact" data-target="push">&#x2713; Contact</a> <small>(affected by many abilities like Iron Barbs and moves like Spiky Shield)</small></p>';
+		}
+		if ('sound' in move.flags) {
+			buf += '<p class="movetag"><a href="'+Config.baseurl+'tags/sound" data-target="push">&#x2713; Sound</a> <small>(bypasses <a class="subtle" href="'+Config.baseurl+'moves/substitute" data-target="push">Substitute</a>, doesn\'t affect <a class="subtle" href="'+Config.baseurl+'abilities/soundproof" data-target="push">Soundproof</a> pokemon)</small></p>';
 		}
 		if ('powder' in move.flags) {
 			buf += '<p class="movetag"><a href="'+Config.baseurl+'tags/powder" data-target="push">&#x2713; Powder</a> <small>(doesn\'t affect <a class="subtle" href="'+Config.baseurl+'types/grass" data-target="push">Grass</a>-types, <a class="subtle" href="'+Config.baseurl+'abilities/overcoat" data-target="push">Overcoat</a> pokemon, and <a class="subtle" href="'+Config.baseurl+'items/safetygoggles" data-target="push">Safety Goggles</a> holders)</small></p>';
 		}
 		if ('punch' in move.flags) {
-			buf += '<p class="movetag"><a href="'+Config.baseurl+'tags/sound" data-target="push">&#x2713; Sound</a> <small>(boosted by <a class="subtle" href="/abilities/amplifier" data-target="push">Amplifier</a>)</small></p>';
+			buf += '<p class="movetag"><a href="'+Config.baseurl+'tags/sound" data-target="push">&#x2713; Sound</a> <small>(boosted by <a class="subtle" href="'+Config.baseurl+'abilities/amplifier" data-target="push">Amplifier</a>)</small></p>';
 		}
 		if ('pulse' in move.flags) {
 			buf += '<p class="movetag"><a href="'+Config.baseurl+'tags/pulse" data-target="push">&#x2713; Pulse</a> <small>(boosted by <a class="subtle" href="'+Config.baseurl+'abilities/megalauncher" data-target="push">Mega Launcher</a>)</small></p>';
