@@ -1932,6 +1932,299 @@ exports.BattlePokedex = {
     nfe: true,
     prevo: "Pichu"
   },
+  pikachubelle: {
+    tags: [],
+    num: 25,
+    name: "Pikachu-Belle",
+    baseSpecies: "Pikachu",
+    forme: "Belle",
+    types: [
+      "Electric"
+    ],
+    baseStats: {
+      hp: 35,
+      atk: 55,
+      def: 40,
+      spa: 50,
+      spd: 50,
+      spe: 90
+    },
+    weightkg: 6,
+    eggGroups: [
+      "Undiscovered"
+    ],
+    changesFrom: "Pikachu-Cosplay",
+    gen: 6,
+    tier: "Illegal",
+    id: "pikachubelle",
+    fullname: "pokemon: Pikachu-Belle",
+    effectType: "Pokemon",
+    kind: "Species",
+    shortDesc: "",
+    desc: "",
+    baseForme: "",
+    doublesTier: "Illegal",
+    canHatch: false,
+    bst: 320,
+    weighthg: 60,
+    unreleasedHidden: false,
+    maleOnlyHidden: false,
+    gmaxUnreleased: false,
+    cannotDynamax: false,
+    gender: "F",
+    genderRatio: {
+      M: 0,
+      F: 1
+    },
+    abilities: {
+      "0": "Lightning Rod"
+    },
+    nfe: false
+  },
+  pikachucosplay: {
+    tags: [],
+    num: 25,
+    name: "Pikachu-Cosplay",
+    baseSpecies: "Pikachu",
+    forme: "Cosplay",
+    types: [
+      "Electric"
+    ],
+    baseStats: {
+      hp: 35,
+      atk: 55,
+      def: 40,
+      spa: 50,
+      spd: 50,
+      spe: 90
+    },
+    weightkg: 6,
+    eggGroups: [
+      "Undiscovered"
+    ],
+    gen: 6,
+    tier: "Illegal",
+    id: "pikachucosplay",
+    fullname: "pokemon: Pikachu-Cosplay",
+    effectType: "Pokemon",
+    kind: "Species",
+    shortDesc: "",
+    desc: "",
+    baseForme: "",
+    doublesTier: "Illegal",
+    canHatch: false,
+    bst: 320,
+    weighthg: 60,
+    unreleasedHidden: false,
+    maleOnlyHidden: false,
+    gmaxUnreleased: false,
+    cannotDynamax: false,
+    gender: "F",
+    genderRatio: {
+      M: 0,
+      F: 1
+    },
+    abilities: {
+      "0": "Lightning Rod"
+    },
+    nfe: false
+  },
+  pikachulibre: {
+    tags: [],
+    num: 25,
+    name: "Pikachu-Libre",
+    baseSpecies: "Pikachu",
+    forme: "Libre",
+    types: [
+      "Electric"
+    ],
+    baseStats: {
+      hp: 35,
+      atk: 55,
+      def: 40,
+      spa: 50,
+      spd: 50,
+      spe: 90
+    },
+    weightkg: 6,
+    eggGroups: [
+      "Undiscovered"
+    ],
+    changesFrom: "Pikachu-Cosplay",
+    gen: 6,
+    tier: "Illegal",
+    id: "pikachulibre",
+    fullname: "pokemon: Pikachu-Libre",
+    effectType: "Pokemon",
+    kind: "Species",
+    shortDesc: "",
+    desc: "",
+    baseForme: "",
+    doublesTier: "Illegal",
+    canHatch: false,
+    bst: 320,
+    weighthg: 60,
+    unreleasedHidden: false,
+    maleOnlyHidden: false,
+    gmaxUnreleased: false,
+    cannotDynamax: false,
+    gender: "F",
+    genderRatio: {
+      M: 0,
+      F: 1
+    },
+    abilities: {
+      "0": "Lightning Rod"
+    },
+    nfe: false
+  },
+  pikachuphd: {
+    tags: [],
+    num: 25,
+    name: "Pikachu-PhD",
+    baseSpecies: "Pikachu",
+    forme: "PhD",
+    types: [
+      "Electric"
+    ],
+    baseStats: {
+      hp: 35,
+      atk: 55,
+      def: 40,
+      spa: 50,
+      spd: 50,
+      spe: 90
+    },
+    weightkg: 6,
+    eggGroups: [
+      "Undiscovered"
+    ],
+    changesFrom: "Pikachu-Cosplay",
+    gen: 6,
+    tier: "Illegal",
+    id: "pikachuphd",
+    fullname: "pokemon: Pikachu-PhD",
+    effectType: "Pokemon",
+    kind: "Species",
+    shortDesc: "",
+    desc: "",
+    baseForme: "",
+    doublesTier: "Illegal",
+    canHatch: false,
+    bst: 320,
+    weighthg: 60,
+    unreleasedHidden: false,
+    maleOnlyHidden: false,
+    gmaxUnreleased: false,
+    cannotDynamax: false,
+    gender: "F",
+    genderRatio: {
+      M: 0,
+      F: 1
+    },
+    abilities: {
+      "0": "Lightning Rod"
+    },
+    nfe: false
+  },
+  pikachupopstar: {
+    tags: [],
+    num: 25,
+    name: "Pikachu-Pop-Star",
+    baseSpecies: "Pikachu",
+    forme: "Pop-Star",
+    types: [
+      "Electric"
+    ],
+    baseStats: {
+      hp: 35,
+      atk: 55,
+      def: 40,
+      spa: 50,
+      spd: 50,
+      spe: 90
+    },
+    weightkg: 6,
+    eggGroups: [
+      "Undiscovered"
+    ],
+    changesFrom: "Pikachu-Cosplay",
+    gen: 6,
+    tier: "Illegal",
+    id: "pikachupopstar",
+    fullname: "pokemon: Pikachu-Pop-Star",
+    effectType: "Pokemon",
+    kind: "Species",
+    shortDesc: "",
+    desc: "",
+    baseForme: "",
+    doublesTier: "Illegal",
+    canHatch: false,
+    bst: 320,
+    weighthg: 60,
+    unreleasedHidden: false,
+    maleOnlyHidden: false,
+    gmaxUnreleased: false,
+    cannotDynamax: false,
+    gender: "F",
+    genderRatio: {
+      M: 0,
+      F: 1
+    },
+    abilities: {
+      "0": "Lightning Rod"
+    },
+    nfe: false
+  },
+  pikachurockstar: {
+    tags: [],
+    num: 25,
+    name: "Pikachu-Rock-Star",
+    baseSpecies: "Pikachu",
+    forme: "Rock-Star",
+    types: [
+      "Electric"
+    ],
+    baseStats: {
+      hp: 35,
+      atk: 55,
+      def: 40,
+      spa: 50,
+      spd: 50,
+      spe: 90
+    },
+    weightkg: 6,
+    eggGroups: [
+      "Undiscovered"
+    ],
+    changesFrom: "Pikachu-Cosplay",
+    gen: 6,
+    tier: "Illegal",
+    id: "pikachurockstar",
+    fullname: "pokemon: Pikachu-Rock-Star",
+    effectType: "Pokemon",
+    kind: "Species",
+    shortDesc: "",
+    desc: "",
+    baseForme: "",
+    doublesTier: "Illegal",
+    canHatch: false,
+    bst: 320,
+    weighthg: 60,
+    unreleasedHidden: false,
+    maleOnlyHidden: false,
+    gmaxUnreleased: false,
+    cannotDynamax: false,
+    gender: "F",
+    genderRatio: {
+      M: 0,
+      F: 1
+    },
+    abilities: {
+      "0": "Lightning Rod"
+    },
+    nfe: false
+  },
   raichu: {
     tags: [],
     baseStats: {
@@ -11475,7 +11768,65 @@ exports.BattlePokedex = {
     evos: [
       "Pikachu"
     ],
-    nfe: true
+    nfe: true,
+    otherFormes: [
+      "Pichu-Spiky-eared"
+    ],
+    formeOrder: [
+      "Pichu",
+      "Pichu-Spiky-eared"
+    ],
+    formes: [
+      "Pichu",
+      "Pichu-Spiky-eared"
+    ]
+  },
+  pichuspikyeared: {
+    tags: [],
+    num: 172,
+    name: "Pichu-Spiky-eared",
+    baseSpecies: "Pichu",
+    forme: "Spiky-eared",
+    types: [
+      "Electric"
+    ],
+    baseStats: {
+      hp: 20,
+      atk: 40,
+      def: 15,
+      spa: 35,
+      spd: 35,
+      spe: 60
+    },
+    weightkg: 2,
+    eggGroups: [
+      "Undiscovered"
+    ],
+    gen: 4,
+    tier: "Illegal",
+    id: "pichuspikyeared",
+    fullname: "pokemon: Pichu-Spiky-eared",
+    effectType: "Pokemon",
+    kind: "Species",
+    shortDesc: "",
+    desc: "",
+    baseForme: "",
+    doublesTier: "Illegal",
+    canHatch: false,
+    bst: 205,
+    weighthg: 20,
+    unreleasedHidden: false,
+    maleOnlyHidden: false,
+    gmaxUnreleased: false,
+    cannotDynamax: false,
+    genderRatio: {
+      M: 0.5,
+      F: 0.5
+    },
+    abilities: {
+      "0": "Static"
+    },
+    nfe: false
   },
   cleffa: {
     tags: [],

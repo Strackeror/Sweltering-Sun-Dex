@@ -586,12 +586,20 @@ exports.BattleSearchIndex = [
     "pokemon"
   ],
   [
+    "berry",
+    "item"
+  ],
+  [
     "berryjuice",
     "item"
   ],
   [
     "berserk",
     "ability"
+  ],
+  [
+    "berserkgene",
+    "item"
   ],
   [
     "bestow",
@@ -640,6 +648,10 @@ exports.BattleSearchIndex = [
   [
     "bisharp",
     "pokemon"
+  ],
+  [
+    "bitterberry",
+    "item"
   ],
   [
     "blacephalon",
@@ -940,6 +952,10 @@ exports.BattleSearchIndex = [
   [
     "burningmalice",
     "move"
+  ],
+  [
+    "burntberry",
+    "item"
   ],
   [
     "burnup",
@@ -2994,6 +3010,10 @@ exports.BattleSearchIndex = [
     "pokemon"
   ],
   [
+    "goldberry",
+    "item"
+  ],
+  [
     "goldbottlecap",
     "item"
   ],
@@ -3668,6 +3688,10 @@ exports.BattleSearchIndex = [
   [
     "icebeam",
     "move"
+  ],
+  [
+    "iceberry",
+    "item"
   ],
   [
     "icebody",
@@ -5038,8 +5062,16 @@ exports.BattleSearchIndex = [
     "pokemon"
   ],
   [
+    "mintberry",
+    "item"
+  ],
+  [
     "minun",
     "pokemon"
+  ],
+  [
+    "miracleberry",
+    "item"
   ],
   [
     "miracleeye",
@@ -5226,6 +5258,10 @@ exports.BattleSearchIndex = [
     "pokemon"
   ],
   [
+    "mysteryberry",
+    "item"
+  ],
+  [
     "mysticalfire",
     "move"
   ],
@@ -5366,6 +5402,10 @@ exports.BattleSearchIndex = [
     "pokemon"
   ],
   [
+    "noability",
+    "ability"
+  ],
+  [
     "noctowl",
     "pokemon"
   ],
@@ -5460,6 +5500,10 @@ exports.BattleSearchIndex = [
   [
     "oldaftermath",
     "ability"
+  ],
+  [
+    "oldamber",
+    "item"
   ],
   [
     "omanyte",
@@ -5698,6 +5742,10 @@ exports.BattleSearchIndex = [
     "pokemon"
   ],
   [
+    "pichuspikyeared",
+    "pokemon"
+  ],
+  [
     "pickpocket",
     "ability"
   ],
@@ -5734,6 +5782,30 @@ exports.BattleSearchIndex = [
     "pokemon"
   ],
   [
+    "pikachubelle",
+    "pokemon"
+  ],
+  [
+    "pikachucosplay",
+    "pokemon"
+  ],
+  [
+    "pikachulibre",
+    "pokemon"
+  ],
+  [
+    "pikachuphd",
+    "pokemon"
+  ],
+  [
+    "pikachupopstar",
+    "pokemon"
+  ],
+  [
+    "pikachurockstar",
+    "pokemon"
+  ],
+  [
     "pikaniumz",
     "item"
   ],
@@ -5752,6 +5824,10 @@ exports.BattleSearchIndex = [
   [
     "pineco",
     "pokemon"
+  ],
+  [
+    "pinkbow",
+    "item"
   ],
   [
     "pinmissile",
@@ -5888,6 +5964,10 @@ exports.BattleSearchIndex = [
   [
     "poliwrath",
     "pokemon"
+  ],
+  [
+    "polkadotbow",
+    "item"
   ],
   [
     "pomegberry",
@@ -6047,6 +6127,14 @@ exports.BattleSearchIndex = [
   ],
   [
     "protector",
+    "item"
+  ],
+  [
+    "przcureberry",
+    "item"
+  ],
+  [
+    "psncureberry",
     "item"
   ],
   [
@@ -9258,8 +9346,10 @@ exports.BattleSearchIndexOffset = [
   "",
   "000001111",
   "",
+  "",
   "0000011111",
   "",
+  "00000001111",
   "",
   "",
   "",
@@ -9272,6 +9362,7 @@ exports.BattleSearchIndexOffset = [
   "00000001111",
   "000012223333",
   "",
+  "00000011111",
   "",
   "000001111",
   "000001111111",
@@ -9347,6 +9438,7 @@ exports.BattleSearchIndexOffset = [
   "000011111",
   "00000001111111",
   "0000000111111",
+  "0000011111",
   "000011",
   "",
   "",
@@ -9860,6 +9952,7 @@ exports.BattleSearchIndexOffset = [
   "011122222",
   "",
   "",
+  "000011111",
   "0000111111222",
   "",
   "",
@@ -10029,6 +10122,7 @@ exports.BattleSearchIndexOffset = [
   "",
   "0001111",
   "0001111",
+  "00011111",
   "0001111",
   "0001111111",
   "0001111",
@@ -10371,7 +10465,9 @@ exports.BattleSearchIndexOffset = [
   "000000111",
   "000000111111",
   "000000111111",
+  "000011111",
   "",
+  "000000011111",
   "0000000111",
   "00000001111",
   "0000001111",
@@ -10418,6 +10514,7 @@ exports.BattleSearchIndexOffset = [
   "",
   "0000001111",
   "",
+  "000000011111",
   "000000001111",
   "00000011111",
   "",
@@ -10453,6 +10550,7 @@ exports.BattleSearchIndexOffset = [
   "",
   "00000000011111",
   "",
+  "001111111",
   "",
   "0011111",
   "",
@@ -10477,6 +10575,7 @@ exports.BattleSearchIndexOffset = [
   "",
   "0000111111",
   "000111111111",
+  "00011111",
   "",
   "",
   "00000001111",
@@ -10536,6 +10635,7 @@ exports.BattleSearchIndexOffset = [
   "",
   "",
   "",
+  "000001111122222",
   "",
   "",
   "",
@@ -10545,11 +10645,18 @@ exports.BattleSearchIndexOffset = [
   "",
   "",
   "",
+  "000000011111",
+  "00000001111111",
+  "000000011111",
+  "0000000111",
+  "00000001112222",
+  "000000011112222",
   "000000001",
   "000000000001",
   "",
   "",
   "",
+  "0000111",
   "0001111111",
   "",
   "",
@@ -10584,6 +10691,7 @@ exports.BattleSearchIndexOffset = [
   "",
   "",
   "",
+  "00000000111",
   "0000011111",
   "",
   "",
@@ -10624,6 +10732,8 @@ exports.BattleSearchIndexOffset = [
   "",
   "00000000001111",
   "",
+  "000111122222",
+  "000111122222",
   "",
   "",
   "000000011111",
@@ -11417,7 +11527,7 @@ exports.BattleSearchCountIndex = {
   "Bug pokemon": 90,
   "Dark pokemon": 86,
   "Dragon pokemon": 73,
-  "Electric pokemon": 69,
+  "Electric pokemon": 76,
   "Fire pokemon": 78,
   "Flying pokemon": 113,
   "Grass pokemon": 102,

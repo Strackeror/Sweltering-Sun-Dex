@@ -3213,5 +3213,18 @@ exports.BattleAbilities = {
     kind: "Ability",
     gen: 7,
     isNonstandard: null
+  },
+  noability: {
+    exists: true,
+    isNonstandard: "Past",
+    name: "No Ability",
+    num: 0,
+    shortDesc: "Does nothing.",
+    id: "noability",
+    fullname: "ability: No Ability",
+    effectType: "Ability",
+    kind: "Ability",
+    gen: 0,
+    desc: "Does nothing."
   }
 };

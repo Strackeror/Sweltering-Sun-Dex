@@ -5091,6 +5091,22 @@ exports.BattleItems = {
       basePower: 10
     }
   },
+  oldamber: {
+    exists: true,
+    name: "Old Amber",
+    fling: {
+      basePower: 100
+    },
+    num: 103,
+    gen: 3,
+    isNonstandard: "Past",
+    desc: "Can be revived into Aerodactyl.",
+    id: "oldamber",
+    fullname: "item: Old Amber",
+    effectType: "Item",
+    kind: "Item",
+    shortDesc: ""
+  },
   oranberry: {
     exists: true,
     name: "Oran Berry",
@@ -6253,5 +6269,259 @@ exports.BattleItems = {
     kind: "Item",
     shortDesc: "",
     isNonstandard: null
+  },
+  berserkgene: {
+    exists: true,
+    name: "Berserk Gene",
+    boosts: {
+      atk: 2
+    },
+    num: 0,
+    gen: 2,
+    isNonstandard: "Past",
+    desc: "(Gen 2) On switch-in, raises holder's Attack by 2 and confuses it. Single use.",
+    id: "berserkgene",
+    fullname: "item: Berserk Gene",
+    effectType: "Item",
+    kind: "Item",
+    shortDesc: ""
+  },
+  berry: {
+    exists: true,
+    name: "Berry",
+    isBerry: true,
+    naturalGift: {
+      basePower: 80,
+      type: "Poison"
+    },
+    onResidualOrder: 5,
+    num: 155,
+    gen: 2,
+    isNonstandard: "Past",
+    desc: "(Gen 2) Restores 10 HP when at 1/2 max HP or less. Single use.",
+    id: "berry",
+    fullname: "item: Berry",
+    effectType: "Item",
+    kind: "Item",
+    shortDesc: "",
+    fling: {
+      basePower: 10
+    }
+  },
+  bitterberry: {
+    exists: true,
+    name: "Bitter Berry",
+    isBerry: true,
+    naturalGift: {
+      basePower: 80,
+      type: "Ground"
+    },
+    num: 156,
+    gen: 2,
+    isNonstandard: "Past",
+    desc: "(Gen 2) Holder is cured if it is confused. Single use.",
+    id: "bitterberry",
+    fullname: "item: Bitter Berry",
+    effectType: "Item",
+    kind: "Item",
+    shortDesc: "",
+    fling: {
+      basePower: 10
+    }
+  },
+  burntberry: {
+    exists: true,
+    name: "Burnt Berry",
+    isBerry: true,
+    naturalGift: {
+      basePower: 80,
+      type: "Ice"
+    },
+    num: 153,
+    gen: 2,
+    isNonstandard: "Past",
+    desc: "(Gen 2) Holder is cured if it is frozen. Single use.",
+    id: "burntberry",
+    fullname: "item: Burnt Berry",
+    effectType: "Item",
+    kind: "Item",
+    shortDesc: "",
+    fling: {
+      basePower: 10
+    }
+  },
+  goldberry: {
+    exists: true,
+    name: "Gold Berry",
+    isBerry: true,
+    naturalGift: {
+      basePower: 80,
+      type: "Psychic"
+    },
+    onResidualOrder: 5,
+    num: 158,
+    gen: 2,
+    isNonstandard: "Past",
+    desc: "(Gen 2) Restores 30 HP when at 1/2 max HP or less. Single use.",
+    id: "goldberry",
+    fullname: "item: Gold Berry",
+    effectType: "Item",
+    kind: "Item",
+    shortDesc: "",
+    fling: {
+      basePower: 10
+    }
+  },
+  iceberry: {
+    exists: true,
+    name: "Ice Berry",
+    isBerry: true,
+    naturalGift: {
+      basePower: 80,
+      type: "Grass"
+    },
+    num: 152,
+    gen: 2,
+    isNonstandard: "Past",
+    desc: "(Gen 2) Holder is cured if it is burned. Single use.",
+    id: "iceberry",
+    fullname: "item: Ice Berry",
+    effectType: "Item",
+    kind: "Item",
+    shortDesc: "",
+    fling: {
+      basePower: 10
+    }
+  },
+  mintberry: {
+    exists: true,
+    name: "Mint Berry",
+    isBerry: true,
+    naturalGift: {
+      basePower: 80,
+      type: "Water"
+    },
+    num: 150,
+    gen: 2,
+    isNonstandard: "Past",
+    desc: "(Gen 2) Holder wakes up if it is asleep. Single use.",
+    id: "mintberry",
+    fullname: "item: Mint Berry",
+    effectType: "Item",
+    kind: "Item",
+    shortDesc: "",
+    fling: {
+      basePower: 10
+    }
+  },
+  miracleberry: {
+    exists: true,
+    name: "Miracle Berry",
+    isBerry: true,
+    naturalGift: {
+      basePower: 80,
+      type: "Flying"
+    },
+    num: 157,
+    gen: 2,
+    isNonstandard: "Past",
+    desc: "(Gen 2) Holder cures itself if it is confused or has a status condition. Single use.",
+    id: "miracleberry",
+    fullname: "item: Miracle Berry",
+    effectType: "Item",
+    kind: "Item",
+    shortDesc: "",
+    fling: {
+      basePower: 10
+    }
+  },
+  mysteryberry: {
+    exists: true,
+    name: "Mystery Berry",
+    isBerry: true,
+    naturalGift: {
+      basePower: 80,
+      type: "Fighting"
+    },
+    num: 154,
+    gen: 2,
+    isNonstandard: "Past",
+    desc: "(Gen 2) Restores 5 PP to the first of the holder's moves to reach 0 PP. Single use.",
+    id: "mysteryberry",
+    fullname: "item: Mystery Berry",
+    effectType: "Item",
+    kind: "Item",
+    shortDesc: "",
+    fling: {
+      basePower: 10
+    }
+  },
+  pinkbow: {
+    exists: true,
+    name: "Pink Bow",
+    num: 251,
+    gen: 2,
+    isNonstandard: "Past",
+    desc: "(Gen 2) Holder's Normal-type attacks have 1.1x power.",
+    id: "pinkbow",
+    fullname: "item: Pink Bow",
+    effectType: "Item",
+    kind: "Item",
+    shortDesc: ""
+  },
+  polkadotbow: {
+    exists: true,
+    name: "Polkadot Bow",
+    num: 251,
+    gen: 2,
+    isNonstandard: "Past",
+    desc: "(Gen 2) Holder's Normal-type attacks have 1.1x power.",
+    id: "polkadotbow",
+    fullname: "item: Polkadot Bow",
+    effectType: "Item",
+    kind: "Item",
+    shortDesc: ""
+  },
+  przcureberry: {
+    exists: true,
+    name: "PRZ Cure Berry",
+    isBerry: true,
+    naturalGift: {
+      basePower: 80,
+      type: "Fire"
+    },
+    num: 149,
+    gen: 2,
+    isNonstandard: "Past",
+    desc: "(Gen 2) Holder cures itself if it is paralyzed. Single use.",
+    id: "przcureberry",
+    fullname: "item: PRZ Cure Berry",
+    effectType: "Item",
+    kind: "Item",
+    shortDesc: "",
+    fling: {
+      basePower: 10
+    }
+  },
+  psncureberry: {
+    exists: true,
+    name: "PSN Cure Berry",
+    isBerry: true,
+    naturalGift: {
+      basePower: 80,
+      type: "Electric"
+    },
+    num: 151,
+    gen: 2,
+    isNonstandard: "Past",
+    desc: "(Gen 2) Holder is cured if it is poisoned. Single use.",
+    id: "psncureberry",
+    fullname: "item: PSN Cure Berry",
+    effectType: "Item",
+    kind: "Item",
+    shortDesc: "",
+    fling: {
+      basePower: 10
+    }
   }
 };
