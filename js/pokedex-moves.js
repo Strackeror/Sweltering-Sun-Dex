@@ -60,7 +60,7 @@ var PokedexMovePanel = PokedexResultPanel.extend({
 			buf += '<dl class="powerentry"><dt>Base power:</dt> <dd><strong>'+(move.basePower||'&mdash;')+'</strong></dd></dl>';
 		}
 		buf += '<dl class="accuracyentry"><dt>Accuracy:</dt> <dd>'+(move.accuracy && move.accuracy!==true?move.accuracy+'%':'&mdash;')+'</dd></dl>';
-		buf += '<dl class="ppentry"><dt>PP:</dt> <dd>'+(move.pp)+(move.pp>1 ? ' <small class="minor">(max: '+(8/5*move.pp)+')</small>' : '')+'</dd>';
+		buf += '<dl class="ppentry"><dt>PP:</dt> <dd>'+(move.pp)+(move.noPPBoosts ? '':' <small class="minor">(max: '+(8/5*move.pp)+')</small>')+'</dd>';
 		buf += '</dl><div style="clear:left;padding-top:1px"></div>';
 
 		if (move.isZ) {
