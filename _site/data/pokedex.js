@@ -1885,13 +1885,13 @@ exports.BattlePokedex = {
       spd: 50
     },
     evoLevel: 15,
+    evoType: null,
     num: 25,
     name: "Pikachu",
     types: [
       "Electric"
     ],
     weightkg: 6,
-    evoType: "levelFriendship",
     eggGroups: [
       "Field",
       "Fairy"
@@ -2243,6 +2243,7 @@ exports.BattlePokedex = {
     },
     evoLevel: 22,
     evoItem: null,
+    evoType: null,
     num: 28,
     name: "Sandslash-Alola",
     baseSpecies: "Sandslash",
@@ -2252,7 +2253,6 @@ exports.BattlePokedex = {
       "Steel"
     ],
     weightkg: 55,
-    evoType: "useItem",
     eggGroups: [
       "Field"
     ],
@@ -2630,13 +2630,13 @@ exports.BattlePokedex = {
       spd: 95
     },
     evoLevel: 16,
+    evoType: null,
     num: 35,
     name: "Clefairy",
     types: [
       "Fairy"
     ],
     weightkg: 7.5,
-    evoType: "levelFriendship",
     eggGroups: [
       "Fairy"
     ],
@@ -2687,13 +2687,13 @@ exports.BattlePokedex = {
     },
     evoLevel: 32,
     evoItem: null,
+    evoType: null,
     num: 36,
     name: "Clefable",
     types: [
       "Fairy"
     ],
     weightkg: 40,
-    evoType: "useItem",
     eggGroups: [
       "Fairy"
     ],
@@ -2860,10 +2860,10 @@ exports.BattlePokedex = {
     },
     evoLevel: 30,
     evoItem: null,
+    evoType: null,
     num: 38,
     name: "Ninetales",
     weightkg: 19.9,
-    evoType: "useItem",
     eggGroups: [
       "Field"
     ],
@@ -2921,6 +2921,7 @@ exports.BattlePokedex = {
     },
     evoLevel: 30,
     evoItem: null,
+    evoType: null,
     num: 38,
     name: "Ninetales-Alola",
     baseSpecies: "Ninetales",
@@ -2930,7 +2931,6 @@ exports.BattlePokedex = {
       "Fairy"
     ],
     weightkg: 19.9,
-    evoType: "useItem",
     eggGroups: [
       "Field"
     ],
@@ -2974,6 +2974,7 @@ exports.BattlePokedex = {
       spd: 85
     },
     evoLevel: 17,
+    evoType: null,
     num: 39,
     name: "Jigglypuff",
     types: [
@@ -2981,7 +2982,6 @@ exports.BattlePokedex = {
       "Fairy"
     ],
     weightkg: 5.5,
-    evoType: "levelFriendship",
     eggGroups: [
       "Fairy"
     ],
@@ -3031,6 +3031,7 @@ exports.BattlePokedex = {
     },
     evoLevel: 33,
     evoItem: null,
+    evoType: null,
     num: 40,
     name: "Wigglytuff",
     types: [
@@ -3038,7 +3039,6 @@ exports.BattlePokedex = {
       "Fairy"
     ],
     weightkg: 12,
-    evoType: "useItem",
     eggGroups: [
       "Fairy"
     ],
@@ -3981,6 +3981,7 @@ exports.BattlePokedex = {
       spd: 70
     },
     evoLevel: 22,
+    evoType: null,
     num: 53,
     name: "Persian-Alola",
     baseSpecies: "Persian",
@@ -3989,7 +3990,6 @@ exports.BattlePokedex = {
       "Dark"
     ],
     weightkg: 33,
-    evoType: "levelFriendship",
     eggGroups: [
       "Field"
     ],
@@ -4296,13 +4296,13 @@ exports.BattlePokedex = {
     },
     evoLevel: 35,
     evoItem: null,
+    evoType: null,
     num: 59,
     name: "Arcanine",
     types: [
       "Fire"
     ],
     weightkg: 155,
-    evoType: "useItem",
     eggGroups: [
       "Field"
     ],
@@ -4615,13 +4615,13 @@ exports.BattlePokedex = {
       spd: 100
     },
     evoLevel: 36,
+    evoType: null,
     num: 65,
     name: "Alakazam",
     types: [
       "Psychic"
     ],
     weightkg: 48,
-    evoType: "trade",
     eggGroups: [
       "Human-Like"
     ],
@@ -5003,6 +5003,7 @@ exports.BattlePokedex = {
     },
     evoLevel: 31,
     evoItem: null,
+    evoType: null,
     num: 71,
     name: "Victreebel",
     types: [
@@ -5010,7 +5011,6 @@ exports.BattlePokedex = {
       "Poison"
     ],
     weightkg: 15.5,
-    evoType: "useItem",
     eggGroups: [
       "Grass"
     ],
@@ -6467,10 +6467,10 @@ exports.BattlePokedex = {
     },
     evoLevel: 29,
     evoItem: null,
+    evoType: null,
     num: 91,
     name: "Cloyster",
     weightkg: 132.5,
-    evoType: "useItem",
     eggGroups: [
       "Water 3"
     ],
@@ -7902,10 +7902,10 @@ exports.BattlePokedex = {
     evoLevel: 20,
     evoItem: null,
     evoCondition: null,
+    evoType: null,
     num: 113,
     name: "Chansey",
     weightkg: 34.6,
-    evoType: "levelHold",
     eggGroups: [
       "Fairy"
     ],
@@ -8393,6 +8393,7 @@ exports.BattlePokedex = {
     },
     evoLevel: 29,
     evoItem: null,
+    evoType: null,
     num: 121,
     name: "Starmie",
     types: [
@@ -8400,7 +8401,6 @@ exports.BattlePokedex = {
       "Psychic"
     ],
     weightkg: 80,
-    evoType: "useItem",
     eggGroups: [
       "Water 3"
     ],
@@ -8449,6 +8449,7 @@ exports.BattlePokedex = {
     },
     evoLevel: 25,
     evoMove: null,
+    evoType: null,
     num: 122,
     name: "Mr. Mime",
     types: [
@@ -8456,7 +8457,6 @@ exports.BattlePokedex = {
       "Fairy"
     ],
     weightkg: 54.5,
-    evoType: "levelMove",
     eggGroups: [
       "Human-Like"
     ],
@@ -9769,13 +9769,13 @@ exports.BattlePokedex = {
       spd: 110
     },
     evoLevel: 35,
+    evoType: null,
     num: 143,
     name: "Snorlax",
     types: [
       "Normal"
     ],
     weightkg: 460,
-    evoType: "levelFriendship",
     eggGroups: [
       "Monster"
     ],
@@ -11646,6 +11646,7 @@ exports.BattlePokedex = {
       spd: 110
     },
     evoLevel: 18,
+    evoType: null,
     num: 176,
     name: "Togetic",
     types: [
@@ -11653,7 +11654,6 @@ exports.BattlePokedex = {
       "Flying"
     ],
     weightkg: 3.2,
-    evoType: "levelFriendship",
     eggGroups: [
       "Flying",
       "Fairy"
@@ -12091,6 +12091,7 @@ exports.BattlePokedex = {
       spd: 80
     },
     evoLevel: 17,
+    evoType: null,
     num: 183,
     name: "Marill",
     types: [
@@ -12098,7 +12099,6 @@ exports.BattlePokedex = {
       "Fairy"
     ],
     weightkg: 8.5,
-    evoType: "levelFriendship",
     eggGroups: [
       "Water 1",
       "Fairy"
@@ -12202,13 +12202,13 @@ exports.BattlePokedex = {
     },
     evoLevel: 20,
     evoMove: null,
+    evoType: null,
     num: 185,
     name: "Sudowoodo",
     types: [
       "Rock"
     ],
     weightkg: 38,
-    evoType: "levelMove",
     eggGroups: [
       "Mineral"
     ],
@@ -12575,13 +12575,13 @@ exports.BattlePokedex = {
     },
     evoLevel: 20,
     evoItem: null,
+    evoType: null,
     num: 192,
     name: "Sunflora",
     types: [
       "Grass"
     ],
     weightkg: 8.5,
-    evoType: "useItem",
     eggGroups: [
       "Grass"
     ],
@@ -14569,6 +14569,7 @@ exports.BattlePokedex = {
     },
     evoLevel: 31,
     evoCondition: null,
+    evoType: null,
     num: 226,
     name: "Mantine",
     types: [
@@ -14576,7 +14577,6 @@ exports.BattlePokedex = {
       "Flying"
     ],
     weightkg: 220,
-    evoType: "levelExtra",
     eggGroups: [
       "Water 1"
     ],
@@ -15008,10 +15008,10 @@ exports.BattlePokedex = {
     },
     evoLevel: 40,
     evoItem: null,
+    evoType: null,
     num: 233,
     name: "Porygon2",
     weightkg: 32.5,
-    evoType: "trade",
     eggGroups: [
       "Mineral"
     ],
@@ -18977,10 +18977,10 @@ exports.BattlePokedex = {
     },
     evoLevel: 23,
     evoItem: null,
+    evoType: null,
     num: 301,
     name: "Delcatty",
     weightkg: 32.6,
-    evoType: "useItem",
     eggGroups: [
       "Field",
       "Fairy"
@@ -20045,6 +20045,7 @@ exports.BattlePokedex = {
     },
     evoLevel: 17,
     evoCondition: null,
+    evoType: null,
     num: 315,
     name: "Roselia",
     types: [
@@ -20052,7 +20053,6 @@ exports.BattlePokedex = {
       "Poison"
     ],
     weightkg: 2,
-    evoType: "levelFriendship",
     eggGroups: [
       "Fairy",
       "Grass"
@@ -22101,10 +22101,10 @@ exports.BattlePokedex = {
     },
     evoLevel: 40,
     evoItem: null,
+    evoType: null,
     num: 350,
     name: "Milotic",
     weightkg: 162,
-    evoType: "trade",
     eggGroups: [
       "Water 1",
       "Dragon"
@@ -22764,10 +22764,10 @@ exports.BattlePokedex = {
     },
     evoLevel: 23,
     evoCondition: null,
+    evoType: null,
     num: 358,
     name: "Chimecho",
     weightkg: 1,
-    evoType: "levelFriendship",
     eggGroups: [
       "Amorphous"
     ],
@@ -27390,13 +27390,13 @@ exports.BattlePokedex = {
     },
     evoLevel: 30,
     evoMove: null,
+    evoType: null,
     num: 424,
     name: "Ambipom",
     types: [
       "Normal"
     ],
     weightkg: 20.3,
-    evoType: "levelMove",
     eggGroups: [
       "Field"
     ],
@@ -27602,13 +27602,13 @@ exports.BattlePokedex = {
       spd: 70
     },
     evoLevel: 20,
+    evoType: null,
     num: 428,
     name: "Lopunny",
     types: [
       "Normal"
     ],
     weightkg: 33.3,
-    evoType: "levelFriendship",
     eggGroups: [
       "Field",
       "Human-Like"
@@ -28801,6 +28801,7 @@ exports.BattlePokedex = {
     },
     evoLevel: 35,
     evoCondition: null,
+    evoType: null,
     num: 448,
     name: "Lucario",
     types: [
@@ -28808,7 +28809,6 @@ exports.BattlePokedex = {
       "Steel"
     ],
     weightkg: 54,
-    evoType: "levelFriendship",
     eggGroups: [
       "Field",
       "Human-Like"
@@ -30517,6 +30517,7 @@ exports.BattlePokedex = {
     },
     evoLevel: 35,
     evoCondition: null,
+    evoType: null,
     num: 476,
     name: "Probopass",
     types: [
@@ -30524,7 +30525,6 @@ exports.BattlePokedex = {
       "Steel"
     ],
     weightkg: 340,
-    evoType: "levelExtra",
     eggGroups: [
       "Mineral"
     ],
@@ -32842,13 +32842,13 @@ exports.BattlePokedex = {
     },
     evoLevel: 30,
     evoItem: null,
+    evoType: null,
     num: 512,
     name: "Simisage",
     types: [
       "Grass"
     ],
     weightkg: 30.5,
-    evoType: "useItem",
     eggGroups: [
       "Field"
     ],
@@ -32947,13 +32947,13 @@ exports.BattlePokedex = {
     },
     evoLevel: 30,
     evoItem: null,
+    evoType: null,
     num: 514,
     name: "Simisear",
     types: [
       "Fire"
     ],
     weightkg: 28,
-    evoType: "useItem",
     eggGroups: [
       "Field"
     ],
@@ -33052,13 +33052,13 @@ exports.BattlePokedex = {
     },
     evoLevel: 30,
     evoItem: null,
+    evoType: null,
     num: 516,
     name: "Simipour",
     types: [
       "Water"
     ],
     weightkg: 29,
-    evoType: "useItem",
     eggGroups: [
       "Field"
     ],
@@ -33162,10 +33162,10 @@ exports.BattlePokedex = {
     },
     evoLevel: 28,
     evoItem: null,
+    evoType: null,
     num: 518,
     name: "Musharna",
     weightkg: 60.5,
-    evoType: "useItem",
     eggGroups: [
       "Field"
     ],
@@ -33698,10 +33698,10 @@ exports.BattlePokedex = {
       "Field",
       "Flying"
     ],
+    evoType: null,
     num: 528,
     name: "Swoobat",
     weightkg: 10.5,
-    evoType: "levelFriendship",
     tier: " ",
     doublesTier: "(DUU)",
     id: "swoobat",
@@ -34495,6 +34495,7 @@ exports.BattlePokedex = {
       spd: 80
     },
     evoLevel: 32,
+    evoType: null,
     num: 542,
     name: "Leavanny",
     types: [
@@ -34502,7 +34503,6 @@ exports.BattlePokedex = {
       "Grass"
     ],
     weightkg: 20.5,
-    evoType: "levelFriendship",
     eggGroups: [
       "Bug"
     ],
@@ -34771,10 +34771,10 @@ exports.BattlePokedex = {
       "Fairy"
     ],
     evoItem: null,
+    evoType: null,
     num: 547,
     name: "Whimsicott",
     weightkg: 6.6,
-    evoType: "useItem",
     tier: " ",
     doublesTier: "DOU",
     id: "whimsicott",
@@ -34876,10 +34876,10 @@ exports.BattlePokedex = {
     },
     evoLevel: 25,
     evoItem: null,
+    evoType: null,
     num: 549,
     name: "Lilligant",
     weightkg: 16.3,
-    evoType: "useItem",
     eggGroups: [
       "Grass"
     ],
@@ -36272,10 +36272,10 @@ exports.BattlePokedex = {
     },
     evoLevel: 23,
     evoItem: null,
+    evoType: null,
     num: 573,
     name: "Cinccino",
     weightkg: 7.5,
-    evoType: "useItem",
     eggGroups: [
       "Field"
     ],
@@ -43234,10 +43234,10 @@ exports.BattlePokedex = {
     },
     evoLevel: 30,
     evoItem: null,
+    evoType: null,
     num: 683,
     name: "Aromatisse",
     weightkg: 15.5,
-    evoType: "trade",
     eggGroups: [
       "Fairy"
     ],
@@ -43336,13 +43336,13 @@ exports.BattlePokedex = {
     },
     evoLevel: 25,
     evoItem: null,
+    evoType: null,
     num: 685,
     name: "Slurpuff",
     types: [
       "Fairy"
     ],
     weightkg: 5,
-    evoType: "trade",
     eggGroups: [
       "Fairy"
     ],
@@ -43872,10 +43872,10 @@ exports.BattlePokedex = {
     },
     evoLevel: 28,
     evoItem: null,
+    evoType: null,
     num: 695,
     name: "Heliolisk",
     weightkg: 21,
-    evoType: "useItem",
     eggGroups: [
       "Monster",
       "Dragon"
@@ -44613,6 +44613,7 @@ exports.BattlePokedex = {
       spd: 97
     },
     evoLevel: 30,
+    evoType: null,
     num: 709,
     name: "Trevenant",
     types: [
@@ -44620,7 +44621,6 @@ exports.BattlePokedex = {
       "Grass"
     ],
     weightkg: 71,
-    evoType: "trade",
     eggGroups: [
       "Grass",
       "Amorphous"
@@ -48570,10 +48570,10 @@ exports.BattlePokedex = {
     },
     evoLevel: 35,
     evoMove: null,
+    evoType: null,
     num: 763,
     name: "Tsareena",
     weightkg: 21.4,
-    evoType: "levelMove",
     eggGroups: [
       "Grass"
     ],
