@@ -8263,7 +8263,7 @@ exports.BattleMovedex = {
     },
     secondaries: [
       {
-        chance: 1,
+        chance: 100,
         status: "psn"
       },
       {

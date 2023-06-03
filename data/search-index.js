@@ -2770,42 +2770,6 @@ exports.BattleSearchIndex = [
     "pokemon"
   ],
   [
-    "furfroudandy",
-    "pokemon"
-  ],
-  [
-    "furfroudebutante",
-    "pokemon"
-  ],
-  [
-    "furfroudiamond",
-    "pokemon"
-  ],
-  [
-    "furfrouheart",
-    "pokemon"
-  ],
-  [
-    "furfroukabuki",
-    "pokemon"
-  ],
-  [
-    "furfroulareine",
-    "pokemon"
-  ],
-  [
-    "furfroumatron",
-    "pokemon"
-  ],
-  [
-    "furfroupharaoh",
-    "pokemon"
-  ],
-  [
-    "furfroustar",
-    "pokemon"
-  ],
-  [
     "furret",
     "pokemon"
   ],
@@ -9848,15 +9812,6 @@ exports.BattleSearchIndexOffset = [
   "00001111111",
   "0001111",
   "",
-  "000000011111",
-  "0000000111111111",
-  "00000001111111",
-  "000000011111",
-  "0000000111111",
-  "00000001111111",
-  "0000000111111",
-  "00000001111111",
-  "00000001111",
   "",
   "0000111111",
   "000011111",
@@ -11465,24 +11420,24 @@ exports.BattleSearchCountIndex = {
   "Rock move": 22,
   "Steel move": 28,
   "Water move": 49,
-  "Ice pokemon": 48,
-  "Fairy pokemon": 99,
-  "Fighting pokemon": 76,
+  "Ice pokemon": 47,
+  "Fairy pokemon": 98,
+  "Fighting pokemon": 75,
   "Ghost pokemon": 56,
   "Bug pokemon": 90,
-  "Dark pokemon": 87,
+  "Dark pokemon": 86,
   "Dragon pokemon": 73,
-  "Electric pokemon": 70,
+  "Electric pokemon": 69,
   "Fire pokemon": 78,
   "Flying pokemon": 113,
-  "Grass pokemon": 103,
+  "Grass pokemon": 102,
   "Ground pokemon": 87,
-  "Normal pokemon": 137,
-  "Poison pokemon": 93,
+  "Normal pokemon": 128,
+  "Poison pokemon": 92,
   "Psychic pokemon": 111,
-  "Rock pokemon": 75,
+  "Rock pokemon": 74,
   "Steel pokemon": 72,
-  "Water pokemon": 150
+  "Water pokemon": 149
 };
 
 exports.BattleArticleTitles = {

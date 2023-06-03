@@ -27217,16 +27217,18 @@ exports.BattlePokedex = {
       atk: 35,
       def: 58,
       spe: 23,
-      spa: 83,
-      spd: 93
+      spa: 78,
+      spd: 98
     },
     weightkg: 6.3,
     eggGroups: [
       "Water 1",
       "Amorphous"
     ],
-    forme: "East",
     baseSpecies: "Shellos",
+    forme: "East",
+    inherit: true,
+    tier: " ",
     id: "shelloseast",
     fullname: "pokemon: Shellos-East",
     effectType: "Pokemon",
@@ -27236,8 +27238,7 @@ exports.BattlePokedex = {
     desc: "",
     isNonstandard: null,
     baseForme: "",
-    tier: " ",
-    doublesTier: "Illegal",
+    doublesTier: " ",
     canHatch: true,
     bst: 350,
     weighthg: 63,
@@ -27254,7 +27255,7 @@ exports.BattlePokedex = {
       "1": "Storm Drain"
     },
     evos: [
-      "Gastrodon-East"
+      "Gastrodon"
     ],
     nfe: true
   },
@@ -27338,17 +27339,18 @@ exports.BattlePokedex = {
       atk: 60,
       def: 88,
       spe: 28,
-      spa: 113,
-      spd: 123
+      spa: 108,
+      spd: 128
     },
     weightkg: 29.9,
-    evoLevel: 29,
     eggGroups: [
       "Water 1",
       "Amorphous"
     ],
-    forme: "East",
     baseSpecies: "Gastrodon",
+    forme: "East",
+    inherit: true,
+    tier: " ",
     id: "gastrodoneast",
     fullname: "pokemon: Gastrodon-East",
     effectType: "Pokemon",
@@ -27358,9 +27360,8 @@ exports.BattlePokedex = {
     desc: "",
     isNonstandard: null,
     baseForme: "",
-    tier: " ",
-    doublesTier: "DOU",
-    canHatch: false,
+    doublesTier: " ",
+    canHatch: true,
     bst: 500,
     weighthg: 299,
     unreleasedHidden: false,
@@ -27375,8 +27376,7 @@ exports.BattlePokedex = {
       "0": "Regenerator",
       "1": "Storm Drain"
     },
-    nfe: false,
-    prevo: "Shellos-East"
+    nfe: false
   },
   ambipom: {
     tags: [],
@@ -42261,502 +42261,6 @@ exports.BattlePokedex = {
     isNonstandard: null,
     baseSpecies: "Furfrou",
     forme: "",
-    canHatch: true,
-    bst: 515,
-    weighthg: 280,
-    unreleasedHidden: false,
-    maleOnlyHidden: false,
-    gmaxUnreleased: false,
-    cannotDynamax: false,
-    genderRatio: {
-      M: 0.5,
-      F: 0.5
-    },
-    abilities: {
-      "0": "Fur Coat",
-      "1": "Adaptability"
-    },
-    nfe: false,
-    cosmeticFormes: [
-      "Furfrou-Dandy",
-      "Furfrou-Debutante",
-      "Furfrou-Diamond",
-      "Furfrou-Heart",
-      "Furfrou-Kabuki",
-      "Furfrou-La Reine",
-      "Furfrou-Matron",
-      "Furfrou-Pharaoh",
-      "Furfrou-Star"
-    ],
-    otherFormes: [
-      "Furfrou-Kabuki",
-      "Furfrou-Pharaoh",
-      "Furfrou-Heart",
-      "Furfrou-LaReine",
-      "Furfrou-Dandy",
-      "Furfrou-Debutante",
-      "Furfrou-Matron",
-      "Furfrou-Diamond",
-      "Furfrou-Star"
-    ],
-    formeOrder: [
-      "Furfrou",
-      "Furfrou-Kabuki",
-      "Furfrou-Pharaoh",
-      "Furfrou-Heart",
-      "Furfrou-LaReine",
-      "Furfrou-Dandy",
-      "Furfrou-Debutante",
-      "Furfrou-Matron",
-      "Furfrou-Diamond",
-      "Furfrou-Star"
-    ],
-    formes: [
-      "Furfrou",
-      "Furfrou-Kabuki",
-      "Furfrou-Pharaoh",
-      "Furfrou-Heart",
-      "Furfrou-LaReine",
-      "Furfrou-Dandy",
-      "Furfrou-Debutante",
-      "Furfrou-Matron",
-      "Furfrou-Diamond",
-      "Furfrou-Star"
-    ]
-  },
-  furfroudandy: {
-    tags: [],
-    num: 676,
-    name: "Furfrou-Dandy",
-    types: [
-      "Normal",
-      "Grass"
-    ],
-    baseStats: {
-      hp: 75,
-      atk: 93,
-      def: 70,
-      spe: 102,
-      spa: 80,
-      spd: 95
-    },
-    weightkg: 28,
-    eggGroups: [
-      "Field"
-    ],
-    forme: "Dandy",
-    baseSpecies: "Furfrou",
-    id: "furfroudandy",
-    fullname: "pokemon: Furfrou-Dandy",
-    effectType: "Pokemon",
-    kind: "Species",
-    gen: 6,
-    shortDesc: "",
-    desc: "",
-    isNonstandard: null,
-    baseForme: "",
-    tier: " ",
-    doublesTier: "(DUU)",
-    canHatch: true,
-    bst: 515,
-    weighthg: 280,
-    unreleasedHidden: false,
-    maleOnlyHidden: false,
-    gmaxUnreleased: false,
-    cannotDynamax: false,
-    genderRatio: {
-      M: 0.5,
-      F: 0.5
-    },
-    abilities: {
-      "0": "Fur Coat",
-      "1": "Adaptability"
-    },
-    nfe: false
-  },
-  furfroudebutante: {
-    tags: [],
-    num: 676,
-    name: "Furfrou-Debutante",
-    types: [
-      "Normal",
-      "Electric"
-    ],
-    baseStats: {
-      hp: 75,
-      atk: 93,
-      def: 70,
-      spe: 102,
-      spa: 80,
-      spd: 95
-    },
-    weightkg: 28,
-    eggGroups: [
-      "Field"
-    ],
-    forme: "Debutante",
-    baseSpecies: "Furfrou",
-    id: "furfroudebutante",
-    fullname: "pokemon: Furfrou-Debutante",
-    effectType: "Pokemon",
-    kind: "Species",
-    gen: 6,
-    shortDesc: "",
-    desc: "",
-    isNonstandard: null,
-    baseForme: "",
-    tier: " ",
-    doublesTier: "(DUU)",
-    canHatch: true,
-    bst: 515,
-    weighthg: 280,
-    unreleasedHidden: false,
-    maleOnlyHidden: false,
-    gmaxUnreleased: false,
-    cannotDynamax: false,
-    genderRatio: {
-      M: 0.5,
-      F: 0.5
-    },
-    abilities: {
-      "0": "Fur Coat",
-      "1": "Adaptability"
-    },
-    nfe: false
-  },
-  furfroudiamond: {
-    tags: [],
-    num: 676,
-    name: "Furfrou-Diamond",
-    types: [
-      "Normal",
-      "Rock"
-    ],
-    baseStats: {
-      hp: 75,
-      atk: 93,
-      def: 70,
-      spe: 102,
-      spa: 80,
-      spd: 95
-    },
-    weightkg: 28,
-    eggGroups: [
-      "Field"
-    ],
-    forme: "Diamond",
-    baseSpecies: "Furfrou",
-    id: "furfroudiamond",
-    fullname: "pokemon: Furfrou-Diamond",
-    effectType: "Pokemon",
-    kind: "Species",
-    gen: 6,
-    shortDesc: "",
-    desc: "",
-    isNonstandard: null,
-    baseForme: "",
-    tier: " ",
-    doublesTier: "(DUU)",
-    canHatch: true,
-    bst: 515,
-    weighthg: 280,
-    unreleasedHidden: false,
-    maleOnlyHidden: false,
-    gmaxUnreleased: false,
-    cannotDynamax: false,
-    genderRatio: {
-      M: 0.5,
-      F: 0.5
-    },
-    abilities: {
-      "0": "Fur Coat",
-      "1": "Adaptability"
-    },
-    nfe: false
-  },
-  furfrouheart: {
-    tags: [],
-    num: 676,
-    name: "Furfrou-Heart",
-    types: [
-      "Normal",
-      "Fairy"
-    ],
-    baseStats: {
-      hp: 75,
-      atk: 93,
-      def: 70,
-      spe: 102,
-      spa: 80,
-      spd: 95
-    },
-    weightkg: 28,
-    eggGroups: [
-      "Field"
-    ],
-    forme: "Heart",
-    baseSpecies: "Furfrou",
-    id: "furfrouheart",
-    fullname: "pokemon: Furfrou-Heart",
-    effectType: "Pokemon",
-    kind: "Species",
-    gen: 6,
-    shortDesc: "",
-    desc: "",
-    isNonstandard: null,
-    baseForme: "",
-    tier: " ",
-    doublesTier: "(DUU)",
-    canHatch: true,
-    bst: 515,
-    weighthg: 280,
-    unreleasedHidden: false,
-    maleOnlyHidden: false,
-    gmaxUnreleased: false,
-    cannotDynamax: false,
-    genderRatio: {
-      M: 0.5,
-      F: 0.5
-    },
-    abilities: {
-      "0": "Fur Coat",
-      "1": "Adaptability"
-    },
-    nfe: false
-  },
-  furfroukabuki: {
-    tags: [],
-    num: 676,
-    name: "Furfrou-Kabuki",
-    types: [
-      "Normal",
-      "Fighting"
-    ],
-    baseStats: {
-      hp: 75,
-      atk: 93,
-      def: 70,
-      spe: 102,
-      spa: 80,
-      spd: 95
-    },
-    weightkg: 28,
-    eggGroups: [
-      "Field"
-    ],
-    forme: "Kabuki",
-    baseSpecies: "Furfrou",
-    id: "furfroukabuki",
-    fullname: "pokemon: Furfrou-Kabuki",
-    effectType: "Pokemon",
-    kind: "Species",
-    gen: 6,
-    shortDesc: "",
-    desc: "",
-    isNonstandard: null,
-    baseForme: "",
-    tier: " ",
-    doublesTier: "(DUU)",
-    canHatch: true,
-    bst: 515,
-    weighthg: 280,
-    unreleasedHidden: false,
-    maleOnlyHidden: false,
-    gmaxUnreleased: false,
-    cannotDynamax: false,
-    genderRatio: {
-      M: 0.5,
-      F: 0.5
-    },
-    abilities: {
-      "0": "Fur Coat",
-      "1": "Adaptability"
-    },
-    nfe: false
-  },
-  furfroulareine: {
-    tags: [],
-    num: 676,
-    name: "Furfrou-LaReine",
-    types: [
-      "Normal",
-      "Water"
-    ],
-    baseStats: {
-      hp: 75,
-      atk: 93,
-      def: 70,
-      spe: 102,
-      spa: 80,
-      spd: 95
-    },
-    weightkg: 28,
-    eggGroups: [
-      "Field"
-    ],
-    forme: "LaReine",
-    baseSpecies: "Furfrou",
-    id: "furfroulareine",
-    fullname: "pokemon: Furfrou-LaReine",
-    effectType: "Pokemon",
-    kind: "Species",
-    gen: 6,
-    shortDesc: "",
-    desc: "",
-    isNonstandard: null,
-    baseForme: "",
-    tier: " ",
-    doublesTier: "(DUU)",
-    canHatch: true,
-    bst: 515,
-    weighthg: 280,
-    unreleasedHidden: false,
-    maleOnlyHidden: false,
-    gmaxUnreleased: false,
-    cannotDynamax: false,
-    genderRatio: {
-      M: 0.5,
-      F: 0.5
-    },
-    abilities: {
-      "0": "Fur Coat",
-      "1": "Adaptability"
-    },
-    nfe: false
-  },
-  furfroumatron: {
-    tags: [],
-    num: 676,
-    name: "Furfrou-Matron",
-    types: [
-      "Normal",
-      "Poison"
-    ],
-    baseStats: {
-      hp: 75,
-      atk: 93,
-      def: 70,
-      spe: 102,
-      spa: 80,
-      spd: 95
-    },
-    weightkg: 28,
-    eggGroups: [
-      "Field"
-    ],
-    forme: "Matron",
-    baseSpecies: "Furfrou",
-    id: "furfroumatron",
-    fullname: "pokemon: Furfrou-Matron",
-    effectType: "Pokemon",
-    kind: "Species",
-    gen: 6,
-    shortDesc: "",
-    desc: "",
-    isNonstandard: null,
-    baseForme: "",
-    tier: " ",
-    doublesTier: "(DUU)",
-    canHatch: true,
-    bst: 515,
-    weighthg: 280,
-    unreleasedHidden: false,
-    maleOnlyHidden: false,
-    gmaxUnreleased: false,
-    cannotDynamax: false,
-    genderRatio: {
-      M: 0.5,
-      F: 0.5
-    },
-    abilities: {
-      "0": "Fur Coat",
-      "1": "Adaptability"
-    },
-    nfe: false
-  },
-  furfroupharaoh: {
-    tags: [],
-    num: 676,
-    name: "Furfrou-Pharaoh",
-    types: [
-      "Normal",
-      "Dark"
-    ],
-    baseStats: {
-      hp: 75,
-      atk: 93,
-      def: 70,
-      spe: 102,
-      spa: 80,
-      spd: 95
-    },
-    weightkg: 28,
-    eggGroups: [
-      "Field"
-    ],
-    forme: "Pharaoh",
-    baseSpecies: "Furfrou",
-    id: "furfroupharaoh",
-    fullname: "pokemon: Furfrou-Pharaoh",
-    effectType: "Pokemon",
-    kind: "Species",
-    gen: 6,
-    shortDesc: "",
-    desc: "",
-    isNonstandard: null,
-    baseForme: "",
-    tier: " ",
-    doublesTier: "(DUU)",
-    canHatch: true,
-    bst: 515,
-    weighthg: 280,
-    unreleasedHidden: false,
-    maleOnlyHidden: false,
-    gmaxUnreleased: false,
-    cannotDynamax: false,
-    genderRatio: {
-      M: 0.5,
-      F: 0.5
-    },
-    abilities: {
-      "0": "Fur Coat",
-      "1": "Adaptability"
-    },
-    nfe: false
-  },
-  furfroustar: {
-    tags: [],
-    num: 676,
-    name: "Furfrou-Star",
-    types: [
-      "Normal",
-      "Ice"
-    ],
-    baseStats: {
-      hp: 75,
-      atk: 93,
-      def: 70,
-      spe: 102,
-      spa: 80,
-      spd: 95
-    },
-    weightkg: 28,
-    eggGroups: [
-      "Field"
-    ],
-    forme: "Star",
-    baseSpecies: "Furfrou",
-    id: "furfroustar",
-    fullname: "pokemon: Furfrou-Star",
-    effectType: "Pokemon",
-    kind: "Species",
-    gen: 6,
-    shortDesc: "",
-    desc: "",
-    isNonstandard: null,
-    baseForme: "",
-    tier: " ",
-    doublesTier: "(DUU)",
     canHatch: true,
     bst: 515,
     weighthg: 280,
