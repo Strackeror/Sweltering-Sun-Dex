@@ -6502,19 +6502,19 @@ exports.BattleLearnsets = {
         "9L5"
       ],
       magnitude: [
-        "9L8"
+        "9L7"
       ],
       headbutt: [
-        "9L10"
+        "9L9"
       ],
       rockblast: [
-        "9L12"
+        "9L11"
       ],
       dig: [
-        "9L15"
+        "9L13"
       ],
       sedimend: [
-        "9L17"
+        "9L15"
       ],
       workup: [
         "9M"
@@ -12934,23 +12934,26 @@ exports.BattleLearnsets = {
       toxic: [
         "9L27"
       ],
-      moonblast: [
+      bugbuzz: [
         "9L31"
       ],
-      bugbuzz: [
+      strengthsap: [
         "9L33"
       ],
       sleeppowder: [
-        "9L42"
+        "9L37"
       ],
       powder: [
-        "9L47"
+        "9L44"
       ],
       batonpass: [
-        "9L47"
+        "9L44"
+      ],
+      moonblast: [
+        "9L49"
       ],
       bugbomber: [
-        "9L50"
+        "9L51"
       ],
       weatherball: [
         "9M"
@@ -13125,29 +13128,32 @@ exports.BattleLearnsets = {
       razorwind: [
         "9L29"
       ],
-      moonblast: [
+      bugbuzz: [
         "9L31"
       ],
-      bugbuzz: [
+      strengthsap: [
         "9L33"
       ],
-      whirlwind: [
+      aeroblast: [
         "9L35"
       ],
-      aeroblast: [
+      sleeppowder: [
         "9L37"
       ],
-      sleeppowder: [
-        "9L42"
+      whirlwind: [
+        "9L39"
       ],
       powder: [
-        "9L47"
+        "9L44"
       ],
       batonpass: [
-        "9L47"
+        "9L44"
+      ],
+      moonblast: [
+        "9L49"
       ],
       bugbomber: [
-        "9L50"
+        "9L51"
       ],
       quiverdance: [
         "9L55"
@@ -13687,25 +13693,25 @@ exports.BattleLearnsets = {
         "9L32"
       ],
       skullbash: [
-        "9L35"
+        "9L34"
       ],
       doubleedge: [
-        "9L38"
+        "9L36"
       ],
       rockwrecker: [
-        "9L42"
-      ],
-      headsmash: [
-        "9L47"
+        "9L38"
       ],
       precipiceblades: [
-        "9L50"
+        "9L43"
+      ],
+      headsmash: [
+        "9L45"
       ],
       headlongrush: [
-        "9L55"
+        "9L50"
       ],
       fissure: [
-        "9L60"
+        "9L55"
       ],
       workup: [
         "9M"
@@ -13899,25 +13905,25 @@ exports.BattleLearnsets = {
         "9L32"
       ],
       skullbash: [
-        "9L35"
+        "9L34"
       ],
       doubleedge: [
-        "9L38"
+        "9L36"
       ],
       rockwrecker: [
-        "9L42"
-      ],
-      headsmash: [
-        "9L47"
+        "9L38"
       ],
       precipiceblades: [
-        "9L50"
+        "9L43"
+      ],
+      headsmash: [
+        "9L45"
       ],
       headlongrush: [
-        "9L55"
+        "9L50"
       ],
       fissure: [
-        "9L60"
+        "9L55"
       ],
       workup: [
         "9M"
@@ -14538,7 +14544,7 @@ exports.BattleLearnsets = {
         "9L1"
       ],
       payday: [
-        "9L50"
+        "9L47"
       ],
       quickattack: [
         "9L5"
@@ -14942,7 +14948,7 @@ exports.BattleLearnsets = {
         "9L45"
       ],
       wickedblow: [
-        "9L50"
+        "9L47"
       ],
       workup: [
         "9M"
@@ -16033,26 +16039,29 @@ exports.BattleLearnsets = {
         "9L42"
       ],
       powertrip: [
-        "9L44"
+        "9L42"
       ],
       superpower: [
-        "9L46",
+        "9L44",
         "9T"
+      ],
+      brutalswing: [
+        "9L46"
+      ],
+      flareblitz: [
+        "9L46"
       ],
       fling: [
         "9L48"
       ],
-      flareblitz: [
-        "9L50"
-      ],
-      brutalswing: [
-        "9L50"
-      ],
       knockoutpunch: [
+        "9L50"
+      ],
+      triplekick: [
         "9L55"
       ],
       submission: [
-        "9L58"
+        "9L60"
       ],
       counter: [
         "9L63"
@@ -19237,10 +19246,10 @@ exports.BattleLearnsets = {
       sweetscent: [
         "9L22"
       ],
-      clearsmog: [
+      belch: [
         "9L24"
       ],
-      belch: [
+      clearsmog: [
         "9L26"
       ],
       toxic: [
@@ -23872,28 +23881,29 @@ exports.BattleLearnsets = {
         "9L23"
       ],
       mefirst: [
-        "9L30"
+        "9L29"
       ],
-      reversal: [
-        "9L32"
+      drillrun: [
+        "9L31",
+        "9T"
       ],
       drillpeck: [
-        "9L34"
-      ],
-      powertrip: [
-        "9L36"
+        "9L31"
       ],
       triplekick: [
-        "9L40"
+        "9L33"
+      ],
+      powertrick: [
+        "9L36"
       ],
       highjumpkick: [
-        "9L45"
+        "9L40"
       ],
       bravebird: [
-        "9L47"
+        "9L45"
       ],
       submission: [
-        "9L52"
+        "9L50"
       ],
       divebomb: [
         "9L55"
@@ -24013,9 +24023,6 @@ exports.BattleLearnsets = {
         "9M"
       ],
       covet: [
-        "9T"
-      ],
-      drillrun: [
         "9T"
       ],
       bounce: [
@@ -28899,7 +28906,7 @@ exports.BattleLearnsets = {
         "9L60"
       ],
       mirrorcoat: [
-        "9L65"
+        "9L63"
       ],
       workup: [
         "9M"
@@ -31561,6 +31568,9 @@ exports.BattleLearnsets = {
       reversal: [
         "9L33"
       ],
+      triplekick: [
+        "9L35"
+      ],
       battlecry: [
         "9L37"
       ],
@@ -31577,14 +31587,11 @@ exports.BattleLearnsets = {
         "9L45",
         "9T"
       ],
-      triplekick: [
-        "9L48"
-      ],
       highjumpkick: [
-        "9L53"
+        "9L50"
       ],
       submission: [
-        "9L58"
+        "9L55"
       ],
       counter: [
         "9L60"
@@ -34132,11 +34139,14 @@ exports.BattleLearnsets = {
       focusenergy: [
         "9L1"
       ],
-      fakeout: [
-        "9L8"
+      quickattack: [
+        "9L5"
       ],
       swift: [
         "9L5"
+      ],
+      fakeout: [
+        "9L8"
       ],
       seismictoss: [
         "9L10"
@@ -38866,67 +38876,64 @@ exports.BattleLearnsets = {
         "9L9"
       ],
       echoedvoice: [
-        "9L12"
+        "9L11"
       ],
       tearfullook: [
-        "9L14"
-      ],
-      headbutt: [
-        "9L16"
-      ],
-      harmonize: [
-        "9L18"
-      ],
-      doublekick: [
-        "9L20"
-      ],
-      wish: [
-        "9L22"
-      ],
-      faketears: [
-        "9L24"
+        "9L13"
       ],
       secretpower: [
-        "9L26"
+        "9L15"
+      ],
+      harmonize: [
+        "9L17"
       ],
       hoodwink: [
-        "9L28"
+        "9L19"
       ],
-      charm: [
-        "9L30"
+      doublekick: [
+        "9L21"
       ],
-      yawn: [
-        "9L33"
+      faketears: [
+        "9L23"
       ],
-      holdback: [
-        "9L35"
-      ],
-      flail: [
-        "9L37"
-      ],
-      reversal: [
-        "9L37"
+      wish: [
+        "9L25"
       ],
       "return": [
-        "9L39"
+        "9L25"
       ],
-      luckychant: [
-        "9L41"
+      holdback: [
+        "9L27"
       ],
-      synchronoise: [
-        "9L43"
+      yawn: [
+        "9L29"
+      ],
+      charm: [
+        "9L31"
+      ],
+      flail: [
+        "9L33"
+      ],
+      reversal: [
+        "9L33"
       ],
       kerfuffle: [
-        "9L45"
+        "9L35"
+      ],
+      luckychant: [
+        "9L37"
+      ],
+      synchronoise: [
+        "9L39"
       ],
       doubleedge: [
-        "9L45"
+        "9L41"
       ],
       batonpass: [
-        "9L50"
+        "9L43"
       ],
       lastresort: [
-        "9L50",
+        "9L43",
         "9T"
       ],
       workup: [
@@ -39028,19 +39035,19 @@ exports.BattleLearnsets = {
     kind: "Learnset",
     learnset: {
       bubbleshot: [
-        "9L30"
+        "9L25"
       ],
       bubblebarrage: [
-        "9L30"
+        "9L25"
       ],
       brine: [
-        "9L30"
+        "9L25"
       ],
       soak: [
-        "9L30"
+        "9L25"
       ],
       rehydrate: [
-        "9L30"
+        "9L25"
       ],
       tailwag: [
         "9L1"
@@ -39084,35 +39091,26 @@ exports.BattleLearnsets = {
       faketears: [
         "9L24"
       ],
-      secretpower: [
-        "9L26"
-      ],
-      hoodwink: [
-        "9L28"
-      ],
-      charm: [
-        "9L30"
+      haze: [
+        "9L27"
       ],
       aurorabeam: [
-        "9L35"
-      ],
-      haze: [
-        "9L40"
+        "9L29"
       ],
       batonpass: [
-        "9L45"
+        "9L34"
       ],
       acidarmor: [
-        "9L45"
+        "9L34"
       ],
       bubbleburst: [
-        "9L50"
+        "9L39"
       ],
       hydrocannon: [
-        "9L55"
+        "9L44"
       ],
       whirlpool: [
-        "9L60"
+        "9L49"
       ],
       workup: [
         "9M"
@@ -39258,19 +39256,19 @@ exports.BattleLearnsets = {
     kind: "Learnset",
     learnset: {
       commotion: [
-        "9L30"
+        "9L25"
       ],
       thundershock: [
-        "9L30"
+        "9L25"
       ],
       paraboliccharge: [
-        "9L30"
+        "9L25"
       ],
       nuzzle: [
-        "9L30"
+        "9L25"
       ],
       recharge: [
-        "9L30"
+        "9L25"
       ],
       swift: [
         "9L5"
@@ -39308,38 +39306,29 @@ exports.BattleLearnsets = {
       faketears: [
         "9L24"
       ],
-      secretpower: [
-        "9L26"
-      ],
-      hoodwink: [
-        "9L28"
-      ],
-      charm: [
-        "9L30"
-      ],
       strangeimpulse: [
-        "9L32"
+        "9L27"
       ],
       discharge: [
-        "9L35"
+        "9L32"
       ],
       batonpass: [
-        "9L40"
+        "9L37"
       ],
       hyperspeed: [
-        "9L40"
+        "9L37"
       ],
       electroball: [
-        "9L45"
+        "9L37"
       ],
       plasmashot: [
-        "9L50"
+        "9L43"
       ],
       zapcannon: [
-        "9L55"
+        "9L48"
       ],
       electrooutburst: [
-        "9L60"
+        "9L53"
       ],
       workup: [
         "9M"
@@ -39506,22 +39495,22 @@ exports.BattleLearnsets = {
     kind: "Learnset",
     learnset: {
       pyrodash: [
-        "9L30"
+        "9L25"
       ],
       heatcrash: [
-        "9L30"
+        "9L25"
       ],
       ignite: [
-        "9L30"
+        "9L25"
       ],
       flameburst: [
-        "9L30"
+        "9L25"
       ],
       pyroplume: [
-        "9L30"
+        "9L25"
       ],
-      swift: [
-        "9L5"
+      morningsun: [
+        "9L25"
       ],
       quickattack: [
         "9L5"
@@ -39541,7 +39530,7 @@ exports.BattleLearnsets = {
       tearfullook: [
         "9L14"
       ],
-      headbutt: [
+      hoodwink: [
         "9L16"
       ],
       harmonize: [
@@ -39553,53 +39542,41 @@ exports.BattleLearnsets = {
       wish: [
         "9L22"
       ],
-      secretpower: [
-        "9L26"
-      ],
-      hoodwink: [
-        "9L28"
-      ],
-      charm: [
-        "9L30"
-      ],
-      morningsun: [
-        "9L32"
-      ],
       flamewheel: [
-        "9L34"
+        "9L27"
       ],
       firelash: [
-        "9L36"
+        "9L29"
       ],
       burnup: [
-        "9L41"
-      ],
-      batonpass: [
-        "9L44"
+        "9L33"
       ],
       flareblitz: [
-        "9L46"
+        "9L38"
       ],
       searingshot: [
-        "9L48"
+        "9L40"
+      ],
+      batonpass: [
+        "9L40"
       ],
       inferno: [
-        "9L50"
-      ],
-      blastburn: [
-        "9L52"
+        "9L42"
       ],
       blazingassault: [
-        "9L54"
+        "9L44"
+      ],
+      blastburn: [
+        "9L46"
       ],
       firevortex: [
-        "9L56"
+        "9L50"
       ],
       overheat: [
-        "9L58"
+        "9L52"
       ],
       blazingoutburst: [
-        "9L60"
+        "9L55"
       ],
       workup: [
         "9M"
@@ -41099,7 +41076,7 @@ exports.BattleLearnsets = {
     kind: "Learnset",
     learnset: {
       belch: [
-        "9L35"
+        "9L33"
       ],
       entrainment: [
         "9L1"
@@ -41150,10 +41127,10 @@ exports.BattleLearnsets = {
         "9L31"
       ],
       bodyslam: [
-        "9L33"
+        "9L32"
       ],
       skullbash: [
-        "9L36"
+        "9L34"
       ],
       heavyslam: [
         "9L38"
@@ -46532,14 +46509,14 @@ exports.BattleLearnsets = {
       echoedvoice: [
         "9L1"
       ],
-      influx: [
+      leer: [
         "9L1"
       ],
       gust: [
         "9L5"
       ],
-      simplebeam: [
-        "9L15"
+      influx: [
+        "9L5"
       ],
       disarmingvoice: [
         "9L9"
@@ -46552,6 +46529,9 @@ exports.BattleLearnsets = {
       ],
       confusion: [
         "9L13"
+      ],
+      simplebeam: [
+        "9L15"
       ],
       featherball: [
         "9L18"
@@ -48542,19 +48522,19 @@ exports.BattleLearnsets = {
         "9L46"
       ],
       hydrocannon: [
-        "9L50"
+        "9L48"
       ],
       zapcannon: [
-        "9L50"
+        "9L48"
       ],
       powerglow: [
-        "9L53"
+        "9L51"
       ],
       whirlpool: [
-        "9L58"
+        "9L56"
       ],
       mirrorcoat: [
-        "9L63"
+        "9L61"
       ],
       weatherball: [
         "9M"
@@ -53501,7 +53481,7 @@ exports.BattleLearnsets = {
         "9L48"
       ],
       rototiller: [
-        "9L50"
+        "9L53"
       ],
       workup: [
         "9M"
@@ -53695,13 +53675,17 @@ exports.BattleLearnsets = {
         "9L25"
       ],
       commotion: [
-        "9L28"
+        "9L27"
+      ],
+      bugbuzz: [
+        "9L29"
       ],
       whirlwind: [
         "9L31"
       ],
-      bugbuzz: [
-        "9L33"
+      uproar: [
+        "9L33",
+        "9T"
       ],
       boomburst: [
         "9L35"
@@ -53716,11 +53700,7 @@ exports.BattleLearnsets = {
         "9L42"
       ],
       hypnosis: [
-        "9L44"
-      ],
-      uproar: [
-        "9L48",
-        "9T"
+        "9L45"
       ],
       bugbomber: [
         "9L50"
@@ -54329,16 +54309,16 @@ exports.BattleLearnsets = {
     kind: "Learnset",
     learnset: {
       influx: [
-        "9L30"
+        "9L25"
       ],
       extrasensory: [
-        "9L30"
+        "9L25"
       ],
       morningsun: [
-        "9L30"
+        "9L25"
       ],
       futuresight: [
-        "9L30"
+        "9L25"
       ],
       swift: [
         "9L1"
@@ -54367,35 +54347,32 @@ exports.BattleLearnsets = {
       faketears: [
         "9L24"
       ],
-      charm: [
-        "9L30"
-      ],
-      powergem: [
-        "9L35"
-      ],
-      psyshock: [
-        "9L40"
-      ],
-      barrier: [
-        "9L45"
-      ],
       amnesia: [
-        "9L45"
+        "9L29"
       ],
       batonpass: [
-        "9L45"
+        "9L29"
+      ],
+      barrier: [
+        "9L33"
+      ],
+      psyshock: [
+        "9L35"
+      ],
+      powergem: [
+        "9L38"
       ],
       storedpower: [
-        "9L45"
+        "9L40"
       ],
       psychoboost: [
-        "9L50"
+        "9L45"
       ],
       psystrike: [
-        "9L55"
+        "9L50"
       ],
       mirrorcoat: [
-        "9L60"
+        "9L55"
       ],
       workup: [
         "9M"
@@ -54553,25 +54530,25 @@ exports.BattleLearnsets = {
     kind: "Learnset",
     learnset: {
       nightburst: [
-        "9L30"
+        "9L25"
       ],
       dismalcry: [
-        "9L30"
+        "9L25"
       ],
       moonlight: [
-        "9L30"
+        "9L25"
       ],
       memento: [
-        "9L30"
+        "9L25"
       ],
       torment: [
-        "9L30"
+        "9L25"
       ],
       toxic: [
-        "9L30"
+        "9L25"
       ],
       doomdesire: [
-        "9L0"
+        "9L25"
       ],
       swift: [
         "9L1"
@@ -54609,38 +54586,26 @@ exports.BattleLearnsets = {
       wish: [
         "9L22"
       ],
-      faketears: [
-        "9L24"
-      ],
-      secretpower: [
-        "9L26"
-      ],
-      hoodwink: [
-        "9L28"
-      ],
-      charm: [
+      moonblast: [
         "9L30"
       ],
-      moonblast: [
+      nightdaze: [
         "9L35"
       ],
-      nightdaze: [
-        "9L40"
+      perishsong: [
+        "9L37"
       ],
       batonpass: [
-        "9L45"
+        "9L42"
       ],
       powerglow: [
-        "9L45"
+        "9L42"
       ],
       twilightcannon: [
-        "9L50"
+        "9L45"
       ],
       lunardance: [
-        "9L55"
-      ],
-      perishsong: [
-        "9L60"
+        "9L50"
       ],
       workup: [
         "9M"
@@ -58751,7 +58716,7 @@ exports.BattleLearnsets = {
         "9L60"
       ],
       metalburst: [
-        "9L63"
+        "9L65"
       ],
       workup: [
         "9M"
@@ -61904,9 +61869,6 @@ exports.BattleLearnsets = {
       weatherball: [
         "9M"
       ],
-      icefang: [
-        "9M"
-      ],
       poweruppunch: [
         "9M"
       ],
@@ -64413,37 +64375,25 @@ exports.BattleLearnsets = {
     kind: "Learnset",
     learnset: {
       sketch: [
-        "9L75"
+        "9L65"
       ],
       fakeout: [
-        "9L1"
+        "9L5"
       ],
       encore: [
         "9L5"
       ],
-      tailwag: [
+      tickle: [
         "9L5"
       ],
-      doubleslap: [
+      whiplash: [
         "9L10"
       ],
-      tickle: [
+      charm: [
         "9L15"
       ],
-      flail: [
-        "9L20"
-      ],
-      tailslap: [
-        "9L20"
-      ],
-      searingshot: [
-        "9L24"
-      ],
-      charm: [
-        "9L25"
-      ],
       befriend: [
-        "9L25"
+        "9L15"
       ],
       copycat: [
         "9L30"
@@ -64451,14 +64401,11 @@ exports.BattleLearnsets = {
       mimic: [
         "9L30"
       ],
-      whiplash: [
+      imprison: [
         "9L35"
       ],
-      imprison: [
-        "9L40"
-      ],
       batonpass: [
-        "9L45"
+        "9L40"
       ],
       workup: [
         "9M"
@@ -69896,6 +69843,9 @@ exports.BattleLearnsets = {
       dragonbreath: [
         "9L36"
       ],
+      razorwind: [
+        "9L36"
+      ],
       swift: [
         "9L1"
       ],
@@ -69946,9 +69896,6 @@ exports.BattleLearnsets = {
       ],
       needlebash: [
         "9L35"
-      ],
-      razorwind: [
-        "9L36"
       ],
       xscissor: [
         "9L37"
@@ -70699,7 +70646,7 @@ exports.BattleLearnsets = {
         "9L36"
       ],
       boulderbash: [
-        "9L36"
+        "9L0"
       ],
       mirrormove: [
         "9L36"
@@ -70767,6 +70714,9 @@ exports.BattleLearnsets = {
       pyroplume: [
         "9L35"
       ],
+      triplekick: [
+        "9L52"
+      ],
       firelash: [
         "9L38"
       ],
@@ -70790,9 +70740,6 @@ exports.BattleLearnsets = {
       ],
       firevortex: [
         "9L50"
-      ],
-      triplekick: [
-        "9L52"
       ],
       flareblitz: [
         "9L54"
@@ -77401,10 +77348,10 @@ exports.BattleLearnsets = {
         "9L55"
       ],
       rollingkick: [
-        "9L60"
+        "9L57"
       ],
       triplekick: [
-        "9L65"
+        "9L60"
       ],
       workup: [
         "9M"
@@ -83479,14 +83426,14 @@ exports.BattleLearnsets = {
       psystrike: [
         "9L50"
       ],
+      triplekick: [
+        "9L52"
+      ],
       braindrain: [
         "9L55"
       ],
       psychowarp: [
         "9L58"
-      ],
-      triplekick: [
-        "9L60"
       ],
       counter: [
         "9L63"
@@ -86906,6 +86853,9 @@ exports.BattleLearnsets = {
       endure: [
         "9M"
       ],
+      flamethrower: [
+        "9M"
+      ],
       playrough: [
         "9M"
       ],
@@ -87167,6 +87117,9 @@ exports.BattleLearnsets = {
         "9M"
       ],
       endure: [
+        "9M"
+      ],
+      flamethrower: [
         "9M"
       ],
       partingshot: [
@@ -89881,9 +89834,6 @@ exports.BattleLearnsets = {
       energyball: [
         "9M"
       ],
-      solarblade: [
-        "9M"
-      ],
       substitute: [
         "9M"
       ],
@@ -90154,9 +90104,6 @@ exports.BattleLearnsets = {
         "9M"
       ],
       thunderbolt: [
-        "9M"
-      ],
-      solarblade: [
         "9M"
       ],
       retaliate: [
@@ -100889,23 +100836,23 @@ exports.BattleLearnsets = {
       bulletpunch: [
         "9L25"
       ],
+      thinkfast: [
+        "9L25"
+      ],
       dizzypunches: [
         "9L25"
       ],
-      pursuit: [
+      spikecannon: [
         "9L25"
       ],
       cometpunch: [
         "9L25"
       ],
-      mirrorshot: [
-        "9L17"
+      pursuit: [
+        "9L25"
       ],
-      extrasensory: [
-        "9L23"
-      ],
-      paraboliccharge: [
-        "9L15"
+      scaryface: [
+        "9L25"
       ],
       harden: [
         "9L1"
@@ -100934,6 +100881,12 @@ exports.BattleLearnsets = {
       recharge: [
         "9L15"
       ],
+      paraboliccharge: [
+        "9L15"
+      ],
+      mirrorshot: [
+        "9L17"
+      ],
       psychicterrain: [
         "9L19"
       ],
@@ -100943,14 +100896,8 @@ exports.BattleLearnsets = {
       fortify: [
         "9L21"
       ],
-      thinkfast: [
-        "9L25"
-      ],
-      spikecannon: [
-        "9L25"
-      ],
-      scaryface: [
-        "9L25"
+      extrasensory: [
+        "9L23"
       ],
       discharge: [
         "9L27"
@@ -103332,26 +103279,26 @@ exports.BattleLearnsets = {
         "9L45"
       ],
       zapcannon: [
-        "9L50"
+        "9L47"
       ],
       twilightcannon: [
-        "9L50"
+        "9L47"
       ],
       superpower: [
-        "9L50",
+        "9L47",
         "9T"
       ],
       psychoboost: [
-        "9L55"
+        "9L50"
       ],
       eternalbeam: [
-        "9L60"
+        "9L55"
       ],
       psystrike: [
-        "9L65"
+        "9L60"
       ],
       psychowarp: [
-        "9L70"
+        "9L65"
       ],
       workup: [
         "9M"
@@ -103770,26 +103717,26 @@ exports.BattleLearnsets = {
         "9L45"
       ],
       zapcannon: [
-        "9L50"
+        "9L47"
       ],
       twilightcannon: [
-        "9L50"
+        "9L47"
       ],
       superpower: [
-        "9L50",
+        "9L47",
         "9T"
       ],
       psychoboost: [
-        "9L55"
+        "9L50"
       ],
       eternalbeam: [
-        "9L60"
+        "9L55"
       ],
       psystrike: [
-        "9L65"
+        "9L60"
       ],
       psychowarp: [
-        "9L70"
+        "9L65"
       ],
       workup: [
         "9M"
@@ -104205,26 +104152,26 @@ exports.BattleLearnsets = {
         "9L45"
       ],
       zapcannon: [
-        "9L50"
+        "9L47"
       ],
       twilightcannon: [
-        "9L50"
+        "9L47"
       ],
       superpower: [
-        "9L50",
+        "9L47",
         "9T"
       ],
       psychoboost: [
-        "9L55"
+        "9L50"
       ],
       eternalbeam: [
-        "9L60"
+        "9L55"
       ],
       psystrike: [
-        "9L65"
+        "9L60"
       ],
       psychowarp: [
-        "9L70"
+        "9L65"
       ],
       workup: [
         "9M"
@@ -104643,26 +104590,26 @@ exports.BattleLearnsets = {
         "9L45"
       ],
       zapcannon: [
-        "9L50"
+        "9L47"
       ],
       twilightcannon: [
-        "9L50"
+        "9L47"
       ],
       superpower: [
-        "9L50",
+        "9L47",
         "9T"
       ],
       psychoboost: [
-        "9L55"
+        "9L50"
       ],
       eternalbeam: [
-        "9L60"
+        "9L55"
       ],
       psystrike: [
-        "9L65"
+        "9L60"
       ],
       psychowarp: [
-        "9L70"
+        "9L65"
       ],
       workup: [
         "9M"
@@ -110757,10 +110704,16 @@ exports.BattleLearnsets = {
       hiddenpower: [
         "9M"
       ],
+      grassyterrain: [
+        "9M"
+      ],
       burningmalice: [
         "9M"
       ],
       ominouswind: [
+        "9M"
+      ],
+      endure: [
         "9M"
       ],
       bulkup: [
@@ -111206,6 +111159,9 @@ exports.BattleLearnsets = {
         "9M"
       ],
       psychic: [
+        "9M"
+      ],
+      stoneedge: [
         "9M"
       ],
       firstimpression: [
@@ -113166,19 +113122,19 @@ exports.BattleLearnsets = {
         "9L27"
       ],
       vinelashes: [
-        "9L30"
+        "9L29"
       ],
       firelash: [
-        "9L30"
-      ],
-      charm: [
-        "9L32"
+        "9L29"
       ],
       revelationdance: [
-        "9L34"
+        "9L31"
+      ],
+      charm: [
+        "9L33"
       ],
       ingrain: [
-        "9L36"
+        "9L35"
       ],
       luckychant: [
         "9L38"
@@ -117662,13 +117618,13 @@ exports.BattleLearnsets = {
       headbutt: [
         "9L9"
       ],
-      faketears: [
+      rockblast: [
         "9L11"
       ],
-      rockblast: [
+      reversal: [
         "9L13"
       ],
-      reversal: [
+      faketears: [
         "9L15"
       ],
       hoodwink: [
@@ -118419,16 +118375,20 @@ exports.BattleLearnsets = {
         "9L25"
       ],
       serenade: [
-        "9L29"
+        "9L28"
       ],
       sing: [
-        "9L33"
+        "9L31"
+      ],
+      uproar: [
+        "9L33",
+        "9T"
+      ],
+      aeroblast: [
+        "9L35"
       ],
       luckychant: [
         "9L38"
-      ],
-      aeroblast: [
-        "9L40"
       ],
       razorwind: [
         "9L42"
@@ -118436,18 +118396,14 @@ exports.BattleLearnsets = {
       mimic: [
         "9L44"
       ],
-      uproar: [
-        "9L46",
-        "9T"
-      ],
       boomburst: [
+        "9L46"
+      ],
+      synchronoise: [
         "9L48"
       ],
       perishsong: [
         "9L53"
-      ],
-      synchronoise: [
-        "9L58"
       ],
       workup: [
         "9M"
@@ -119553,31 +119509,31 @@ exports.BattleLearnsets = {
         "9L18"
       ],
       slackoff: [
-        "9L21"
+        "9L20"
       ],
       faketears: [
-        "9L23"
+        "9L22"
       ],
       charm: [
-        "9L25"
+        "9L24"
       ],
       befriend: [
-        "9L25"
+        "9L24"
       ],
       flail: [
-        "9L27"
+        "9L26"
       ],
       reversal: [
-        "9L27"
+        "9L26"
       ],
       crunch: [
-        "9L29"
+        "9L28"
       ],
       yawn: [
-        "9L31"
+        "9L30"
       ],
       bodyslam: [
-        "9L33"
+        "9L32"
       ],
       workup: [
         "9M"
@@ -120244,10 +120200,10 @@ exports.BattleLearnsets = {
         "9L48"
       ],
       meditate: [
-        "9L50"
+        "9L48"
       ],
       triplekick: [
-        "9L52"
+        "9L50"
       ],
       highjumpkick: [
         "9L55"
@@ -120507,7 +120463,7 @@ exports.BattleLearnsets = {
       defensecurl: [
         "9L1"
       ],
-      headbutt: [
+      bodyslam: [
         "9L1"
       ],
       magnitude: [
@@ -120517,22 +120473,19 @@ exports.BattleLearnsets = {
         "9L10"
       ],
       dig: [
-        "9L15"
-      ],
-      bodyslam: [
-        "9L20"
-      ],
-      slackoff: [
-        "9L22"
+        "9L13"
       ],
       crunch: [
-        "9L24"
+        "9L17"
+      ],
+      slackoff: [
+        "9L20"
       ],
       jaggedfangs: [
-        "9L26"
+        "9L22"
       ],
       yawn: [
-        "9L28"
+        "9L27"
       ],
       amnesia: [
         "9L30"
@@ -120909,46 +120862,43 @@ exports.BattleLearnsets = {
         "9L10"
       ],
       banefulbunker: [
-        "9L13"
+        "9L12"
       ],
       barbbarrage: [
-        "9L13"
+        "9L12"
       ],
       pinmissile: [
-        "9L15"
+        "9L14"
       ],
       furyswipes: [
-        "9L15"
-      ],
-      pursuit: [
-        "9L17"
-      ],
-      molt: [
-        "9L19"
+        "9L14"
       ],
       skittersmack: [
-        "9L21"
-      ],
-      screech: [
-        "9L23"
-      ],
-      toxic: [
-        "9L25"
-      ],
-      venomdrench: [
-        "9L25"
+        "9L16"
       ],
       slash: [
-        "9L27"
+        "9L18"
+      ],
+      molt: [
+        "9L20"
+      ],
+      screech: [
+        "9L22"
       ],
       leechlife: [
-        "9L29"
+        "9L24"
       ],
-      laceration: [
-        "9L31"
+      toxic: [
+        "9L26"
+      ],
+      venomdrench: [
+        "9L26"
       ],
       nightslash: [
-        "9L31"
+        "9L30"
+      ],
+      laceration: [
+        "9L30"
       ],
       workup: [
         "9M"
@@ -121192,11 +121142,11 @@ exports.BattleLearnsets = {
       powertrip: [
         "9L40"
       ],
-      brutalswing: [
-        "9L45"
-      ],
       crabhammer: [
-        "9L50"
+        "9L43"
+      ],
+      brutalswing: [
+        "9L48"
       ],
       workup: [
         "9M"
@@ -121533,6 +121483,9 @@ exports.BattleLearnsets = {
       shadowpunch: [
         "9M"
       ],
+      blazekick: [
+        "9M"
+      ],
       seismicfist: [
         "9M"
       ],
@@ -121751,6 +121704,9 @@ exports.BattleLearnsets = {
       submission: [
         "9L55"
       ],
+      triplekick: [
+        "9L60"
+      ],
       workup: [
         "9M"
       ],
@@ -121848,6 +121804,9 @@ exports.BattleLearnsets = {
         "9M"
       ],
       shadowpunch: [
+        "9M"
+      ],
+      blazekick: [
         "9M"
       ],
       seismicfist: [
@@ -122023,20 +121982,20 @@ exports.BattleLearnsets = {
       spewout: [
         "9L34"
       ],
-      finishingblow: [
+      sleeppowder: [
         "9L36"
       ],
       payback: [
         "9L38"
       ],
-      sleeppowder: [
+      finishingblow: [
         "9L40"
       ],
       coil: [
         "9L42"
       ],
       frenzyplant: [
-        "9L45"
+        "9L44"
       ],
       acclimate: [
         "9L47"
@@ -124468,9 +124427,6 @@ exports.BattleLearnsets = {
       growth: [
         "9L35"
       ],
-      counter: [
-        "9L35"
-      ],
       amnesia: [
         "9L40"
       ],
@@ -124486,23 +124442,23 @@ exports.BattleLearnsets = {
       wakeupslap: [
         "9L46"
       ],
-      powder: [
+      strengthsap: [
         "9L48"
       ],
       brutalswing: [
         "9L50"
       ],
-      chloroblast: [
+      frenzyplant: [
         "9L52"
       ],
-      frenzyplant: [
+      seedflare: [
         "9L55"
       ],
-      seedflare: [
-        "9L58"
+      chloroblast: [
+        "9L57"
       ],
-      strengthsap: [
-        "9L63"
+      counter: [
+        "9L62"
       ],
       workup: [
         "9M"
@@ -125781,7 +125737,7 @@ exports.BattleLearnsets = {
         "9L42"
       ],
       hypnosis: [
-        "9L44"
+        "9L45"
       ],
       uproar: [
         "9L48",
@@ -125791,7 +125747,7 @@ exports.BattleLearnsets = {
         "9L50"
       ],
       drakonicwave: [
-        "9L55"
+        "9L50"
       ],
       workup: [
         "9M"
@@ -125958,25 +125914,25 @@ exports.BattleLearnsets = {
     kind: "Learnset",
     learnset: {
       leafflurry: [
-        "9L30"
+        "9L25"
       ],
       magicalleaf: [
-        "9L30"
+        "9L25"
       ],
       seedshot: [
-        "9L30"
+        "9L25"
       ],
       razorleaf: [
-        "9L30"
+        "9L25"
       ],
       bulletseed: [
-        "9L30"
+        "9L25"
       ],
       leechseed: [
-        "9L30"
+        "9L25"
       ],
       slash: [
-        "9L30"
+        "9L25"
       ],
       tailwag: [
         "9L1"
@@ -126014,53 +125970,41 @@ exports.BattleLearnsets = {
       wish: [
         "9L22"
       ],
-      faketears: [
-        "9L24"
-      ],
-      secretpower: [
-        "9L26"
-      ],
-      hoodwink: [
-        "9L28"
-      ],
-      charm: [
-        "9L30"
-      ],
       leafblade: [
-        "9L35"
+        "9L25"
       ],
       nightslash: [
-        "9L35"
+        "9L30"
       ],
       xscissor: [
-        "9L35"
+        "9L30"
       ],
       laceration: [
-        "9L35"
+        "9L30"
       ],
       psychocut: [
-        "9L35"
+        "9L30"
       ],
       growth: [
-        "9L40"
+        "9L35"
+      ],
+      grasswhistle: [
+        "9L37"
       ],
       batonpass: [
         "9L40"
       ],
-      grasswhistle: [
+      leafstorm: [
         "9L45"
       ],
-      leafstorm: [
-        "9L50"
-      ],
       frenzyplant: [
-        "9L50"
+        "9L45"
       ],
       seedflare: [
-        "9L55"
+        "9L50"
       ],
       chloroblast: [
-        "9L60"
+        "9L55"
       ],
       workup: [
         "9M"
@@ -126221,22 +126165,22 @@ exports.BattleLearnsets = {
     kind: "Learnset",
     learnset: {
       frostflurry: [
-        "9L30"
+        "9L25"
       ],
       aurorabeam: [
-        "9L30"
+        "9L25"
       ],
       haze: [
-        "9L30"
+        "9L25"
       ],
       freezedry: [
-        "9L30"
+        "9L25"
       ],
       recover: [
-        "9L30"
+        "9L25"
       ],
       freezerburn: [
-        "9L30"
+        "9L25"
       ],
       tailwag: [
         "9L1"
@@ -126274,41 +126218,29 @@ exports.BattleLearnsets = {
       wish: [
         "9L22"
       ],
-      faketears: [
-        "9L24"
-      ],
-      secretpower: [
-        "9L26"
-      ],
-      hoodwink: [
-        "9L28"
-      ],
-      charm: [
+      serenade: [
         "9L30"
       ],
-      powergem: [
-        "9L35"
-      ],
-      frostbreath: [
-        "9L40"
-      ],
       barrier: [
-        "9L45"
+        "9L33"
       ],
       batonpass: [
-        "9L45"
+        "9L33"
       ],
-      serenade: [
-        "9L45"
+      frostbreath: [
+        "9L35"
       ],
-      mineralshower: [
-        "9L50"
+      powergem: [
+        "9L38"
       ],
       glaciate: [
-        "9L55"
+        "9L42"
+      ],
+      mineralshower: [
+        "9L47"
       ],
       mirrorcoat: [
-        "9L60"
+        "9L50"
       ],
       workup: [
         "9M"
@@ -136749,52 +136681,49 @@ exports.BattleLearnsets = {
         "9L26"
       ],
       yawn: [
-        "9L29"
+        "9L28"
       ],
       xscissor: [
-        "9L31"
+        "9L30"
       ],
       laceration: [
-        "9L31"
+        "9L30"
       ],
       psychocut: [
-        "9L31"
+        "9L30"
       ],
       slash: [
-        "9L33"
+        "9L32"
       ],
       nightslash: [
-        "9L33"
+        "9L32"
       ],
       copycat: [
-        "9L35"
+        "9L34"
       ],
       topsyturvy: [
-        "9L37"
+        "9L36"
       ],
       tailslap: [
-        "9L39"
+        "9L38"
       ],
       furyswipes: [
-        "9L39"
+        "9L38"
       ],
       finishingblow: [
-        "9L41"
+        "9L40"
       ],
       beatup: [
-        "9L43"
-      ],
-      kerfuffle: [
-        "9L45"
-      ],
-      powertrip: [
-        "9L47"
+        "9L42"
       ],
       assist: [
-        "9L47"
+        "9L44"
+      ],
+      powertrip: [
+        "9L44"
       ],
       wickedblow: [
-        "9L50"
+        "9L48"
       ],
       workup: [
         "9M"
@@ -137223,10 +137152,10 @@ exports.BattleLearnsets = {
     effectType: "Learnset",
     kind: "Learnset",
     learnset: {
-      spikyshield: [
-        "9L1"
+      tropkick: [
+        "9L25"
       ],
-      torment: [
+      spikyshield: [
         "9L1"
       ],
       seedshot: [
@@ -137271,38 +137200,35 @@ exports.BattleLearnsets = {
       befriend: [
         "9L23"
       ],
-      tropkick: [
-        "9L25"
-      ],
       yawn: [
         "9L28"
       ],
       growth: [
-        "9L33"
+        "9L31"
       ],
       needlebash: [
-        "9L38"
+        "9L33"
       ],
       grasswhistle: [
-        "9L43"
-      ],
-      fling: [
-        "9L48"
-      ],
-      frenzyplant: [
-        "9L53"
+        "9L38"
       ],
       leafstorm: [
-        "9L53"
+        "9L43"
+      ],
+      frenzyplant: [
+        "9L43"
       ],
       seedflare: [
-        "9L58"
+        "9L48"
       ],
       chloroblast: [
-        "9L60"
+        "9L50"
       ],
       woodhammer: [
-        "9L60"
+        "9L50"
+      ],
+      fling: [
+        "9L53"
       ],
       workup: [
         "9M"
@@ -137576,14 +137502,14 @@ exports.BattleLearnsets = {
       slackoff: [
         "9L21"
       ],
-      charm: [
-        "9L23"
+      belch: [
+        "9L21"
       ],
       befriend: [
         "9L23"
       ],
-      yawn: [
-        "9L28"
+      charm: [
+        "9L23"
       ],
       workup: [
         "9M"
@@ -137824,47 +137750,47 @@ exports.BattleLearnsets = {
       slackoff: [
         "9L21"
       ],
-      charm: [
-        "9L23"
+      belch: [
+        "9L21"
       ],
       befriend: [
         "9L23"
       ],
-      yawn: [
-        "9L28"
+      charm: [
+        "9L23"
       ],
-      belch: [
-        "9L33"
+      yawn: [
+        "9L25"
       ],
       pyroplume: [
-        "9L38"
-      ],
-      searingshot: [
-        "9L43"
-      ],
-      fling: [
-        "9L48"
+        "9L30"
       ],
       burnup: [
-        "9L50"
+        "9L35"
+      ],
+      searingshot: [
+        "9L40"
       ],
       inferno: [
-        "9L53"
+        "9L42"
       ],
       blastburn: [
-        "9L55"
-      ],
-      flareblitz: [
-        "9L60"
+        "9L47"
       ],
       overheat: [
-        "9L60"
+        "9L51"
+      ],
+      flareblitz: [
+        "9L51"
+      ],
+      fling: [
+        "9L53"
       ],
       firevortex: [
-        "9L65"
+        "9L55"
       ],
       eruption: [
-        "9L70"
+        "9L60"
       ],
       workup: [
         "9M"
@@ -138393,37 +138319,37 @@ exports.BattleLearnsets = {
         "9L25"
       ],
       yawn: [
-        "9L28"
+        "9L27"
       ],
       soak: [
-        "9L33"
+        "9L32"
       ],
       bubbleburst: [
-        "9L38"
+        "9L37"
       ],
       torrentialpulse: [
-        "9L43"
-      ],
-      fling: [
-        "9L48"
+        "9L42"
       ],
       hydrocannon: [
-        "9L53"
+        "9L47"
       ],
       surgingstrikes: [
-        "9L58"
+        "9L49"
       ],
       wavecrash: [
-        "9L60"
+        "9L51"
+      ],
+      fling: [
+        "9L53"
       ],
       whirlpool: [
-        "9L62"
+        "9L55"
       ],
       steameruption: [
-        "9L65"
+        "9L57"
       ],
       waterspout: [
-        "9L70"
+        "9L60"
       ],
       workup: [
         "9M"
@@ -140669,10 +140595,10 @@ exports.BattleLearnsets = {
         "9L47"
       ],
       rockwrecker: [
-        "9L50"
+        "9L49"
       ],
       mineralshower: [
-        "9L50"
+        "9L49"
       ],
       precipiceblades: [
         "9L53"
@@ -149021,26 +148947,26 @@ exports.BattleLearnsets = {
       payback: [
         "9L41"
       ],
+      triplekick: [
+        "9L43"
+      ],
       headsmash: [
         "9L46"
       ],
-      powertrip: [
+      powertrick: [
         "9L48"
       ],
-      triplekick: [
+      wickedblow: [
         "9L50"
       ],
-      wickedblow: [
+      highjumpkick: [
         "9L55"
       ],
-      highjumpkick: [
+      submission: [
         "9L60"
       ],
       counter: [
         "9L63"
-      ],
-      submission: [
-        "9L65"
       ],
       workup: [
         "9M"
@@ -149770,25 +149696,25 @@ exports.BattleLearnsets = {
         "9L42"
       ],
       conjure: [
-        "9L45"
+        "9L44"
       ],
       spectrify: [
-        "9L50"
+        "9L47"
       ],
       storedpower: [
-        "9L50"
+        "9L47"
       ],
       mineralshower: [
-        "9L52"
+        "9L51"
       ],
       spectralbeam: [
-        "9L52"
+        "9L51"
       ],
       infernalparade: [
-        "9L55"
+        "9L53"
       ],
       trickroom: [
-        "9L57"
+        "9L55"
       ],
       mesmereyes: [
         "9L60"
@@ -154444,14 +154370,14 @@ exports.BattleLearnsets = {
       recover: [
         "9L20"
       ],
-      haze: [
-        "9L25"
-      ],
       freezedry: [
-        "9L30"
+        "9L23"
       ],
-      frostbreath: [
-        "9L35"
+      haze: [
+        "9L26"
+      ],
+      freezerburn: [
+        "9L31"
       ],
       workup: [
         "9M"
@@ -154572,8 +154498,8 @@ exports.BattleLearnsets = {
     effectType: "Learnset",
     kind: "Learnset",
     learnset: {
-      harden: [
-        "9L1"
+      explosion: [
+        "9L36"
       ],
       mist: [
         "9L1"
@@ -154599,30 +154525,27 @@ exports.BattleLearnsets = {
       freezedry: [
         "9L30"
       ],
-      frostbreath: [
-        "9L35"
+      freezerburn: [
+        "9L31"
       ],
-      explosion: [
+      frostbreath: [
         "9L40"
       ],
-      freezerburn: [
-        "9L42"
-      ],
       acidarmor: [
-        "9L45"
+        "9L43"
       ],
       uproar: [
-        "9L47",
+        "9L48",
         "9T"
       ],
       glaciate: [
-        "9L52"
+        "9L51"
       ],
       sheercold: [
-        "9L57"
+        "9L56"
       ],
       mirrorcoat: [
-        "9L62"
+        "9L61"
       ],
       workup: [
         "9M"
@@ -155407,19 +155330,19 @@ exports.BattleLearnsets = {
         "9L5"
       ],
       furycutter: [
-        "9L10"
+        "9L9"
       ],
       molt: [
-        "9L12"
+        "9L11"
       ],
       pinmissile: [
-        "9L14"
+        "9L13"
       ],
       pursuit: [
-        "9L16"
+        "9L15"
       ],
       skittersmack: [
-        "9L18"
+        "9L17"
       ],
       furypecks: [
         "9L20"
@@ -156010,16 +155933,16 @@ exports.BattleLearnsets = {
         "9L39"
       ],
       frenzyplant: [
-        "9L44"
+        "9L41"
       ],
       strengthsap: [
-        "9L48"
+        "9L46"
       ],
       seedflare: [
-        "9L50"
+        "9L48"
       ],
       spore: [
-        "9L55"
+        "9L50"
       ],
       weatherball: [
         "9M"
@@ -156676,10 +156599,10 @@ exports.BattleLearnsets = {
         "9L53"
       ],
       eternalbeam: [
-        "9L58"
+        "9L57"
       ],
       mirrorcoat: [
-        "9L63"
+        "9L62"
       ],
       workup: [
         "9M"
@@ -161712,6 +161635,9 @@ exports.BattleLearnsets = {
       shadowball: [
         "9M"
       ],
+      hurricane: [
+        "9M"
+      ],
       focusblast: [
         "9M"
       ],
@@ -162590,7 +162516,7 @@ exports.BattleLearnsets = {
     kind: "Learnset",
     learnset: {
       whiplash: [
-        "9L32"
+        "9L26"
       ],
       swift: [
         "9L1"
@@ -162623,13 +162549,13 @@ exports.BattleLearnsets = {
         "9L18"
       ],
       forcepalm: [
-        "9L20"
+        "9L28"
       ],
       smellingsalts: [
-        "9L20"
+        "9L28"
       ],
       battlecry: [
-        "9L25"
+        "9L23"
       ],
       flail: [
         "9L30"
@@ -162637,10 +162563,10 @@ exports.BattleLearnsets = {
       reversal: [
         "9L30"
       ],
-      finishingblow: [
-        "9L35"
-      ],
       meditate: [
+        "9L34"
+      ],
+      finishingblow: [
         "9L38"
       ],
       doublekick: [
@@ -166777,16 +166703,16 @@ exports.BattleLearnsets = {
         "9L52"
       ],
       firevortex: [
-        "9L57"
+        "9L55"
       ],
       overheat: [
-        "9L60"
+        "9L57"
       ],
       quiverdance: [
-        "9L65"
+        "9L60"
       ],
       fierydance: [
-        "9L70"
+        "9L65"
       ],
       weatherball: [
         "9M"
@@ -167032,12 +166958,6 @@ exports.BattleLearnsets = {
         "9M"
       ],
       bulkup: [
-        "9M"
-      ],
-      blazekick: [
-        "9M"
-      ],
-      seismicfist: [
         "9M"
       ],
       gigaimpact: [
@@ -170420,14 +170340,14 @@ exports.BattleLearnsets = {
       seedshot: [
         "9L5"
       ],
-      pinmissile: [
+      razorleaf: [
         "9L10"
       ],
-      razorleaf: [
+      bulletseed: [
         "9L13"
       ],
-      bulletseed: [
-        "9L15"
+      pinmissile: [
+        "9L16"
       ],
       workup: [
         "9M"
@@ -174826,40 +174746,40 @@ exports.BattleLearnsets = {
         "9L35"
       ],
       doomdesire: [
-        "9L40"
+        "9L35"
       ],
       petalblizzard: [
-        "9L42"
+        "9L40"
       ],
       moonblast: [
-        "9L44"
+        "9L42"
       ],
       petaldance: [
-        "9L46"
+        "9L44"
       ],
       grasswhistle: [
-        "9L48"
+        "9L46"
       ],
       revelationdance: [
-        "9L50"
+        "9L48"
       ],
       twilightcannon: [
-        "9L55"
+        "9L50"
       ],
       fleurcannon: [
-        "9L55"
+        "9L50"
       ],
       eternalbeam: [
-        "9L60"
+        "9L55"
       ],
       oblivionbeam: [
-        "9L65"
+        "9L60"
       ],
       radiantoutburst: [
-        "9L65"
+        "9L60"
       ],
       blossomdance: [
-        "9L70"
+        "9L65"
       ],
       weatherball: [
         "9M"
@@ -175483,19 +175403,19 @@ exports.BattleLearnsets = {
         "9L28"
       ],
       needlebash: [
-        "9L35"
+        "9L34"
       ],
       grasswhistle: [
-        "9L40"
+        "9L37"
       ],
       branchleech: [
-        "9L42"
+        "9L40"
       ],
       frenzyplant: [
-        "9L47"
+        "9L45"
       ],
       headsmash: [
-        "9L52"
+        "9L50"
       ],
       woodhammer: [
         "9L55"
@@ -185012,25 +184932,25 @@ exports.BattleLearnsets = {
     kind: "Learnset",
     learnset: {
       pixiedust: [
-        "9L30"
+        "9L25"
       ],
       drainingkiss: [
-        "9L30"
+        "9L25"
       ],
       disarmingvoice: [
-        "9L30"
+        "9L25"
       ],
       moonlight: [
-        "9L30"
+        "9L25"
       ],
       healingwish: [
-        "9L30"
+        "9L25"
       ],
       mistyterrain: [
-        "9L30"
+        "9L25"
       ],
       luckychant: [
-        "9L30"
+        "9L25"
       ],
       tailwag: [
         "9L1"
@@ -185068,38 +184988,26 @@ exports.BattleLearnsets = {
       wish: [
         "9L22"
       ],
-      faketears: [
-        "9L24"
-      ],
-      secretpower: [
-        "9L26"
-      ],
-      hoodwink: [
-        "9L28"
-      ],
-      charm: [
+      radiantedge: [
         "9L30"
       ],
-      radiantedge: [
-        "9L35"
-      ],
       heartswap: [
-        "9L40"
+        "9L35"
       ],
       batonpass: [
         "9L40"
       ],
       moonblast: [
-        "9L45"
+        "9L40"
       ],
       fleurcannon: [
-        "9L50"
+        "9L45"
       ],
       eternalbeam: [
-        "9L55"
+        "9L50"
       ],
       radiantoutburst: [
-        "9L60"
+        "9L55"
       ],
       workup: [
         "9M"
@@ -190473,40 +190381,43 @@ exports.BattleLearnsets = {
         "9L40"
       ],
       detonate: [
-        "9L45"
+        "9L42"
       ],
       burnup: [
-        "9L45"
+        "9L42"
       ],
       bubbleburst: [
-        "9L50"
+        "9L45"
       ],
       searingshot: [
+        "9L45"
+      ],
+      snipeshot: [
+        "9L47"
+      ],
+      blastburn: [
         "9L50"
       ],
       hydrocannon: [
-        "9L55"
-      ],
-      blastburn: [
-        "9L55"
-      ],
-      whirlpool: [
-        "9L60"
+        "9L50"
       ],
       firevortex: [
-        "9L60"
+        "9L52"
+      ],
+      whirlpool: [
+        "9L52"
       ],
       overheat: [
-        "9L62"
+        "9L55"
       ],
       steameruption: [
-        "9L65"
-      ],
-      eruption: [
-        "9L70"
+        "9L57"
       ],
       waterspout: [
-        "9L70"
+        "9L60"
+      ],
+      eruption: [
+        "9L60"
       ],
       workup: [
         "9M"
@@ -191661,8 +191572,8 @@ exports.BattleLearnsets = {
     effectType: "Learnset",
     kind: "Learnset",
     learnset: {
-      scaryface: [
-        "9L20"
+      pursuit: [
+        "9L17"
       ],
       growl: [
         "9L1"
@@ -191691,8 +191602,8 @@ exports.BattleLearnsets = {
       morningsun: [
         "9L15"
       ],
-      pursuit: [
-        "9L17"
+      scaryface: [
+        "9L20"
       ],
       glare: [
         "9L22"
@@ -195695,23 +195606,23 @@ exports.BattleLearnsets = {
       payback: [
         "9L47"
       ],
-      avalanche: [
+      icehammer: [
         "9L49"
       ],
       hammerarm: [
         "9L51"
       ],
-      icehammer: [
+      avalanche: [
         "9L53"
       ],
-      counter: [
+      submission: [
         "9L58"
       ],
-      submission: [
+      knockoutpunch: [
         "9L60"
       ],
-      knockoutpunch: [
-        "9L62"
+      counter: [
+        "9L63"
       ],
       bellydrum: [
         "9L65"
@@ -197301,23 +197212,26 @@ exports.BattleLearnsets = {
       headbutt: [
         "9L12"
       ],
-      odorsleuth: [
+      smackdown: [
         "9L14"
       ],
-      smackdown: [
+      pursuit: [
         "9L16"
       ],
-      hoodwink: [
+      odorsleuth: [
         "9L18"
       ],
+      hoodwink: [
+        "9L20"
+      ],
       slackoff: [
-        "9L21"
+        "9L22"
       ],
       crunch: [
-        "9L23"
+        "9L24"
       ],
       jaggedfangs: [
-        "9L25"
+        "9L26"
       ],
       workup: [
         "9M"
@@ -201399,17 +201313,20 @@ exports.BattleLearnsets = {
       pyroplume: [
         "9L33"
       ],
+      acidspray: [
+        "9L35"
+      ],
       belch: [
         "9L38"
       ],
       burnup: [
-        "9L42"
+        "9L40"
       ],
       searingshot: [
-        "9L47"
+        "9L45"
       ],
       blastburn: [
-        "9L51"
+        "9L50"
       ],
       firevortex: [
         "9L55"
@@ -202661,13 +202578,13 @@ exports.BattleLearnsets = {
     kind: "Learnset",
     learnset: {
       tropkick: [
-        "9L35"
+        "9L33"
       ],
       lowsweep: [
-        "9L35"
+        "9L33"
       ],
       punishment: [
-        "9L35"
+        "9L33"
       ],
       leechseed: [
         "9L1"
@@ -202720,10 +202637,13 @@ exports.BattleLearnsets = {
       aromaticmist: [
         "9L31"
       ],
+      grasswhistle: [
+        "9L35"
+      ],
       reversal: [
         "9L37"
       ],
-      grasswhistle: [
+      triplekick: [
         "9L39"
       ],
       rollingkick: [
@@ -202732,11 +202652,8 @@ exports.BattleLearnsets = {
       kerfuffle: [
         "9L48"
       ],
-      triplekick: [
-        "9L50"
-      ],
       highjumpkick: [
-        "9L55"
+        "9L53"
       ],
       submission: [
         "9L58"

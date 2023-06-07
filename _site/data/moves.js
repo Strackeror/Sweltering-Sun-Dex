@@ -7259,7 +7259,8 @@ exports.BattleMovedex = {
   },
   triplekick: {
     exists: true,
-    basePower: 35,
+    accuracy: true,
+    critRatio: 7,
     desc: "A consecutive three-strike kick, that gains 10 base\npower each time it lands, potentially being 80 or 135.\nEach kick has a separate accuracy check. Contact.",
     shortDesc: "A consecutive three-strike kick, that gains 10 base\npower each time it lands, potentially being 80 or 135.\nEach kick has a separate accuracy check. Contact.",
     flags: {
@@ -7268,12 +7269,13 @@ exports.BattleMovedex = {
       mirror: 1,
       protect: 1
     },
+    willCrit: true,
     zMove: {
-      basePower: 190
+      basePower: 175
     },
     isNonstandard: null,
     num: 167,
-    accuracy: 90,
+    basePower: 10,
     category: "Physical",
     name: "Triple Kick",
     pp: 10,
@@ -7291,7 +7293,6 @@ exports.BattleMovedex = {
     effectType: "Move",
     kind: "Move",
     gen: 2,
-    critRatio: 1,
     secondaries: null,
     hasSheerForce: false,
     ignoreImmunity: false,
@@ -8263,7 +8264,7 @@ exports.BattleMovedex = {
     },
     secondaries: [
       {
-        chance: 1,
+        chance: 100,
         status: "psn"
       },
       {
@@ -11430,6 +11431,7 @@ exports.BattleMovedex = {
   },
   smellingsalts: {
     exists: true,
+    accuracy: true,
     basePower: 75,
     pp: 1,
     priority: 4,
@@ -11453,7 +11455,6 @@ exports.BattleMovedex = {
     noPPBoosts: true,
     isNonstandard: null,
     num: 265,
-    accuracy: 100,
     category: "Physical",
     name: "Smelling Salts",
     secondary: null,
@@ -15503,6 +15504,7 @@ exports.BattleMovedex = {
   },
   wakeupslap: {
     exists: true,
+    accuracy: true,
     pp: 1,
     priority: 4,
     desc: "This attack's power doubles on a sleeping target.\nThis also wakes the target up, however. Contact.",
@@ -15521,7 +15523,6 @@ exports.BattleMovedex = {
     noPPBoosts: true,
     isNonstandard: null,
     num: 358,
-    accuracy: 100,
     basePower: 70,
     category: "Physical",
     name: "Wake-Up Slap",
@@ -16033,9 +16034,9 @@ exports.BattleMovedex = {
   },
   payback: {
     exists: true,
+    accuracy: true,
     basePower: 60,
     pp: 5,
-    priority: -4,
     desc: "The user violently retaliates at the foe.\nThis has -4 priority. In exchange, the power of this\nattack doubles when used after the foe. Contact.",
     shortDesc: "The user violently retaliates at the foe.\nThis has -4 priority. In exchange, the power of this\nattack doubles when used after the foe. Contact.",
     flags: {
@@ -16047,9 +16048,9 @@ exports.BattleMovedex = {
       basePower: 190
     },
     num: 371,
-    accuracy: 100,
     category: "Physical",
     name: "Payback",
+    priority: 0,
     secondary: null,
     target: "normal",
     type: "Dark",
@@ -16761,12 +16762,6 @@ exports.BattleMovedex = {
       mirror: 1,
       protect: 1
     },
-    secondaries: [
-      {
-        chance: 100,
-        volatileStatus: "11"
-      }
-    ],
     num: 389,
     basePower: 70,
     category: "Physical",
@@ -16782,6 +16777,7 @@ exports.BattleMovedex = {
     gen: 4,
     isNonstandard: null,
     critRatio: 1,
+    secondaries: null,
     hasSheerForce: false,
     ignoreImmunity: false,
     isZ: false,
@@ -18094,8 +18090,8 @@ exports.BattleMovedex = {
   },
   avalanche: {
     exists: true,
-    accuracy: 90,
-    basePower: 75,
+    accuracy: true,
+    basePower: 70,
     pp: 5,
     desc: "The user summons a devastating avalanche. This moves\nlast, but doubles in power if the user is damaged that turn.",
     shortDesc: "The user summons a devastating avalanche. This moves\nlast, but doubles in power if the user is damaged that turn.",
@@ -18104,8 +18100,14 @@ exports.BattleMovedex = {
       protect: 1
     },
     zMove: {
-      basePower: 210
+      basePower: 200
     },
+    secondaries: [
+      {
+        chance: 30,
+        volatileStatus: "flinch"
+      }
+    ],
     num: 419,
     category: "Physical",
     name: "Avalanche",
@@ -18120,14 +18122,13 @@ exports.BattleMovedex = {
     gen: 4,
     isNonstandard: null,
     critRatio: 1,
-    secondaries: null,
     hasSheerForce: false,
     ignoreImmunity: false,
     isZ: false,
     isMax: false,
     ignoreAbility: false,
     maxMove: {
-      basePower: 130
+      basePower: 120
     }
   },
   iceshard: {
@@ -22117,7 +22118,7 @@ exports.BattleMovedex = {
   circlethrow: {
     exists: true,
     accuracy: true,
-    basePower: 90,
+    basePower: 95,
     pp: 15,
     priority: -4,
     desc: "The target is thrown, and a different Pokemon is\ndragged out. This attack always goes last, and can't\nmiss. Contact.",
@@ -22128,7 +22129,7 @@ exports.BattleMovedex = {
       protect: 1
     },
     zMove: {
-      basePower: 160
+      basePower: 175
     },
     num: 509,
     category: "Physical",
@@ -22810,7 +22811,7 @@ exports.BattleMovedex = {
   dragontail: {
     exists: true,
     accuracy: true,
-    basePower: 90,
+    basePower: 95,
     pp: 15,
     priority: -4,
     desc: "The user slams the target with its tail, and a\ndifferent Pokemon is dragged out. This attack always\ngoes last, and can't miss. Contact.",
@@ -22821,7 +22822,7 @@ exports.BattleMovedex = {
       protect: 1
     },
     zMove: {
-      basePower: 160
+      basePower: 175
     },
     num: 525,
     category: "Physical",
@@ -23860,12 +23861,12 @@ exports.BattleMovedex = {
     exists: true,
     num: 548,
     accuracy: 100,
-    basePower: 95,
+    basePower: 65,
     category: "Special",
     name: "Radiant Edge",
-    pp: 10,
+    pp: 5,
     priority: 0,
-    critRatio: 1,
+    critRatio: 7,
     type: "Fairy",
     target: "normal",
     desc: "The user conjures up a blade made from light, slashing\nat the foe. This deals Physical damage, not Special.",
@@ -23875,6 +23876,7 @@ exports.BattleMovedex = {
       protect: 1,
       sound: 1
     },
+    willCrit: true,
     zMove: {
       basePower: 175
     },
@@ -23892,7 +23894,7 @@ exports.BattleMovedex = {
     isMax: false,
     ignoreAbility: false,
     maxMove: {
-      basePower: 130
+      basePower: 120
     }
   },
   glaciate: {

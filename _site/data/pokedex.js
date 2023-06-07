@@ -2332,8 +2332,8 @@ exports.BattlePokedex = {
       F: 1
     },
     abilities: {
-      "0": "Rough Skin",
-      "1": "Poison Touch"
+      "0": "Multiscale",
+      "1": "Rough Skin"
     },
     evos: [
       "Nidorina"
@@ -2347,8 +2347,8 @@ exports.BattlePokedex = {
       "Normal"
     ],
     baseStats: {
-      hp: 60,
-      atk: 92,
+      hp: 69,
+      atk: 83,
       def: 92,
       spe: 86,
       spa: 50,
@@ -2387,8 +2387,8 @@ exports.BattlePokedex = {
       F: 1
     },
     abilities: {
-      "0": "Rough Skin",
-      "1": "Poison Touch"
+      "0": "Multiscale",
+      "1": "Rough Skin"
     },
     evos: [
       "Nidoqueen"
@@ -3456,9 +3456,9 @@ exports.BattlePokedex = {
   venonat: {
     tags: [],
     baseStats: {
-      hp: 50,
-      atk: 45,
-      def: 35,
+      hp: 60,
+      atk: 40,
+      def: 50,
       spe: 66,
       spa: 82,
       spd: 72
@@ -3487,7 +3487,7 @@ exports.BattlePokedex = {
     baseForme: "",
     doublesTier: " ",
     canHatch: true,
-    bst: 350,
+    bst: 370,
     weighthg: 300,
     unreleasedHidden: false,
     maleOnlyHidden: false,
@@ -3679,20 +3679,20 @@ exports.BattlePokedex = {
   dugtrio: {
     tags: [],
     baseStats: {
-      hp: 65,
+      hp: 75,
       atk: 105,
       def: 70,
       spe: 120,
-      spa: 50,
+      spa: 40,
       spd: 70
     },
+    evoLevel: 20,
     num: 51,
     name: "Dugtrio",
     types: [
       "Ground"
     ],
     weightkg: 33.3,
-    evoLevel: 26,
     eggGroups: [
       "Field"
     ],
@@ -3742,13 +3742,14 @@ exports.BattlePokedex = {
   dugtrioalola: {
     tags: [],
     baseStats: {
-      hp: 65,
+      hp: 75,
       atk: 105,
       def: 80,
       spe: 110,
-      spa: 50,
+      spa: 40,
       spd: 70
     },
+    evoLevel: 20,
     num: 51,
     name: "Dugtrio-Alola",
     baseSpecies: "Dugtrio",
@@ -3758,7 +3759,6 @@ exports.BattlePokedex = {
       "Steel"
     ],
     weightkg: 66.6,
-    evoLevel: 26,
     eggGroups: [
       "Field"
     ],
@@ -4785,7 +4785,7 @@ exports.BattlePokedex = {
       spa: 40,
       spd: 60
     },
-    evoLevel: 19,
+    evoLevel: 20,
     num: 67,
     name: "Machoke",
     types: [
@@ -7503,7 +7503,7 @@ exports.BattlePokedex = {
       F: 0.5
     },
     abilities: {
-      "0": "Headstrong",
+      "0": "Technician",
       "1": "Lightning Rod"
     },
     nfe: false,
@@ -9153,11 +9153,11 @@ exports.BattlePokedex = {
   eevee: {
     tags: [],
     baseStats: {
-      hp: 50,
-      atk: 55,
-      def: 50,
+      hp: 55,
+      atk: 60,
+      def: 55,
       spe: 75,
-      spa: 55,
+      spa: 60,
       spd: 65
     },
     num: 133,
@@ -9184,7 +9184,7 @@ exports.BattlePokedex = {
     baseForme: "",
     doublesTier: " ",
     canHatch: true,
-    bst: 350,
+    bst: 370,
     weighthg: 65,
     unreleasedHidden: false,
     maleOnlyHidden: false,
@@ -9220,7 +9220,7 @@ exports.BattlePokedex = {
       spa: 110,
       spd: 130
     },
-    evoLevel: 30,
+    evoLevel: 25,
     evoItem: "Water Gem",
     num: 134,
     name: "Vaporeon",
@@ -9274,7 +9274,7 @@ exports.BattlePokedex = {
       spa: 110,
       spd: 95
     },
-    evoLevel: 30,
+    evoLevel: 25,
     evoItem: "Electric Gem",
     num: 135,
     name: "Jolteon",
@@ -9328,7 +9328,7 @@ exports.BattlePokedex = {
       spa: 115,
       spd: 110
     },
-    evoLevel: 30,
+    evoLevel: 25,
     evoItem: "Fire Gem",
     num: 136,
     name: "Flareon",
@@ -9768,7 +9768,7 @@ exports.BattlePokedex = {
       spa: 65,
       spd: 110
     },
-    evoLevel: 35,
+    evoLevel: 33,
     evoType: null,
     num: 143,
     name: "Snorlax",
@@ -12147,7 +12147,7 @@ exports.BattlePokedex = {
       spa: 80,
       spd: 100
     },
-    evoLevel: 34,
+    evoLevel: 32,
     num: 184,
     name: "Azumarill",
     types: [
@@ -12619,12 +12619,12 @@ exports.BattlePokedex = {
   yanma: {
     tags: [],
     baseStats: {
-      hp: 51,
+      hp: 49,
       atk: 65,
-      def: 41,
-      spe: 126,
-      spa: 96,
-      spd: 41
+      def: 49,
+      spe: 129,
+      spa: 99,
+      spd: 49
     },
     num: 193,
     name: "Yanma",
@@ -12650,7 +12650,7 @@ exports.BattlePokedex = {
     baseForme: "",
     doublesTier: " ",
     canHatch: true,
-    bst: 420,
+    bst: 440,
     weighthg: 380,
     unreleasedHidden: false,
     maleOnlyHidden: false,
@@ -12786,7 +12786,7 @@ exports.BattlePokedex = {
       spa: 115,
       spd: 110
     },
-    evoLevel: 30,
+    evoLevel: 25,
     evoType: "useItem",
     evoItem: "Psychic Gem",
     evoCondition: null,
@@ -12841,7 +12841,7 @@ exports.BattlePokedex = {
       spa: 95,
       spd: 130
     },
-    evoLevel: 30,
+    evoLevel: 25,
     evoType: "useItem",
     evoItem: "Dark Gem",
     evoCondition: null,
@@ -24047,10 +24047,10 @@ exports.BattlePokedex = {
       "Sub-Legendary"
     ],
     baseStats: {
-      hp: 80,
+      hp: 85,
       atk: 150,
       def: 200,
-      spe: 20,
+      spe: 15,
       spa: 50,
       spd: 100
     },
@@ -24099,10 +24099,10 @@ exports.BattlePokedex = {
       "Sub-Legendary"
     ],
     baseStats: {
-      hp: 80,
+      hp: 85,
       atk: 50,
       def: 100,
-      spe: 20,
+      spe: 15,
       spa: 150,
       spd: 200
     },
@@ -26098,7 +26098,8 @@ exports.BattlePokedex = {
     },
     abilities: {
       "0": "Intimidate",
-      "1": "Tinted Lens"
+      "1": "Volt Rush",
+      H: "Tinted Lens"
     },
     nfe: false,
     prevo: "Luxio"
@@ -27727,7 +27728,7 @@ exports.BattlePokedex = {
       spa: 120,
       spd: 120
     },
-    evoLevel: 35,
+    evoLevel: 32,
     evoItem: "Psychic Gem",
     num: 429,
     name: "Mismagius",
@@ -28799,7 +28800,7 @@ exports.BattlePokedex = {
       spa: 115,
       spd: 70
     },
-    evoLevel: 35,
+    evoLevel: 30,
     evoCondition: null,
     evoType: null,
     num: 448,
@@ -30058,12 +30059,12 @@ exports.BattlePokedex = {
       "Dragon"
     ],
     baseStats: {
-      hp: 86,
-      atk: 95,
-      def: 66,
-      spe: 146,
-      spa: 126,
-      spd: 56
+      hp: 89,
+      atk: 90,
+      def: 59,
+      spe: 149,
+      spa: 129,
+      spd: 59
     },
     evoLevel: 35,
     evoType: "useItem",
@@ -30116,7 +30117,7 @@ exports.BattlePokedex = {
       spa: 95,
       spd: 70
     },
-    evoLevel: 30,
+    evoLevel: 25,
     evoType: "useItem",
     evoItem: "Grass Gem",
     evoCondition: null,
@@ -30171,7 +30172,7 @@ exports.BattlePokedex = {
       spa: 115,
       spd: 110
     },
-    evoLevel: 30,
+    evoLevel: 25,
     evoType: "useItem",
     evoItem: "Ice Gem",
     evoCondition: null,
@@ -32156,7 +32157,6 @@ exports.BattlePokedex = {
       spa: 60,
       spd: 70
     },
-    evoLevel: 16,
     num: 499,
     name: "Pignite",
     types: [
@@ -32164,6 +32164,7 @@ exports.BattlePokedex = {
       "Fighting"
     ],
     weightkg: 55.5,
+    evoLevel: 17,
     eggGroups: [
       "Field"
     ],
@@ -32840,7 +32841,7 @@ exports.BattlePokedex = {
       spa: 99,
       spd: 68
     },
-    evoLevel: 30,
+    evoLevel: 25,
     evoItem: null,
     evoType: null,
     num: 512,
@@ -32886,12 +32887,12 @@ exports.BattlePokedex = {
   pansear: {
     tags: [],
     baseStats: {
-      hp: 53,
-      atk: 62,
-      def: 53,
-      spe: 87,
-      spa: 62,
-      spd: 53
+      hp: 50,
+      atk: 64,
+      def: 48,
+      spe: 96,
+      spa: 64,
+      spd: 48
     },
     num: 513,
     name: "Pansear",
@@ -32927,7 +32928,7 @@ exports.BattlePokedex = {
       F: 0.125
     },
     abilities: {
-      "0": "Unburden",
+      "0": "Prankster",
       "1": "Blaze"
     },
     evos: [
@@ -32938,14 +32939,14 @@ exports.BattlePokedex = {
   simisear: {
     tags: [],
     baseStats: {
-      hp: 70,
+      hp: 75,
       atk: 99,
-      def: 70,
-      spe: 107,
+      def: 68,
+      spe: 116,
       spa: 99,
-      spd: 70
+      spd: 68
     },
-    evoLevel: 30,
+    evoLevel: 25,
     evoItem: null,
     evoType: null,
     num: 514,
@@ -32971,7 +32972,7 @@ exports.BattlePokedex = {
     forme: "",
     baseForme: "",
     canHatch: false,
-    bst: 515,
+    bst: 525,
     weighthg: 280,
     unreleasedHidden: false,
     maleOnlyHidden: false,
@@ -32991,12 +32992,12 @@ exports.BattlePokedex = {
   panpour: {
     tags: [],
     baseStats: {
-      hp: 53,
-      atk: 62,
-      def: 53,
-      spe: 87,
-      spa: 62,
-      spd: 53
+      hp: 50,
+      atk: 64,
+      def: 48,
+      spe: 96,
+      spa: 64,
+      spd: 48
     },
     num: 515,
     name: "Panpour",
@@ -33032,7 +33033,7 @@ exports.BattlePokedex = {
       F: 0.125
     },
     abilities: {
-      "0": "Unburden",
+      "0": "Prankster",
       "1": "Torrent"
     },
     evos: [
@@ -33043,14 +33044,14 @@ exports.BattlePokedex = {
   simipour: {
     tags: [],
     baseStats: {
-      hp: 70,
+      hp: 75,
       atk: 99,
-      def: 70,
-      spe: 107,
+      def: 68,
+      spe: 116,
       spa: 99,
-      spd: 70
+      spd: 68
     },
-    evoLevel: 30,
+    evoLevel: 25,
     evoItem: null,
     evoType: null,
     num: 516,
@@ -33076,7 +33077,7 @@ exports.BattlePokedex = {
     forme: "",
     baseForme: "",
     canHatch: false,
-    bst: 515,
+    bst: 525,
     weighthg: 290,
     unreleasedHidden: false,
     maleOnlyHidden: false,
@@ -36061,7 +36062,7 @@ exports.BattlePokedex = {
       spa: 95,
       spd: 102
     },
-    evoLevel: 31,
+    evoLevel: 33,
     num: 569,
     name: "Garbodor",
     weightkg: 107.3,
@@ -36270,7 +36271,7 @@ exports.BattlePokedex = {
       spa: 95,
       spd: 80
     },
-    evoLevel: 23,
+    evoLevel: 22,
     evoItem: null,
     evoType: null,
     num: 573,
@@ -36695,7 +36696,7 @@ exports.BattlePokedex = {
       spa: 108,
       spd: 73
     },
-    evoLevel: 27,
+    evoLevel: 24,
     num: 581,
     name: "Swanna",
     types: [
@@ -36962,11 +36963,11 @@ exports.BattlePokedex = {
       spa: 60,
       spd: 80
     },
+    evoLevel: 32,
     num: 586,
     name: "Sawsbuck",
     baseForme: "Spring",
     weightkg: 92.5,
-    evoLevel: 34,
     eggGroups: [
       "Field"
     ],
@@ -38223,7 +38224,7 @@ exports.BattlePokedex = {
     },
     abilities: {
       "0": "Levitate",
-      "1": "Luminescent",
+      "1": "Weak Armor",
       H: "Shadow Tag"
     },
     nfe: false,
@@ -38777,7 +38778,7 @@ exports.BattlePokedex = {
       spa: 95,
       spd: 60
     },
-    evoLevel: 32,
+    evoLevel: 26,
     num: 620,
     name: "Mienshao",
     weightkg: 35.5,
@@ -39036,7 +39037,7 @@ exports.BattlePokedex = {
       spa: 55,
       spd: 70
     },
-    evoLevel: 32,
+    evoLevel: 29,
     num: 625,
     name: "Bisharp",
     types: [
@@ -40096,7 +40097,7 @@ exports.BattlePokedex = {
       F: 0
     },
     abilities: {
-      "0": "Volt Absorb",
+      "0": "Tough Claws",
       "1": "Aerilate"
     },
     nfe: false
@@ -41814,7 +41815,7 @@ exports.BattlePokedex = {
       spa: 109,
       spd: 66
     },
-    evoLevel: 33,
+    evoLevel: 32,
     num: 668,
     name: "Pyroar",
     types: [
@@ -42036,6 +42037,9 @@ exports.BattlePokedex = {
       spa: 113,
       spd: 154
     },
+    evoLevel: 32,
+    evoItem: null,
+    evoType: null,
     num: 671,
     name: "Florges",
     baseForme: "Red",
@@ -42043,8 +42047,6 @@ exports.BattlePokedex = {
       "Fairy"
     ],
     weightkg: 10,
-    evoType: "useItem",
-    evoItem: "Shiny Stone",
     eggGroups: [
       "Fairy"
     ],
@@ -43512,7 +43514,7 @@ exports.BattlePokedex = {
       spa: 93,
       spd: 118
     },
-    evoLevel: 28,
+    evoLevel: 26,
     evoCondition: null,
     num: 687,
     name: "Malamar",
@@ -44206,7 +44208,7 @@ exports.BattlePokedex = {
       spa: 110,
       spd: 130
     },
-    evoLevel: 30,
+    evoLevel: 25,
     evoType: "useItem",
     evoItem: "Fairy Gem",
     evoCondition: null,
@@ -45261,7 +45263,7 @@ exports.BattlePokedex = {
       F: 0
     },
     abilities: {
-      "0": "Tinted Lens",
+      "0": "Adaptability",
       "1": "Regenerator",
       H: "Power Construct"
     },
@@ -45330,7 +45332,7 @@ exports.BattlePokedex = {
       F: 0
     },
     abilities: {
-      "0": "Intimidate",
+      "0": "Adaptability",
       "1": "Instinct",
       H: "Power Construct"
     },
@@ -46796,7 +46798,7 @@ exports.BattlePokedex = {
       spa: 42,
       spd: 97
     },
-    evoLevel: 33,
+    evoLevel: 32,
     evoType: "useItem",
     evoItem: "Ice Gem",
     evoCondition: null,
@@ -47130,7 +47132,7 @@ exports.BattlePokedex = {
       spa: 111,
       spd: 95
     },
-    evoLevel: 23,
+    evoLevel: 22,
     num: 743,
     name: "Ribombee",
     weightkg: 0.5,
@@ -47194,7 +47196,7 @@ exports.BattlePokedex = {
       spa: 116,
       spd: 100
     },
-    evoLevel: 23,
+    evoLevel: 22,
     evoType: "useItem",
     evoItem: "Strange Souvenir",
     num: 743,
@@ -48018,13 +48020,13 @@ exports.BattlePokedex = {
     tags: [],
     baseStats: {
       hp: 70,
-      atk: 105,
-      def: 90,
+      atk: 110,
+      def: 75,
       spe: 105,
-      spa: 90,
-      spd: 90
+      spa: 100,
+      spd: 75
     },
-    evoLevel: 23,
+    evoLevel: 22,
     evoCondition: null,
     num: 754,
     name: "Lurantis",
@@ -48049,7 +48051,7 @@ exports.BattlePokedex = {
     forme: "",
     baseForme: "",
     canHatch: false,
-    bst: 550,
+    bst: 535,
     weighthg: 185,
     unreleasedHidden: false,
     maleOnlyHidden: false,
@@ -48087,7 +48089,7 @@ exports.BattlePokedex = {
       spa: 100,
       spd: 75
     },
-    evoLevel: 23,
+    evoLevel: 22,
     evoType: "useItem",
     evoItem: "Strange Souvenir",
     num: 754,
@@ -48197,7 +48199,7 @@ exports.BattlePokedex = {
       spa: 115,
       spd: 145
     },
-    evoLevel: 30,
+    evoLevel: 20,
     num: 756,
     name: "Shiinotic",
     weightkg: 11.5,
@@ -48639,7 +48641,7 @@ exports.BattlePokedex = {
       spa: 50,
       spd: 98
     },
-    evoLevel: 35,
+    evoLevel: 32,
     evoMove: null,
     evoType: null,
     num: 763,
