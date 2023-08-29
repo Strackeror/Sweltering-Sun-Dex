@@ -540,12 +540,11 @@ exports.BattleMovedex = {
     pp: 5,
     critRatio: 7,
     type: "Flying",
-    desc: "A 2 turn attack where the user fires vicious blades\nof wind. This attack always results in a critical\nhit, and flinches 30% of the time.",
-    shortDesc: "A 2 turn attack where the user fires vicious blades\nof wind. This attack always results in a critical\nhit, and flinches 30% of the time.",
+    desc: "A 2 turn attack where the user fires vicious blades\nof wind. This attack always results in a critical\nhit, and flinches 30% of the time. Ignores protect.",
+    shortDesc: "A 2 turn attack where the user fires vicious blades\nof wind. This attack always results in a critical\nhit, and flinches 30% of the time. Ignores protect.",
     flags: {
       charge: 1,
-      mirror: 1,
-      protect: 1
+      mirror: 1
     },
     willCrit: true,
     zMove: {
@@ -792,8 +791,8 @@ exports.BattleMovedex = {
     accuracy: 100,
     basePower: 80,
     target: "normal",
-    desc: "The user soars, then strikes the foe on the next turn.\nAfter attacking, the user gains +1 Accuracy. Contact.",
-    shortDesc: "The user soars, then strikes the foe on the next turn.\nAfter attacking, the user gains +1 Accuracy. Contact.",
+    desc: "The user soars, then strikes the foe on the next turn.\nAfter attacking, the user gains +1 Accuracy. Contact.\nBypasses Protect.",
+    shortDesc: "The user soars, then strikes the foe on the next turn.\nAfter attacking, the user gains +1 Accuracy. Contact.\nBypasses Protect.",
     flags: {
       charge: 1,
       contact: 1,
@@ -2828,7 +2827,6 @@ exports.BattleMovedex = {
   },
   drillpeck: {
     exists: true,
-    basePower: 70,
     pp: 10,
     critRatio: 3,
     target: "normal",
@@ -2839,11 +2837,9 @@ exports.BattleMovedex = {
       mirror: 1,
       protect: 1
     },
-    zMove: {
-      basePower: 140
-    },
     num: 65,
     accuracy: 100,
+    basePower: 80,
     category: "Physical",
     name: "Drill Peck",
     priority: 0,
@@ -2862,7 +2858,10 @@ exports.BattleMovedex = {
     isMax: false,
     ignoreAbility: false,
     maxMove: {
-      basePower: 120
+      basePower: 130
+    },
+    zMove: {
+      basePower: 160
     }
   },
   submission: {
@@ -3318,12 +3317,11 @@ exports.BattleMovedex = {
     exists: true,
     basePower: 90,
     critRatio: 7,
-    desc: "In this two-turn attack, the user gathers light, then\nblasts a bundled beam on the next turn.This attack\ndoesn't need to charge in the Sun. ALWAYS CRITS.",
-    shortDesc: "In this two-turn attack, the user gathers light, then\nblasts a bundled beam on the next turn.This attack\ndoesn't need to charge in the Sun. ALWAYS CRITS.",
+    desc: "In this two-turn attack, the user gathers light, then\nblasts a bundled beam on the next turn.This doesn't\ncharge in Sun. ALWAYS CRITS, ignores Protect.",
+    shortDesc: "In this two-turn attack, the user gathers light, then\nblasts a bundled beam on the next turn.This doesn't\ncharge in Sun. ALWAYS CRITS, ignores Protect.",
     flags: {
       charge: 1,
-      mirror: 1,
-      protect: 1
+      mirror: 1
     },
     willCrit: true,
     zMove: {
@@ -3945,8 +3943,8 @@ exports.BattleMovedex = {
   dig: {
     exists: true,
     pp: 15,
-    desc: "The user burrows, then attacks on the next turn.\nThe user gains +1 Accuracy after attacking. Contact.",
-    shortDesc: "The user burrows, then attacks on the next turn.\nThe user gains +1 Accuracy after attacking. Contact.",
+    desc: "The user burrows, then attacks on the next turn.\nThe user gains +1 Accuracy after attacking. Contact.\nBypasses protect.",
+    shortDesc: "The user burrows, then attacks on the next turn.\nThe user gains +1 Accuracy after attacking. Contact.\nBypasses protect.",
     flags: {
       charge: 1,
       contact: 1,
@@ -4176,8 +4174,8 @@ exports.BattleMovedex = {
   meditate: {
     exists: true,
     pp: 3,
-    desc: "The user meditates to awaken the power deep\nwithin its body and raise its Attack and Sp. Def by 1.\nZ-Effect +2 Sp. Atk.",
-    shortDesc: "The user meditates to awaken the power deep\nwithin its body and raise its Attack and Sp. Def by 1.\nZ-Effect +2 Sp. Atk.",
+    desc: "The user meditates to awaken the power deep\nwithin its body and raise its Attack and Sp. Def by 1.\nZ-Effect heals the user fully.",
+    shortDesc: "The user meditates to awaken the power deep\nwithin its body and raise its Attack and Sp. Def by 1.\nZ-Effect heals the user fully.",
     flags: {
       dance: 1,
       snatch: 1
@@ -4652,10 +4650,10 @@ exports.BattleMovedex = {
     pp: 3,
     priority: 4,
     critRatio: 1,
-    type: "Water",
+    type: "Flying",
     target: "self",
-    desc: "Qwilfish deflates itself to recover HP. This heals\nthe user to 100% HP, and has +4 Priority.\nZ-Effect gives the user +1 to all stats.",
-    shortDesc: "Qwilfish deflates itself to recover HP. This heals\nthe user to 100% HP, and has +4 Priority.\nZ-Effect gives the user +1 to all stats.",
+    desc: "The user deflates itself to recover HP. This heals\nthe user to FULL HP, AND has +4 Priority.\nZ-Effect gives the user +1 to all stats.",
+    shortDesc: "The user deflates itself to recover HP. This heals\nthe user to FULL HP, AND has +4 Priority.\nZ-Effect gives the user +1 to all stats.",
     flags: {
       snatch: 1
     },
@@ -5346,7 +5344,7 @@ exports.BattleMovedex = {
     basePower: 20,
     category: "Special",
     name: "Devious Lick",
-    pp: 5,
+    pp: 3,
     priority: 0,
     critRatio: 1,
     type: "Poison",
@@ -5365,6 +5363,7 @@ exports.BattleMovedex = {
         volatileStatus: "10"
       }
     ],
+    noPPBoosts: true,
     id: "deviouslick",
     fullname: "move: Devious Lick",
     effectType: "Move",
@@ -5706,13 +5705,12 @@ exports.BattleMovedex = {
     basePower: 90,
     pp: 5,
     critRatio: 7,
-    desc: "On the 1st turn, the user tucks in its head, raising\nDefense by 1. On the 2nd, the user charges, gaining\n+1 Attack & Accuracy after. This ALWAYS critical hits.",
-    shortDesc: "On the 1st turn, the user tucks in its head, raising\nDefense by 1. On the 2nd, the user charges, gaining\n+1 Attack & Accuracy after. This ALWAYS critical hits.",
+    desc: "On the 1st turn, the user tucks in its head, raising\nDefense by 1. On the 2nd, the user charges, gaining\n+1 Attack & Accuracy. ALWAYS crits, Ignores protect.",
+    shortDesc: "On the 1st turn, the user tucks in its head, raising\nDefense by 1. On the 2nd, the user charges, gaining\n+1 Attack & Accuracy. ALWAYS crits, Ignores protect.",
     flags: {
       charge: 1,
       contact: 1,
-      mirror: 1,
-      protect: 1
+      mirror: 1
     },
     willCrit: true,
     zMove: {
@@ -6290,12 +6288,11 @@ exports.BattleMovedex = {
     basePower: 120,
     critRatio: 7,
     target: "normal",
-    desc: "A 2 turn attack where the user soars from the sky\nwith full power. This will ALWAYS result in a\ncritical hit, and flinches 30% of the time. Contact.",
-    shortDesc: "A 2 turn attack where the user soars from the sky\nwith full power. This will ALWAYS result in a\ncritical hit, and flinches 30% of the time. Contact.",
+    desc: "A 2 turn attack where the user soars from the sky\nwith full power. This ALWAYS crits.\n30% Flinch rate. Ignores protect. Contact.",
+    shortDesc: "A 2 turn attack where the user soars from the sky\nwith full power. This ALWAYS crits.\n30% Flinch rate. Ignores protect. Contact.",
     flags: {
       charge: 1,
-      mirror: 1,
-      protect: 1
+      mirror: 1
     },
     willCrit: true,
     zMove: {
@@ -6651,29 +6648,29 @@ exports.BattleMovedex = {
   },
   crabhammer: {
     exists: true,
-    basePower: 120,
+    accuracy: true,
+    basePower: 80,
     pp: 5,
     critRatio: 1,
-    desc: "The target is hammered hard with the user's pincer.\nThis ALWAYS drops the foe's Defense by 1. Contact.",
-    shortDesc: "The target is hammered hard with the user's pincer.\nThis ALWAYS drops the foe's Defense by 1. Contact.",
+    desc: "The target is hammered hard with the user's pincer.\nThis ALWAYS crits and can't miss.\n30% Defense drop rate. Contact.",
+    shortDesc: "The target is hammered hard with the user's pincer.\nThis ALWAYS crits and can't miss.\n30% Defense drop rate. Contact.",
     flags: {
       contact: 1,
       mirror: 1,
       protect: 1
     },
     zMove: {
-      basePower: 200
+      basePower: 190
     },
     secondaries: [
       {
-        chance: 100,
+        chance: 30,
         boosts: {
           def: -1
         }
       }
     ],
     num: 152,
-    accuracy: 90,
     category: "Physical",
     name: "Crabhammer",
     priority: 0,
@@ -6692,7 +6689,7 @@ exports.BattleMovedex = {
     isMax: false,
     ignoreAbility: false,
     maxMove: {
-      basePower: 140
+      basePower: 130
     }
   },
   explosion: {
@@ -7102,6 +7099,7 @@ exports.BattleMovedex = {
   },
   slash: {
     exists: true,
+    basePower: 80,
     pp: 10,
     critRatio: 3,
     desc: "The target is attacked with a slash of claws, blades,\nor the like. This has a 50% (+2) crit rate. Contact.",
@@ -7111,9 +7109,11 @@ exports.BattleMovedex = {
       mirror: 1,
       protect: 1
     },
+    zMove: {
+      basePower: 160
+    },
     num: 163,
     accuracy: 100,
-    basePower: 70,
     category: "Physical",
     name: "Slash",
     priority: 0,
@@ -7133,10 +7133,7 @@ exports.BattleMovedex = {
     isMax: false,
     ignoreAbility: false,
     maxMove: {
-      basePower: 120
-    },
-    zMove: {
-      basePower: 140
+      basePower: 130
     }
   },
   substitute: {
@@ -7261,8 +7258,8 @@ exports.BattleMovedex = {
     exists: true,
     accuracy: true,
     critRatio: 7,
-    desc: "A consecutive three-strike kick, that gains 10 base\npower each time it lands, potentially being 80 or 135.\nEach kick has a separate accuracy check. Contact.",
-    shortDesc: "A consecutive three-strike kick, that gains 10 base\npower each time it lands, potentially being 80 or 135.\nEach kick has a separate accuracy check. Contact.",
+    desc: "This kick ALWAYS lands a critical hit, and won't\nmiss anymore. It's effectively 15, 30 and then 45 BP.\nThis adds up to 90 BP overall. Contact.",
+    shortDesc: "This kick ALWAYS lands a critical hit, and won't\nmiss anymore. It's effectively 15, 30 and then 45 BP.\nThis adds up to 90 BP overall. Contact.",
     flags: {
       contact: 1,
       heal: 1,
@@ -7977,8 +7974,8 @@ exports.BattleMovedex = {
   scaryface: {
     exists: true,
     type: "Dark",
-    desc: "The user scares the target with a frightening face. \nThis drops Attack by 1, Speed by 2, and inflicts a\nsleeping foe with a nightmare. Z-Effect +2 crit rate.",
-    shortDesc: "The user scares the target with a frightening face. \nThis drops Attack by 1, Speed by 2, and inflicts a\nsleeping foe with a nightmare. Z-Effect +2 crit rate.",
+    desc: "The user scares the target with a frightening face. \nThis drops Attack AND Speed by 2, and inflicts a\nsleeping foe with a nightmare. Z-Effect +2 crit rate.",
+    shortDesc: "The user scares the target with a frightening face. \nThis drops Attack AND Speed by 2, and inflicts a\nsleeping foe with a nightmare. Z-Effect +2 crit rate.",
     flags: {
       mirror: 1,
       protect: 1,
@@ -7998,7 +7995,7 @@ exports.BattleMovedex = {
       {
         chance: 0,
         boosts: {
-          atk: -1
+          atk: -2
         }
       }
     ],
@@ -8252,8 +8249,8 @@ exports.BattleMovedex = {
     critRatio: 1,
     type: "Poison",
     target: "normal",
-    desc: "The user rapidly shoots a dark, foul muck at the foe,\nstartling them. This has +4 Priority, and will ALWAYS\nflinch as well as poison the foe.",
-    shortDesc: "The user rapidly shoots a dark, foul muck at the foe,\nstartling them. This has +4 Priority, and will ALWAYS\nflinch as well as poison the foe.",
+    desc: "The user rapidly shoots a dark, foul muck at the foe,\nstartling them. This has +4 Priority, and will ALWAYS\nflinch as well as BADLY poison the foe.",
+    shortDesc: "The user rapidly shoots a dark, foul muck at the foe,\nstartling them. This has +4 Priority, and will ALWAYS\nflinch as well as BADLY poison the foe.",
     flags: {
       mirror: 1,
       protect: 1,
@@ -9019,8 +9016,9 @@ exports.BattleMovedex = {
   },
   milkdrink: {
     exists: true,
-    desc: "Miltank drinks its own milk, healing to FULL HP.\nZ-Effect gives +2 Defense.",
-    shortDesc: "Miltank drinks its own milk, healing to FULL HP.\nZ-Effect gives +2 Defense.",
+    priority: 4,
+    desc: "Miltank drinks its own milk, healing to FULL HP.\nZ-Effect gives +2 Defense.\nThis also has +4 PRIORITY. Yummy.",
+    shortDesc: "Miltank drinks its own milk, healing to FULL HP.\nZ-Effect gives +2 Defense.\nThis also has +4 PRIORITY. Yummy.",
     flags: {
       heal: 1,
       snatch: 1
@@ -9031,7 +9029,6 @@ exports.BattleMovedex = {
     basePower: 0,
     category: "Status",
     name: "Milk Drink",
-    priority: 0,
     heal: [
       1,
       2
@@ -10044,7 +10041,7 @@ exports.BattleMovedex = {
     exists: true,
     num: 232,
     accuracy: 100,
-    basePower: 70,
+    basePower: 80,
     category: "Physical",
     name: "Laceration",
     pp: 10,
@@ -10060,7 +10057,7 @@ exports.BattleMovedex = {
       protect: 1
     },
     zMove: {
-      basePower: 140
+      basePower: 160
     },
     id: "laceration",
     fullname: "move: Laceration",
@@ -10076,7 +10073,7 @@ exports.BattleMovedex = {
     isMax: false,
     ignoreAbility: false,
     maxMove: {
-      basePower: 120
+      basePower: 130
     }
   },
   skirmish: {
@@ -10875,7 +10872,8 @@ exports.BattleMovedex = {
   fakeout: {
     exists: true,
     accuracy: true,
-    basePower: 50,
+    basePower: 45,
+    pp: 5,
     priority: 5,
     desc: "A quick and unexpected strike fakes out the target.\nThis has +5 Priority & always flinches- but only works\nthe 1st turn in battle. Contact. BYPASSES PROTECT.",
     shortDesc: "A quick and unexpected strike fakes out the target.\nThis has +5 Priority & always flinches- but only works\nthe 1st turn in battle. Contact. BYPASSES PROTECT.",
@@ -10883,10 +10881,12 @@ exports.BattleMovedex = {
       contact: 1,
       mirror: 1
     },
+    zMove: {
+      basePower: 90
+    },
     num: 252,
     category: "Physical",
     name: "Fake Out",
-    pp: 10,
     secondary: {
       chance: 100,
       volatileStatus: "flinch"
@@ -10912,9 +10912,6 @@ exports.BattleMovedex = {
     isMax: false,
     ignoreAbility: false,
     maxMove: {
-      basePower: 100
-    },
-    zMove: {
       basePower: 100
     }
   },
@@ -11053,8 +11050,8 @@ exports.BattleMovedex = {
   swallow: {
     exists: true,
     priority: 4,
-    desc: "The user fully heals itself to max HP as long as the\nuser has at least ONE stockpile saved up. After just a\nsingle use, you heal to full HP. +4 Priority.",
-    shortDesc: "The user fully heals itself to max HP as long as the\nuser has at least ONE stockpile saved up. After just a\nsingle use, you heal to full HP. +4 Priority.",
+    desc: "The user heals 1/3 for 1 stockpile, 1/2 for 2, and full\nHP for 3 stockpiles. This now has +4 priority.\nZ-Move gives +1 all stats. (Doesn't work with Simple.)",
+    shortDesc: "The user heals 1/3 for 1 stockpile, 1/2 for 2, and full\nHP for 3 stockpiles. This now has +4 priority.\nZ-Move gives +1 all stats. (Doesn't work with Simple.)",
     flags: {
       snatch: 1
     },
@@ -11212,8 +11209,8 @@ exports.BattleMovedex = {
   },
   flatter: {
     exists: true,
-    desc: "Flattery is used to confuse the target for 4 turns.\nThis also raises the target’s Sp. Atk by 1.\nZ-Effect +2 Sp. Atk.",
-    shortDesc: "Flattery is used to confuse the target for 4 turns.\nThis also raises the target’s Sp. Atk by 1.\nZ-Effect +2 Sp. Atk.",
+    desc: "Flattery is used to confuse the target for 4 turns.\nThis also raises the target’s Sp. Atk by 1.\nZ-Effect gives +3 Sp. Atk.",
+    shortDesc: "Flattery is used to confuse the target for 4 turns.\nThis also raises the target’s Sp. Atk by 1.\nZ-Effect gives +3 Sp. Atk.",
     flags: {
       mirror: 1,
       protect: 1,
@@ -12476,8 +12473,8 @@ exports.BattleMovedex = {
   dive: {
     exists: true,
     pp: 15,
-    desc: "The user dives underwater, striking on the 2nd turn.\nThis boosts the user's Accuracy by 1 after use. Contact.",
-    shortDesc: "The user dives underwater, striking on the 2nd turn.\nThis boosts the user's Accuracy by 1 after use. Contact.",
+    desc: "The user dives underwater, striking on the 2nd turn.\nThis boosts the user's Accuracy by 1 after use. Contact.\nBypasses protect.",
+    shortDesc: "The user dives underwater, striking on the 2nd turn.\nThis boosts the user's Accuracy by 1 after use. Contact.\nBypasses protect.",
     flags: {
       charge: 1,
       contact: 1,
@@ -13140,7 +13137,7 @@ exports.BattleMovedex = {
     exists: true,
     num: 306,
     accuracy: 100,
-    basePower: 70,
+    basePower: 80,
     category: "Physical",
     name: "Jagged Edge",
     pp: 10,
@@ -13156,7 +13153,7 @@ exports.BattleMovedex = {
       protect: 1
     },
     zMove: {
-      basePower: 140
+      basePower: 160
     },
     id: "jaggededge",
     fullname: "move: Jagged Edge",
@@ -13172,7 +13169,7 @@ exports.BattleMovedex = {
     isMax: false,
     ignoreAbility: false,
     maxMove: {
-      basePower: 120
+      basePower: 130
     }
   },
   blastburn: {
@@ -14544,7 +14541,6 @@ exports.BattleMovedex = {
   },
   dragonclaw: {
     exists: true,
-    basePower: 70,
     pp: 10,
     critRatio: 3,
     desc: "The user slashes the foe with claws or blades imbued\nwith dragon energy. This has a 50% (+2) crit rate.\nContact.",
@@ -14554,11 +14550,9 @@ exports.BattleMovedex = {
       mirror: 1,
       protect: 1
     },
-    zMove: {
-      basePower: 140
-    },
     num: 337,
     accuracy: 100,
+    basePower: 80,
     category: "Physical",
     name: "Dragon Claw",
     priority: 0,
@@ -14578,7 +14572,10 @@ exports.BattleMovedex = {
     isMax: false,
     ignoreAbility: false,
     maxMove: {
-      basePower: 120
+      basePower: 130
+    },
+    zMove: {
+      basePower: 160
     }
   },
   frenzyplant: {
@@ -14685,8 +14682,8 @@ exports.BattleMovedex = {
     basePower: 75,
     pp: 10,
     target: "normal",
-    desc: "The user bounces up high, then drops on the target\non the second turn. This paralyzes the foe 30% of\nthe time. Contact.",
-    shortDesc: "The user bounces up high, then drops on the target\non the second turn. This paralyzes the foe 30% of\nthe time. Contact.",
+    desc: "The user bounces up high, then drops on the target\non the second turn. This paralyzes the foe 30% of\nthe time. Contact. Bypasses Protect.",
+    shortDesc: "The user bounces up high, then drops on the target\non the second turn. This paralyzes the foe 30% of\nthe time. Contact. Bypasses Protect.",
     flags: {
       charge: 1,
       contact: 1,
@@ -15065,7 +15062,7 @@ exports.BattleMovedex = {
   },
   leafblade: {
     exists: true,
-    basePower: 70,
+    basePower: 80,
     pp: 10,
     critRatio: 3,
     desc: "The user slashes the foe with a blade made of a leaf.\nThis has a 50% (+2) crit rate. Contact.",
@@ -15076,7 +15073,7 @@ exports.BattleMovedex = {
       protect: 1
     },
     zMove: {
-      basePower: 140
+      basePower: 160
     },
     num: 348,
     accuracy: 100,
@@ -15099,7 +15096,7 @@ exports.BattleMovedex = {
     isMax: false,
     ignoreAbility: false,
     maxMove: {
-      basePower: 120
+      basePower: 130
     }
   },
   dragondance: {
@@ -15507,8 +15504,8 @@ exports.BattleMovedex = {
     accuracy: true,
     pp: 1,
     priority: 4,
-    desc: "This attack's power doubles on a sleeping target.\nThis also wakes the target up, however. Contact.",
-    shortDesc: "This attack's power doubles on a sleeping target.\nThis also wakes the target up, however. Contact.",
+    desc: "The user slaps the foe, startling them. This has\n+4 Priority, and ALWAYS flinches the foe from shock.\nDoubles in power if the foe is asleep. Contact.",
+    shortDesc: "The user slaps the foe, startling them. This has\n+4 Priority, and ALWAYS flinches the foe from shock.\nDoubles in power if the foe is asleep. Contact.",
     flags: {
       contact: 1,
       mirror: 1,
@@ -16037,8 +16034,8 @@ exports.BattleMovedex = {
     accuracy: true,
     basePower: 60,
     pp: 5,
-    desc: "The user violently retaliates at the foe.\nThis has -4 priority. In exchange, the power of this\nattack doubles when used after the foe. Contact.",
-    shortDesc: "The user violently retaliates at the foe.\nThis has -4 priority. In exchange, the power of this\nattack doubles when used after the foe. Contact.",
+    desc: "The user violently retaliates at the foe.\nThis doubles in power if you move after the target.\nContact. Can't miss. Neutral Priority.",
+    shortDesc: "The user violently retaliates at the foe.\nThis doubles in power if you move after the target.\nContact. Can't miss. Neutral Priority.",
     flags: {
       contact: 1,
       mirror: 1,
@@ -17233,6 +17230,7 @@ exports.BattleMovedex = {
   },
   nightslash: {
     exists: true,
+    basePower: 80,
     pp: 10,
     critRatio: 3,
     desc: "The user slashes the target the instant an\nopportunity arises. This has a 50% (+2) crit rate.\nContact.",
@@ -17242,9 +17240,11 @@ exports.BattleMovedex = {
       mirror: 1,
       protect: 1
     },
+    zMove: {
+      basePower: 160
+    },
     num: 400,
     accuracy: 100,
-    basePower: 70,
     category: "Physical",
     name: "Night Slash",
     priority: 0,
@@ -17264,10 +17264,7 @@ exports.BattleMovedex = {
     isMax: false,
     ignoreAbility: false,
     maxMove: {
-      basePower: 120
-    },
-    zMove: {
-      basePower: 140
+      basePower: 130
     }
   },
   aquatail: {
@@ -17408,7 +17405,6 @@ exports.BattleMovedex = {
   },
   xscissor: {
     exists: true,
-    basePower: 70,
     pp: 10,
     critRatio: 3,
     desc: "The user slashes at the target by crossing its\nscythes or claws as if they were a pair of scissors.\nThis has a 50% (+2) crit rate. Contact.",
@@ -17418,11 +17414,9 @@ exports.BattleMovedex = {
       mirror: 1,
       protect: 1
     },
-    zMove: {
-      basePower: 140
-    },
     num: 404,
     accuracy: 100,
+    basePower: 80,
     category: "Physical",
     name: "X-Scissor",
     priority: 0,
@@ -17442,7 +17436,10 @@ exports.BattleMovedex = {
     isMax: false,
     ignoreAbility: false,
     maxMove: {
-      basePower: 120
+      basePower: 130
+    },
+    zMove: {
+      basePower: 160
     }
   },
   bugbuzz: {
@@ -18093,8 +18090,8 @@ exports.BattleMovedex = {
     accuracy: true,
     basePower: 70,
     pp: 5,
-    desc: "The user summons a devastating avalanche. This moves\nlast, but doubles in power if the user is damaged that turn.",
-    shortDesc: "The user summons a devastating avalanche. This moves\nlast, but doubles in power if the user is damaged that turn.",
+    desc: "The user summons a devastating avalanche.\nThis now has NEUTRAL priority, can't miss, & doubles\nin power if you move last. 30% Flinch rate.",
+    shortDesc: "The user summons a devastating avalanche.\nThis now has NEUTRAL priority, can't miss, & doubles\nin power if you move last. 30% Flinch rate.",
     flags: {
       mirror: 1,
       protect: 1
@@ -18171,6 +18168,7 @@ exports.BattleMovedex = {
   },
   shadowclaw: {
     exists: true,
+    basePower: 80,
     pp: 10,
     critRatio: 3,
     desc: "The user slashes with shadowy claws or blades.\nThis has a 50% (+2) critical hit rate.\nContact.",
@@ -18180,9 +18178,11 @@ exports.BattleMovedex = {
       mirror: 1,
       protect: 1
     },
+    zMove: {
+      basePower: 160
+    },
     num: 421,
     accuracy: 100,
-    basePower: 70,
     category: "Physical",
     name: "Shadow Claw",
     priority: 0,
@@ -18202,18 +18202,15 @@ exports.BattleMovedex = {
     isMax: false,
     ignoreAbility: false,
     maxMove: {
-      basePower: 120
-    },
-    zMove: {
-      basePower: 140
+      basePower: 130
     }
   },
   thunderfang: {
     exists: true,
     accuracy: 100,
     basePower: 75,
-    desc: "The user bites with electrified fangs. This has a 20%\nchance to flinch, and a 15% chance to paralyze.\nContact.",
-    shortDesc: "The user bites with electrified fangs. This has a 20%\nchance to flinch, and a 15% chance to paralyze.\nContact.",
+    desc: "The user bites with electrified fangs. This has a 20%\nchance to flinch, and a 10% chance to paralyze.\nContact.",
+    shortDesc: "The user bites with electrified fangs. This has a 20%\nchance to flinch, and a 10% chance to paralyze.\nContact.",
     flags: {
       contact: 1,
       mirror: 1,
@@ -18310,8 +18307,8 @@ exports.BattleMovedex = {
     exists: true,
     accuracy: 100,
     basePower: 75,
-    desc: "The user bites with flame-cloaked fangs. This has a\n20% chance to flinch, and a 15% chance to burn.\nContact.",
-    shortDesc: "The user bites with flame-cloaked fangs. This has a\n20% chance to flinch, and a 15% chance to burn.\nContact.",
+    desc: "The user bites with flame-cloaked fangs. This has a\n20% chance to flinch, and a 10% chance to burn.\nContact.",
+    shortDesc: "The user bites with flame-cloaked fangs. This has a\n20% chance to flinch, and a 10% chance to burn.\nContact.",
     flags: {
       contact: 1,
       defrost: 1,
@@ -18449,6 +18446,7 @@ exports.BattleMovedex = {
   },
   psychocut: {
     exists: true,
+    basePower: 80,
     pp: 10,
     critRatio: 3,
     desc: "The user tears at the target with blades formed by\npsychic power. This has a 50% (+2) crit rate.",
@@ -18457,9 +18455,11 @@ exports.BattleMovedex = {
       mirror: 1,
       protect: 1
     },
+    zMove: {
+      basePower: 160
+    },
     num: 427,
     accuracy: 100,
-    basePower: 70,
     category: "Physical",
     name: "Psycho Cut",
     priority: 0,
@@ -18479,10 +18479,7 @@ exports.BattleMovedex = {
     isMax: false,
     ignoreAbility: false,
     maxMove: {
-      basePower: 120
-    },
-    zMove: {
-      basePower: 140
+      basePower: 130
     }
   },
   zenheadbutt: {
@@ -19034,6 +19031,7 @@ exports.BattleMovedex = {
   },
   crosspoison: {
     exists: true,
+    basePower: 80,
     pp: 10,
     critRatio: 3,
     desc: "A slashing attack with a poisonous blade that poisons\n20% of the time. This has a 50% (+2) crit rate.\nContact.",
@@ -19043,6 +19041,9 @@ exports.BattleMovedex = {
       mirror: 1,
       protect: 1
     },
+    zMove: {
+      basePower: 160
+    },
     secondaries: [
       {
         chance: 20,
@@ -19051,7 +19052,6 @@ exports.BattleMovedex = {
     ],
     num: 440,
     accuracy: 100,
-    basePower: 70,
     category: "Physical",
     name: "Cross Poison",
     priority: 0,
@@ -19073,10 +19073,7 @@ exports.BattleMovedex = {
     isMax: false,
     ignoreAbility: false,
     maxMove: {
-      basePower: 85
-    },
-    zMove: {
-      basePower: 140
+      basePower: 90
     }
   },
   gunkshot: {
@@ -19216,11 +19213,10 @@ exports.BattleMovedex = {
     accuracy: 90,
     basePower: 80,
     critRatio: 7,
-    desc: "The user stabs the target from below with jagged\nstones. This ALWAYS results in a critical hit.",
-    shortDesc: "The user stabs the target from below with jagged\nstones. This ALWAYS results in a critical hit.",
+    desc: "The user stabs the target from below with jagged\nstones. This ALWAYS results in a critical hit.\nBypasses Protect.",
+    shortDesc: "The user stabs the target from below with jagged\nstones. This ALWAYS results in a critical hit.\nBypasses Protect.",
     flags: {
-      mirror: 1,
-      protect: 1
+      mirror: 1
     },
     willCrit: true,
     zMove: {
@@ -19950,11 +19946,10 @@ exports.BattleMovedex = {
     critRatio: 7,
     type: "Psychic",
     target: "normal",
-    desc: "Using psychic powers, the user tears the space\naround the foe. This ALWAYS results in a critical hit.",
-    shortDesc: "Using psychic powers, the user tears the space\naround the foe. This ALWAYS results in a critical hit.",
+    desc: "Using psychic powers, the user tears the space\naround the foe. This ALWAYS results in a critical hit.\nBypasses Protect.",
+    shortDesc: "Using psychic powers, the user tears the space\naround the foe. This ALWAYS results in a critical hit.\nBypasses Protect.",
     flags: {
-      mirror: 1,
-      protect: 1
+      mirror: 1
     },
     willCrit: true,
     zMove: {
@@ -20116,7 +20111,7 @@ exports.BattleMovedex = {
   darkvoid: {
     exists: true,
     accuracy: 100,
-    pp: 2,
+    pp: 1,
     desc: "Darkai drags the foes into a world of darkness,\nputting them to sleep for three guaranteed turns.\nZ-Effect resets lowered stats.",
     shortDesc: "Darkai drags the foes into a world of darkness,\nputting them to sleep for three guaranteed turns.\nZ-Effect resets lowered stats.",
     flags: {
@@ -20838,12 +20833,11 @@ exports.BattleMovedex = {
     basePower: 80,
     pp: 5,
     critRatio: 7,
-    desc: "The user throws the target violently.\nThis ALWAYS results in a critical hit. Contact.",
-    shortDesc: "The user throws the target violently.\nThis ALWAYS results in a critical hit. Contact.",
+    desc: "The user throws the target violently.\nThis ALWAYS results in a critical hit.\nBypasses Protect. Contact.",
+    shortDesc: "The user throws the target violently.\nThis ALWAYS results in a critical hit.\nBypasses Protect. Contact.",
     flags: {
       contact: 1,
-      mirror: 1,
-      protect: 1
+      mirror: 1
     },
     zMove: {
       basePower: 190
@@ -21462,8 +21456,8 @@ exports.BattleMovedex = {
   },
   entrainment: {
     exists: true,
-    desc: "The user influences the target to copy it's ability.\nZ-Effect +2 Sp. Atk.",
-    shortDesc: "The user influences the target to copy it's ability.\nZ-Effect +2 Sp. Atk.",
+    desc: "The user influences the target to copy it's ability.\nZ-Effect +2 Atk.",
+    shortDesc: "The user influences the target to copy it's ability.\nZ-Effect +2 Atk.",
     flags: {
       mirror: 1,
       protect: 1,
@@ -23004,7 +22998,6 @@ exports.BattleMovedex = {
   drillrun: {
     exists: true,
     accuracy: 100,
-    basePower: 70,
     critRatio: 3,
     desc: "The user crashes into its target while rotating its\nbody or body parts like a drill.  This has a 50% (+2)\ncrit rate. Contact.",
     shortDesc: "The user crashes into its target while rotating its\nbody or body parts like a drill.  This has a 50% (+2)\ncrit rate. Contact.",
@@ -23013,10 +23006,8 @@ exports.BattleMovedex = {
       mirror: 1,
       protect: 1
     },
-    zMove: {
-      basePower: 140
-    },
     num: 529,
+    basePower: 80,
     category: "Physical",
     name: "Drill Run",
     pp: 10,
@@ -23037,7 +23028,10 @@ exports.BattleMovedex = {
     isMax: false,
     ignoreAbility: false,
     maxMove: {
-      basePower: 120
+      basePower: 130
+    },
+    zMove: {
+      basePower: 160
     }
   },
   dracojet: {
@@ -23212,7 +23206,7 @@ exports.BattleMovedex = {
   razorshell: {
     exists: true,
     accuracy: 100,
-    basePower: 70,
+    basePower: 80,
     critRatio: 3,
     desc: "The user cuts its target with it's hard shell. This\nhas a 50% (+2) crit rate. Contact.",
     shortDesc: "The user cuts its target with it's hard shell. This\nhas a 50% (+2) crit rate. Contact.",
@@ -23220,6 +23214,9 @@ exports.BattleMovedex = {
       contact: 1,
       mirror: 1,
       protect: 1
+    },
+    zMove: {
+      basePower: 160
     },
     num: 534,
     category: "Physical",
@@ -23254,10 +23251,7 @@ exports.BattleMovedex = {
     isMax: false,
     ignoreAbility: false,
     maxMove: {
-      basePower: 120
-    },
-    zMove: {
-      basePower: 140
+      basePower: 130
     }
   },
   heatcrash: {
@@ -23869,8 +23863,8 @@ exports.BattleMovedex = {
     critRatio: 7,
     type: "Fairy",
     target: "normal",
-    desc: "The user conjures up a blade made from light, slashing\nat the foe. This deals Physical damage, not Special.",
-    shortDesc: "The user conjures up a blade made from light, slashing\nat the foe. This deals Physical damage, not Special.",
+    desc: "The user conjures up a blade made from light, slashing\nat the foe. This deals PHYSICAL damage, NOT Special.\nThis ALWAYS results in a critical hit.",
+    shortDesc: "The user conjures up a blade made from light, slashing\nat the foe. This deals PHYSICAL damage, NOT Special.\nThis ALWAYS results in a critical hit.",
     flags: {
       mirror: 1,
       protect: 1,
@@ -24107,12 +24101,11 @@ exports.BattleMovedex = {
     critRatio: 7,
     type: "Ice",
     target: "normal",
-    desc: "Charging up energy on the 1st turn, the user fires a\nnmassive chunk of energized ice on the 2nd. This will\nALWAYS paralyze the foe, & ALWAYS land a critical hit.",
-    shortDesc: "Charging up energy on the 1st turn, the user fires a\nnmassive chunk of energized ice on the 2nd. This will\nALWAYS paralyze the foe, & ALWAYS land a critical hit.",
+    desc: "Charging up energy on the 1st turn, the user fires a\nnmassive chunk of energized ice on the 2nd. This will\nALWAYS paralyze and ALWAYS crit. Ignores protect.",
+    shortDesc: "Charging up energy on the 1st turn, the user fires a\nnmassive chunk of energized ice on the 2nd. This will\nALWAYS paralyze and ALWAYS crit. Ignores protect.",
     flags: {
       charge: 1,
-      mirror: 1,
-      protect: 1
+      mirror: 1
     },
     willCrit: true,
     zMove: {
@@ -24145,22 +24138,22 @@ exports.BattleMovedex = {
     exists: true,
     num: 554,
     accuracy: 100,
-    basePower: 180,
+    basePower: 120,
     category: "Special",
     name: "Freezer Burn",
     pp: 1,
     priority: 0,
-    critRatio: 1,
+    critRatio: 7,
     type: "Ice",
     target: "normal",
-    desc: "Charging up energy on the 1st turn, the user unleashes\na wave of harsh, frigid cold on the 2nd. The resulting\nfrostbite will ALWAYS leave those hit with a burn.",
-    shortDesc: "Charging up energy on the 1st turn, the user unleashes\na wave of harsh, frigid cold on the 2nd. The resulting\nfrostbite will ALWAYS leave those hit with a burn.",
+    desc: "Charging up energy on the 1st turn, the user unleashes\na wave of harsh, frigid cold on the 2nd. The resulting\nfrostbite ALWAYS burns & ALWAYS crits. Ignores protect.",
+    shortDesc: "Charging up energy on the 1st turn, the user unleashes\na wave of harsh, frigid cold on the 2nd. The resulting\nfrostbite ALWAYS burns & ALWAYS crits. Ignores protect.",
     flags: {
       charge: 1,
       defrost: 1,
-      mirror: 1,
-      protect: 1
+      mirror: 1
     },
+    willCrit: true,
     zMove: {
       basePower: 250
     },
@@ -24184,7 +24177,7 @@ exports.BattleMovedex = {
     isMax: false,
     ignoreAbility: false,
     maxMove: {
-      basePower: 150
+      basePower: 140
     }
   },
   dismalcry: {
@@ -25860,8 +25853,8 @@ exports.BattleMovedex = {
   steameruption: {
     exists: true,
     accuracy: 100,
-    desc: "The user immerses the target in superheated steam.\nThis burns the target 50% of the time.",
-    shortDesc: "The user immerses the target in superheated steam.\nThis burns the target 50% of the time.",
+    desc: "The user immerses the target in superheated steam.\nThis ALWAYS leaves the foe with a burn.",
+    shortDesc: "The user immerses the target in superheated steam.\nThis ALWAYS leaves the foe with a burn.",
     flags: {
       defrost: 1,
       mirror: 1,
@@ -25869,7 +25862,7 @@ exports.BattleMovedex = {
     },
     secondaries: [
       {
-        chance: 50,
+        chance: 100,
         status: "brn"
       }
     ],
@@ -27259,9 +27252,6 @@ exports.BattleMovedex = {
     category: "Special",
     desc: "Dummy Data",
     shortDesc: "Dummy Data",
-    flags: {
-      contact: 1
-    },
     noPPBoosts: true,
     isNonstandard: null,
     accuracy: true,
@@ -27269,6 +27259,7 @@ exports.BattleMovedex = {
     name: "Breakneck Blitz",
     pp: 1,
     priority: 0,
+    flags: {},
     isZ: "normaliumz",
     secondary: null,
     target: "normal",
@@ -27294,9 +27285,6 @@ exports.BattleMovedex = {
     category: "Special",
     desc: "Dummy Data",
     shortDesc: "Dummy Data",
-    flags: {
-      contact: 1
-    },
     noPPBoosts: true,
     isNonstandard: null,
     accuracy: true,
@@ -27304,6 +27292,7 @@ exports.BattleMovedex = {
     name: "All-Out Pummeling",
     pp: 1,
     priority: 0,
+    flags: {},
     isZ: "fightiniumz",
     secondary: null,
     target: "normal",
@@ -27329,9 +27318,6 @@ exports.BattleMovedex = {
     category: "Special",
     desc: "Dummy Data",
     shortDesc: "Dummy Data",
-    flags: {
-      contact: 1
-    },
     noPPBoosts: true,
     isNonstandard: null,
     accuracy: true,
@@ -27339,6 +27325,7 @@ exports.BattleMovedex = {
     name: "Supersonic Skystrike",
     pp: 1,
     priority: 0,
+    flags: {},
     isZ: "flyiniumz",
     secondary: null,
     target: "normal",
@@ -27397,9 +27384,6 @@ exports.BattleMovedex = {
     category: "Special",
     desc: "Dummy Data",
     shortDesc: "Dummy Data",
-    flags: {
-      contact: 1
-    },
     noPPBoosts: true,
     isNonstandard: null,
     accuracy: true,
@@ -27407,6 +27391,7 @@ exports.BattleMovedex = {
     name: "Tectonic Rage",
     pp: 1,
     priority: 0,
+    flags: {},
     isZ: "groundiumz",
     secondary: null,
     target: "normal",
@@ -27531,9 +27516,6 @@ exports.BattleMovedex = {
     category: "Special",
     desc: "Dummy Data",
     shortDesc: "Dummy Data",
-    flags: {
-      contact: 1
-    },
     noPPBoosts: true,
     isNonstandard: null,
     accuracy: true,
@@ -27541,6 +27523,7 @@ exports.BattleMovedex = {
     name: "Corkscrew Crash",
     pp: 1,
     priority: 0,
+    flags: {},
     isZ: "steeliumz",
     secondary: null,
     target: "normal",
@@ -27567,7 +27550,6 @@ exports.BattleMovedex = {
     desc: "Dummy Data",
     shortDesc: "Dummy Data",
     flags: {
-      contact: 1,
       defrost: 1
     },
     noPPBoosts: true,
@@ -27602,9 +27584,6 @@ exports.BattleMovedex = {
     category: "Special",
     desc: "Dummy Data",
     shortDesc: "Dummy Data",
-    flags: {
-      contact: 1
-    },
     noPPBoosts: true,
     isNonstandard: null,
     accuracy: true,
@@ -27612,6 +27591,7 @@ exports.BattleMovedex = {
     name: "Hydro Vortex",
     pp: 1,
     priority: 0,
+    flags: {},
     isZ: "wateriumz",
     secondary: null,
     target: "normal",
@@ -27836,7 +27816,6 @@ exports.BattleMovedex = {
     desc: "Dummy Data",
     shortDesc: "Dummy Data",
     flags: {
-      contact: 1,
       sound: 1
     },
     noPPBoosts: true,
@@ -27867,20 +27846,26 @@ exports.BattleMovedex = {
   },
   catastropika: {
     exists: true,
-    desc: "The user, Pikachu, surrounds itself with the\nmaximum amount of electricity using its Z-Power\nand pounces on its target with full force. Contact.",
-    shortDesc: "The user, Pikachu, surrounds itself with the\nmaximum amount of electricity using its Z-Power\nand pounces on its target with full force. Contact.",
+    basePower: 250,
+    critRatio: 7,
+    desc: "Pikachu dives at the target with immense force.\nThis ALWAYS crits and ALWAYS paralyzes the foe.",
+    shortDesc: "Pikachu dives at the target with immense force.\nThis ALWAYS crits and ALWAYS paralyzes the foe.",
+    flags: {},
+    willCrit: true,
+    secondaries: [
+      {
+        chance: 100,
+        status: "par"
+      }
+    ],
     noPPBoosts: true,
     isNonstandard: null,
     num: 658,
     accuracy: true,
-    basePower: 210,
     category: "Physical",
     name: "Catastropika",
     pp: 1,
     priority: 0,
-    flags: {
-      contact: 1
-    },
     isZ: "pikaniumz",
     secondary: null,
     target: "normal",
@@ -27890,8 +27875,6 @@ exports.BattleMovedex = {
     effectType: "Move",
     kind: "Move",
     gen: 7,
-    critRatio: 1,
-    secondaries: null,
     hasSheerForce: false,
     ignoreImmunity: false,
     isMax: false,
@@ -28327,13 +28310,12 @@ exports.BattleMovedex = {
     exists: true,
     basePower: 90,
     critRatio: 7,
-    desc: "The user gathers light and strikes with a blade on the\nsecond turn. This attack doesn't need to charge under\nharsh sunlight. Contact. ALWAYS CRITS.",
-    shortDesc: "The user gathers light and strikes with a blade on the\nsecond turn. This attack doesn't need to charge under\nharsh sunlight. Contact. ALWAYS CRITS.",
+    desc: "The user gathers light and strikes with a blade on the\nsecond turn. This doesn't need to charge in sun.\nContact. ALWAYS CRITS. Ignores protect.",
+    shortDesc: "The user gathers light and strikes with a blade on the\nsecond turn. This doesn't need to charge in sun.\nContact. ALWAYS CRITS. Ignores protect.",
     flags: {
       charge: 1,
       contact: 1,
-      mirror: 1,
-      protect: 1
+      mirror: 1
     },
     willCrit: true,
     zMove: {
@@ -28668,7 +28650,7 @@ exports.BattleMovedex = {
   },
   anchorshot: {
     exists: true,
-    basePower: 130,
+    basePower: 140,
     pp: 5,
     desc: "Dhelmise pummels and wraps the target with it's\nanchor. This traps the target in battle, and ALWAYS\nlowers their Speed stat by 4. Contact.",
     shortDesc: "Dhelmise pummels and wraps the target with it's\nanchor. This traps the target in battle, and ALWAYS\nlowers their Speed stat by 4. Contact.",
@@ -29672,16 +29654,18 @@ exports.BattleMovedex = {
   },
   stokedsparksurfer: {
     exists: true,
-    desc: "After obtaining Z-Power, the user, Alolan Raichu,\nattacks the target with full force. This move leaves\nthe target with paralysis.",
-    shortDesc: "After obtaining Z-Power, the user, Alolan Raichu,\nattacks the target with full force. This move leaves\nthe target with paralysis.",
+    basePower: 250,
+    critRatio: 7,
+    desc: "After obtaining Z-Power, the user, Alolan Raichu,\nattacks the target with full force. This move will\nALWAYS crit and ALWAYS paralyze the foe.",
+    shortDesc: "After obtaining Z-Power, the user, Alolan Raichu,\nattacks the target with full force. This move will\nALWAYS crit and ALWAYS paralyze the foe.",
     flags: {
       contact: 1
     },
+    willCrit: true,
     noPPBoosts: true,
     isNonstandard: null,
     num: 700,
     accuracy: true,
-    basePower: 175,
     category: "Special",
     name: "Stoked Sparksurfer",
     pp: 1,
@@ -29698,7 +29682,6 @@ exports.BattleMovedex = {
     effectType: "Move",
     kind: "Move",
     gen: 7,
-    critRatio: 1,
     secondaries: [
       {
         chance: 100,
@@ -30544,20 +30527,27 @@ exports.BattleMovedex = {
   },
   "10000000voltthunderbolt": {
     exists: true,
-    desc: "The user, Pikachu wearing a cap, powers up a jolt of\nelectricity using its Z-Power and unleashes it.\nCritical hits land more easily.",
-    shortDesc: "The user, Pikachu wearing a cap, powers up a jolt of\nelectricity using its Z-Power and unleashes it.\nCritical hits land more easily.",
+    basePower: 250,
+    critRatio: 7,
+    desc: "The user, Pikachu wearing a cap, powers up a jolt of\nelectricity using its Z-Power and unleashes it.\nALWAYS CRITS AND ALWAYS PARAS.",
+    shortDesc: "The user, Pikachu wearing a cap, powers up a jolt of\nelectricity using its Z-Power and unleashes it.\nALWAYS CRITS AND ALWAYS PARAS.",
+    willCrit: true,
+    secondaries: [
+      {
+        chance: 100,
+        status: "par"
+      }
+    ],
     noPPBoosts: true,
     isNonstandard: null,
     num: 719,
     accuracy: true,
-    basePower: 195,
     category: "Special",
     name: "10,000,000 Volt Thunderbolt",
     pp: 1,
     priority: 0,
     flags: {},
     isZ: "pikashuniumz",
-    critRatio: 3,
     secondary: null,
     target: "normal",
     type: "Electric",
@@ -30566,7 +30556,6 @@ exports.BattleMovedex = {
     effectType: "Move",
     kind: "Move",
     gen: 7,
-    secondaries: null,
     hasSheerForce: false,
     ignoreImmunity: false,
     isMax: false,
@@ -30677,8 +30666,8 @@ exports.BattleMovedex = {
     critRatio: 1,
     type: "Dark",
     target: "normal",
-    desc: "The user unleashed a wicked beam of dark energy. This\nis Physical or Special, based on the user's higher\nstat. This drops the user's Attack and Sp, Atk by 2.",
-    shortDesc: "The user unleashed a wicked beam of dark energy. This\nis Physical or Special, based on the user's higher\nstat. This drops the user's Attack and Sp, Atk by 2.",
+    desc: "The user unleashed a wicked beam of dark energy. This\nis Physical or Special, based on the user's higher\nstat, & drops offensive stats by 2. IGNORES ABILITIES.",
+    shortDesc: "The user unleashed a wicked beam of dark energy. This\nis Physical or Special, based on the user's higher\nstat, & drops offensive stats by 2. IGNORES ABILITIES.",
     flags: {
       mirror: 1,
       protect: 1
