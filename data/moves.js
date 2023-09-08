@@ -229,6 +229,9 @@ exports.BattleMovedex = {
       protect: 1
     },
     multihit: 3,
+    zMove: {
+      basePower: 180
+    },
     num: 6,
     accuracy: 100,
     basePower: 40,
@@ -252,9 +255,6 @@ exports.BattleMovedex = {
     ignoreAbility: false,
     maxMove: {
       basePower: 90
-    },
-    zMove: {
-      basePower: 100
     }
   },
   firepunch: {
@@ -1759,10 +1759,6 @@ exports.BattleMovedex = {
       {
         chance: 100,
         status: "psn"
-      },
-      {
-        chance: 1,
-        volatileStatus: "flinch"
       }
     ],
     id: "barbbarrage",
@@ -6576,7 +6572,7 @@ exports.BattleMovedex = {
     basePower: 0,
     category: "Status",
     name: "Hop",
-    pp: 40,
+    pp: 1,
     priority: 0,
     critRatio: 1,
     type: "Normal",
@@ -6586,6 +6582,7 @@ exports.BattleMovedex = {
     flags: {
       gravity: 1
     },
+    noPPBoosts: true,
     id: "hop",
     fullname: "move: Hop",
     effectType: "Move",
@@ -6651,7 +6648,7 @@ exports.BattleMovedex = {
     accuracy: true,
     basePower: 80,
     pp: 5,
-    critRatio: 1,
+    critRatio: 7,
     desc: "The target is hammered hard with the user's pincer.\nThis ALWAYS crits and can't miss.\n30% Defense drop rate. Contact.",
     shortDesc: "The target is hammered hard with the user's pincer.\nThis ALWAYS crits and can't miss.\n30% Defense drop rate. Contact.",
     flags: {
@@ -6659,6 +6656,7 @@ exports.BattleMovedex = {
       mirror: 1,
       protect: 1
     },
+    willCrit: true,
     zMove: {
       basePower: 190
     },
@@ -8618,6 +8616,7 @@ exports.BattleMovedex = {
   },
   lockon: {
     exists: true,
+    pp: 1,
     type: "Steel",
     desc: "The user takes sure aim at the target. This ensures\nthe next attack does not miss the target.\nZ-Effect +3 Sp. Atk.",
     shortDesc: "The user takes sure aim at the target. This ensures\nthe next attack does not miss the target.\nZ-Effect +3 Sp. Atk.",
@@ -8625,12 +8624,12 @@ exports.BattleMovedex = {
       mirror: 1,
       protect: 1
     },
+    noPPBoosts: true,
     num: 199,
     accuracy: true,
     basePower: 0,
     category: "Status",
     name: "Lock-On",
-    pp: 5,
     priority: 0,
     condition: {
       noCopy: true,
@@ -8702,17 +8701,17 @@ exports.BattleMovedex = {
   },
   sandstorm: {
     exists: true,
+    pp: 5,
+    priority: 4,
     target: "normal",
-    desc: "The user summons a sandstorm.\nZ-Effect gives +2 Defense.",
-    shortDesc: "The user summons a sandstorm.\nZ-Effect gives +2 Defense.",
+    desc: "The user summons a sandstorm.\nZ-Effect gives +2 Defense.\nTHIS HAS +4 PRIORITY.",
+    shortDesc: "The user summons a sandstorm.\nZ-Effect gives +2 Defense.\nTHIS HAS +4 PRIORITY.",
     flags: {},
     num: 201,
     accuracy: true,
     basePower: 0,
     category: "Status",
     name: "Sandstorm",
-    pp: 10,
-    priority: 0,
     weather: "Sandstorm",
     secondary: null,
     type: "Rock",
@@ -9275,8 +9274,9 @@ exports.BattleMovedex = {
   },
   sleeptalk: {
     exists: true,
-    desc: "While it is asleep, the user randomly uses one of the\nmoves it knows. Z-Effect +2 crit rate.",
-    shortDesc: "While it is asleep, the user randomly uses one of the\nmoves it knows. Z-Effect +2 crit rate.",
+    priority: 3,
+    desc: "While it is asleep, the user randomly uses one of the\nmoves it knows. Z-Effect +2 crit rate.\nThis has +4 Priority.",
+    shortDesc: "While it is asleep, the user randomly uses one of the\nmoves it knows. Z-Effect +2 crit rate.\nThis has +4 Priority.",
     flags: {},
     num: 214,
     accuracy: true,
@@ -9284,7 +9284,6 @@ exports.BattleMovedex = {
     category: "Status",
     name: "Sleep Talk",
     pp: 10,
-    priority: 0,
     sleepUsable: true,
     secondary: null,
     target: "self",
@@ -9381,23 +9380,24 @@ exports.BattleMovedex = {
     exists: true,
     accuracy: true,
     basePower: 1,
-    type: "Fairy",
-    desc: "Delibird gives the foe a gift that can deal damage, or\nheal them. With Fairinium-Z, this becomes 200 BP, and\ngives you +2 to ALL stats BEFORE using Twinkle Tackle.",
-    shortDesc: "Delibird gives the foe a gift that can deal damage, or\nheal them. With Fairinium-Z, this becomes 200 BP, and\ngives you +2 to ALL stats BEFORE using Twinkle Tackle.",
+    pp: 1,
+    desc: "Delibird gives the foe a gift that can deal damage, or\nheal them. With NORMALIUM-Z, this becomes 200 BP, and\ngives you +2 to ALL stats BEFORE using TWINKLE TACKLE.",
+    shortDesc: "Delibird gives the foe a gift that can deal damage, or\nheal them. With NORMALIUM-Z, this becomes 200 BP, and\ngives you +2 to ALL stats BEFORE using TWINKLE TACKLE.",
     flags: {
       mirror: 1,
       protect: 1
     },
     zMove: {
-      basePower: 200
+      basePower: 250
     },
+    noPPBoosts: true,
     num: 217,
     category: "Physical",
     name: "Present",
-    pp: 15,
     priority: 0,
     secondary: null,
     target: "normal",
+    type: "Normal",
     id: "present",
     fullname: "move: Present",
     effectType: "Move",
@@ -10273,7 +10273,7 @@ exports.BattleMovedex = {
   crosschop: {
     exists: true,
     accuracy: 100,
-    basePower: 70,
+    basePower: 80,
     pp: 10,
     critRatio: 3,
     desc: "The user delivers a vicous chop with hands, blades,\nor the like. This has a 50% (+2) crit rate. Contact.",
@@ -10306,7 +10306,7 @@ exports.BattleMovedex = {
     isMax: false,
     ignoreAbility: false,
     maxMove: {
-      basePower: 85
+      basePower: 90
     }
   },
   twister: {
@@ -10357,16 +10357,16 @@ exports.BattleMovedex = {
   },
   raindance: {
     exists: true,
+    priority: 4,
     target: "normal",
-    desc: "The user summons rain that lasts for 5 turns.\nZ-Effect +2 Sp. Def.",
-    shortDesc: "The user summons rain that lasts for 5 turns.\nZ-Effect +2 Sp. Def.",
+    desc: "The user summons rain that lasts for 5 turns.\nZ-Effect +2 Sp. Def.\nTHIS HAS +4 PRIORITY.",
+    shortDesc: "The user summons rain that lasts for 5 turns.\nZ-Effect +2 Sp. Def.\nTHIS HAS +4 PRIORITY.",
     num: 240,
     accuracy: true,
     basePower: 0,
     category: "Status",
     name: "Rain Dance",
     pp: 5,
-    priority: 0,
     flags: {},
     weather: "RainDance",
     secondary: null,
@@ -10392,9 +10392,10 @@ exports.BattleMovedex = {
   },
   sunnyday: {
     exists: true,
+    priority: 4,
     target: "normal",
-    desc: "The user summons sunlight that lasts for 5 turns.\nZ-Effect +2 Sp. Def.",
-    shortDesc: "The user summons sunlight that lasts for 5 turns.\nZ-Effect +2 Sp. Def.",
+    desc: "The user summons sunlight that lasts for 5 turns.\nZ-Effect +2 Sp. Def.\nTHIS HAS +4 PRIORITY.",
+    shortDesc: "The user summons sunlight that lasts for 5 turns.\nZ-Effect +2 Sp. Def.\nTHIS HAS +4 PRIORITY.",
     flags: {
       defrost: 1
     },
@@ -10404,7 +10405,6 @@ exports.BattleMovedex = {
     category: "Status",
     name: "Sunny Day",
     pp: 5,
-    priority: 0,
     weather: "sunnyday",
     secondary: null,
     type: "Fire",
@@ -11131,17 +11131,17 @@ exports.BattleMovedex = {
   },
   hail: {
     exists: true,
+    pp: 5,
+    priority: 4,
     target: "normal",
-    desc: "The user summons a hailstorm lasting five turns.\nZ-Effect +2 Defense.",
-    shortDesc: "The user summons a hailstorm lasting five turns.\nZ-Effect +2 Defense.",
+    desc: "The user summons a hailstorm lasting five turns.\nZ-Effect +2 Defense.\nTHIS HAS +4 PRIORITY.",
+    shortDesc: "The user summons a hailstorm lasting five turns.\nZ-Effect +2 Defense.\nTHIS HAS +4 PRIORITY.",
     isNonstandard: null,
     num: 258,
     accuracy: true,
     basePower: 0,
     category: "Status",
     name: "Hail",
-    pp: 10,
-    priority: 0,
     flags: {},
     weather: "hail",
     secondary: null,
@@ -11659,6 +11659,7 @@ exports.BattleMovedex = {
   },
   trick: {
     exists: true,
+    pp: 1,
     priority: 4,
     desc: "The user catches the target off guard and swaps its\nheld item with its own. Z-Effect +3 Speed.\n+4 Priority.",
     shortDesc: "The user catches the target off guard and swaps its\nheld item with its own. Z-Effect +3 Speed.\n+4 Priority.",
@@ -11666,12 +11667,12 @@ exports.BattleMovedex = {
       mirror: 1,
       protect: 1
     },
+    noPPBoosts: true,
     num: 271,
     accuracy: 100,
     basePower: 0,
     category: "Status",
     name: "Trick",
-    pp: 10,
     secondary: null,
     target: "normal",
     type: "Psychic",
@@ -16317,30 +16318,30 @@ exports.BattleMovedex = {
     isMax: false,
     ignoreAbility: false
   },
-  braindrain: {
+  chromosomecrush: {
     exists: true,
     num: 378,
     accuracy: 100,
     basePower: 1,
-    category: "Physical",
-    name: "Brain Drain",
+    category: "Special",
+    name: "Chromosome Crush",
     pp: 5,
     priority: 0,
-    critRatio: 1,
+    critRatio: 7,
     type: "Psychic",
     target: "normal",
-    desc: "The user crushes the foe with telekinesis. The more\nHP the foe has left, the stronger this becomes, with a\nmax of 120 BP. This heals 50% of damage dealt.",
-    shortDesc: "The user crushes the foe with telekinesis. The more\nHP the foe has left, the stronger this becomes, with a\nmax of 120 BP. This heals 50% of damage dealt.",
+    desc: "Mew mangles the opponent's DNA. This deals more\ndamage depending how much HP the target has left.\nMax of 120 BP. ALWAYS crits. SIGNATURE Z-MOVE.",
+    shortDesc: "Mew mangles the opponent's DNA. This deals more\ndamage depending how much HP the target has left.\nMax of 120 BP. ALWAYS crits. SIGNATURE Z-MOVE.",
     flags: {
-      contact: 1,
       mirror: 1,
       protect: 1
     },
+    willCrit: true,
     zMove: {
-      basePower: 200
+      basePower: 250
     },
-    id: "braindrain",
-    fullname: "move: Brain Drain",
+    id: "chromosomecrush",
+    fullname: "move: Chromosome Crush",
     effectType: "Move",
     kind: "Move",
     gen: 4,
@@ -17921,6 +17922,7 @@ exports.BattleMovedex = {
   },
   switcheroo: {
     exists: true,
+    pp: 1,
     priority: 4,
     desc: "The user trades held items with the target faster\nthan the eye can follow. Z-Effect +3 Speed. +4 Priority.",
     shortDesc: "The user trades held items with the target faster\nthan the eye can follow. Z-Effect +3 Speed. +4 Priority.",
@@ -17928,12 +17930,12 @@ exports.BattleMovedex = {
       mirror: 1,
       protect: 1
     },
+    noPPBoosts: true,
     num: 415,
     accuracy: 100,
     basePower: 0,
     category: "Status",
     name: "Switcheroo",
-    pp: 10,
     secondary: null,
     target: "normal",
     type: "Dark",
@@ -18090,6 +18092,7 @@ exports.BattleMovedex = {
     accuracy: true,
     basePower: 70,
     pp: 5,
+    priority: 0,
     desc: "The user summons a devastating avalanche.\nThis now has NEUTRAL priority, can't miss, & doubles\nin power if you move last. 30% Flinch rate.",
     shortDesc: "The user summons a devastating avalanche.\nThis now has NEUTRAL priority, can't miss, & doubles\nin power if you move last. 30% Flinch rate.",
     flags: {
@@ -18108,7 +18111,6 @@ exports.BattleMovedex = {
     num: 419,
     category: "Physical",
     name: "Avalanche",
-    priority: -4,
     secondary: null,
     target: "normal",
     type: "Ice",
@@ -18955,7 +18957,9 @@ exports.BattleMovedex = {
     secondaries: [
       {
         chance: 30,
-        volatileStatus: "flinch"
+        boosts: {
+          def: -1
+        }
       }
     ],
     num: 438,
@@ -20033,13 +20037,16 @@ exports.BattleMovedex = {
   crushgrip: {
     exists: true,
     basePower: 1,
-    desc: "Regigigas grips the foe with immense force. The more\nHP the foe has left, the stronger this becomes, maxing\nat 120 BP. This heals 100% of damage dealt. Contact.",
-    shortDesc: "Regigigas grips the foe with immense force. The more\nHP the foe has left, the stronger this becomes, maxing\nat 120 BP. This heals 100% of damage dealt. Contact.",
+    critRatio: 7,
+    type: "Ground",
+    desc: "Regigias grips the foe with immense force. This ALWAYS\ncrits. Z-MOVE is 250 BP, AND gives +1 to all stats.\n120 BP without crit if target is full HP. Contact.",
+    shortDesc: "Regigias grips the foe with immense force. This ALWAYS\ncrits. Z-MOVE is 250 BP, AND gives +1 to all stats.\n120 BP without crit if target is full HP. Contact.",
     flags: {
       contact: 1,
       mirror: 1,
       protect: 1
     },
+    willCrit: true,
     zMove: {
       basePower: 250
     },
@@ -20052,7 +20059,6 @@ exports.BattleMovedex = {
     priority: 0,
     secondary: null,
     target: "normal",
-    type: "Normal",
     maxMove: {
       basePower: 140
     },
@@ -20061,7 +20067,6 @@ exports.BattleMovedex = {
     effectType: "Move",
     kind: "Move",
     gen: 4,
-    critRatio: 1,
     secondaries: null,
     hasSheerForce: false,
     ignoreImmunity: false,
@@ -20112,8 +20117,8 @@ exports.BattleMovedex = {
     exists: true,
     accuracy: 100,
     pp: 1,
-    desc: "Darkai drags the foes into a world of darkness,\nputting them to sleep for three guaranteed turns.\nZ-Effect resets lowered stats.",
-    shortDesc: "Darkai drags the foes into a world of darkness,\nputting them to sleep for three guaranteed turns.\nZ-Effect resets lowered stats.",
+    desc: "Darkai drags the foes into a world of darkness,\nputting them to sleep for three guaranteed turns.\nZ-Effect gives +3 Speed.",
+    shortDesc: "Darkai drags the foes into a world of darkness,\nputting them to sleep for three guaranteed turns.\nZ-Effect gives +3 Speed.",
     flags: {
       mirror: 1,
       protect: 1,
@@ -23670,8 +23675,8 @@ exports.BattleMovedex = {
   },
   geargrind: {
     exists: true,
-    accuracy: 90,
-    basePower: 60,
+    accuracy: 100,
+    basePower: 55,
     pp: 5,
     desc: "The user attacks by grinding the target in it's gears.\nThis hits twice, with a 20% chance to flinch per hit.\nContact.",
     shortDesc: "The user attacks by grinding the target in it's gears.\nThis hits twice, with a 20% chance to flinch per hit.\nContact.",
@@ -23679,9 +23684,6 @@ exports.BattleMovedex = {
       contact: 1,
       mirror: 1,
       protect: 1
-    },
-    zMove: {
-      basePower: 190
     },
     secondaries: [
       {
@@ -23698,6 +23700,9 @@ exports.BattleMovedex = {
     secondary: null,
     target: "normal",
     type: "Steel",
+    zMove: {
+      basePower: 180
+    },
     maxMove: {
       basePower: 130
     },
@@ -25230,8 +25235,8 @@ exports.BattleMovedex = {
     priority: 6,
     type: "Psychic",
     target: "normal",
-    desc: "Doesn't exist.",
-    shortDesc: "Doesn't exist.",
+    desc: "The user blocks any and all targeted status moves.\nThis can be used repeatedly without fail.\nHas +6 Priority. Z-EFFECT GIVES +1 ALL STATS.",
+    shortDesc: "The user blocks any and all targeted status moves.\nThis can be used repeatedly without fail.\nHas +6 Priority. Z-EFFECT GIVES +1 ALL STATS.",
     flags: {
       sound: 1
     },
@@ -25313,9 +25318,11 @@ exports.BattleMovedex = {
   },
   grassyterrain: {
     exists: true,
+    pp: 5,
+    priority: 4,
     target: "normal",
-    desc: "The user changes the terrain to Grassy Terrain for\n5 turns. Z-Effect +2 Sp. Def.",
-    shortDesc: "The user changes the terrain to Grassy Terrain for\n5 turns. Z-Effect +2 Sp. Def.",
+    desc: "The user changes the terrain to Grassy Terrain for\n5 turns. Z-Effect +2 Sp. Def.\nTHIS HAS +4 PRIORITY.",
+    shortDesc: "The user changes the terrain to Grassy Terrain for\n5 turns. Z-Effect +2 Sp. Def.\nTHIS HAS +4 PRIORITY.",
     flags: {},
     condition: {
       duration: 5,
@@ -25329,8 +25336,6 @@ exports.BattleMovedex = {
     basePower: 0,
     category: "Status",
     name: "Grassy Terrain",
-    pp: 10,
-    priority: 0,
     terrain: "grassyterrain",
     secondary: null,
     type: "Grass",
@@ -25355,9 +25360,11 @@ exports.BattleMovedex = {
   },
   mistyterrain: {
     exists: true,
+    pp: 5,
+    priority: 4,
     target: "normal",
-    desc: "The user changes the terrain to Misty Terrain for\n5 turns. Z-Effect +2 Sp. Def.",
-    shortDesc: "The user changes the terrain to Misty Terrain for\n5 turns. Z-Effect +2 Sp. Def.",
+    desc: "The user changes the terrain to Misty Terrain for\n5 turns. Z-Effect +2 Sp. Def.\nTHIS HAS +4 PRIORITY.",
+    shortDesc: "The user changes the terrain to Misty Terrain for\n5 turns. Z-Effect +2 Sp. Def.\nTHIS HAS +4 PRIORITY.",
     flags: {
       sound: 1
     },
@@ -25366,8 +25373,6 @@ exports.BattleMovedex = {
     basePower: 0,
     category: "Status",
     name: "Misty Terrain",
-    pp: 10,
-    priority: 0,
     terrain: "mistyterrain",
     condition: {
       duration: 5,
@@ -26419,9 +26424,11 @@ exports.BattleMovedex = {
   },
   electricterrain: {
     exists: true,
+    pp: 5,
+    priority: 4,
     target: "normal",
-    desc: "The user changes the terrain to Electric Terrain for\n5 turns. Z-Effect +2 Sp. Def.",
-    shortDesc: "The user changes the terrain to Electric Terrain for\n5 turns. Z-Effect +2 Sp. Def.",
+    desc: "The user changes the terrain to Electric Terrain for\n5 turns. Z-Effect +2 Sp. Def.\nTHIS HAS +4 PRIORITY.",
+    shortDesc: "The user changes the terrain to Electric Terrain for\n5 turns. Z-Effect +2 Sp. Def.\nTHIS HAS +4 PRIORITY.",
     flags: {},
     condition: {
       duration: 5,
@@ -26433,8 +26440,6 @@ exports.BattleMovedex = {
     basePower: 0,
     category: "Status",
     name: "Electric Terrain",
-    pp: 10,
-    priority: 0,
     terrain: "electricterrain",
     secondary: null,
     type: "Electric",
@@ -28704,9 +28709,11 @@ exports.BattleMovedex = {
   },
   psychicterrain: {
     exists: true,
+    pp: 5,
+    priority: 4,
     target: "normal",
-    desc: "The user changes the terrain to Psychic Terrain for\n5 turns. Z-Effect +2 Sp. Def.",
-    shortDesc: "The user changes the terrain to Psychic Terrain for\n5 turns. Z-Effect +2 Sp. Def.",
+    desc: "The user changes the terrain to Psychic Terrain for\n5 turns. Z-Effect +2 Sp. Def.\nTHIS HAS +4 PRIORITY.",
+    shortDesc: "The user changes the terrain to Psychic Terrain for\n5 turns. Z-Effect +2 Sp. Def.\nTHIS HAS +4 PRIORITY.",
     flags: {},
     condition: {
       duration: 5,
@@ -28719,8 +28726,6 @@ exports.BattleMovedex = {
     basePower: 0,
     category: "Status",
     name: "Psychic Terrain",
-    pp: 10,
-    priority: 0,
     terrain: "psychicterrain",
     secondary: null,
     type: "Psychic",
@@ -29787,8 +29792,24 @@ exports.BattleMovedex = {
   genesissupernova: {
     exists: true,
     basePower: 250,
-    desc: "After obtaining Z-Power, the user, Mew, attacks\nthe target with full force. The terrain will be charged\nwith psychic energy.",
-    shortDesc: "After obtaining Z-Power, the user, Mew, attacks\nthe target with full force. The terrain will be charged\nwith psychic energy.",
+    critRatio: 7,
+    desc: "Mew unleashes an immense blast of ancient power.\nThis ALWAYS crits, is 250 BP AND\nwill give Mew +1 all stats BEFORE attacking.",
+    shortDesc: "Mew unleashes an immense blast of ancient power.\nThis ALWAYS crits, is 250 BP AND\nwill give Mew +1 all stats BEFORE attacking.",
+    willCrit: true,
+    secondaries: [
+      {
+        chance: 100,
+        self: {
+          boosts: {
+            atk: 1,
+            def: 1,
+            spa: 1,
+            spd: 1,
+            spe: 1
+          }
+        }
+      }
+    ],
     noPPBoosts: true,
     isNonstandard: null,
     num: 703,
@@ -29810,13 +29831,6 @@ exports.BattleMovedex = {
     effectType: "Move",
     kind: "Move",
     gen: 7,
-    critRatio: 1,
-    secondaries: [
-      {
-        chance: 100,
-        self: {}
-      }
-    ],
     hasSheerForce: false,
     ignoreImmunity: false,
     isMax: false,

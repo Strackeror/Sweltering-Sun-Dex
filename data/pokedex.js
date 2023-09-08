@@ -119,6 +119,7 @@ exports.BattlePokedex = {
       spa: 100,
       spd: 100
     },
+    evoLevel: 36,
     num: 3,
     name: "Venusaur",
     types: [
@@ -126,7 +127,6 @@ exports.BattlePokedex = {
       "Poison"
     ],
     weightkg: 100,
-    evoLevel: 32,
     eggGroups: [
       "Monster",
       "Grass"
@@ -2098,7 +2098,7 @@ exports.BattlePokedex = {
     },
     abilities: {
       "0": "Sand Force",
-      "1": "Sturdy"
+      "1": "Rough Skin"
     },
     evos: [
       "Sandslash"
@@ -2731,6 +2731,10 @@ exports.BattlePokedex = {
   },
   vulpix: {
     tags: [],
+    types: [
+      "Fire",
+      "Fairy"
+    ],
     baseStats: {
       hp: 45,
       atk: 45,
@@ -2741,9 +2745,6 @@ exports.BattlePokedex = {
     },
     num: 37,
     name: "Vulpix",
-    types: [
-      "Fire"
-    ],
     weightkg: 9.9,
     eggGroups: [
       "Field"
@@ -2773,8 +2774,8 @@ exports.BattlePokedex = {
       F: 0.75
     },
     abilities: {
-      "0": "Solar Power",
-      "1": "Serene Grace"
+      "0": "Drought",
+      "1": "Solar Power"
     },
     evos: [
       "Ninetales"
@@ -2836,8 +2837,8 @@ exports.BattlePokedex = {
       F: 0.75
     },
     abilities: {
-      "0": "Slush Rush",
-      "1": "Serene Grace"
+      "0": "Snow Warning",
+      "1": "Slush Rush"
     },
     evos: [
       "Ninetales-Alola"
@@ -2847,8 +2848,8 @@ exports.BattlePokedex = {
   ninetales: {
     tags: [],
     types: [
-      "Fire",
-      "Fairy"
+      "Fairy",
+      "Fire"
     ],
     baseStats: {
       hp: 73,
@@ -2911,6 +2912,10 @@ exports.BattlePokedex = {
   },
   ninetalesalola: {
     tags: [],
+    types: [
+      "Fairy",
+      "Ice"
+    ],
     baseStats: {
       hp: 73,
       atk: 57,
@@ -2926,10 +2931,6 @@ exports.BattlePokedex = {
     name: "Ninetales-Alola",
     baseSpecies: "Ninetales",
     forme: "Alola",
-    types: [
-      "Ice",
-      "Fairy"
-    ],
     weightkg: 19.9,
     eggGroups: [
       "Field"
@@ -3029,7 +3030,7 @@ exports.BattlePokedex = {
       spa: 100,
       spd: 100
     },
-    evoLevel: 33,
+    evoLevel: 29,
     evoItem: null,
     evoType: null,
     num: 40,
@@ -3228,7 +3229,7 @@ exports.BattlePokedex = {
       F: 0.5
     },
     abilities: {
-      "0": "Merciless",
+      "0": "Grassy Guard",
       "1": "Prankster"
     },
     evos: [
@@ -3282,7 +3283,7 @@ exports.BattlePokedex = {
       F: 0.5
     },
     abilities: {
-      "0": "Merciless",
+      "0": "Grassy Guard",
       "1": "Prankster"
     },
     evos: [
@@ -3340,7 +3341,7 @@ exports.BattlePokedex = {
       F: 0.5
     },
     abilities: {
-      "0": "Merciless",
+      "0": "Grassy Surge",
       "1": "Prankster"
     },
     nfe: false,
@@ -3562,11 +3563,11 @@ exports.BattlePokedex = {
     tags: [],
     baseStats: {
       hp: 25,
-      atk: 60,
-      def: 55,
-      spe: 100,
-      spa: 35,
-      spd: 55
+      atk: 65,
+      def: 50,
+      spe: 115,
+      spa: 25,
+      spd: 50
     },
     num: 50,
     name: "Diglett",
@@ -3603,7 +3604,7 @@ exports.BattlePokedex = {
     },
     abilities: {
       "0": "Hustle",
-      "1": "Mold Breaker",
+      "1": "Wimp Out",
       H: "Arena Trap"
     },
     evos: [
@@ -3626,11 +3627,11 @@ exports.BattlePokedex = {
     tags: [],
     baseStats: {
       hp: 25,
-      atk: 60,
+      atk: 65,
       def: 60,
-      spe: 95,
-      spa: 35,
-      spd: 55
+      spe: 105,
+      spa: 25,
+      spd: 50
     },
     num: 50,
     name: "Diglett-Alola",
@@ -3668,7 +3669,7 @@ exports.BattlePokedex = {
     },
     abilities: {
       "0": "Hustle",
-      "1": "Serene Grace",
+      "1": "Wimp Out",
       H: "Arena Trap"
     },
     evos: [
@@ -3682,8 +3683,8 @@ exports.BattlePokedex = {
       hp: 75,
       atk: 105,
       def: 70,
-      spe: 120,
-      spa: 40,
+      spe: 130,
+      spa: 30,
       spd: 70
     },
     evoLevel: 20,
@@ -3722,7 +3723,7 @@ exports.BattlePokedex = {
     },
     abilities: {
       "0": "Hustle",
-      "1": "Mold Breaker",
+      "1": "Expertise",
       H: "Arena Trap"
     },
     nfe: false,
@@ -3745,9 +3746,9 @@ exports.BattlePokedex = {
       hp: 75,
       atk: 105,
       def: 80,
-      spe: 110,
+      spe: 120,
       spa: 40,
-      spd: 70
+      spd: 60
     },
     evoLevel: 20,
     num: 51,
@@ -3786,7 +3787,7 @@ exports.BattlePokedex = {
     },
     abilities: {
       "0": "Hustle",
-      "1": "Serene Grace",
+      "1": "Expertise",
       H: "Arena Trap"
     },
     nfe: false,
@@ -6002,7 +6003,7 @@ exports.BattlePokedex = {
       F: 0.5
     },
     abilities: {
-      "0": "Sand Force",
+      "0": "Emergency Exit",
       "1": "Defiant"
     },
     evos: [
@@ -6176,8 +6177,8 @@ exports.BattlePokedex = {
       atk: 80,
       def: 60,
       spe: 15,
-      spa: 75,
-      spd: 80
+      spa: 70,
+      spd: 85
     },
     num: 88,
     name: "Grimer",
@@ -6214,7 +6215,7 @@ exports.BattlePokedex = {
     },
     abilities: {
       "0": "Water Absorb",
-      "1": "Gooey"
+      "1": "Regenerator"
     },
     evos: [
       "Muk"
@@ -6278,7 +6279,7 @@ exports.BattlePokedex = {
     },
     abilities: {
       "0": "Merciless",
-      "1": "Gluttony"
+      "1": "Regenerator"
     },
     evos: [
       "Muk-Alola"
@@ -6292,8 +6293,8 @@ exports.BattlePokedex = {
       atk: 110,
       def: 80,
       spe: 15,
-      spa: 95,
-      spd: 115
+      spa: 90,
+      spd: 120
     },
     evoLevel: 31,
     num: 89,
@@ -6331,7 +6332,7 @@ exports.BattlePokedex = {
     },
     abilities: {
       "0": "Water Absorb",
-      "1": "Gooey"
+      "1": "Regenerator"
     },
     nfe: false,
     otherFormes: [
@@ -6394,7 +6395,7 @@ exports.BattlePokedex = {
     },
     abilities: {
       "0": "Merciless",
-      "1": "Gluttony"
+      "1": "Regenerator"
     },
     nfe: false,
     prevo: "Grimer-Alola"
@@ -6793,12 +6794,12 @@ exports.BattlePokedex = {
   drowzee: {
     tags: [],
     baseStats: {
-      hp: 65,
+      hp: 75,
       atk: 48,
-      def: 65,
+      def: 80,
       spe: 42,
       spa: 90,
-      spd: 90
+      spd: 100
     },
     num: 96,
     name: "Drowzee",
@@ -6823,7 +6824,7 @@ exports.BattlePokedex = {
     baseForme: "",
     doublesTier: " ",
     canHatch: true,
-    bst: 400,
+    bst: 435,
     weighthg: 324,
     unreleasedHidden: false,
     maleOnlyHidden: false,
@@ -6835,7 +6836,7 @@ exports.BattlePokedex = {
     },
     abilities: {
       "0": "Thick Fat",
-      "1": "Gluttony"
+      "1": "Metabolism"
     },
     evos: [
       "Hypno"
@@ -7321,7 +7322,7 @@ exports.BattlePokedex = {
       F: 0.5
     },
     abilities: {
-      "0": "Sturdy",
+      "0": "Wimp Out",
       "1": "Technician"
     },
     evos: [
@@ -7989,7 +7990,7 @@ exports.BattlePokedex = {
       F: 0.5
     },
     abilities: {
-      "0": "Tangling Hair",
+      "0": "Unaware",
       "1": "Regenerator"
     },
     evos: [
@@ -10995,8 +10996,9 @@ exports.BattlePokedex = {
       F: 0.5
     },
     abilities: {
-      "0": "Tinted Lens",
-      "1": "Bird's Eye View"
+      "0": "Contrary",
+      "1": "Hubris",
+      H: "Tinted Lens"
     },
     evos: [
       "Noctowl"
@@ -11049,8 +11051,9 @@ exports.BattlePokedex = {
       F: 0.5
     },
     abilities: {
-      "0": "Tinted Lens",
-      "1": "Hubris"
+      "0": "Contrary",
+      "1": "Hubris",
+      H: "Tinted Lens"
     },
     nfe: false,
     prevo: "Hoothoot"
@@ -11100,7 +11103,7 @@ exports.BattlePokedex = {
       F: 0.5
     },
     abilities: {
-      "0": "Tinted Lens",
+      "0": "Wimp Out",
       "1": "Technician"
     },
     evos: [
@@ -11154,8 +11157,9 @@ exports.BattlePokedex = {
       F: 0.5
     },
     abilities: {
-      "0": "Tinted Lens",
-      "1": "Technician"
+      "0": "Levitate",
+      "1": "Technician",
+      H: "Tinted Lens"
     },
     nfe: false,
     prevo: "Ledyba"
@@ -11586,12 +11590,12 @@ exports.BattlePokedex = {
   togepi: {
     tags: [],
     baseStats: {
-      hp: 40,
-      atk: 25,
-      def: 65,
-      spe: 25,
+      hp: 45,
+      atk: 20,
+      def: 85,
+      spe: 20,
       spa: 65,
-      spd: 90
+      spd: 95
     },
     num: 175,
     name: "Togepi",
@@ -11616,7 +11620,7 @@ exports.BattlePokedex = {
     forme: "",
     baseForme: "",
     doublesTier: " ",
-    bst: 310,
+    bst: 330,
     weighthg: 15,
     unreleasedHidden: false,
     maleOnlyHidden: false,
@@ -11628,7 +11632,7 @@ exports.BattlePokedex = {
     },
     abilities: {
       "0": "Trace",
-      "1": "Serene Grace"
+      "1": "Magic Bounce"
     },
     evos: [
       "Togetic"
@@ -11638,14 +11642,14 @@ exports.BattlePokedex = {
   togetic: {
     tags: [],
     baseStats: {
-      hp: 60,
+      hp: 65,
       atk: 40,
       def: 85,
-      spe: 55,
+      spe: 40,
       spa: 90,
-      spd: 110
+      spd: 120
     },
-    evoLevel: 18,
+    evoLevel: 17,
     evoType: null,
     num: 176,
     name: "Togetic",
@@ -11684,7 +11688,7 @@ exports.BattlePokedex = {
     },
     abilities: {
       "0": "Trace",
-      "1": "Serene Grace"
+      "1": "Magic Bounce"
     },
     evos: [
       "Togekiss"
@@ -12075,7 +12079,7 @@ exports.BattlePokedex = {
     },
     abilities: {
       "0": "Drought",
-      "1": "Solar Power"
+      "1": "Queenly Majesty"
     },
     nfe: false,
     prevo: "Gloom"
@@ -12245,6 +12249,10 @@ exports.BattlePokedex = {
   },
   politoed: {
     tags: [],
+    types: [
+      "Water",
+      "Normal"
+    ],
     baseStats: {
       hp: 80,
       atk: 75,
@@ -12258,9 +12266,6 @@ exports.BattlePokedex = {
     evoItem: "Water Gem",
     num: 186,
     name: "Politoed",
-    types: [
-      "Water"
-    ],
     weightkg: 33.9,
     eggGroups: [
       "Water 1"
@@ -12291,7 +12296,7 @@ exports.BattlePokedex = {
     },
     abilities: {
       "0": "Drizzle",
-      "1": "Gooey"
+      "1": "Amplifier"
     },
     nfe: false,
     prevo: "Poliwhirl"
@@ -12889,12 +12894,12 @@ exports.BattlePokedex = {
   murkrow: {
     tags: [],
     baseStats: {
-      hp: 51,
+      hp: 57,
       atk: 85,
-      def: 46,
+      def: 51,
       spe: 106,
-      spa: 81,
-      spd: 46
+      spa: 85,
+      spd: 51
     },
     num: 198,
     name: "Murkrow",
@@ -12920,7 +12925,7 @@ exports.BattlePokedex = {
     baseForme: "",
     doublesTier: " ",
     canHatch: true,
-    bst: 415,
+    bst: 435,
     weighthg: 21,
     unreleasedHidden: false,
     maleOnlyHidden: false,
@@ -13094,10 +13099,7 @@ exports.BattlePokedex = {
     abilities: {
       "0": "Wonder Guard"
     },
-    evos: [
-      "Sigilyph"
-    ],
-    nfe: true
+    nfe: false
   },
   wobbuffet: {
     tags: [],
@@ -13207,11 +13209,11 @@ exports.BattlePokedex = {
     tags: [],
     baseStats: {
       hp: 50,
-      atk: 60,
+      atk: 65,
       def: 95,
       spe: 15,
-      spa: 60,
-      spd: 70
+      spa: 65,
+      spd: 80
     },
     num: 204,
     name: "Pineco",
@@ -13236,7 +13238,7 @@ exports.BattlePokedex = {
     baseForme: "",
     doublesTier: " ",
     canHatch: true,
-    bst: 350,
+    bst: 370,
     weighthg: 72,
     unreleasedHidden: false,
     maleOnlyHidden: false,
@@ -13265,6 +13267,7 @@ exports.BattlePokedex = {
       spa: 90,
       spd: 100
     },
+    evoLevel: 29,
     num: 205,
     name: "Forretress",
     types: [
@@ -13272,7 +13275,6 @@ exports.BattlePokedex = {
       "Steel"
     ],
     weightkg: 125.8,
-    evoLevel: 31,
     eggGroups: [
       "Bug"
     ],
@@ -13315,11 +13317,11 @@ exports.BattlePokedex = {
     ],
     baseStats: {
       hp: 100,
-      atk: 90,
+      atk: 85,
       def: 105,
       spe: 45,
       spa: 85,
-      spd: 100
+      spd: 105
     },
     num: 206,
     name: "Dunsparce",
@@ -13352,8 +13354,9 @@ exports.BattlePokedex = {
       F: 0.5
     },
     abilities: {
-      "0": "Serene Grace",
-      "1": "Simple"
+      "0": "Instinct",
+      "1": "Simple",
+      H: "Serene Grace"
     },
     nfe: false
   },
@@ -14037,12 +14040,12 @@ exports.BattlePokedex = {
   teddiursa: {
     tags: [],
     baseStats: {
-      hp: 57,
+      hp: 62,
       atk: 80,
-      def: 60,
-      spe: 63,
-      spa: 50,
-      spd: 60
+      def: 65,
+      spe: 53,
+      spa: 45,
+      spd: 65
     },
     num: 216,
     name: "Teddiursa",
@@ -14079,7 +14082,7 @@ exports.BattlePokedex = {
     },
     abilities: {
       "0": "Hustle",
-      "1": "Gluttony"
+      "1": "Metabolism"
     },
     evos: [
       "Ursaring"
@@ -14089,20 +14092,20 @@ exports.BattlePokedex = {
   ursaring: {
     tags: [],
     baseStats: {
-      hp: 97,
+      hp: 102,
       atk: 135,
       def: 80,
       spe: 83,
-      spa: 60,
+      spa: 55,
       spd: 80
     },
+    evoLevel: 29,
     num: 217,
     name: "Ursaring",
     types: [
       "Normal"
     ],
     weightkg: 125.8,
-    evoLevel: 30,
     eggGroups: [
       "Field"
     ],
@@ -14288,7 +14291,7 @@ exports.BattlePokedex = {
     },
     abilities: {
       "0": "Thick Fat",
-      "1": "Unaware"
+      "1": "Resilient"
     },
     evos: [
       "Piloswine"
@@ -14342,7 +14345,7 @@ exports.BattlePokedex = {
     },
     abilities: {
       "0": "Thick Fat",
-      "1": "Unaware"
+      "1": "Resilient"
     },
     evos: [
       "Mamoswine"
@@ -15195,7 +15198,7 @@ exports.BattlePokedex = {
     },
     abilities: {
       "0": "Defiant",
-      "1": "Scrappy"
+      "1": "Emergency Exit"
     },
     evos: [
       "Hitmonchan",
@@ -15531,11 +15534,11 @@ exports.BattlePokedex = {
     ],
     baseStats: {
       hp: 80,
-      atk: 117,
-      def: 75,
+      atk: 122,
+      def: 70,
       spe: 136,
-      spa: 117,
-      spd: 75
+      spa: 122,
+      spd: 70
     },
     num: 243,
     name: "Raikou",
@@ -15915,11 +15918,11 @@ exports.BattlePokedex = {
       "Restricted Legendary"
     ],
     baseStats: {
-      hp: 106,
+      hp: 156,
       atk: 110,
       def: 110,
-      spe: 90,
-      spa: 130,
+      spe: 110,
+      spa: 110,
       spd: 154
     },
     num: 249,
@@ -15946,7 +15949,7 @@ exports.BattlePokedex = {
     forme: "",
     baseForme: "",
     canHatch: false,
-    bst: 700,
+    bst: 750,
     weighthg: 2160,
     unreleasedHidden: false,
     maleOnlyHidden: false,
@@ -15972,7 +15975,7 @@ exports.BattlePokedex = {
       "Flying"
     ],
     baseStats: {
-      hp: 106,
+      hp: 156,
       atk: 130,
       def: 90,
       spe: 90,
@@ -15999,7 +16002,7 @@ exports.BattlePokedex = {
     forme: "",
     baseForme: "",
     canHatch: false,
-    bst: 700,
+    bst: 750,
     weighthg: 1990,
     unreleasedHidden: false,
     maleOnlyHidden: false,
@@ -17835,7 +17838,7 @@ exports.BattlePokedex = {
       spa: 95,
       spd: 90
     },
-    evoLevel: 18,
+    evoLevel: 17,
     eggGroups: [
       "Amorphous"
     ],
@@ -18007,11 +18010,11 @@ exports.BattlePokedex = {
     tags: [],
     baseStats: {
       hp: 40,
-      atk: 30,
+      atk: 20,
       def: 32,
       spe: 97,
       spa: 79,
-      spd: 52
+      spd: 62
     },
     num: 283,
     name: "Surskit",
@@ -18049,7 +18052,7 @@ exports.BattlePokedex = {
       F: 0.5
     },
     abilities: {
-      "0": "Sap Sipper",
+      "0": "Emergency Exit",
       "1": "Swift Swim"
     },
     evos: [
@@ -18061,12 +18064,13 @@ exports.BattlePokedex = {
     tags: [],
     baseStats: {
       hp: 70,
-      atk: 60,
+      atk: 25,
       def: 62,
       spe: 127,
       spa: 114,
       spd: 82
     },
+    evoLevel: 20,
     num: 284,
     name: "Masquerain",
     types: [
@@ -18074,7 +18078,6 @@ exports.BattlePokedex = {
       "Flying"
     ],
     weightkg: 3.6,
-    evoLevel: 22,
     eggGroups: [
       "Water 1",
       "Bug"
@@ -18093,7 +18096,7 @@ exports.BattlePokedex = {
     forme: "",
     baseForme: "",
     canHatch: false,
-    bst: 515,
+    bst: 480,
     weighthg: 36,
     unreleasedHidden: false,
     maleOnlyHidden: false,
@@ -18380,12 +18383,12 @@ exports.BattlePokedex = {
   nincada: {
     tags: [],
     baseStats: {
-      hp: 46,
+      hp: 51,
       atk: 71,
       def: 91,
       spe: 40,
-      spa: 61,
-      spd: 61
+      spa: 46,
+      spd: 71
     },
     num: 290,
     name: "Nincada",
@@ -18423,7 +18426,7 @@ exports.BattlePokedex = {
     },
     abilities: {
       "0": "Sap Sipper",
-      "1": "Tinted Lens"
+      "1": "Tough Claws"
     },
     evos: [
       "Ninjask"
@@ -18440,7 +18443,7 @@ exports.BattlePokedex = {
       spa: 91,
       spd: 51
     },
-    evoLevel: 23,
+    evoLevel: 22,
     num: 291,
     name: "Ninjask",
     types: [
@@ -18477,7 +18480,8 @@ exports.BattlePokedex = {
     },
     abilities: {
       "0": "Versatility",
-      "1": "Tinted Lens"
+      "1": "Aerilate",
+      H: "Tinted Lens"
     },
     nfe: false,
     prevo: "Nincada"
@@ -20029,7 +20033,8 @@ exports.BattlePokedex = {
     },
     abilities: {
       "0": "Prankster",
-      "1": "Tinted Lens"
+      "1": "Technician",
+      H: "Tinted Lens"
     },
     nfe: false
   },
@@ -20412,7 +20417,7 @@ exports.BattlePokedex = {
       F: 0.5
     },
     abilities: {
-      "0": "Unaware",
+      "0": "Simple",
       "1": "Drizzle"
     },
     evos: [
@@ -20812,7 +20817,7 @@ exports.BattlePokedex = {
       def: 80,
       spe: 95,
       spa: 95,
-      spd: 95
+      spd: 105
     },
     num: 327,
     name: "Spinda",
@@ -20835,7 +20840,7 @@ exports.BattlePokedex = {
     forme: "",
     baseForme: "",
     canHatch: true,
-    bst: 515,
+    bst: 525,
     weighthg: 50,
     unreleasedHidden: false,
     maleOnlyHidden: false,
@@ -21127,10 +21132,10 @@ exports.BattlePokedex = {
     baseStats: {
       hp: 45,
       atk: 40,
-      def: 45,
+      def: 60,
       spe: 65,
       spa: 65,
-      spd: 90
+      spd: 95
     },
     num: 333,
     name: "Swablu",
@@ -21157,7 +21162,7 @@ exports.BattlePokedex = {
     baseForme: "",
     doublesTier: " ",
     canHatch: true,
-    bst: 350,
+    bst: 370,
     weighthg: 12,
     unreleasedHidden: false,
     maleOnlyHidden: false,
@@ -21168,7 +21173,7 @@ exports.BattlePokedex = {
       F: 0.5
     },
     abilities: {
-      "0": "Serene Grace",
+      "0": "Amplifier",
       "1": "Fluffy"
     },
     evos: [
@@ -21181,12 +21186,12 @@ exports.BattlePokedex = {
     baseStats: {
       hp: 75,
       atk: 70,
-      def: 75,
-      spe: 85,
+      def: 90,
+      spe: 90,
       spa: 95,
       spd: 115
     },
-    evoLevel: 33,
+    evoLevel: 31,
     num: 334,
     name: "Altaria",
     types: [
@@ -21212,7 +21217,7 @@ exports.BattlePokedex = {
     forme: "",
     baseForme: "",
     canHatch: false,
-    bst: 515,
+    bst: 535,
     weighthg: 206,
     unreleasedHidden: false,
     maleOnlyHidden: false,
@@ -21245,10 +21250,10 @@ exports.BattlePokedex = {
     baseStats: {
       hp: 75,
       atk: 110,
-      def: 85,
-      spe: 85,
+      def: 95,
+      spe: 90,
       spa: 115,
-      spd: 145
+      spd: 150
     },
     num: 334,
     name: "Altaria-Mega",
@@ -21279,7 +21284,7 @@ exports.BattlePokedex = {
     requiredItems: [
       "Altarianite"
     ],
-    bst: 615,
+    bst: 635,
     weighthg: 206,
     unreleasedHidden: false,
     maleOnlyHidden: false,
@@ -22134,8 +22139,8 @@ exports.BattlePokedex = {
       F: 0.5
     },
     abilities: {
-      "0": "Dazzling",
-      "1": "Serene Grace",
+      "0": "Serene Grace",
+      "1": "Multiscale",
       H: "Marvel Scale"
     },
     nfe: false,
@@ -22752,7 +22757,7 @@ exports.BattlePokedex = {
     tags: [],
     types: [
       "Psychic",
-      "Normal"
+      "Flying"
     ],
     baseStats: {
       hp: 75,
@@ -22762,7 +22767,7 @@ exports.BattlePokedex = {
       spa: 115,
       spd: 110
     },
-    evoLevel: 23,
+    evoLevel: 22,
     evoCondition: null,
     evoType: null,
     num: 358,
@@ -22796,8 +22801,8 @@ exports.BattlePokedex = {
       F: 0.5
     },
     abilities: {
-      "0": "Levitate",
-      "1": "Amplifier"
+      "0": "Guarding Gale",
+      "1": "Aerilate"
     },
     nfe: false,
     prevo: "Chingling"
@@ -22846,8 +22851,8 @@ exports.BattlePokedex = {
       F: 0.5
     },
     abilities: {
-      "0": "Moxie",
-      "1": "Ruthless"
+      "0": "Proficiency",
+      "1": "Super Luck"
     },
     nfe: false,
     otherFormes: [
@@ -22915,7 +22920,7 @@ exports.BattlePokedex = {
     },
     abilities: {
       "0": "Pixilate",
-      "1": "Intimidate"
+      "1": "Dazzling"
     },
     nfe: false
   },
@@ -22975,12 +22980,12 @@ exports.BattlePokedex = {
   snorunt: {
     tags: [],
     baseStats: {
-      hp: 55,
-      atk: 55,
-      def: 70,
+      hp: 50,
+      atk: 50,
+      def: 80,
       spe: 50,
-      spa: 70,
-      spd: 70
+      spa: 60,
+      spd: 80
     },
     num: 361,
     name: "Snorunt",
@@ -23018,7 +23023,7 @@ exports.BattlePokedex = {
     },
     abilities: {
       "0": "Prankster",
-      "1": "Unaware"
+      "1": "Wimp Out"
     },
     evos: [
       "Glalie",
@@ -23803,8 +23808,8 @@ exports.BattlePokedex = {
       F: 0.5
     },
     abilities: {
-      "0": "Levitate",
-      "1": "Moxie"
+      "0": "Proficiency",
+      "1": "Levitate"
     },
     nfe: false
   },
@@ -23855,7 +23860,8 @@ exports.BattlePokedex = {
     },
     abilities: {
       "0": "Analytic",
-      "1": "Levitate"
+      "1": "Levitate",
+      H: "Magnet Pull"
     },
     evos: [
       "Metang"
@@ -23910,7 +23916,8 @@ exports.BattlePokedex = {
     },
     abilities: {
       "0": "Analytic",
-      "1": "Levitate"
+      "1": "Levitate",
+      H: "Magnet Pull"
     },
     evos: [
       "Metagross"
@@ -23968,7 +23975,8 @@ exports.BattlePokedex = {
     },
     abilities: {
       "0": "Analytic",
-      "1": "Hubris"
+      "1": "Hubris",
+      H: "Magnet Pull"
     },
     nfe: false,
     otherFormes: [
@@ -24570,11 +24578,11 @@ exports.BattlePokedex = {
       "Restricted Legendary"
     ],
     baseStats: {
-      hp: 130,
-      atk: 150,
-      def: 140,
+      hp: 160,
+      atk: 160,
+      def: 160,
       spe: 50,
-      spa: 120,
+      spa: 130,
       spd: 90
     },
     num: 383,
@@ -24600,7 +24608,7 @@ exports.BattlePokedex = {
     forme: "",
     baseForme: "",
     canHatch: false,
-    bst: 680,
+    bst: 750,
     weighthg: 9500,
     unreleasedHidden: false,
     maleOnlyHidden: false,
@@ -24809,8 +24817,8 @@ exports.BattlePokedex = {
       "Mythical"
     ],
     types: [
-      "Steel",
-      "Fairy"
+      "Fairy",
+      "Steel"
     ],
     baseStats: {
       hp: 60,
@@ -25848,10 +25856,10 @@ exports.BattlePokedex = {
     baseStats: {
       hp: 47,
       atk: 41,
-      def: 50,
-      spe: 51,
-      spa: 61,
-      spd: 50
+      def: 55,
+      spe: 61,
+      spa: 71,
+      spd: 55
     },
     num: 401,
     name: "Kricketot",
@@ -25873,7 +25881,7 @@ exports.BattlePokedex = {
     baseForme: "",
     doublesTier: " ",
     canHatch: true,
-    bst: 300,
+    bst: 330,
     weighthg: 22,
     unreleasedHidden: false,
     maleOnlyHidden: false,
@@ -25884,8 +25892,9 @@ exports.BattlePokedex = {
       F: 0.5
     },
     abilities: {
-      "0": "Tinted Lens",
-      "1": "Technician"
+      "0": "Wimp Out",
+      "1": "Technician",
+      H: "Tinted Lens"
     },
     evos: [
       "Kricketune"
@@ -25938,8 +25947,9 @@ exports.BattlePokedex = {
       F: 0.5
     },
     abilities: {
-      "0": "Tinted Lens",
-      "1": "Technician"
+      "0": "Amplifier",
+      "1": "Technician",
+      H: "Tinted Lens"
     },
     nfe: false,
     prevo: "Kricketot"
@@ -26747,7 +26757,7 @@ exports.BattlePokedex = {
       F: 0.125
     },
     abilities: {
-      "0": "Hustle",
+      "0": "Wimp Out",
       "1": "Guarding Gale"
     },
     evos: [
@@ -26758,10 +26768,10 @@ exports.BattlePokedex = {
   vespiquen: {
     tags: [],
     baseStats: {
-      hp: 86,
+      hp: 96,
       atk: 95,
       def: 117,
-      spe: 40,
+      spe: 30,
       spa: 95,
       spd: 117
     },
@@ -26928,10 +26938,10 @@ exports.BattlePokedex = {
       spa: 95,
       spd: 70
     },
-    evoLevel: 29,
     num: 419,
     name: "Floatzel",
     weightkg: 33.5,
+    evoLevel: 26,
     eggGroups: [
       "Water 1",
       "Field"
@@ -27014,7 +27024,7 @@ exports.BattlePokedex = {
     },
     abilities: {
       "0": "Grassy Guard",
-      "1": "Solar Power"
+      "1": "Wimp Out"
     },
     evos: [
       "Cherrim"
@@ -27025,13 +27035,13 @@ exports.BattlePokedex = {
     tags: [],
     baseStats: {
       hp: 70,
-      atk: 60,
+      atk: 55,
       def: 85,
-      spe: 90,
-      spa: 97,
-      spd: 98
+      spe: 85,
+      spa: 92,
+      spd: 93
     },
-    evoLevel: 23,
+    evoLevel: 20,
     num: 421,
     name: "Cherrim",
     baseForme: "Overcast",
@@ -27056,7 +27066,7 @@ exports.BattlePokedex = {
     baseSpecies: "Cherrim",
     forme: "",
     canHatch: false,
-    bst: 500,
+    bst: 480,
     weighthg: 93,
     unreleasedHidden: false,
     maleOnlyHidden: false,
@@ -27724,9 +27734,9 @@ exports.BattlePokedex = {
       hp: 65,
       atk: 45,
       def: 65,
-      spe: 120,
-      spa: 120,
-      spd: 120
+      spe: 125,
+      spa: 125,
+      spd: 125
     },
     evoLevel: 32,
     evoItem: "Psychic Gem",
@@ -27751,7 +27761,7 @@ exports.BattlePokedex = {
     forme: "",
     baseForme: "",
     canHatch: false,
-    bst: 535,
+    bst: 550,
     weighthg: 44,
     unreleasedHidden: false,
     maleOnlyHidden: false,
@@ -27771,11 +27781,11 @@ exports.BattlePokedex = {
   honchkrow: {
     tags: [],
     baseStats: {
-      hp: 71,
+      hp: 77,
       atk: 125,
       def: 71,
       spe: 101,
-      spa: 86,
+      spa: 105,
       spd: 71
     },
     evoLevel: 31,
@@ -27805,7 +27815,7 @@ exports.BattlePokedex = {
     forme: "",
     baseForme: "",
     canHatch: false,
-    bst: 525,
+    bst: 550,
     weighthg: 273,
     unreleasedHidden: false,
     maleOnlyHidden: false,
@@ -27931,13 +27941,13 @@ exports.BattlePokedex = {
     tags: [],
     types: [
       "Psychic",
-      "Normal"
+      "Flying"
     ],
     baseStats: {
-      hp: 45,
+      hp: 50,
       atk: 30,
-      def: 60,
-      spe: 50,
+      def: 65,
+      spe: 60,
       spa: 85,
       spd: 80
     },
@@ -27961,7 +27971,7 @@ exports.BattlePokedex = {
     forme: "",
     baseForme: "",
     doublesTier: " ",
-    bst: 350,
+    bst: 370,
     weighthg: 6,
     unreleasedHidden: false,
     maleOnlyHidden: false,
@@ -27972,8 +27982,8 @@ exports.BattlePokedex = {
       F: 0.5
     },
     abilities: {
-      "0": "Levitate",
-      "1": "Amplifier"
+      "0": "Wimp Out",
+      "1": "Aerilate"
     },
     evos: [
       "Chimecho"
@@ -29085,7 +29095,7 @@ exports.BattlePokedex = {
       spa: 30,
       spd: 85
     },
-    evoLevel: 33,
+    evoLevel: 32,
     num: 452,
     name: "Drapion",
     weightkg: 61.5,
@@ -29236,11 +29246,11 @@ exports.BattlePokedex = {
       "Dark"
     ],
     baseStats: {
-      hp: 84,
-      atk: 116,
-      def: 82,
-      spe: 91,
-      spa: 60,
+      hp: 82,
+      atk: 117,
+      def: 92,
+      spe: 92,
+      spa: 50,
       spd: 92
     },
     num: 455,
@@ -29883,7 +29893,7 @@ exports.BattlePokedex = {
       F: 0.5
     },
     abilities: {
-      "0": "Tangling Hair",
+      "0": "Sheer Force",
       "1": "Regenerator"
     },
     nfe: false,
@@ -30046,7 +30056,7 @@ exports.BattlePokedex = {
       F: 0.125
     },
     abilities: {
-      "0": "Trace",
+      "0": "Aerilate",
       "1": "Serene Grace"
     },
     nfe: false,
@@ -30277,9 +30287,9 @@ exports.BattlePokedex = {
     baseStats: {
       hp: 120,
       atk: 145,
-      def: 90,
+      def: 100,
       spe: 80,
-      spa: 70,
+      spa: 60,
       spd: 70
     },
     evoLevel: 40,
@@ -30502,7 +30512,7 @@ exports.BattlePokedex = {
     },
     abilities: {
       "0": "Defiant",
-      "1": "Trace"
+      "1": "Super Luck"
     },
     nfe: false
   },
@@ -30619,11 +30629,11 @@ exports.BattlePokedex = {
     tags: [],
     baseStats: {
       hp: 70,
-      atk: 60,
+      atk: 50,
       def: 70,
-      spe: 120,
+      spe: 125,
       spa: 125,
-      spd: 90
+      spd: 95
     },
     evoLevel: 25,
     evoItem: "Ghost Gem",
@@ -31781,6 +31791,10 @@ exports.BattlePokedex = {
     tags: [
       "Mythical"
     ],
+    types: [
+      "Flying",
+      "Grass"
+    ],
     baseStats: {
       hp: 65,
       atk: 93,
@@ -31793,10 +31807,6 @@ exports.BattlePokedex = {
     name: "Shaymin-Sky",
     baseSpecies: "Shaymin",
     forme: "Sky",
-    types: [
-      "Grass",
-      "Flying"
-    ],
     weightkg: 5.2,
     eggGroups: [
       "Undiscovered"
@@ -32459,7 +32469,8 @@ exports.BattlePokedex = {
     },
     abilities: {
       "0": "Instinct",
-      "1": "Tinted Lens"
+      "1": "Emergency Exit",
+      H: "Tinted Lens"
     },
     evos: [
       "Watchog"
@@ -32513,7 +32524,8 @@ exports.BattlePokedex = {
     },
     abilities: {
       "0": "Instinct",
-      "1": "Tinted Lens"
+      "1": "Sap Sipper",
+      H: "Tinted Lens"
     },
     nfe: false,
     prevo: "Patrat"
@@ -33156,11 +33168,11 @@ exports.BattlePokedex = {
     ],
     baseStats: {
       hp: 116,
-      atk: 45,
-      def: 90,
+      atk: 35,
+      def: 95,
       spe: 29,
       spa: 117,
-      spd: 128
+      spd: 143
     },
     evoLevel: 28,
     evoItem: null,
@@ -33185,7 +33197,7 @@ exports.BattlePokedex = {
     forme: "",
     baseForme: "",
     canHatch: false,
-    bst: 525,
+    bst: 535,
     weighthg: 605,
     unreleasedHidden: false,
     maleOnlyHidden: false,
@@ -34533,8 +34545,9 @@ exports.BattlePokedex = {
       F: 0.5
     },
     abilities: {
-      "0": "Technician",
-      "1": "Tinted Lens"
+      "0": "Grassy Surge",
+      "1": "Technician",
+      H: "Tinted Lens"
     },
     nfe: false,
     prevo: "Swadloon"
@@ -35251,8 +35264,8 @@ exports.BattlePokedex = {
     ],
     baseStats: {
       hp: 105,
-      atk: 145,
-      def: 75,
+      atk: 150,
+      def: 70,
       spe: 105,
       spa: 30,
       spd: 55
@@ -35627,15 +35640,12 @@ exports.BattlePokedex = {
     tags: [],
     baseStats: {
       hp: 72,
-      atk: 58,
+      atk: 43,
       def: 80,
-      spe: 112,
+      spe: 127,
       spa: 133,
       spd: 95
     },
-    evoLevel: 30,
-    evoType: "useItem",
-    evoItem: "Flying Gem",
     num: 561,
     name: "Sigilyph",
     types: [
@@ -35659,7 +35669,7 @@ exports.BattlePokedex = {
     baseSpecies: "Sigilyph",
     forme: "",
     baseForme: "",
-    canHatch: false,
+    canHatch: true,
     bst: 550,
     weighthg: 140,
     unreleasedHidden: false,
@@ -35674,8 +35684,7 @@ exports.BattlePokedex = {
       "0": "Magic Guard",
       "1": "Neuroforce"
     },
-    nfe: false,
-    prevo: "Unown"
+    nfe: false
   },
   yamask: {
     tags: [],
@@ -35788,9 +35797,9 @@ exports.BattlePokedex = {
     baseStats: {
       hp: 54,
       atk: 78,
-      def: 113,
+      def: 118,
       spe: 22,
-      spa: 53,
+      spa: 48,
       spd: 80
     },
     num: 564,
@@ -35844,8 +35853,8 @@ exports.BattlePokedex = {
       atk: 118,
       def: 143,
       spe: 32,
-      spa: 73,
-      spd: 100
+      spa: 53,
+      spd: 120
     },
     evoLevel: 33,
     num: 565,
@@ -36251,7 +36260,7 @@ exports.BattlePokedex = {
     },
     abilities: {
       "0": "Technician",
-      "1": "Prankster"
+      "1": "Wimp Out"
     },
     evos: [
       "Cinccino"
@@ -37472,8 +37481,9 @@ exports.BattlePokedex = {
       F: 0.5
     },
     abilities: {
-      "0": "Tinted Lens",
-      "1": "Lightning Rod"
+      "0": "Lightning Rod",
+      "1": "Wimp Out",
+      H: "Tinted Lens"
     },
     evos: [
       "Galvantula"
@@ -37526,8 +37536,9 @@ exports.BattlePokedex = {
       F: 0.5
     },
     abilities: {
-      "0": "Tinted Lens",
-      "1": "Electric Surge"
+      "0": "Lightning Rod",
+      "1": "Electric Surge",
+      H: "Tinted Lens"
     },
     nfe: false,
     prevo: "Joltik"
@@ -37969,8 +37980,8 @@ exports.BattlePokedex = {
       atk: 30,
       def: 85,
       spe: 30,
-      spa: 110,
-      spd: 100
+      spa: 115,
+      spd: 105
     },
     num: 605,
     name: "Elgyem",
@@ -37995,7 +38006,7 @@ exports.BattlePokedex = {
     baseForme: "",
     doublesTier: " ",
     canHatch: true,
-    bst: 410,
+    bst: 420,
     weighthg: 90,
     unreleasedHidden: false,
     maleOnlyHidden: false,
@@ -38007,7 +38018,8 @@ exports.BattlePokedex = {
     },
     abilities: {
       "0": "Analytic",
-      "1": "Tinted Lens"
+      "1": "Neuroforce",
+      H: "Tinted Lens"
     },
     evos: [
       "Beheeyem"
@@ -38060,7 +38072,7 @@ exports.BattlePokedex = {
     },
     abilities: {
       "0": "Analytic",
-      "1": "Tinted Lens",
+      "1": "Neuroforce",
       H: "Interstellar"
     },
     nfe: false,
@@ -38403,12 +38415,12 @@ exports.BattlePokedex = {
       "Water"
     ],
     baseStats: {
-      hp: 57,
-      atk: 70,
-      def: 60,
+      hp: 62,
+      atk: 75,
+      def: 65,
       spe: 53,
       spa: 50,
-      spd: 60
+      spd: 65
     },
     num: 613,
     name: "Cubchoo",
@@ -38430,7 +38442,7 @@ exports.BattlePokedex = {
     baseForme: "",
     doublesTier: " ",
     canHatch: true,
-    bst: 350,
+    bst: 370,
     weighthg: 85,
     unreleasedHidden: false,
     maleOnlyHidden: false,
@@ -38463,7 +38475,7 @@ exports.BattlePokedex = {
       spa: 60,
       spd: 80
     },
-    evoLevel: 30,
+    evoLevel: 29,
     num: 614,
     name: "Beartic",
     weightkg: 260,
@@ -40787,8 +40799,9 @@ exports.BattlePokedex = {
       F: 0
     },
     abilities: {
-      "0": "Tinted Lens",
-      "1": "Versatility"
+      "0": "Instinct",
+      "1": "Versatility",
+      H: "Tinted Lens"
     },
     nfe: false
   },
@@ -42233,7 +42246,7 @@ exports.BattlePokedex = {
     },
     abilities: {
       "0": "Hustle",
-      "1": "Scrappy"
+      "1": "Sap Sipper"
     },
     evos: [
       "Pangoro"
@@ -43922,7 +43935,7 @@ exports.BattlePokedex = {
       F: 0.5
     },
     abilities: {
-      "0": "Sand Force",
+      "0": "Dry Skin",
       "1": "Solar Power"
     },
     evos: [
@@ -45471,9 +45484,9 @@ exports.BattlePokedex = {
     ],
     baseStats: {
       hp: 75,
-      atk: 90,
+      atk: 75,
       def: 125,
-      spe: 110,
+      spe: 125,
       spa: 175,
       spd: 125
     },
@@ -45850,8 +45863,9 @@ exports.BattlePokedex = {
       F: 0.5
     },
     abilities: {
-      "0": "Tinted Lens",
-      "1": "Technician"
+      "0": "No Guard",
+      "1": "Technician",
+      H: "Tinted Lens"
     },
     nfe: false,
     prevo: "Dartrix"
@@ -46380,7 +46394,7 @@ exports.BattlePokedex = {
     },
     abilities: {
       "0": "Adaptability",
-      "1": "Strong Jaw",
+      "1": "Hustle",
       H: "Stakeout"
     },
     evos: [
@@ -47968,11 +47982,11 @@ exports.BattlePokedex = {
     tags: [],
     baseStats: {
       hp: 45,
-      atk: 65,
-      def: 55,
-      spe: 65,
-      spa: 65,
-      spd: 55
+      atk: 70,
+      def: 60,
+      spe: 75,
+      spa: 60,
+      spd: 60
     },
     num: 753,
     name: "Fomantis",
@@ -47997,7 +48011,7 @@ exports.BattlePokedex = {
     baseForme: "",
     doublesTier: " ",
     canHatch: true,
-    bst: 350,
+    bst: 370,
     weighthg: 15,
     unreleasedHidden: false,
     maleOnlyHidden: false,
@@ -48008,8 +48022,8 @@ exports.BattlePokedex = {
       F: 0.5
     },
     abilities: {
-      "0": "Tinted Lens",
-      "1": "Solar Power"
+      "0": "Grassy Guard",
+      "1": "Contrary"
     },
     evos: [
       "Lurantis",
@@ -48022,10 +48036,10 @@ exports.BattlePokedex = {
     baseStats: {
       hp: 70,
       atk: 110,
-      def: 75,
+      def: 90,
       spe: 105,
-      spa: 100,
-      spd: 75
+      spa: 60,
+      spd: 90
     },
     evoLevel: 22,
     evoCondition: null,
@@ -48052,7 +48066,7 @@ exports.BattlePokedex = {
     forme: "",
     baseForme: "",
     canHatch: false,
-    bst: 535,
+    bst: 525,
     weighthg: 185,
     unreleasedHidden: false,
     maleOnlyHidden: false,
@@ -48063,8 +48077,8 @@ exports.BattlePokedex = {
       F: 0.5
     },
     abilities: {
-      "0": "Tinted Lens",
-      "1": "Solar Power"
+      "0": "Super Luck",
+      "1": "Contrary"
     },
     nfe: false,
     otherFormes: [
@@ -48083,12 +48097,12 @@ exports.BattlePokedex = {
   lurantistotem: {
     tags: [],
     baseStats: {
-      hp: 95,
+      hp: 90,
       atk: 110,
-      def: 75,
+      def: 90,
       spe: 95,
       spa: 100,
-      spd: 75
+      spd: 90
     },
     evoLevel: 22,
     evoType: "useItem",
@@ -48116,7 +48130,7 @@ exports.BattlePokedex = {
     isNonstandard: null,
     baseForme: "",
     canHatch: false,
-    bst: 550,
+    bst: 575,
     weighthg: 580,
     unreleasedHidden: false,
     maleOnlyHidden: false,
@@ -48127,7 +48141,7 @@ exports.BattlePokedex = {
       F: 0.5
     },
     abilities: {
-      "0": "Tinted Lens",
+      "0": "Adaptability",
       "1": "Contrary"
     },
     nfe: false,
@@ -48945,10 +48959,10 @@ exports.BattlePokedex = {
     baseStats: {
       hp: 55,
       atk: 30,
-      def: 85,
+      def: 95,
       spe: 15,
       spa: 80,
-      spd: 85
+      spd: 95
     },
     num: 769,
     name: "Sandygast",
@@ -48974,7 +48988,7 @@ exports.BattlePokedex = {
     baseForme: "",
     doublesTier: " ",
     canHatch: true,
-    bst: 350,
+    bst: 370,
     weighthg: 700,
     unreleasedHidden: false,
     maleOnlyHidden: false,
@@ -48996,7 +49010,7 @@ exports.BattlePokedex = {
   palossand: {
     tags: [],
     baseStats: {
-      hp: 100,
+      hp: 110,
       atk: 60,
       def: 115,
       spe: 25,
@@ -49028,7 +49042,7 @@ exports.BattlePokedex = {
     forme: "",
     baseForme: "",
     canHatch: false,
-    bst: 525,
+    bst: 535,
     weighthg: 2500,
     unreleasedHidden: false,
     maleOnlyHidden: false,
@@ -49163,7 +49177,7 @@ exports.BattlePokedex = {
       spa: 115,
       spd: 80
     },
-    evoLevel: 45,
+    evoLevel: 50,
     evoType: "useItem",
     evoItem: "Normal Gem",
     num: 773,
@@ -49658,11 +49672,11 @@ exports.BattlePokedex = {
       "Grass"
     ],
     baseStats: {
-      hp: 75,
+      hp: 70,
       atk: 115,
       def: 115,
       spe: 65,
-      spa: 60,
+      spa: 75,
       spd: 95
     },
     num: 775,
@@ -49685,7 +49699,7 @@ exports.BattlePokedex = {
     forme: "",
     baseForme: "",
     canHatch: true,
-    bst: 525,
+    bst: 535,
     weighthg: 199,
     unreleasedHidden: false,
     maleOnlyHidden: false,
@@ -50800,10 +50814,10 @@ exports.BattlePokedex = {
     baseStats: {
       hp: 139,
       atk: 157,
-      def: 127,
+      def: 139,
       spe: 97,
-      spa: 113,
-      spd: 127
+      spa: 131,
+      spd: 137
     },
     evoLevel: 100,
     num: 791,
@@ -50830,7 +50844,7 @@ exports.BattlePokedex = {
     forme: "",
     baseForme: "",
     canHatch: false,
-    bst: 760,
+    bst: 800,
     weighthg: 2300,
     unreleasedHidden: false,
     maleOnlyHidden: false,
@@ -50855,10 +50869,10 @@ exports.BattlePokedex = {
     baseStats: {
       hp: 139,
       atk: 113,
-      def: 103,
-      spe: 97,
-      spa: 157,
-      spd: 151
+      def: 113,
+      spe: 109,
+      spa: 163,
+      spd: 163
     },
     evoLevel: 100,
     num: 792,
@@ -50885,7 +50899,7 @@ exports.BattlePokedex = {
     forme: "",
     baseForme: "",
     canHatch: false,
-    bst: 760,
+    bst: 800,
     weighthg: 1200,
     unreleasedHidden: false,
     maleOnlyHidden: false,
@@ -51057,8 +51071,9 @@ exports.BattlePokedex = {
       F: 0
     },
     abilities: {
-      "0": "Tinted Lens",
-      "1": "Technician"
+      "0": "Queenly Majesty",
+      "1": "Technician",
+      H: "Tinted Lens"
     },
     nfe: false
   },
@@ -51283,12 +51298,12 @@ exports.BattlePokedex = {
       "Dark"
     ],
     baseStats: {
-      hp: 103,
-      atk: 127,
-      def: 101,
-      spe: 97,
-      spa: 131,
-      spd: 101
+      hp: 139,
+      atk: 149,
+      def: 131,
+      spe: 101,
+      spa: 149,
+      spd: 131
     },
     num: 800,
     name: "Necrozma",
@@ -51310,7 +51325,7 @@ exports.BattlePokedex = {
     forme: "",
     baseForme: "",
     canHatch: false,
-    bst: 660,
+    bst: 800,
     weighthg: 2300,
     unreleasedHidden: false,
     maleOnlyHidden: false,
@@ -51350,11 +51365,11 @@ exports.BattlePokedex = {
     ],
     baseStats: {
       hp: 139,
-      atk: 139,
-      def: 131,
-      spe: 97,
-      spa: 157,
-      spd: 157
+      atk: 137,
+      def: 139,
+      spe: 127,
+      spa: 179,
+      spd: 179
     },
     num: 800,
     name: "Necrozma-Dawn-Wings",
@@ -51381,7 +51396,7 @@ exports.BattlePokedex = {
     isNonstandard: null,
     baseForme: "",
     canHatch: false,
-    bst: 820,
+    bst: 900,
     weighthg: 3500,
     unreleasedHidden: false,
     maleOnlyHidden: false,
@@ -51404,11 +51419,11 @@ exports.BattlePokedex = {
     ],
     baseStats: {
       hp: 139,
-      atk: 157,
-      def: 139,
-      spe: 97,
-      spa: 149,
-      spd: 139
+      atk: 173,
+      def: 157,
+      spe: 101,
+      spa: 173,
+      spd: 157
     },
     num: 800,
     name: "Necrozma-Dusk-Mane",
@@ -51435,7 +51450,7 @@ exports.BattlePokedex = {
     isNonstandard: null,
     baseForme: "",
     canHatch: false,
-    bst: 820,
+    bst: 900,
     weighthg: 4600,
     unreleasedHidden: false,
     maleOnlyHidden: false,
@@ -51459,10 +51474,10 @@ exports.BattlePokedex = {
     baseStats: {
       hp: 139,
       atk: 199,
-      def: 103,
-      spe: 137,
+      def: 107,
+      spe: 199,
       spa: 199,
-      spd: 103
+      spd: 157
     },
     num: 800,
     name: "Necrozma-Ultra",
@@ -51496,7 +51511,7 @@ exports.BattlePokedex = {
     requiredItems: [
       "Ultranecrozium Z"
     ],
-    bst: 880,
+    bst: 1000,
     weighthg: 2300,
     unreleasedHidden: false,
     maleOnlyHidden: false,

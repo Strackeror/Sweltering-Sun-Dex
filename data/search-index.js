@@ -782,10 +782,6 @@ exports.BattleSearchIndex = [
     "pokemon"
   ],
   [
-    "braindrain",
-    "move"
-  ],
-  [
     "braixen",
     "pokemon"
   ],
@@ -1196,6 +1192,10 @@ exports.BattleSearchIndex = [
   [
     "chopleberry",
     "item"
+  ],
+  [
+    "chromosomecrush",
+    "move"
   ],
   [
     "cinccino",
@@ -9355,7 +9355,6 @@ exports.BattleSearchIndexOffset = [
   "00000001111",
   "",
   "",
-  "0000011111",
   "",
   "00000011111",
   "000001111",
@@ -9459,6 +9458,7 @@ exports.BattleSearchIndexOffset = [
   "00000011111",
   "00000011111",
   "00000011111",
+  "000000000011111",
   "",
   "00000011111",
   "",
@@ -11453,7 +11453,7 @@ exports.BattleSearchIndexOffset = [
 
 exports.BattleSearchCountIndex = {
   "Ice move": 24,
-  "Fairy move": 37,
+  "Fairy move": 36,
   "Fighting move": 45,
   "Ghost move": 26,
   "Bug move": 31,
@@ -11463,7 +11463,7 @@ exports.BattleSearchCountIndex = {
   "Fire move": 38,
   "Flying move": 29,
   "Grass move": 48,
-  "Ground move": 29,
+  "Ground move": 30,
   "Normal move": 118,
   "Poison move": 32,
   "Psychic move": 68,
@@ -11471,7 +11471,7 @@ exports.BattleSearchCountIndex = {
   "Steel move": 28,
   "Water move": 48,
   "Ice pokemon": 48,
-  "Fairy pokemon": 100,
+  "Fairy pokemon": 101,
   "Fighting pokemon": 76,
   "Ghost pokemon": 56,
   "Bug pokemon": 90,
@@ -11479,10 +11479,10 @@ exports.BattleSearchCountIndex = {
   "Dragon pokemon": 73,
   "Electric pokemon": 70,
   "Fire pokemon": 78,
-  "Flying pokemon": 113,
+  "Flying pokemon": 115,
   "Grass pokemon": 103,
   "Ground pokemon": 87,
-  "Normal pokemon": 137,
+  "Normal pokemon": 136,
   "Poison pokemon": 93,
   "Psychic pokemon": 111,
   "Rock pokemon": 75,
