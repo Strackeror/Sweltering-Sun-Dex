@@ -2091,14 +2091,14 @@ exports.BattleAbilities = {
     gen: 5,
     isNonstandard: null
   },
-  debug: {
+  gastroacid: {
     exists: true,
-    name: "Debug",
+    name: "Gastro Acid",
     num: 152,
     desc: "Contact with the Pokemon changes the attacker’s\nAbility to Debug.",
     shortDesc: "Contact with the Pokemon changes the attacker’s\nAbility to Debug.",
-    id: "debug",
-    fullname: "ability: Debug",
+    id: "gastroacid",
+    fullname: "ability: Gastro Acid",
     effectType: "Ability",
     kind: "Ability",
     gen: 5,

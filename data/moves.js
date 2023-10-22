@@ -3511,8 +3511,8 @@ exports.BattleMovedex = {
     exists: true,
     accuracy: 100,
     pp: 20,
-    desc: "The opposing Pokemon are bound with silk. This\nlowers their Speed by 2, & Sp. Atk by 1.\nZ-Effect +3 Accuracy.",
-    shortDesc: "The opposing Pokemon are bound with silk. This\nlowers their Speed by 2, & Sp. Atk by 1.\nZ-Effect +3 Accuracy.",
+    desc: "The opposing Pokemon are bound with silk. This\nlowers their Speed by 2, & Sp. Atk by 2.\nZ-Effect +3 Speed.",
+    shortDesc: "The opposing Pokemon are bound with silk. This\nlowers their Speed by 2, & Sp. Atk by 2.\nZ-Effect +3 Speed.",
     flags: {
       mirror: 1,
       protect: 1,
@@ -3528,7 +3528,7 @@ exports.BattleMovedex = {
       {
         chance: 100,
         boosts: {
-          spa: -1
+          spa: -2
         }
       }
     ],
@@ -5296,7 +5296,7 @@ exports.BattleMovedex = {
   eggcannon: {
     exists: true,
     num: 121,
-    accuracy: 90,
+    accuracy: 100,
     basePower: 25,
     category: "Physical",
     name: "Egg Cannon",
@@ -5308,6 +5308,7 @@ exports.BattleMovedex = {
     desc: "The user fires a barrage of three exploding eggs.\nThis hits 3 times and ALWAYS lands a critical hit.",
     shortDesc: "The user fires a barrage of three exploding eggs.\nThis hits 3 times and ALWAYS lands a critical hit.",
     flags: {
+      heal: 1,
       mirror: 1,
       protect: 1
     },
@@ -5473,16 +5474,17 @@ exports.BattleMovedex = {
   boneclub: {
     exists: true,
     accuracy: 100,
-    basePower: 85,
-    pp: 10,
-    desc: "The user clubs the target with a hard bone.\nThis ALWAYS lowers the foe's Defense by 1.",
-    shortDesc: "The user clubs the target with a hard bone.\nThis ALWAYS lowers the foe's Defense by 1.",
+    basePower: 90,
+    pp: 1,
+    priority: 4,
+    desc: "The user clubs the target with a hard bone.\nThis ALWAYS lowers the foe's Defense by 1,\nand ALWAYS flinches the foe. +4 Priority.",
+    shortDesc: "The user clubs the target with a hard bone.\nThis ALWAYS lowers the foe's Defense by 1,\nand ALWAYS flinches the foe. +4 Priority.",
     flags: {
       mirror: 1,
       protect: 1
     },
     zMove: {
-      basePower: 170
+      basePower: 175
     },
     secondaries: [
       {
@@ -5491,16 +5493,20 @@ exports.BattleMovedex = {
       },
       {
         chance: 100,
+        volatileStatus: "flinch"
+      },
+      {
+        chance: 100,
         boosts: {
           def: -1
         }
       }
     ],
+    noPPBoosts: true,
     isNonstandard: null,
     num: 125,
     category: "Physical",
     name: "Bone Club",
-    priority: 0,
     secondary: {
       chance: 10,
       volatileStatus: "flinch"
@@ -6162,11 +6168,11 @@ exports.BattleMovedex = {
   triplecannonade: {
     exists: true,
     num: 140,
-    accuracy: 90,
+    accuracy: 100,
     basePower: 25,
     category: "Physical",
     name: "Triple Cannonade",
-    pp: 5,
+    pp: 3,
     priority: 0,
     critRatio: 7,
     type: "Steel",
@@ -6183,6 +6189,7 @@ exports.BattleMovedex = {
     zMove: {
       basePower: 190
     },
+    noPPBoosts: true,
     id: "triplecannonade",
     fullname: "move: Triple Cannonade",
     effectType: "Move",
@@ -7685,8 +7692,8 @@ exports.BattleMovedex = {
   },
   aeroblast: {
     exists: true,
+    accuracy: 100,
     basePower: 65,
-    pp: 10,
     critRatio: 7,
     target: "normal",
     desc: "A fierce vortex of air is shot at the target.\nThis ALWAYS results in a critical hit.\nThis is now a Sound Move.",
@@ -7703,9 +7710,9 @@ exports.BattleMovedex = {
     },
     isNonstandard: null,
     num: 177,
-    accuracy: 95,
     category: "Special",
     name: "Aeroblast",
+    pp: 5,
     priority: 0,
     secondary: null,
     type: "Flying",
@@ -7727,8 +7734,8 @@ exports.BattleMovedex = {
   cottonspore: {
     exists: true,
     pp: 10,
-    desc: "The user releases cotton-like spores that cling to\nthe foes, lowering Speed by 2, and Sp. Atk by 1.\nZ-Effect gives the user +3 Defense.",
-    shortDesc: "The user releases cotton-like spores that cling to\nthe foes, lowering Speed by 2, and Sp. Atk by 1.\nZ-Effect gives the user +3 Defense.",
+    desc: "The user releases cotton-like spores that cling to\nthe foes, lowering Speed by 2, and Sp. Atk by 2.\nZ-Effect gives the user +3 Defense.",
+    shortDesc: "The user releases cotton-like spores that cling to\nthe foes, lowering Speed by 2, and Sp. Atk by 2.\nZ-Effect gives the user +3 Defense.",
     flags: {
       mirror: 1,
       protect: 1,
@@ -7744,7 +7751,7 @@ exports.BattleMovedex = {
       {
         chance: 100,
         boosts: {
-          spa: -1
+          spa: -2
         }
       }
     ],
@@ -7822,13 +7829,13 @@ exports.BattleMovedex = {
     basePower: 0,
     category: "Status",
     name: "Spiteful Spell",
-    pp: 10,
-    priority: 0,
+    pp: 5,
+    priority: 4,
     critRatio: 1,
     type: "Ghost",
     target: "normal",
-    desc: "The user casts a spiteful spell on the foe, preventing\nthe foe from using Fairy moves for 5 turns, as well\nas removing 4 PP from their last used move.",
-    shortDesc: "The user casts a spiteful spell on the foe, preventing\nthe foe from using Fairy moves for 5 turns, as well\nas removing 4 PP from their last used move.",
+    desc: "The user casts a spiteful spell on the foe, disabling\nfairy moves for 15 turns and removing 4 PP.\nThis has +4 Priority. Z-Effect heals user.",
+    shortDesc: "The user casts a spiteful spell on the foe, disabling\nfairy moves for 15 turns and removing 4 PP.\nThis has +4 Priority. Z-Effect heals user.",
     flags: {
       bypasssub: 1,
       mirror: 1,
@@ -8030,11 +8037,11 @@ exports.BattleMovedex = {
   wickedblow: {
     exists: true,
     num: 185,
-    accuracy: 90,
+    accuracy: 100,
     basePower: 80,
     category: "Physical",
     name: "Wicked Blow",
-    pp: 5,
+    pp: 3,
     priority: 0,
     critRatio: 7,
     type: "Dark",
@@ -8049,6 +8056,7 @@ exports.BattleMovedex = {
     zMove: {
       basePower: 190
     },
+    noPPBoosts: true,
     id: "wickedblow",
     fullname: "move: Wicked Blow",
     effectType: "Move",
@@ -8153,12 +8161,6 @@ exports.BattleMovedex = {
       protect: 1,
       bullet: 1
     },
-    secondaries: [
-      {
-        chance: 25,
-        status: "psn"
-      }
-    ],
     num: 188,
     accuracy: 100,
     category: "Special",
@@ -8178,6 +8180,12 @@ exports.BattleMovedex = {
     gen: 2,
     isNonstandard: null,
     critRatio: 1,
+    secondaries: [
+      {
+        chance: 30,
+        status: "psn"
+      }
+    ],
     hasSheerForce: false,
     ignoreImmunity: false,
     isZ: false,
@@ -11012,14 +11020,15 @@ exports.BattleMovedex = {
     name: "Spew Out",
     pp: 15,
     priority: 0,
-    critRatio: 1,
+    critRatio: 7,
     type: "Poison",
     target: "normal",
-    desc: "The user upchucks its caustic stomach contents.\nFor every Stockpile use, this gains 100 BP, maxing at\n300 BP. This ALWAYS lowers the foe's Sp. Def by 4.",
-    shortDesc: "The user upchucks its caustic stomach contents.\nFor every Stockpile use, this gains 100 BP, maxing at\n300 BP. This ALWAYS lowers the foe's Sp. Def by 4.",
+    desc: "The user upchucks its caustic stomach contents.\nFor every Stockpile use, this gains 100 BP, maxing at\n300 BP. ALWAYS crits & drops Sp. Def by 4.",
+    shortDesc: "The user upchucks its caustic stomach contents.\nFor every Stockpile use, this gains 100 BP, maxing at\n300 BP. ALWAYS crits & drops Sp. Def by 4.",
     flags: {
       protect: 1
     },
+    willCrit: true,
     zMove: {
       basePower: 230
     },
@@ -11083,8 +11092,9 @@ exports.BattleMovedex = {
   },
   heatwave: {
     exists: true,
-    accuracy: 95,
+    accuracy: 100,
     basePower: 65,
+    pp: 5,
     critRatio: 7,
     desc: "The user blows a burning, abrasive wind at the foes.\nThis will ALWAYS result in a critical hit.",
     shortDesc: "The user blows a burning, abrasive wind at the foes.\nThis will ALWAYS result in a critical hit.",
@@ -11097,7 +11107,6 @@ exports.BattleMovedex = {
     num: 257,
     category: "Special",
     name: "Heat Wave",
-    pp: 10,
     priority: 0,
     secondary: {
       chance: 10,
@@ -11804,9 +11813,9 @@ exports.BattleMovedex = {
   },
   ingrain: {
     exists: true,
-    pp: 3,
-    desc: "The user digs roots in the ground, locking itself on\nthe field & lowering Speed by 5. In exchange, the user\ngains +1 Sp. Atk & Sp. Def & heals 6% HP each turn.",
-    shortDesc: "The user digs roots in the ground, locking itself on\nthe field & lowering Speed by 5. In exchange, the user\ngains +1 Sp. Atk & Sp. Def & heals 6% HP each turn.",
+    pp: 1,
+    desc: "The user digs roots in the ground, locking itself on\nthe field, but heals 1/16 per turn. Gives -3 Speed\nfor +3 SP. ATK/SPDEF. Z-Effect gives +3 DEFENSE.",
+    shortDesc: "The user digs roots in the ground, locking itself on\nthe field, but heals 1/16 per turn. Gives -3 Speed\nfor +3 SP. ATK/SPDEF. Z-Effect gives +3 DEFENSE.",
     flags: {
       dance: 1,
       snatch: 1
@@ -11819,19 +11828,19 @@ exports.BattleMovedex = {
       {
         chance: 0,
         boosts: {
-          spd: 1
+          spd: 3
         }
       },
       {
         chance: 0,
         boosts: {
-          spa: 1
+          spa: 3
         }
       },
       {
         chance: 0,
         boosts: {
-          spe: -5
+          spe: -3
         }
       }
     ],
@@ -15683,7 +15692,7 @@ exports.BattleMovedex = {
   },
   brine: {
     exists: true,
-    basePower: 70,
+    basePower: 75,
     desc: "The user douses the foe in water.\nIf the target’s HP is 50% or less, this attack will hit\nwith double the power.",
     shortDesc: "The user douses the foe in water.\nIf the target’s HP is 50% or less, this attack will hit\nwith double the power.",
     flags: {
@@ -15691,7 +15700,7 @@ exports.BattleMovedex = {
       protect: 1
     },
     zMove: {
-      basePower: 140
+      basePower: 150
     },
     num: 362,
     accuracy: 100,
@@ -15716,7 +15725,7 @@ exports.BattleMovedex = {
     isMax: false,
     ignoreAbility: false,
     maxMove: {
-      basePower: 120
+      basePower: 130
     }
   },
   naturalgift: {
@@ -16330,8 +16339,8 @@ exports.BattleMovedex = {
     critRatio: 7,
     type: "Psychic",
     target: "normal",
-    desc: "Mew mangles the opponent's DNA. This deals more\ndamage depending how much HP the target has left.\nMax of 120 BP. ALWAYS crits. SIGNATURE Z-MOVE.",
-    shortDesc: "Mew mangles the opponent's DNA. This deals more\ndamage depending how much HP the target has left.\nMax of 120 BP. ALWAYS crits. SIGNATURE Z-MOVE.",
+    desc: "The user mangles the opponent's DNA. This deals more\ndamage depending how much HP the target has left.\nMax of 120 BP. ALWAYS crits. MEW HAS SIGNATURE Z-MOVE.",
+    shortDesc: "The user mangles the opponent's DNA. This deals more\ndamage depending how much HP the target has left.\nMax of 120 BP. ALWAYS crits. MEW HAS SIGNATURE Z-MOVE.",
     flags: {
       mirror: 1,
       protect: 1
@@ -16791,8 +16800,8 @@ exports.BattleMovedex = {
   toxicspikes: {
     exists: true,
     target: "normal",
-    desc: "The user lays a trap of toxic spikes on the opponent's\nside. One layer poisons, two layers badly poison.\nZ-Effect +2 Defense.",
-    shortDesc: "The user lays a trap of toxic spikes on the opponent's\nside. One layer poisons, two layers badly poison.\nZ-Effect +2 Defense.",
+    desc: "The user lays a trap of toxic spikes on the opponent's\nside. One layer poisons, two layers badly poison.\nZ-Effect +3 Defense.",
+    shortDesc: "The user lays a trap of toxic spikes on the opponent's\nside. One layer poisons, two layers badly poison.\nZ-Effect +3 Defense.",
     flags: {
       reflectable: 1
     },
@@ -19941,11 +19950,11 @@ exports.BattleMovedex = {
   subspacetear: {
     exists: true,
     num: 460,
-    accuracy: 90,
+    accuracy: 100,
     basePower: 80,
     category: "Special",
     name: "Subspace Tear",
-    pp: 5,
+    pp: 3,
     priority: 0,
     critRatio: 7,
     type: "Psychic",
@@ -19959,6 +19968,7 @@ exports.BattleMovedex = {
     zMove: {
       basePower: 190
     },
+    noPPBoosts: true,
     id: "subspacetear",
     fullname: "move: Subspace Tear",
     effectType: "Move",
@@ -20834,9 +20844,8 @@ exports.BattleMovedex = {
   },
   stormthrow: {
     exists: true,
-    accuracy: 90,
     basePower: 80,
-    pp: 5,
+    pp: 3,
     critRatio: 7,
     desc: "The user throws the target violently.\nThis ALWAYS results in a critical hit.\nBypasses Protect. Contact.",
     shortDesc: "The user throws the target violently.\nThis ALWAYS results in a critical hit.\nBypasses Protect. Contact.",
@@ -20847,8 +20856,10 @@ exports.BattleMovedex = {
     zMove: {
       basePower: 190
     },
+    noPPBoosts: true,
     isNonstandard: null,
     num: 480,
+    accuracy: 100,
     category: "Physical",
     name: "Storm Throw",
     priority: 0,
@@ -21845,22 +21856,28 @@ exports.BattleMovedex = {
   },
   scald: {
     exists: true,
-    basePower: 75,
-    desc: "The user shoots boiling hot water at its target.\nThis burns the target 30% of the time.\n(More like 100%, am I right?)",
-    shortDesc: "The user shoots boiling hot water at its target.\nThis burns the target 30% of the time.\n(More like 100%, am I right?)",
+    basePower: 60,
+    pp: 10,
+    desc: "The user shoots boiling hot water at its target.\nThis ALWAYS burns the target.",
+    shortDesc: "The user shoots boiling hot water at its target.\nThis ALWAYS burns the target.",
     flags: {
       defrost: 1,
       mirror: 1,
       protect: 1
     },
     zMove: {
-      basePower: 150
+      basePower: 120
     },
+    secondaries: [
+      {
+        chance: 100,
+        status: "brn"
+      }
+    ],
     num: 503,
     accuracy: 100,
     category: "Special",
     name: "Scald",
-    pp: 15,
     priority: 0,
     thawsTarget: true,
     secondary: {
@@ -21876,19 +21893,13 @@ exports.BattleMovedex = {
     gen: 5,
     isNonstandard: null,
     critRatio: 1,
-    secondaries: [
-      {
-        chance: 30,
-        status: "brn"
-      }
-    ],
     hasSheerForce: false,
     ignoreImmunity: false,
     isZ: false,
     isMax: false,
     ignoreAbility: false,
     maxMove: {
-      basePower: 130
+      basePower: 110
     }
   },
   shellsmash: {
@@ -22770,8 +22781,9 @@ exports.BattleMovedex = {
   },
   frostbreath: {
     exists: true,
-    accuracy: 95,
+    accuracy: 100,
     basePower: 65,
+    pp: 5,
     critRatio: 7,
     desc: "The user blows its freezing breath on the target.\nThis attack always results in a critical hit.",
     shortDesc: "The user blows its freezing breath on the target.\nThis attack always results in a critical hit.",
@@ -22785,7 +22797,6 @@ exports.BattleMovedex = {
     num: 524,
     category: "Special",
     name: "Frost Breath",
-    pp: 10,
     priority: 0,
     willCrit: true,
     secondary: null,
@@ -23958,8 +23969,8 @@ exports.BattleMovedex = {
     critRatio: 1,
     type: "Electric",
     target: "normal",
-    desc: "The user surrounds itself with a great amount of\nelectricity and charges the foe. This drops the user's\nDefenses by 1 after use. Contact.",
-    shortDesc: "The user surrounds itself with a great amount of\nelectricity and charges the foe. This drops the user's\nDefenses by 1 after use. Contact.",
+    desc: "The user surrounds itself with a great amount of\nelectricity and charges the foe. This drops the user's\nDefenses by 1 after use, & deals 30% recoil. Contact.",
+    shortDesc: "The user surrounds itself with a great amount of\nelectricity and charges the foe. This drops the user's\nDefenses by 1 after use, & deals 30% recoil. Contact.",
     flags: {
       contact: 1,
       mirror: 1,
@@ -24565,6 +24576,7 @@ exports.BattleMovedex = {
   rototiller: {
     exists: true,
     pp: 1,
+    type: "Grass",
     target: "normal",
     desc: "Plowing the soil, the user boosts the Attack & Sp. Atk\nof any Grass-type on the field, including itself, by 2.\nZ-Effect gives +1 all stats.",
     shortDesc: "Plowing the soil, the user boosts the Attack & Sp. Atk\nof any Grass-type on the field, including itself, by 2.\nZ-Effect gives +1 all stats.",
@@ -24595,7 +24607,6 @@ exports.BattleMovedex = {
     name: "Rototiller",
     priority: 0,
     secondary: null,
-    type: "Ground",
     zMove: {
       boost: {
         atk: 1
@@ -24907,8 +24918,8 @@ exports.BattleMovedex = {
     exists: true,
     name: "Forest’s Curse",
     pp: 3,
-    desc: "The user puts a curse on the foe that not only adds\nthe Grass type to the foe, but causes them to lose\n25% HP at the end of each turn. Z-Effect +1 all stats.",
-    shortDesc: "The user puts a curse on the foe that not only adds\nthe Grass type to the foe, but causes them to lose\n25% HP at the end of each turn. Z-Effect +1 all stats.",
+    desc: "The user puts a curse on the foe that causes them\nto lose 25% HP at the end of each turn, at no\ncost to the user. Z-Effect +1 all stats.",
+    shortDesc: "The user puts a curse on the foe that causes them\nto lose 25% HP at the end of each turn, at no\ncost to the user. Z-Effect +1 all stats.",
     flags: {
       mirror: 1,
       protect: 1,
@@ -25951,11 +25962,11 @@ exports.BattleMovedex = {
   surgingstrikes: {
     exists: true,
     num: 594,
-    accuracy: 90,
+    accuracy: 100,
     basePower: 25,
     category: "Physical",
     name: "Surging Strikes",
-    pp: 5,
+    pp: 3,
     priority: 0,
     critRatio: 7,
     type: "Water",
@@ -25972,6 +25983,7 @@ exports.BattleMovedex = {
     zMove: {
       basePower: 190
     },
+    noPPBoosts: true,
     id: "surgingstrikes",
     fullname: "move: Surging Strikes",
     effectType: "Move",
@@ -28493,8 +28505,8 @@ exports.BattleMovedex = {
   },
   laserfocus: {
     exists: true,
-    desc: "The user concentrates intensely. The attack on the\nnext turn always results in a critical hit.\nZ-Effect +2 crit rate.",
-    shortDesc: "The user concentrates intensely. The attack on the\nnext turn always results in a critical hit.\nZ-Effect +2 crit rate.",
+    desc: "The user concentrates intensely. The attack on the\nnext turn always results in a critical hit.\nZ-Effect +2 Speed.",
+    shortDesc: "The user concentrates intensely. The attack on the\nnext turn always results in a critical hit.\nZ-Effect +2 Speed.",
     isNonstandard: null,
     num: 673,
     accuracy: true,
@@ -28615,11 +28627,11 @@ exports.BattleMovedex = {
   bugbomber: {
     exists: true,
     num: 676,
-    accuracy: 90,
+    accuracy: 100,
     basePower: 25,
     category: "Special",
     name: "Bug Bomber",
-    pp: 5,
+    pp: 3,
     priority: 0,
     critRatio: 7,
     type: "Bug",
@@ -28636,6 +28648,7 @@ exports.BattleMovedex = {
     zMove: {
       basePower: 190
     },
+    noPPBoosts: true,
     id: "bugbomber",
     fullname: "move: Bug Bomber",
     effectType: "Move",
@@ -30009,16 +30022,22 @@ exports.BattleMovedex = {
   },
   shadowbone: {
     exists: true,
-    desc: "The user attacks by beating the target with a bone\nimbued with spirits. This lowers their Defense\n100% of the time.",
-    shortDesc: "The user attacks by beating the target with a bone\nimbued with spirits. This lowers their Defense\n100% of the time.",
+    basePower: 90,
+    pp: 1,
+    desc: "The user attacks by beating the target with a bone\nimbued with spirits. This ALWAYS drops\ndefense, ALWAYS flinches and has +4 Priority.",
+    shortDesc: "The user attacks by beating the target with a bone\nimbued with spirits. This ALWAYS drops\ndefense, ALWAYS flinches and has +4 Priority.",
     flags: {
       mirror: 1,
       protect: 1
     },
     zMove: {
-      basePower: 170
+      basePower: 175
     },
     secondaries: [
+      {
+        chance: 100,
+        volatileStatus: "flinch"
+      },
       {
         chance: 100,
         boosts: {
@@ -30026,13 +30045,12 @@ exports.BattleMovedex = {
         }
       }
     ],
+    noPPBoosts: true,
     isNonstandard: null,
     num: 708,
     accuracy: 100,
-    basePower: 85,
     category: "Physical",
     name: "Shadow Bone",
-    pp: 10,
     priority: 0,
     secondary: {
       chance: 20,
@@ -30239,44 +30257,34 @@ exports.BattleMovedex = {
     basePower: 120,
     category: "Physical",
     name: "Solar Strike",
-    pp: 5,
+    pp: 3,
     priority: 0,
-    critRatio: 1,
+    critRatio: 7,
     type: "Fire",
     target: "normal",
-    desc: "The user flies up and descends onto the target with\na column of flames. This lowers the user's Defensive\nstats by one after use. 30% flinch rate. Contact.",
-    shortDesc: "The user flies up and descends onto the target with\na column of flames. This lowers the user's Defensive\nstats by one after use. 30% flinch rate. Contact.",
+    desc: "The user flies up and descends onto the target with\na column of flames. ALWAYS crits, ALWAYS burns, and\ndeals 30% recoil to the user. Contact.",
+    shortDesc: "The user flies up and descends onto the target with\na column of flames. ALWAYS crits, ALWAYS burns, and\ndeals 30% recoil to the user. Contact.",
     flags: {
       contact: 1,
       defrost: 1,
       mirror: 1,
       protect: 1
     },
+    willCrit: true,
+    recoil: [
+      30,
+      100
+    ],
     zMove: {
-      basePower: 195
+      basePower: 250
     },
     secondaries: [
       {
-        chance: 30,
-        volatileStatus: "flinch"
-      },
-      {
-        chance: 0,
-        self: {
-          boosts: {
-            def: -1
-          }
-        }
-      },
-      {
-        chance: 0,
-        self: {
-          boosts: {
-            spd: -1
-          }
-        }
+        chance: 100,
+        status: "brn"
       }
     ],
+    noPPBoosts: true,
     id: "solarstrike",
     fullname: "move: Solar Strike",
     effectType: "Move",

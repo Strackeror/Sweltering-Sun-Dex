@@ -1586,10 +1586,6 @@ exports.BattleSearchIndex = [
     "move"
   ],
   [
-    "debug",
-    "ability"
-  ],
-  [
     "decidiumz",
     "item"
   ],
@@ -2892,6 +2888,10 @@ exports.BattleSearchIndex = [
   [
     "gastly",
     "pokemon"
+  ],
+  [
+    "gastroacid",
+    "ability"
   ],
   [
     "gastrodon",
@@ -9556,7 +9556,6 @@ exports.BattleSearchIndexOffset = [
   "000011111",
   "",
   "0000000011111",
-  "",
   "000000001",
   "",
   "",
@@ -9883,6 +9882,7 @@ exports.BattleSearchIndexOffset = [
   "",
   "0000000001111",
   "",
+  "0000001111",
   "",
   "0000000001111",
   "000011111",
@@ -11462,32 +11462,32 @@ exports.BattleSearchCountIndex = {
   "Electric move": 33,
   "Fire move": 38,
   "Flying move": 29,
-  "Grass move": 48,
-  "Ground move": 30,
+  "Grass move": 49,
+  "Ground move": 29,
   "Normal move": 118,
   "Poison move": 32,
   "Psychic move": 68,
   "Rock move": 22,
   "Steel move": 28,
   "Water move": 48,
-  "Ice pokemon": 48,
-  "Fairy pokemon": 101,
+  "Ice pokemon": 53,
+  "Fairy pokemon": 102,
   "Fighting pokemon": 76,
-  "Ghost pokemon": 56,
+  "Ghost pokemon": 58,
   "Bug pokemon": 90,
   "Dark pokemon": 88,
   "Dragon pokemon": 73,
-  "Electric pokemon": 70,
-  "Fire pokemon": 78,
+  "Electric pokemon": 74,
+  "Fire pokemon": 85,
   "Flying pokemon": 115,
   "Grass pokemon": 103,
-  "Ground pokemon": 87,
-  "Normal pokemon": 136,
-  "Poison pokemon": 93,
+  "Ground pokemon": 85,
+  "Normal pokemon": 134,
+  "Poison pokemon": 94,
   "Psychic pokemon": 111,
-  "Rock pokemon": 75,
+  "Rock pokemon": 79,
   "Steel pokemon": 72,
-  "Water pokemon": 150
+  "Water pokemon": 147
 };
 
 exports.BattleArticleTitles = {
