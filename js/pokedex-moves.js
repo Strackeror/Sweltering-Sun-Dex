@@ -8,7 +8,7 @@ function sourcePad(source) {
 var PokedexMovePanel = PokedexResultPanel.extend({
 	initialize: function(id) {
 		id = toID(id);
-		var move = Dex.moves.get(id);
+		var move = getID(BattleMovedex, id);
 		this.id = id;
 		this.shortTitle = move.name;
 
@@ -66,14 +66,14 @@ var PokedexMovePanel = PokedexResultPanel.extend({
 		if (move.isZ) {
 			buf += '<p><strong><a href="'+Config.baseurl+'tags/zmove" data-target="push">[Z-Move]</a></strong>';
 			if (move.isZ !== true) {
-				var zItem = Dex.items.get(move.isZ);
+				var zItem = getID(BattleItems, move.isZ);
 				buf += ' requiring <a href="'+Config.baseurl+'items/' + zItem.id + '" data-target="push">' + zItem.name + '</a>';
 			}
 			buf += '</p>';
 		} else if (move.isMax) {
 			if (move.isMax !== true) {
 				buf += '<p><strong><a href="'+Config.baseurl+'tags/gmaxmove" data-target="push">[G-Max Move]</a></strong>';
-				var maxUser = Dex.species.get(move.isMax);
+				var maxUser = getID(BattlePokedex, move.isMax);
 				buf += ' used by <a href="'+Config.baseurl+'pokemon/' + maxUser.id + 'gmax" data-target="push">' + maxUser.name + '-Gmax</a>';
 				if (maxUser.name === "Toxtricity") {
 					buf += ' or <a href="'+Config.baseurl+'pokemon/' + maxUser.id + 'lowkeygmax" data-target="push">' + maxUser.name + '-Low-Key-Gmax</a>';
@@ -91,7 +91,7 @@ var PokedexMovePanel = PokedexResultPanel.extend({
 			buf += '<p>Usually moves first <em>(priority +' + move.priority + ')</em>.</p>';
 		}
 
-		buf += '<p>'+Dex.escapeHTML(move.desc||move.shortDesc)+'</p>';
+		buf += '<p>'+escapeHTML(move.desc||move.shortDesc)+'</p>';
 
 		if ('defrost' in move.flags) {
 			buf += '<p><a class="subtle" href="'+Config.baseurl+'tags/defrost" data-target="push">The user thaws out</a> if it is frozen.</p>';
@@ -222,7 +222,7 @@ var PokedexMovePanel = PokedexResultPanel.extend({
 				buf += '<p><strong>Z-' + move.name + '</strong>: +1 Atk if the user is a ghost, or fully heals the user otherwise, then uses ' + move.name + '</p>';
 			}
 			if (id in zMoveVersionTable) {
-				var zMove = Dex.moves.get(zMoveVersionTable[id]);
+				var zMove = getID(BattleMovedex, zMoveVersionTable[id]);
 				buf += '<p><strong><a href="'+Config.baseurl+'moves/' + zMove.id + '" data-target="push">' + zMove.name + '</a></strong>: ';
 				if (zMove.basePower) {
 					buf += '' + zMove.basePower + ' base power, ' + zMove.category + '</p>';
@@ -232,7 +232,7 @@ var PokedexMovePanel = PokedexResultPanel.extend({
 				buf += '</p>';
 			}
 			if ((id + '2') in zMoveVersionTable) {
-				var zMove = Dex.moves.get(zMoveVersionTable[id + '2']);
+				var zMove = getID(BattleMovedex, zMoveVersionTable[id + '2']);
 				buf += '<p><strong><a href="'+Config.baseurl+'moves/' + zMove.id + '" data-target="push">' + zMove.name + '</a></strong>: ';
 				if (zMove.basePower) {
 					buf += '' + zMove.basePower + ' base power, ' + zMove.category + '</p>';
@@ -300,7 +300,7 @@ var PokedexMovePanel = PokedexResultPanel.extend({
 			}
 			if (move.type in gmaxMoveTable && move.category !== 'Status') {
 				for (let i = 0; i < gmaxMoveTable[move.type].length; i++) {
-					var gmaxMove = Dex.moves.get('gmax' + gmaxMoveTable[move.type][i]);
+					var gmaxMove = getID(BattleMovedex, 'gmax' + gmaxMoveTable[move.type][i]);
 					buf += '<p>Becomes <strong><a href="'+Config.baseurl+'moves/' + gmaxMove.id + '" data-target="push">' + gmaxMove.name + '</a></strong> ';
 					buf += 'if used by <strong><a href="'+Config.baseurl+'pokemon/' + gmaxMove.isMax + 'gmax" data-target="push">' + gmaxMove.isMax + '-Gmax</a></strong>';
 					if (gmaxMove.isMax === 'Toxtricity') {
@@ -309,88 +309,6 @@ var PokedexMovePanel = PokedexResultPanel.extend({
 					buf += '</p>';
 				}
 			}
-		}
-
-		// getting it
-		// warning: excessive trickiness
-		var leftPanel = this.app.panels[this.app.panels.length - 2];
-		if (leftPanel && leftPanel.fragment.slice(0, 8) === 'pokemon/') {
-			var pokemon = Dex.species.get(leftPanel.id);
-			var learnset = BattleLearnsets[pokemon.id] && BattleLearnsets[pokemon.id].learnset;
-			if (!learnset) learnset = BattleLearnsets[toID(pokemon.baseSpecies)].learnset;
-			var eg1 = pokemon.eggGroups[0];
-			var eg2 = pokemon.eggGroups[2];
-			var sources = learnset[id];
-			var template = null;
-			var atLeastOne = false;
-			while (true) {
-				if (!template) {
-					template = pokemon;
-				} else {
-					if (!template.prevo) break;
-					template = Dex.species.get(template.prevo);
-					sources = BattleLearnsets[template.id].learnset[id];
-				}
-
-				if (!sources) continue;
-
-				if (!atLeastOne) {
-					buf += '<h3>Getting it on ' + pokemon.name + '</h3><ul>';
-					atLeastOne = true;
-				}
-
-				if (template.id !== pokemon.id) {
-					buf += '</ul><p>From ' + template.name + ':</p><ul>';
-				}
-
-				if (!sources.length) buf += '<li>(Past gen only)</li>';
-
-				if (typeof sources === 'string') sources = [sources];
-				for (var i=0, len=sources.length, gen=''+Dex.gen; i<len; i++) {
-					var source = sources[i];
-					var sourceType = source.charAt(1);
-					if (source.charAt(0) === gen) {
-						switch (sourceType) {
-						case 'L':
-							buf += '<li>Level ' + parseInt(source.slice(2, 5), 10) + '</li>';
-							break;
-						case 'M':
-							buf += '<li>TM/HM</li>';
-							break;
-						case 'T':
-							buf += '<li>Tutor</li>';
-							break;
-						case 'E':
-							buf += '<li>Egg move: breed with ';
-							var hasBreeders = false;
-							for (var breederid in BattleLearnsets) {
-								if (!BattleLearnsets[breederid].learnset || !BattleLearnsets[breederid].learnset[id]) continue;
-								var breeder = BattlePokedex[breederid];
-								if (breeder.isNonstandard) continue;
-								if (breeder.gender && breeder.gender !== 'M') continue;
-								if (breederid === pokemon.id || breederid === template.id || breederid === pokemon.prevo) continue;
-								if (eg1 === breeder.eggGroups[0] || eg1 === breeder.eggGroups[1] ||
-									(eg2 && (eg2 === breeder.eggGroups[0] || eg2 === breeder.eggGroups[1]))) {
-									if (hasBreeders) buf += ', ';
-									buf += '<a href="'+Config.baseurl+'pokemon/' + breederid + '" data-target="push">' + breeder.name + '</a>';
-									hasBreeders = true;
-								}
-							}
-							if (!hasBreeders) buf += 'itself';
-							buf += '</li>';
-							break;
-						}
-					} else if (source === '7V') {
-						buf += '<li>Virtual Console transfer from Gen 1</li>';
-					} else if (source === '8V') {
-						buf += '<li>Pok&eacute;mon HOME transfer from Let\'s Go! Pikachu and Eevee</li>';
-					}
-					if (sourceType === 'S') {
-						buf += '<li>Event move</li>';
-					}
-				}
-			}
-			if (atLeastOne) buf += '</ul>';
 		}
 
 		// distribution
@@ -404,59 +322,33 @@ var PokedexMovePanel = PokedexResultPanel.extend({
 		setTimeout(this.renderDistribution.bind(this));
 	},
 	getDistribution: function() {
-		var moveid = this.id;
-		if (this.results) return this.results;
-		var results = [];
-		for (var pokemonid in BattleLearnsets) {
-			if (!BattlePokedex[pokemonid] || !BattleLearnsets[pokemonid]) continue;
-			if (BattlePokedex[pokemonid].isNonstandard || !BattleLearnsets[pokemonid].learnset) continue;
-			var sources = BattleLearnsets[pokemonid].learnset[moveid];
-			if (!sources) continue;
-			if (typeof sources === 'string') sources = [sources];
-			var atLeastOne = false;
-			for (var i=0, len=sources.length, gen=''+Dex.gen; i<len; i++) {
-				var source = sources[i];
-				var sourceType = source.charAt(1);
-				if (source.charAt(0) === gen) {
-					switch (sourceType) {
-					case 'L':
-						results.push('a'+sourcePad(source)+pokemonid);
-						atLeastOne = true;
-						break;
-					case 'M':
-						results.push('b000 '+pokemonid);
-						atLeastOne = true;
-						break;
-					case 'T':
-						results.push('c000 '+pokemonid);
-						atLeastOne = true;
-						break;
-					case 'E':
-						results.push('d000 '+pokemonid);
-						atLeastOne = true;
-						break;
-					}
-				}
-				if (sourceType === 'S' && atLeastOne !== 'S') {
-					results.push('e000 '+pokemonid);
-					atLeastOne = 'S';
-				}
-			}
-			if (!atLeastOne) {
-				results.push('f000 '+pokemonid);
-			}
+		var results = []
+		for (let pokeId in BattlePokedex) {
+			let poke = BattlePokedex[pokeId];
+			results = results.concat(
+				poke.learnset
+					.filter((m) => m.move == this.id)
+					.map((m) => {
+						m.poke = pokeId;
+						return m;
+					})
+			);
 		}
-		results.sort();
-		var last = '';
-		for (var i=0; i<results.length; i++) {
-			if (results[i].charAt(0) !== last) {
-        results.splice(i, 0, results[i].charAt(0).toUpperCase());
-        i++;
-      }
-      last = results[i].charAt(0);
-    }
-		return this.results = results;
-  },
+		const methods = ["lvl", "tm", "tutor"];
+		results.sort((a, b) => {
+			if (a.how != b.how) return methods.indexOf(a.how) - methods.indexOf(b.how);
+      if (a.how == "lvl" && a.level != b.level) return a.level - b.level;
+			return a.poke.localeCompare(b.poke);
+		});
+
+		for (let method of methods) {
+			let index = results.findIndex(r => r.how == method)
+			if (index < 0) continue;
+			results.splice(index, 0, {start: true, method})
+		}
+		
+		return this.results = results
+	},
 	renderDistribution: function() {
 		var results = this.getDistribution();
 		this.$chart = this.$('.utilichart');
@@ -492,45 +384,39 @@ var PokedexMovePanel = PokedexResultPanel.extend({
 	},
 	renderRow: function(i, offscreen) {
 		var results = this.results;
-		var id = results[i].substr(5);
-		var template = id ? BattlePokedex[id] : undefined;
-		if (!template) {
-			switch (results[i].charAt(0)) {
-			case 'A': // level-up move
-				return '<h3>Level-up</h3>';
-			case 'B': // tm/hm
-				return '<h3>TM/HM</h3>';
-			case 'C': // tutor
-				return '<h3>Tutor</h3>';
-			case 'D': // egg move
-				return '<h3>Egg</h3>';
-			case 'E': // event
-				return '<h3>Event</h3>';
-			case 'F': // past gen
-				return '<h3>Past generation only</h3>';
+		var template = BattlePokedex[results[i].poke];
+		if (results[i].start) {
+			switch(results[i].method) {
+				case 'lvl': // level-up move
+					return '<h3>Level-up</h3>';
+				case 'tm': // tm/hm
+					return '<h3>TM/HM</h3>';
+				case 'tutor': // tutor
+					return '<h3>Tutor</h3>';
+				case 'egg': // egg move
+					return '<h3>Egg</h3>';
 			}
-			return '<pre>error: "'+results[i]+'"</pre>';
 		} else if (offscreen) {
 			return ''+template.name+' '+template.abilities['0']+' '+(template.abilities['1']||'')+' '+(template.abilities['H']||'')+'';
 		} else {
 			var desc = '';
-			switch (results[i].charAt(0)) {
-			case 'a': // level-up move
-				desc = results[i].substr(1,3) === '001' || results[i].substr(1,3) === '000' ? '&ndash;' : '<small>L</small>'+(parseInt(results[i].substr(1,3), 10) || '?');
+			switch (results[i].how) {
+			case 'lvl': // level-up move
+				desc = results[i].level <= 1 ?'&ndash;' : '<small>L</small>'+(results[i].level || '?');
 				break;
-			case 'b': // tm/hm
-				desc = '<img src="//' + Config.routes.client + '/sprites/itemicons/tm-normal.png" style="margin-top:-3px;opacity:.7" width="24" height="24" alt="M" />';
+			case 'tm': // tm/hm
+				desc = `<span class="itemicon" style="margin-top:-3px;${getItemIcon(721)}"></span>`;
 				break;
-			case 'c': // tutor
-				desc = '<img src="//' + Config.routes.client + '/sprites/tutor.png" style="margin-top:-4px;opacity:.7" width="27" height="26" alt="T" />';
+			case 'tutor': // tutor
+				desc = '<img src="//' + ResourcePrefix + 'sprites/tutor.png" style="margin-top:-4px;opacity:.7" width="27" height="26" alt="T" />';
 				break;
-			case 'd': // egg move
-				desc = '<span class="picon" style="margin-top:-12px;'+Dex.getPokemonIcon('egg')+'"></span>';
+			case 'egg': // egg move
+				desc = '<span class="picon" style="margin-top:-12px;'+getPokemonIcon('egg')+'"></span>';
 				break;
-			case 'e': // event
+			case 'event': // event
 				desc = '!';
 				break;
-			case 'f': // past generation
+			case 'past': // past generation
 				desc = '...';
 				break;
 			}
