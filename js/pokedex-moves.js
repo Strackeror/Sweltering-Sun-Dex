@@ -1,10 +1,3 @@
-function sourcePad(source) {
-	var level = source.slice(2);
-	if (level.length < 3) level = '0' + level;
-	if (level.length < 3) level = '0' + level;
-	return level.length > 3 ? level : level+' ';
-}
-
 var PokedexMovePanel = PokedexResultPanel.extend({
 	initialize: function(id) {
 		id = toID(id);
@@ -114,9 +107,6 @@ var PokedexMovePanel = PokedexResultPanel.extend({
 
 		if ('contact' in move.flags) {
 			buf += '<p class="movetag"><a href="'+Config.baseurl+'tags/contact" data-target="push">&#x2713; Contact</a> <small>(affected by many abilities like Iron Barbs and moves like Spiky Shield)</small></p>';
-		}
-		if ('sound' in move.flags) {
-			buf += '<p class="movetag"><a href="'+Config.baseurl+'tags/sound" data-target="push">&#x2713; Sound</a> <small>(bypasses <a class="subtle" href="'+Config.baseurl+'moves/substitute" data-target="push">Substitute</a>, doesn\'t affect <a class="subtle" href="'+Config.baseurl+'abilities/soundproof" data-target="push">Soundproof</a> pokemon)</small></p>';
 		}
 		if ('powder' in move.flags) {
 			buf += '<p class="movetag"><a href="'+Config.baseurl+'tags/powder" data-target="push">&#x2713; Powder</a> <small>(doesn\'t affect <a class="subtle" href="'+Config.baseurl+'types/grass" data-target="push">Grass</a>-types, <a class="subtle" href="'+Config.baseurl+'abilities/overcoat" data-target="push">Overcoat</a> pokemon, and <a class="subtle" href="'+Config.baseurl+'items/safetygoggles" data-target="push">Safety Goggles</a> holders)</small></p>';
@@ -324,17 +314,16 @@ var PokedexMovePanel = PokedexResultPanel.extend({
 	getDistribution: function() {
 		var results = []
 		for (let pokeId in BattlePokedex) {
-			let poke = BattlePokedex[pokeId];
+			let learnset = getLearnset(pokeId);
 			results = results.concat(
-				poke.learnset
-					.filter((m) => m.move == this.id)
-					.map((m) => {
-						m.poke = pokeId;
-						return m;
-					})
-			);
+        learnset
+          .filter((m) => m.move == this.id)
+          .map((m) => {
+            return { poke: pokeId, ...m };
+          })
+      );
 		}
-		const methods = ["lvl", "tm", "tutor"];
+		const methods = ["lvl", "tm", "tutor", "egg"];
 		results.sort((a, b) => {
 			if (a.how != b.how) return methods.indexOf(a.how) - methods.indexOf(b.how);
       if (a.how == "lvl" && a.level != b.level) return a.level - b.level;
@@ -408,7 +397,7 @@ var PokedexMovePanel = PokedexResultPanel.extend({
 				desc = `<span class="itemicon" style="margin-top:-3px;${getItemIcon(721)}"></span>`;
 				break;
 			case 'tutor': // tutor
-				desc = '<img src="//' + ResourcePrefix + 'sprites/tutor.png" style="margin-top:-4px;opacity:.7" width="27" height="26" alt="T" />';
+				desc = '<img src="' + ResourcePrefix + 'sprites/tutor.png" style="margin-top:-4px;opacity:.7" width="27" height="26" alt="T" />';
 				break;
 			case 'egg': // egg move
 				desc = '<span class="picon" style="margin-top:-12px;'+getPokemonIcon('egg')+'"></span>';

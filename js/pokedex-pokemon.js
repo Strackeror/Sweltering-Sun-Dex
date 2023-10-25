@@ -320,12 +320,12 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
 		}
 		if (pokemon.cosmeticFormes) {
 			buf += '</dd><dt>Cosmetic formes:</dt> <dd>';
-			name = `<span class="picon" style="${getPokemonIcon(pokemon)}"></span>`;
+			name = `<span class="picon" style="${getPokemonIcon(pokemon)}"></span>` + pokemon.name;
 			buf += ''+name;
 
 			for (var i = 0; i < pokemon.cosmeticFormes.length; i++) {
-				name = `<span class="picon" style="${getPokemonIcon(pokemon.cosmeticFormes[i])}"></span>`;
-				buf += "," + name;
+				name = `<span class="picon" style="${getPokemonIcon(pokemon.name + '-' + pokemon.cosmeticFormes[i])}"></span>` + pokemon.cosmeticFormes[i];
+				buf += "," + name ;
 			}
 		}
 		buf += '</dd></dl>';
@@ -438,7 +438,7 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
 	},
 	renderFullLearnset: function() {
 		var pokemon = getID(BattlePokedex, this.id);
-		var learnset = pokemon.learnset || [];
+		var learnset = getLearnset(this.id);
 		var last;
 		var buf = "", desc = "";
 		learnset.sort((a, b) => {
@@ -465,11 +465,11 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
 					desc = ""
 					break;
 				case 'tm': // tm/hm
-					if (newCategory && last.how != "tutor") buf += '<li class="resultheader"><h3>TM/HM/Tutors</h3></li>';
+					if (newCategory && last.how != "tutor") buf += '<li class="resultheader"><h3>TM/Tutors (Chronological Order)</h3></li>';
 					desc = `<span class="itemicon" style="margin-top:-3px;${getItemIcon(721)}"></span>`;
 					break;
 				case 'tutor': // tutor
-					if (newCategory && last.how != "tm") buf += '<li class="resultheader"><h3>TM/HM/Tutors</h3></li>';
+					if (newCategory && last.how != "tm") buf += '<li class="resultheader"><h3>TM/Tutors (Chronological Order)</h3></li>';
 					desc = `<img src="${ResourcePrefix}sprites/tutor.png" style="margin-top:-4px;opacity:.7" width="27" height="26" alt="T" />`;
 					break;
 				case 'egg': // egg move

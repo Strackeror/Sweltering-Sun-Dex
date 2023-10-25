@@ -291,6 +291,7 @@
 		if (Search.urlRoot) attrs += ' href="' + Search.urlRoot + 'pokemon/' + id + '" data-target="push"';
 		var buf = '<li class="result"><a' + attrs + ' data-entry="pokemon|' + escapeHTML(pokemon.name) + '">';
 
+		buf += '<span class="col numcol">' + pokemon.num + "</span> ";
 		// icon
 		buf += '<span class="col iconcol">';
 		buf += '<span style="' + getPokemonIcon(pokemon.name) + '"></span>';

@@ -1,6 +1,5 @@
 exports.BattleTypeChart = {
   ice: {
-    id: "ice",
     name: "Ice",
     category: "Special",
     effectiveness: {
@@ -26,7 +25,6 @@ exports.BattleTypeChart = {
     }
   },
   fairy: {
-    id: "fairy",
     name: "Fairy",
     effectiveness: {
       "???": 1,
@@ -51,7 +49,6 @@ exports.BattleTypeChart = {
     }
   },
   fighting: {
-    id: "fighting",
     name: "Fighting",
     category: "Physical",
     effectiveness: {
@@ -77,7 +74,6 @@ exports.BattleTypeChart = {
     }
   },
   ghost: {
-    id: "ghost",
     name: "Ghost",
     category: "Physical",
     effectiveness: {
@@ -103,7 +99,6 @@ exports.BattleTypeChart = {
     }
   },
   bug: {
-    id: "bug",
     name: "Bug",
     category: "Physical",
     effectiveness: {
@@ -129,7 +124,6 @@ exports.BattleTypeChart = {
     }
   },
   dark: {
-    id: "dark",
     name: "Dark",
     category: "Special",
     effectiveness: {
@@ -155,7 +149,6 @@ exports.BattleTypeChart = {
     }
   },
   dragon: {
-    id: "dragon",
     name: "Dragon",
     category: "Special",
     effectiveness: {
@@ -181,7 +174,6 @@ exports.BattleTypeChart = {
     }
   },
   electric: {
-    id: "electric",
     name: "Electric",
     category: "Special",
     effectiveness: {
@@ -207,7 +199,6 @@ exports.BattleTypeChart = {
     }
   },
   fire: {
-    id: "fire",
     name: "Fire",
     category: "Special",
     effectiveness: {
@@ -233,7 +224,6 @@ exports.BattleTypeChart = {
     }
   },
   flying: {
-    id: "flying",
     name: "Flying",
     category: "Physical",
     effectiveness: {
@@ -259,7 +249,6 @@ exports.BattleTypeChart = {
     }
   },
   grass: {
-    id: "grass",
     name: "Grass",
     category: "Special",
     effectiveness: {
@@ -285,7 +274,6 @@ exports.BattleTypeChart = {
     }
   },
   ground: {
-    id: "ground",
     name: "Ground",
     category: "Physical",
     effectiveness: {
@@ -311,7 +299,6 @@ exports.BattleTypeChart = {
     }
   },
   normal: {
-    id: "normal",
     name: "Normal",
     category: "Physical",
     effectiveness: {
@@ -337,7 +324,6 @@ exports.BattleTypeChart = {
     }
   },
   poison: {
-    id: "poison",
     name: "Poison",
     category: "Physical",
     effectiveness: {
@@ -363,7 +349,6 @@ exports.BattleTypeChart = {
     }
   },
   psychic: {
-    id: "psychic",
     name: "Psychic",
     category: "Special",
     effectiveness: {
@@ -389,7 +374,6 @@ exports.BattleTypeChart = {
     }
   },
   rock: {
-    id: "rock",
     name: "Rock",
     category: "Physical",
     effectiveness: {
@@ -415,7 +399,6 @@ exports.BattleTypeChart = {
     }
   },
   steel: {
-    id: "steel",
     name: "Steel",
     category: "Physical",
     effectiveness: {
@@ -441,7 +424,6 @@ exports.BattleTypeChart = {
     }
   },
   water: {
-    id: "water",
     name: "Water",
     category: "Special",
     effectiveness: {

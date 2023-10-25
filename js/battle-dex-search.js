@@ -723,15 +723,6 @@ class BattleTypedSearch {
         }
         return results;
     }
-    canLearn(speciesid, moveid) {
-        let poke = BattlePokedex[speciesid];
-        for (let learn of poke.learnset) {
-            if (learn.move == moveid) {
-                return true;
-            }
-        }
-        return false;
-    }
 }
 class BattlePokemonSearch extends BattleTypedSearch {
     filter(row, filters) {
@@ -747,7 +738,7 @@ class BattlePokemonSearch extends BattleTypedSearch {
                         return false;
                     break;
                 case "move":
-                    if (!this.canLearn(poke.id, value))
+                    if (!canLearn(poke.id, value))
                         return false;
                     break;
                 case "ability":
@@ -930,7 +921,7 @@ class BattleMoveSearch extends BattleTypedSearch {
                         return false;
                     break;
                 case "pokemon":
-                    if (!this.canLearn(value, move.id))
+                    if (!canLearn(value, move.id))
                         return false;
                     break;
             }
