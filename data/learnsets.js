@@ -123,7 +123,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -382,7 +382,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -711,7 +711,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -978,7 +978,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -1294,7 +1294,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -1809,7 +1809,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -2116,7 +2116,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -2378,7 +2378,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -2814,7 +2814,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -3457,7 +3457,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -4178,7 +4178,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -4389,7 +4389,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -4687,7 +4687,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -4896,7 +4896,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -5159,7 +5159,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -5528,7 +5528,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -5935,7 +5935,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -6363,7 +6363,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -7210,7 +7210,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -7584,7 +7584,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -8014,7 +8014,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -8050,7 +8050,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -8355,7 +8355,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -8726,7 +8726,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -8770,7 +8770,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -9198,7 +9198,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -9246,7 +9246,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -10721,7 +10721,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -11097,7 +11097,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -11605,7 +11605,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -11958,7 +11958,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -12392,7 +12392,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -12922,7 +12922,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -13399,7 +13399,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -13892,7 +13892,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -14246,7 +14246,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -14494,7 +14494,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -14883,7 +14883,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -15228,7 +15228,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -15559,7 +15559,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -15615,7 +15615,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -16073,7 +16073,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -16129,7 +16129,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -16425,7 +16425,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -16465,7 +16465,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -16819,7 +16819,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -16859,7 +16859,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -17074,7 +17074,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -17278,7 +17278,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -17592,7 +17592,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -18585,7 +18585,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -18905,7 +18905,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -20173,7 +20173,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -20213,7 +20213,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -20510,7 +20510,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -20554,7 +20554,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -20943,7 +20943,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -20995,7 +20995,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -21391,7 +21391,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -21447,7 +21447,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -21725,7 +21725,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -21773,7 +21773,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -22158,7 +22158,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -22214,7 +22214,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -22497,7 +22497,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -22958,7 +22958,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -23354,7 +23354,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -23800,7 +23800,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -24023,7 +24023,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -24290,7 +24290,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -24771,7 +24771,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -25109,7 +25109,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -25432,7 +25432,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -25814,7 +25814,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -27207,7 +27207,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -27516,7 +27516,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -27941,7 +27941,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -28278,7 +28278,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -28326,7 +28326,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -28712,7 +28712,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -28760,7 +28760,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -29317,7 +29317,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -30157,7 +30157,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -31079,7 +31079,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -32089,7 +32089,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -32117,7 +32117,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -32518,7 +32518,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -32566,7 +32566,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -32844,7 +32844,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -33110,7 +33110,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -34302,7 +34302,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -34668,7 +34668,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -34969,7 +34969,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -35362,7 +35362,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -35766,7 +35766,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -36242,7 +36242,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -37213,7 +37213,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -37269,7 +37269,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -37752,7 +37752,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -37820,7 +37820,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -38341,7 +38341,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -38409,7 +38409,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -39101,7 +39101,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -39149,7 +39149,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -39557,7 +39557,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -39605,7 +39605,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -40627,7 +40627,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -40968,7 +40968,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -41257,7 +41257,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -41630,7 +41630,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -41686,7 +41686,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -42136,7 +42136,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -42188,7 +42188,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -43642,7 +43642,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -44293,7 +44293,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -45538,7 +45538,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -45618,7 +45618,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -45940,7 +45940,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -46282,7 +46282,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -47638,7 +47638,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -47997,7 +47997,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -48535,7 +48535,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -48821,7 +48821,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -49197,7 +49197,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -50230,7 +50230,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -50597,7 +50597,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -50637,7 +50637,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -51054,7 +51054,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -51873,7 +51873,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -52346,7 +52346,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -52406,7 +52406,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -52770,7 +52770,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -54106,7 +54106,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -54582,7 +54582,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -54961,7 +54961,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -55248,7 +55248,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -55575,7 +55575,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -55905,7 +55905,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -56236,7 +56236,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -56513,7 +56513,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -56843,7 +56843,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -57069,7 +57069,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -57373,7 +57373,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -58151,7 +58151,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -58562,7 +58562,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -58851,7 +58851,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -59177,7 +59177,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -59453,7 +59453,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -59814,7 +59814,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -60296,7 +60296,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -60937,7 +60937,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -61033,7 +61033,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -62366,7 +62366,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -62686,7 +62686,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -63155,7 +63155,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -63537,7 +63537,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -63920,7 +63920,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -64357,7 +64357,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -64720,7 +64720,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -65164,7 +65164,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -65508,7 +65508,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -65865,7 +65865,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -66207,7 +66207,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -66655,7 +66655,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -67723,7 +67723,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -67767,7 +67767,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -68021,7 +68021,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -68049,7 +68049,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -68309,7 +68309,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -68337,7 +68337,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -68549,7 +68549,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -68749,7 +68749,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -69005,7 +69005,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -69365,7 +69365,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -69626,7 +69626,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -69972,7 +69972,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -70262,7 +70262,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -70668,7 +70668,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -70915,7 +70915,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -71175,7 +71175,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -71548,7 +71548,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -72180,7 +72180,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -72638,7 +72638,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -73482,7 +73482,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -73530,7 +73530,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -74805,7 +74805,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -75419,7 +75419,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -75723,7 +75723,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -75763,7 +75763,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -75987,7 +75987,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -76334,7 +76334,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -76698,7 +76698,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -77026,7 +77026,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -77890,7 +77890,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -77946,7 +77946,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -78415,7 +78415,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -78549,7 +78549,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     }
   ],
@@ -79111,7 +79111,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -79163,7 +79163,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -80300,7 +80300,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -80360,7 +80360,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -80756,7 +80756,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -81534,7 +81534,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -81973,7 +81973,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -82378,7 +82378,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -83150,7 +83150,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -84238,7 +84238,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -84700,7 +84700,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -84959,7 +84959,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -85219,7 +85219,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -85433,7 +85433,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -85737,7 +85737,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -86291,7 +86291,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -86343,7 +86343,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -86759,7 +86759,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -86819,7 +86819,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -87527,7 +87527,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -88133,7 +88133,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -88578,7 +88578,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -88996,7 +88996,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -90053,7 +90053,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -90479,7 +90479,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -90908,7 +90908,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -91004,7 +91004,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -92231,7 +92231,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -92574,7 +92574,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -92634,7 +92634,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -92912,7 +92912,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -93359,7 +93359,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -93826,7 +93826,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -94240,7 +94240,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -94280,7 +94280,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -94920,7 +94920,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -96522,7 +96522,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -96979,7 +96979,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -97310,7 +97310,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -99868,7 +99868,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -100203,7 +100203,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -100659,7 +100659,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -100953,7 +100953,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -101303,7 +101303,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -101594,7 +101594,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -101959,7 +101959,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -102686,7 +102686,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -103249,7 +103249,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -103448,7 +103448,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -103785,7 +103785,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -104231,7 +104231,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -105705,7 +105705,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -106055,7 +106055,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -106226,7 +106226,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -106503,7 +106503,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -106795,7 +106795,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -107124,7 +107124,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -107545,7 +107545,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -107806,7 +107806,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -108137,7 +108137,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -108963,7 +108963,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -109371,7 +109371,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -109844,7 +109844,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -110522,7 +110522,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -110878,7 +110878,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -111121,7 +111121,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -111161,7 +111161,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -111543,7 +111543,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -111623,7 +111623,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -112078,7 +112078,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -112158,7 +112158,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -113120,7 +113120,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -113432,7 +113432,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -113784,7 +113784,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -114267,7 +114267,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -116733,7 +116733,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -117215,7 +117215,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -117478,7 +117478,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -117530,7 +117530,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -117893,7 +117893,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -117949,7 +117949,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -118290,7 +118290,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -118626,7 +118626,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -118983,7 +118983,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -119334,7 +119334,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -119942,7 +119942,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -120262,7 +120262,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -121230,7 +121230,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -121540,7 +121540,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -121797,7 +121797,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -122189,7 +122189,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -122540,7 +122540,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -122820,7 +122820,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -123303,7 +123303,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -123705,7 +123705,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -123761,7 +123761,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -124039,7 +124039,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -124392,7 +124392,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -124436,7 +124436,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -124879,7 +124879,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -124939,7 +124939,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -127115,7 +127115,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -127167,7 +127167,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -127537,7 +127537,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -127920,7 +127920,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -128160,7 +128160,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -128532,7 +128532,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -128864,7 +128864,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -129270,7 +129270,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -129684,7 +129684,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -130106,7 +130106,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -130375,7 +130375,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -130767,7 +130767,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -132252,7 +132252,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -132618,7 +132618,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -132690,7 +132690,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -133122,7 +133122,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -133637,7 +133637,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -135192,7 +135192,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -136960,7 +136960,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -137311,7 +137311,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -137705,7 +137705,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -138223,7 +138223,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -138566,7 +138566,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -138598,7 +138598,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -139157,7 +139157,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -139968,7 +139968,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -140318,7 +140318,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -140830,7 +140830,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -141385,7 +141385,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -141721,7 +141721,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -142005,7 +142005,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -142325,7 +142325,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -142684,7 +142684,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -143087,7 +143087,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -143486,7 +143486,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -144022,7 +144022,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -144618,7 +144618,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -145213,7 +145213,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -145813,7 +145813,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -147060,7 +147060,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -147448,7 +147448,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -147953,7 +147953,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -149892,7 +149892,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -150255,7 +150255,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -150523,7 +150523,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -150917,7 +150917,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -151135,7 +151135,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -151167,7 +151167,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -151444,7 +151444,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -151480,7 +151480,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -151834,7 +151834,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -151874,7 +151874,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -154930,7 +154930,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -155297,7 +155297,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -155495,7 +155495,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -155878,7 +155878,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -156155,7 +156155,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -156187,7 +156187,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -156536,7 +156536,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -156956,7 +156956,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -157734,7 +157734,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -157961,7 +157961,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -158275,7 +158275,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -158589,7 +158589,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -158951,7 +158951,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -159350,7 +159350,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -159741,7 +159741,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -160846,7 +160846,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -161531,7 +161531,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -161872,7 +161872,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -162202,7 +162202,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -162494,7 +162494,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -162914,7 +162914,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -163221,7 +163221,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -163526,7 +163526,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -164067,7 +164067,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -164451,7 +164451,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -164795,7 +164795,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -165119,7 +165119,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -166433,7 +166433,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -167667,7 +167667,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -167969,7 +167969,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -168964,7 +168964,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -169405,7 +169405,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -169779,7 +169779,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -170065,7 +170065,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -170360,7 +170360,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -170539,7 +170539,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -170783,7 +170783,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -171182,7 +171182,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -171918,7 +171918,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -172290,7 +172290,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -172370,7 +172370,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -173232,7 +173232,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -173765,7 +173765,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -173825,7 +173825,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -174267,7 +174267,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -174742,7 +174742,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -175058,7 +175058,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -175102,7 +175102,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -175475,7 +175475,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -175815,7 +175815,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -176173,7 +176173,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -176554,7 +176554,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -176931,7 +176931,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -177403,7 +177403,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -177799,7 +177799,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -178226,7 +178226,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -178727,7 +178727,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -179029,7 +179029,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -179309,7 +179309,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -179598,7 +179598,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -179892,7 +179892,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -180190,7 +180190,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -180479,7 +180479,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -180785,7 +180785,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -181127,7 +181127,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -181459,7 +181459,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -181840,7 +181840,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -182231,7 +182231,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -182638,7 +182638,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -183020,7 +183020,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -183344,7 +183344,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -183660,7 +183660,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -183994,7 +183994,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -184312,7 +184312,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -184611,7 +184611,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -184990,7 +184990,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -185229,7 +185229,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -185500,7 +185500,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -185834,7 +185834,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -186047,7 +186047,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -186351,7 +186351,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -186823,7 +186823,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -188217,7 +188217,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -188277,7 +188277,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -188704,7 +188704,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -188768,7 +188768,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -189944,7 +189944,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -190288,7 +190288,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -190328,7 +190328,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -190608,7 +190608,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -191024,7 +191024,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -191367,7 +191367,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -191781,7 +191781,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -192146,7 +192146,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -192552,7 +192552,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -192866,7 +192866,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -193237,7 +193237,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -193472,7 +193472,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -193763,7 +193763,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -194125,7 +194125,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -194421,7 +194421,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -194823,7 +194823,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -195062,7 +195062,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -195432,7 +195432,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -195818,7 +195818,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -196073,7 +196073,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -196097,7 +196097,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -196458,7 +196458,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -196482,7 +196482,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -197534,7 +197534,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -197834,7 +197834,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -198234,7 +198234,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -198667,7 +198667,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -198935,7 +198935,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -198963,7 +198963,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -199237,7 +199237,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -199273,7 +199273,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -199648,7 +199648,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -199700,7 +199700,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -203915,7 +203915,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -204180,7 +204180,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -204550,7 +204550,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -204956,7 +204956,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -205301,7 +205301,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -205779,7 +205779,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -207075,7 +207075,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -207491,7 +207491,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -207923,7 +207923,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -208790,7 +208790,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -209113,7 +209113,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -209416,7 +209416,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -209817,7 +209817,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -210113,7 +210113,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -210491,7 +210491,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -210831,7 +210831,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -210875,7 +210875,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -211236,7 +211236,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -211276,7 +211276,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -212234,7 +212234,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -212534,7 +212534,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -212927,7 +212927,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -213137,7 +213137,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -213173,7 +213173,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -213447,7 +213447,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -213479,7 +213479,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -213868,7 +213868,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -213920,7 +213920,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -215424,7 +215424,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -215761,7 +215761,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -216056,7 +216056,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -216276,7 +216276,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -216843,7 +216843,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -217088,7 +217088,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -218044,7 +218044,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -218243,7 +218243,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -218555,7 +218555,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -219341,7 +219341,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -219683,7 +219683,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -220029,7 +220029,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -220254,7 +220254,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -220623,7 +220623,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -220667,7 +220667,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -221138,7 +221138,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -221206,7 +221206,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -221558,7 +221558,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -221949,7 +221949,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -222229,7 +222229,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -222563,7 +222563,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -222906,7 +222906,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -225719,7 +225719,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -225759,7 +225759,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -229270,7 +229270,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -229558,7 +229558,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -229914,7 +229914,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -230555,7 +230555,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -230607,7 +230607,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -231004,7 +231004,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -231060,7 +231060,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -231509,7 +231509,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -231565,7 +231565,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -231835,7 +231835,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -232127,7 +232127,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -234003,7 +234003,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -234371,7 +234371,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -236074,7 +236074,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -236469,7 +236469,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -236899,7 +236899,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -238149,7 +238149,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -238427,7 +238427,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -238868,7 +238868,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -239118,7 +239118,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -239417,7 +239417,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -239794,7 +239794,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -240108,7 +240108,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -240694,7 +240694,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -242069,7 +242069,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -242318,7 +242318,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -242362,7 +242362,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -242714,7 +242714,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -242762,7 +242762,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -244771,7 +244771,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -245230,7 +245230,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -245669,7 +245669,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -245729,7 +245729,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -246603,7 +246603,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -247042,7 +247042,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -247481,7 +247481,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -247920,7 +247920,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -248355,7 +248355,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -248794,7 +248794,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -249233,7 +249233,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -249672,7 +249672,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -249967,7 +249967,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -250343,7 +250343,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -250728,7 +250728,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -251927,7 +251927,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -252242,7 +252242,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -252493,7 +252493,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -252846,7 +252846,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -253230,7 +253230,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -253715,7 +253715,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -253999,7 +253999,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -254367,7 +254367,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -254635,7 +254635,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -254958,7 +254958,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -255833,7 +255833,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -256144,7 +256144,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -257056,7 +257056,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -257398,7 +257398,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -257722,7 +257722,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -258332,7 +258332,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -258368,7 +258368,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -258675,7 +258675,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -258873,7 +258873,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -259134,7 +259134,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -259498,7 +259498,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -259869,7 +259869,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -262281,7 +262281,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -262321,7 +262321,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -262647,7 +262647,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -262687,7 +262687,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -263828,7 +263828,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -264247,7 +264247,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -264737,7 +264737,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -266478,7 +266478,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -266846,7 +266846,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -267289,7 +267289,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -267601,7 +267601,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -267873,7 +267873,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -268215,7 +268215,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -268689,7 +268689,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -268729,7 +268729,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -269098,7 +269098,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -269150,7 +269150,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -269365,7 +269365,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -269746,7 +269746,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -270459,7 +270459,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -270783,7 +270783,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -271224,7 +271224,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -271685,7 +271685,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -272767,7 +272767,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -273037,7 +273037,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -273307,7 +273307,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -273577,7 +273577,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -273795,7 +273795,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -276367,7 +276367,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -276668,7 +276668,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -277795,7 +277795,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -278192,7 +278192,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -280017,7 +280017,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -280361,7 +280361,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -283002,7 +283002,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -283372,7 +283372,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -284773,7 +284773,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -285562,7 +285562,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -285896,7 +285896,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -286177,7 +286177,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -286457,7 +286457,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -286756,7 +286756,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -287037,7 +287037,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -287314,7 +287314,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -287590,7 +287590,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -287894,7 +287894,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -288246,7 +288246,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -288651,7 +288651,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -289044,7 +289044,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -289418,7 +289418,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -289842,7 +289842,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -290267,7 +290267,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -290589,7 +290589,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -290633,7 +290633,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -291186,7 +291186,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -291617,7 +291617,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -292092,7 +292092,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -292945,7 +292945,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -293264,7 +293264,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -293865,7 +293865,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -293893,7 +293893,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -294569,7 +294569,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -294928,7 +294928,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -295305,7 +295305,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -296289,7 +296289,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -296610,7 +296610,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -297247,7 +297247,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -297709,7 +297709,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -298123,7 +298123,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -298457,7 +298457,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -298537,7 +298537,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -298779,7 +298779,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -299106,7 +299106,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -299449,7 +299449,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -299757,7 +299757,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -299797,7 +299797,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -300171,7 +300171,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "scald",
+      move: "belch",
       how: "tm"
     },
     {
@@ -300231,7 +300231,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -300565,7 +300565,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -300903,7 +300903,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
@@ -301274,7 +301274,7 @@ exports.Learnsets = {
       how: "tm"
     },
     {
-      move: "thunderwave",
+      move: "synchronoise",
       how: "tm"
     },
     {
